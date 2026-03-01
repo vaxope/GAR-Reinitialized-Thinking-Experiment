@@ -1,0 +1,3 @@
+[submodule "KiminaLeanServer"]
+	path = KiminaLeanServer
+	url = git@github.com:RickySkywalker/KiminaLeanServer.git
