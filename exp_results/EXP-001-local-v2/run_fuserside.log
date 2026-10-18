@@ -1,0 +1,190 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+== fuse
+[fuse C] pair_00000 515 tok 22.73s
+[fuse C] pair_00001 679 tok 13.62s
+[fuse C] pair_00002 609 tok 12.27s
+[fuse C] pair_00003 613 tok 12.61s
+[fuse C] pair_00004 596 tok 11.94s
+[fuse C] pair_00005 833 tok 16.59s
+[fuse C] pair_00006 745 tok 15.04s
+[fuse C] pair_00007 652 tok 13.12s
+[fuse C] pair_00008 503 tok 10.3s
+[fuse C] pair_00009 516 tok 10.39s
+[fuse C] pair_00010 629 tok 12.68s
+[fuse C] pair_00011 561 tok 11.42s
+[fuse C] pair_00012 673 tok 13.7s
+[fuse C] pair_00013 603 tok 12.13s
+[fuse C] pair_00014 569 tok 11.45s
+[fuse C] pair_00015 683 tok 13.8s
+[fuse C] pair_00016 661 tok 13.43s
+[fuse C] pair_00017 621 tok 12.61s
+[fuse C] pair_00018 704 tok 14.14s
+[fuse C] pair_00019 737 tok 14.77s
+[fuse D1] pair_00000 691 tok 14.33s
+[fuse D1] pair_00001 507 tok 10.25s
+[fuse D1] pair_00002 546 tok 11.09s
+[fuse D1] pair_00003 841 tok 17.0s
+[fuse D1] pair_00004 512 tok 10.36s
+[fuse D1] pair_00005 791 tok 15.85s
+[fuse D1] pair_00006 894 tok 17.91s
+[fuse D1] pair_00007 887 tok 17.69s
+[fuse D1] pair_00008 785 tok 15.71s
+[fuse D1] pair_00009 725 tok 14.4s
+[fuse D1] pair_00010 822 tok 16.38s
+[fuse D1] pair_00011 886 tok 17.7s
+[fuse D1] pair_00012 798 tok 16.19s
+[fuse D1] pair_00013 579 tok 11.7s
+[fuse D1] pair_00014 570 tok 11.45s
+[fuse D1] pair_00015 726 tok 14.54s
+[fuse D1] pair_00016 741 tok 14.97s
+[fuse D1] pair_00017 597 tok 12.16s
+[fuse D1] pair_00018 557 tok 11.29s
+[fuse D1] pair_00019 602 tok 12.14s
+[fuse D4] pair_00000 611 tok 12.73s
+[fuse D4] pair_00001 357 tok 7.41s
+[fuse D4] pair_00002 236 tok 5.03s
+[fuse D4] pair_00003 389 tok 8.2s
+[fuse D4] pair_00004 314 tok 6.53s
+[fuse D4] pair_00005 366 tok 7.65s
+[fuse D4] pair_00006 385 tok 8.03s
+[fuse D4] pair_00007 331 tok 6.88s
+[fuse D4] pair_00008 427 tok 8.73s
+[fuse D4] pair_00009 290 tok 6.05s
+[fuse D4] pair_00010 235 tok 5.07s
+[fuse D4] pair_00011 356 tok 7.51s
+[fuse D4] pair_00012 401 tok 8.45s
+[fuse D4] pair_00013 453 tok 9.23s
+[fuse D4] pair_00014 297 tok 6.19s
+[fuse D4] pair_00015 374 tok 7.78s
+[fuse D4] pair_00016 652 tok 13.2s
+[fuse D4] pair_00017 583 tok 11.87s
+[fuse D4] pair_00018 325 tok 6.82s
+[fuse D4] pair_00019 370 tok 7.67s
+== formalize
+[formalize C] pair_00000 651 tok 34.16s
+[formalize C] pair_00001 523 tok 17.59s
+[formalize C] pair_00002 1003 tok 31.68s
+[formalize C] pair_00003 683 tok 20.18s
+[formalize C] pair_00004 841 tok 24.74s
+[formalize C] pair_00005 614 tok 18.74s
+[formalize C] pair_00006 1994 tok 72.01s
+[formalize C] pair_00007 637 tok 18.75s
+[formalize C] pair_00008 1313 tok 41.14s
+[formalize C] pair_00009 2411 tok 88.69s
+[formalize C] pair_00010 1006 tok 31.97s
+[formalize C] pair_00011 1563 tok 52.05s
+[formalize C] pair_00012 850 tok 26.27s
+[formalize C] pair_00013 774 tok 23.05s
+[formalize C] pair_00014 629 tok 17.57s
+[formalize C] pair_00015 1665 tok 56.29s
+[formalize C] pair_00016 647 tok 19.51s
+[formalize C] pair_00017 668 tok 20.16s
+[formalize C] pair_00018 1489 tok 51.08s
+[formalize C] pair_00019 718 tok 24.89s
+[formalize D1] pair_00000 655 tok 19.16s
+[formalize D1] pair_00001 949 tok 27.83s
+[formalize D1] pair_00002 1642 tok 62.92s
+[formalize D1] pair_00003 808 tok 25.32s
+[formalize D1] pair_00004 610 tok 16.36s
+[formalize D1] pair_00005 1077 tok 35.81s
+[formalize D1] pair_00006 1213 tok 38.53s
+[formalize D1] pair_00007 635 tok 18.97s
+[formalize D1] pair_00008 1648 tok 55.96s
+[formalize D1] pair_00009 643 tok 18.05s
+[formalize D1] pair_00010 764 tok 23.8s
+[formalize D1] pair_00011 1742 tok 60.76s
+[formalize D1] pair_00012 799 tok 24.72s
+[formalize D1] pair_00013 913 tok 32.38s
+[formalize D1] pair_00014 641 tok 18.47s
+[formalize D1] pair_00015 1148 tok 36.74s
+[formalize D1] pair_00016 1327 tok 44.38s
+[formalize D1] pair_00017 637 tok 18.87s
+[formalize D1] pair_00018 1961 tok 69.79s
+[formalize D1] pair_00019 2445 tok 94.87s
+[formalize D4] pair_00000 891 tok 26.87s
+[formalize D4] pair_00001 626 tok 17.63s
+[formalize D4] pair_00003 665 tok 19.5s
+[formalize D4] pair_00004 1106 tok 35.07s
+[formalize D4] pair_00005 769 tok 23.29s
+[formalize D4] pair_00006 1778 tok 62.23s
+[formalize D4] pair_00007 695 tok 20.21s
+[formalize D4] pair_00008 839 tok 24.27s
+[formalize D4] pair_00009 666 tok 18.76s
+[formalize D4] pair_00010 704 tok 20.07s
+[formalize D4] pair_00011 742 tok 21.58s
+[formalize D4] pair_00012 719 tok 21.3s
+[formalize D4] pair_00013 592 tok 18.59s
+[formalize D4] pair_00014 601 tok 16.99s
+[formalize D4] pair_00015 933 tok 28.1s
+[formalize D4] pair_00016 824 tok 25.63s
+[formalize D4] pair_00017 536 tok 14.26s
+[formalize D4] pair_00018 1537 tok 51.01s
+== check
+== prove
+== verify
+== summary
+{
+ "C": {
+  "n_pairs": 20,
+  "fuse_parse_rate": 1.0,
+  "formalize_rate": 1.0,
+  "validity_rate": 0.8,
+  "n_verified": 0,
+  "yield": 0.0,
+  "p_hist": {
+   "p=0": 0,
+   "0<p<=0.5": 0,
+   "p>0.5": 0
+  },
+  "modification_rate": 0.0,
+  "fuser_tokens_mean": 635.1,
+  "fuser_truncation_rate": 0.0,
+  "prover_tokens_mean": 0.0,
+  "prover_truncation_rate": 0.0,
+  "tokens_total": 33381,
+  "tokens_per_useful": null,
+  "n_useful": 0
+ },
+ "D1": {
+  "n_pairs": 20,
+  "fuse_parse_rate": 1.0,
+  "formalize_rate": 1.0,
+  "validity_rate": 0.85,
+  "n_verified": 0,
+  "yield": 0.0,
+  "p_hist": {
+   "p=0": 0,
+   "0<p<=0.5": 0,
+   "p>0.5": 0
+  },
+  "modification_rate": 0.0,
+  "fuser_tokens_mean": 702.85,
+  "fuser_truncation_rate": 0.0,
+  "prover_tokens_mean": 0.0,
+  "prover_truncation_rate": 0.0,
+  "tokens_total": 36314,
+  "tokens_per_useful": null,
+  "n_useful": 0
+ },
+ "D4": {
+  "n_pairs": 20,
+  "fuse_parse_rate": 0.9,
+  "formalize_rate": 0.9,
+  "validity_rate": 0.8,
+  "n_verified": 0,
+  "yield": 0.0,
+  "p_hist": {
+   "p=0": 0,
+   "0<p<=0.5": 0,
+   "p>0.5": 0
+  },
+  "modification_rate": 0.0,
+  "fuser_tokens_mean": 387.6,
+  "fuser_truncation_rate": 0.0,
+  "prover_tokens_mean": 0.0,
+  "prover_truncation_rate": 0.0,
+  "tokens_total": 22975,
+  "tokens_per_useful": null,
+  "n_useful": 0
+ }
+}

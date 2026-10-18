@@ -1,0 +1,54 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+== fuse
+== formalize
+== check
+== prove
+[prove C] pair_00000#0 4096 tok 86.55s trunc=True
+[prove C] pair_00000#1 4096 tok 86.1s trunc=True
+[prove C] pair_00000#2 4096 tok 86.12s trunc=True
+[prove C] pair_00000#3 4096 tok 86.23s trunc=True
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+== fuse
+== formalize
+== check
+== prove
+[prove C] pair_00001#0 4096 tok 87.56s trunc=True
+[prove C] pair_00001#1 3577 tok 75.16s trunc=False
+[prove C] pair_00001#2 4096 tok 86.82s trunc=True
+[prove C] pair_00001#3 4096 tok 87.74s trunc=True
+[prove C] pair_00002#0 4096 tok 89.32s trunc=True
+[prove C] pair_00002#1 4096 tok 86.93s trunc=True
+[prove C] pair_00002#2 4096 tok 85.9s trunc=True
+[prove C] pair_00002#3 4096 tok 88.03s trunc=True
+[prove C] pair_00005#0 2766 tok 58.18s trunc=False
+[prove C] pair_00005#1 1387 tok 28.74s trunc=False
+[prove C] pair_00005#2 1573 tok 32.73s trunc=False
+[prove C] pair_00005#3 1710 tok 34.84s trunc=False
+[prove C] pair_00007#0 4096 tok 86.36s trunc=True
+[prove C] pair_00007#1 4096 tok 87.23s trunc=True
+[prove C] pair_00007#2 4096 tok 86.13s trunc=True
+[prove C] pair_00007#3 4096 tok 85.3s trunc=True
+[prove C] pair_00008#0 4096 tok 85.42s trunc=True
+[prove C] pair_00008#1 4096 tok 86.97s trunc=True
+[prove C] pair_00008#2 4096 tok 87.05s trunc=True
+[prove C] pair_00008#3 4096 tok 85.55s trunc=True
+[prove C] pair_00009#0 4096 tok 88.62s trunc=True
+[prove C] pair_00009#1 4096 tok 86.87s trunc=True
+[prove C] pair_00009#2 4096 tok 86.66s trunc=True
+[prove C] pair_00009#3 4096 tok 86.26s trunc=True
+[prove C] pair_00010#0 4096 tok 88.26s trunc=True
+[prove C] pair_00010#1 4096 tok 88.4s trunc=True
+[prove C] pair_00010#2 4096 tok 87.23s trunc=True
+[prove C] pair_00010#3 4096 tok 87.31s trunc=True
+[prove C] pair_00012#0 1681 tok 35.32s trunc=False
+[prove C] pair_00012#1 1939 tok 41.0s trunc=False
+[prove C] pair_00012#2 1936 tok 41.06s trunc=False
+[prove C] pair_00012#3 2341 tok 49.57s trunc=False
+[prove C] pair_00013#0 4096 tok 90.26s trunc=True
+[prove C] pair_00013#1 4096 tok 86.04s trunc=True
+[prove C] pair_00013#2 4096 tok 86.07s trunc=True
+[prove C] pair_00013#3 4096 tok 88.2s trunc=True
+[prove C] pair_00014#0 3322 tok 68.36s trunc=False
+[prove C] pair_00014#1 3327 tok 67.55s trunc=False
+[prove C] pair_00014#2 2562 tok 52.02s trunc=False
+[prove C] pair_00014#3 1800 tok 35.85s trunc=False

@@ -1,0 +1,65 @@
+{
+ "C": {
+  "n_pairs": 20,
+  "fuse_parse_rate": 1.0,
+  "formalize_rate": 1.0,
+  "validity_rate": 0.8,
+  "n_verified": 0,
+  "yield": 0.0,
+  "p_hist": {
+   "p=0": 0,
+   "0<p<=0.5": 0,
+   "p>0.5": 0
+  },
+  "modification_rate": 0.0,
+  "fuser_tokens_mean": 635.1,
+  "fuser_truncation_rate": 0.0,
+  "prover_tokens_mean": 0.0,
+  "prover_truncation_rate": 0.0,
+  "tokens_total": 33381,
+  "tokens_per_useful": null,
+  "n_useful": 0
+ },
+ "D1": {
+  "n_pairs": 20,
+  "fuse_parse_rate": 1.0,
+  "formalize_rate": 1.0,
+  "validity_rate": 0.85,
+  "n_verified": 0,
+  "yield": 0.0,
+  "p_hist": {
+   "p=0": 0,
+   "0<p<=0.5": 0,
+   "p>0.5": 0
+  },
+  "modification_rate": 0.0,
+  "fuser_tokens_mean": 702.85,
+  "fuser_truncation_rate": 0.0,
+  "prover_tokens_mean": 0.0,
+  "prover_truncation_rate": 0.0,
+  "tokens_total": 36314,
+  "tokens_per_useful": null,
+  "n_useful": 0
+ },
+ "D4": {
+  "n_pairs": 20,
+  "fuse_parse_rate": 0.9,
+  "formalize_rate": 0.9,
+  "validity_rate": 0.8,
+  "n_verified": 0,
+  "yield": 0.0,
+  "p_hist": {
+   "p=0": 0,
+   "0<p<=0.5": 0,
+   "p>0.5": 0
+  },
+  "modification_rate": 0.0,
+  "fuser_tokens_mean": 387.6,
+  "fuser_truncation_rate": 0.0,
+  "prover_tokens_mean": 0.0,
+  "prover_truncation_rate": 0.0,
+  "tokens_total": 22975,
+  "tokens_per_useful": null,
+  "n_useful": 0
+ }
+}

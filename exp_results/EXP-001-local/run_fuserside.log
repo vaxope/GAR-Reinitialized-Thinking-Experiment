@@ -1,0 +1,190 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+== fuse
+[fuse C] pair_00000 664 tok 30.11s
+[fuse C] pair_00001 753 tok 14.14s
+[fuse C] pair_00002 518 tok 9.97s
+[fuse C] pair_00003 950 tok 17.97s
+[fuse C] pair_00004 600 tok 11.36s
+[fuse C] pair_00005 761 tok 14.34s
+[fuse C] pair_00006 746 tok 14.16s
+[fuse C] pair_00007 438 tok 8.56s
+[fuse C] pair_00008 612 tok 11.64s
+[fuse C] pair_00009 510 tok 9.74s
+[fuse C] pair_00010 631 tok 12.07s
+[fuse C] pair_00011 615 tok 11.74s
+[fuse C] pair_00012 845 tok 16.18s
+[fuse C] pair_00013 683 tok 12.95s
+[fuse C] pair_00014 726 tok 13.66s
+[fuse C] pair_00015 667 tok 12.69s
+[fuse C] pair_00016 613 tok 11.8s
+[fuse C] pair_00017 572 tok 11.04s
+[fuse C] pair_00018 875 tok 16.36s
+[fuse C] pair_00019 729 tok 13.93s
+[fuse D1] pair_00000 757 tok 14.7s
+[fuse D1] pair_00001 553 tok 10.55s
+[fuse D1] pair_00002 449 tok 8.62s
+[fuse D1] pair_00003 731 tok 13.95s
+[fuse D1] pair_00004 7434 tok 143.62s
+[fuse D1] pair_00005 791 tok 15.23s
+[fuse D1] pair_00006 1096 tok 20.48s
+[fuse D1] pair_00007 845 tok 15.81s
+[fuse D1] pair_00008 1062 tok 19.8s
+[fuse D1] pair_00009 687 tok 12.93s
+[fuse D1] pair_00010 822 tok 15.42s
+[fuse D1] pair_00011 1314 tok 24.54s
+[fuse D1] pair_00012 873 tok 16.65s
+[fuse D1] pair_00013 596 tok 11.37s
+[fuse D1] pair_00014 452 tok 8.71s
+[fuse D1] pair_00015 662 tok 12.59s
+[fuse D1] pair_00016 664 tok 12.64s
+[fuse D1] pair_00017 658 tok 12.54s
+[fuse D1] pair_00018 545 tok 10.43s
+[fuse D1] pair_00019 514 tok 9.9s
+[fuse D4] pair_00000 632 tok 12.41s
+[fuse D4] pair_00001 357 tok 6.99s
+[fuse D4] pair_00002 236 tok 4.83s
+[fuse D4] pair_00003 389 tok 7.85s
+[fuse D4] pair_00004 314 tok 6.19s
+[fuse D4] pair_00005 777 tok 14.61s
+[fuse D4] pair_00006 385 tok 7.66s
+[fuse D4] pair_00007 331 tok 6.57s
+[fuse D4] pair_00008 345 tok 6.87s
+[fuse D4] pair_00009 290 tok 5.72s
+[fuse D4] pair_00010 235 tok 4.89s
+[fuse D4] pair_00011 431 tok 8.34s
+[fuse D4] pair_00012 401 tok 8.07s
+[fuse D4] pair_00013 420 tok 8.15s
+[fuse D4] pair_00014 297 tok 5.95s
+[fuse D4] pair_00015 374 tok 7.39s
+[fuse D4] pair_00016 652 tok 12.48s
+[fuse D4] pair_00017 507 tok 9.85s
+[fuse D4] pair_00018 325 tok 6.52s
+[fuse D4] pair_00019 370 tok 7.34s
+== formalize
+[formalize C] pair_00000 684 tok 38.01s
+[formalize C] pair_00001 646 tok 22.4s
+[formalize C] pair_00002 1175 tok 36.75s
+[formalize C] pair_00003 2903 tok 129.18s
+[formalize C] pair_00004 962 tok 28.94s
+[formalize C] pair_00005 580 tok 16.52s
+[formalize C] pair_00006 1148 tok 37.18s
+[formalize C] pair_00007 718 tok 20.94s
+[formalize C] pair_00008 800 tok 24.15s
+[formalize C] pair_00009 880 tok 25.42s
+[formalize C] pair_00010 1311 tok 43.61s
+[formalize C] pair_00011 631 tok 17.99s
+[formalize C] pair_00012 737 tok 23.96s
+[formalize C] pair_00013 1555 tok 52.68s
+[formalize C] pair_00014 631 tok 18.01s
+[formalize C] pair_00015 1342 tok 43.02s
+[formalize C] pair_00016 1211 tok 39.22s
+[formalize C] pair_00017 666 tok 19.49s
+[formalize C] pair_00018 1905 tok 68.19s
+[formalize C] pair_00019 610 tok 22.76s
+[formalize D1] pair_00000 923 tok 28.95s
+[formalize D1] pair_00001 659 tok 18.33s
+[formalize D1] pair_00002 641 tok 21.15s
+[formalize D1] pair_00003 685 tok 20.36s
+[formalize D1] pair_00004 610 tok 16.18s
+[formalize D1] pair_00005 1704 tok 63.25s
+[formalize D1] pair_00006 882 tok 27.42s
+[formalize D1] pair_00007 767 tok 22.68s
+[formalize D1] pair_00008 972 tok 30.06s
+[formalize D1] pair_00009 713 tok 19.85s
+[formalize D1] pair_00010 764 tok 23.79s
+[formalize D1] pair_00011 983 tok 30.16s
+[formalize D1] pair_00012 926 tok 30.65s
+[formalize D1] pair_00013 1108 tok 41.16s
+[formalize D1] pair_00014 743 tok 21.0s
+[formalize D1] pair_00015 1740 tok 60.36s
+[formalize D1] pair_00016 1570 tok 55.7s
+[formalize D1] pair_00017 1922 tok 69.82s
+[formalize D1] pair_00018 2028 tok 73.04s
+[formalize D1] pair_00019 784 tok 23.43s
+[formalize D4] pair_00000 2029 tok 76.12s
+[formalize D4] pair_00001 626 tok 17.39s
+[formalize D4] pair_00003 665 tok 19.35s
+[formalize D4] pair_00004 1106 tok 35.3s
+[formalize D4] pair_00005 769 tok 25.26s
+[formalize D4] pair_00006 1757 tok 62.37s
+[formalize D4] pair_00007 695 tok 20.04s
+[formalize D4] pair_00008 839 tok 23.95s
+[formalize D4] pair_00009 666 tok 18.43s
+[formalize D4] pair_00010 704 tok 19.84s
+[formalize D4] pair_00011 941 tok 28.82s
+[formalize D4] pair_00012 719 tok 21.19s
+[formalize D4] pair_00013 215 tok 5.43s
+[formalize D4] pair_00014 1184 tok 36.5s
+[formalize D4] pair_00015 933 tok 28.05s
+[formalize D4] pair_00016 824 tok 25.68s
+[formalize D4] pair_00017 507 tok 13.17s
+[formalize D4] pair_00018 1537 tok 51.52s
+== check
+== prove
+== verify
+== summary
+{
+ "C": {
+  "n_pairs": 20,
+  "fuse_parse_rate": 1.0,
+  "formalize_rate": 1.0,
+  "validity_rate": 0.85,
+  "n_verified": 0,
+  "yield": 0.0,
+  "p_hist": {
+   "p=0": 0,
+   "0<p<=0.5": 0,
+   "p>0.5": 0
+  },
+  "modification_rate": 0.0,
+  "fuser_tokens_mean": 675.4,
+  "fuser_truncation_rate": 0.0,
+  "prover_tokens_mean": 0.0,
+  "prover_truncation_rate": 0.0,
+  "tokens_total": 34603,
+  "tokens_per_useful": null,
+  "n_useful": 0
+ },
+ "D1": {
+  "n_pairs": 20,
+  "fuse_parse_rate": 1.0,
+  "formalize_rate": 1.0,
+  "validity_rate": 0.85,
+  "n_verified": 0,
+  "yield": 0.0,
+  "p_hist": {
+   "p=0": 0,
+   "0<p<=0.5": 0,
+   "p>0.5": 0
+  },
+  "modification_rate": 0.0,
+  "fuser_tokens_mean": 1075.25,
+  "fuser_truncation_rate": 0.0,
+  "prover_tokens_mean": 0.0,
+  "prover_truncation_rate": 0.0,
+  "tokens_total": 42629,
+  "tokens_per_useful": null,
+  "n_useful": 0
+ },
+ "D4": {
+  "n_pairs": 20,
+  "fuse_parse_rate": 0.9,
+  "formalize_rate": 0.9,
+  "validity_rate": 0.75,
+  "n_verified": 0,
+  "yield": 0.0,
+  "p_hist": {
+   "p=0": 0,
+   "0<p<=0.5": 0,
+   "p>0.5": 0
+  },
+  "modification_rate": 0.0,
+  "fuser_tokens_mean": 403.4,
+  "fuser_truncation_rate": 0.0,
+  "prover_tokens_mean": 0.0,
+  "prover_truncation_rate": 0.0,
+  "tokens_total": 24784,
+  "tokens_per_useful": null,
+  "n_useful": 0
+ }
+}
