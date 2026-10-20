@@ -1,0 +1,215 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+== fuse
+== formalize
+== check
+== prove
+[prove C] pair_00000#0 12519 tok 333.28s trunc=False
+[prove C] pair_00000#1 16385 tok 447.23s trunc=True
+[prove C] pair_00000#2 13180 tok 351.13s trunc=False
+[prove C] pair_00000#3 13810 tok 367.15s trunc=False
+[prove C] pair_00001#0 4014 tok 101.13s trunc=False
+[prove C] pair_00001#1 6984 tok 176.23s trunc=False
+[prove C] pair_00001#2 14617 tok 391.34s trunc=False
+[prove C] pair_00001#3 7015 tok 178.32s trunc=False
+[prove C] pair_00002#0 16385 tok 446.18s trunc=True
+[prove C] pair_00002#1 16385 tok 442.5s trunc=True
+[prove C] pair_00002#2 15047 tok 403.86s trunc=False
+[prove C] pair_00002#3 16385 tok 442.92s trunc=True
+[prove C] pair_00005#0 1713 tok 43.15s trunc=False
+[prove C] pair_00005#1 1775 tok 43.08s trunc=False
+[prove C] pair_00005#2 2289 tok 55.97s trunc=False
+[prove C] pair_00005#3 3560 tok 87.72s trunc=False
+[prove C] pair_00007#0 16385 tok 444.03s trunc=True
+[prove C] pair_00007#1 13856 tok 368.49s trunc=False
+[prove C] pair_00007#2 16385 tok 442.85s trunc=True
+[prove C] pair_00007#3 10853 tok 282.64s trunc=False
+[prove C] pair_00008#0 8340 tok 213.71s trunc=False
+[prove C] pair_00008#1 10518 tok 272.23s trunc=False
+[prove C] pair_00008#2 11911 tok 311.38s trunc=False
+[prove C] pair_00008#3 12813 tok 337.13s trunc=False
+[prove C] pair_00009#0 16385 tok 443.12s trunc=True
+[prove C] pair_00009#1 10600 tok 274.95s trunc=False
+[prove C] pair_00009#2 9596 tok 246.88s trunc=False
+[prove C] pair_00009#3 15645 tok 421.44s trunc=False
+[prove C] pair_00010#0 10330 tok 270.33s trunc=False
+[prove C] pair_00010#1 15290 tok 411.85s trunc=False
+[prove C] pair_00010#2 10098 tok 262.7s trunc=False
+[prove C] pair_00010#3 6157 tok 155.45s trunc=False
+[prove C] pair_00012#0 1097 tok 27.64s trunc=False
+[prove C] pair_00012#1 1564 tok 37.98s trunc=False
+[prove C] pair_00012#2 1796 tok 43.78s trunc=False
+[prove C] pair_00012#3 2612 tok 63.95s trunc=False
+[prove C] pair_00013#0 14914 tok 400.5s trunc=False
+[prove C] pair_00013#1 9874 tok 255.5s trunc=False
+[prove C] pair_00013#2 8635 tok 221.83s trunc=False
+[prove C] pair_00013#3 16385 tok 444.16s trunc=True
+[prove C] pair_00014#0 1634 tok 40.51s trunc=False
+[prove C] pair_00014#1 2400 tok 58.47s trunc=False
+[prove C] pair_00014#2 3930 tok 96.93s trunc=False
+[prove C] pair_00014#3 3246 tok 79.65s trunc=False
+[prove D1] pair_00001#0 13305 tok 352.52s trunc=False
+[prove D1] pair_00001#1 12255 tok 321.61s trunc=False
+[prove D1] pair_00001#2 16385 tok 443.02s trunc=True
+[prove D1] pair_00001#3 16385 tok 442.59s trunc=True
+[prove D1] pair_00002#0 11919 tok 316.5s trunc=False
+[prove D1] pair_00002#1 9987 tok 264.11s trunc=False
+[prove D1] pair_00002#2 16385 tok 447.7s trunc=True
+[prove D1] pair_00002#3 16385 tok 447.78s trunc=True
+[prove D1] pair_00003#0 14493 tok 391.65s trunc=False
+[prove D1] pair_00003#1 10350 tok 271.57s trunc=False
+[prove D1] pair_00003#2 16385 tok 448.77s trunc=True
+[prove D1] pair_00003#3 12489 tok 331.93s trunc=False
+[prove D1] pair_00004#0 576 tok 14.78s trunc=False
+[prove D1] pair_00004#1 703 tok 17.0s trunc=False
+[prove D1] pair_00004#2 631 tok 15.33s trunc=False
+[prove D1] pair_00004#3 800 tok 19.41s trunc=False
+[prove D1] pair_00005#0 6905 tok 178.49s trunc=False
+[prove D1] pair_00005#1 7727 tok 199.11s trunc=False
+[prove D1] pair_00005#2 8949 tok 235.22s trunc=False
+[prove D1] pair_00005#3 7422 tok 190.6s trunc=False
+[prove D1] pair_00006#0 16385 tok 446.26s trunc=True
+[prove D1] pair_00006#1 16385 tok 444.5s trunc=True
+[prove D1] pair_00006#2 9526 tok 246.9s trunc=False
+[prove D1] pair_00006#3 15727 tok 424.3s trunc=False
+[prove D1] pair_00007#0 12665 tok 336.39s trunc=False
+[prove D1] pair_00007#1 12685 tok 336.97s trunc=False
+[prove D1] pair_00007#2 16385 tok 452.32s trunc=True
+[prove D1] pair_00007#3 11915 tok 318.52s trunc=False
+[prove D1] pair_00008#0 5226 tok 132.04s trunc=False
+[prove D1] pair_00008#1 3737 tok 93.48s trunc=False
+[prove D1] pair_00008#2 8648 tok 225.35s trunc=False
+[prove D1] pair_00008#3 6113 tok 156.41s trunc=False
+[prove D1] pair_00009#0 5941 tok 151.66s trunc=False
+[prove D1] pair_00009#1 16385 tok 449.6s trunc=True
+[prove D1] pair_00009#2 11743 tok 307.6s trunc=False
+[prove D1] pair_00009#3 16385 tok 444.14s trunc=True
+[prove D1] pair_00010#0 11945 tok 314.77s trunc=False
+[prove D1] pair_00010#1 11998 tok 315.8s trunc=False
+[prove D1] pair_00010#2 4823 tok 119.85s trunc=False
+[prove D1] pair_00010#3 12577 tok 331.07s trunc=False
+[prove D1] pair_00012#0 5503 tok 139.35s trunc=False
+[prove D1] pair_00012#1 8257 tok 210.8s trunc=False
+[prove D1] pair_00012#2 4429 tok 110.43s trunc=False
+[prove D1] pair_00012#3 5007 tok 124.77s trunc=False
+[prove D1] pair_00013#0 16385 tok 453.31s trunc=True
+[prove D1] pair_00013#1 16385 tok 455.19s trunc=True
+[prove D1] pair_00013#2 16385 tok 454.33s trunc=True
+[prove D1] pair_00013#3 8519 tok 222.18s trunc=False
+[prove D4] pair_00000#0 16385 tok 459.37s trunc=True
+[prove D4] pair_00000#1 16385 tok 453.84s trunc=True
+[prove D4] pair_00000#2 7848 tok 204.88s trunc=False
+[prove D4] pair_00000#3 16385 tok 455.98s trunc=True
+[prove D4] pair_00001#0 1779 tok 45.53s trunc=False
+[prove D4] pair_00001#1 1949 tok 48.67s trunc=False
+[prove D4] pair_00001#2 1645 tok 40.95s trunc=False
+[prove D4] pair_00001#3 1467 tok 36.53s trunc=False
+[prove D4] pair_00003#0 16385 tok 456.79s trunc=True
+[prove D4] pair_00003#1 12897 tok 351.01s trunc=False
+[prove D4] pair_00003#2 7308 tok 191.4s trunc=False
+[prove D4] pair_00003#3 11751 tok 313.42s trunc=False
+[prove D4] pair_00005#0 1250 tok 32.34s trunc=False
+[prove D4] pair_00005#1 1356 tok 33.63s trunc=False
+[prove D4] pair_00005#2 1872 tok 47.02s trunc=False
+[prove D4] pair_00005#3 2308 tok 58.43s trunc=False
+[prove D4] pair_00007#0 8815 tok 228.79s trunc=False
+[prove D4] pair_00007#1 16385 tok 449.89s trunc=True
+[prove D4] pair_00007#2 8464 tok 221.28s trunc=False
+[prove D4] pair_00007#3 6376 tok 160.66s trunc=False
+[prove D4] pair_00008#0 11051 tok 287.69s trunc=False
+[prove D4] pair_00008#1 5484 tok 137.06s trunc=False
+[prove D4] pair_00008#2 12270 tok 322.42s trunc=False
+[prove D4] pair_00008#3 3999 tok 99.14s trunc=False
+[prove D4] pair_00009#0 7536 tok 191.02s trunc=False
+[prove D4] pair_00009#1 6081 tok 152.9s trunc=False
+[prove D4] pair_00009#2 3815 tok 93.94s trunc=False
+[prove D4] pair_00009#3 6035 tok 150.78s trunc=False
+[prove D4] pair_00010#0 6242 tok 157.16s trunc=False
+[prove D4] pair_00010#1 12707 tok 334.2s trunc=False
+[prove D4] pair_00010#2 14378 tok 382.66s trunc=False
+[prove D4] pair_00010#3 16385 tok 441.17s trunc=True
+[prove D4] pair_00011#0 16385 tok 443.51s trunc=True
+[prove D4] pair_00011#1 13800 tok 366.24s trunc=False
+[prove D4] pair_00011#2 16385 tok 442.87s trunc=True
+[prove D4] pair_00011#3 16385 tok 442.53s trunc=True
+[prove D4] pair_00012#0 2799 tok 70.0s trunc=False
+[prove D4] pair_00012#1 4276 tok 106.01s trunc=False
+[prove D4] pair_00012#2 5991 tok 150.27s trunc=False
+[prove D4] pair_00012#3 3594 tok 88.86s trunc=False
+[prove D4] pair_00013#0 3613 tok 90.47s trunc=False
+[prove D4] pair_00013#1 2833 tok 69.42s trunc=False
+[prove D4] pair_00013#2 1770 tok 43.23s trunc=False
+[prove D4] pair_00013#3 2853 tok 69.94s trunc=False
+[prove D4] pair_00014#0 7097 tok 180.19s trunc=False
+[prove D4] pair_00014#1 7668 tok 194.98s trunc=False
+[prove D4] pair_00014#2 7769 tok 197.29s trunc=False
+[prove D4] pair_00014#3 8229 tok 209.71s trunc=False
+== verify
+== summary
+{
+ "C": {
+  "n_pairs": 15,
+  "fuse_parse_rate": 1.0,
+  "formalize_rate": 1.0,
+  "validity_rate": 0.7333333333333333,
+  "n_verified": 11,
+  "yield": 0.06666666666666667,
+  "yield_p_all": 0.06666666666666667,
+  "p_hist": {
+   "p=0": 9,
+   "0<p<=0.5": 1,
+   "p>0.5": 1
+  },
+  "modification_rate": 0.09090909090909091,
+  "fuser_tokens_mean": 619.7333333333333,
+  "fuser_truncation_rate": 0.0,
+  "prover_tokens_mean": 9666.181818181818,
+  "prover_truncation_rate": 0.18181818181818182,
+  "tokens_total": 450100,
+  "tokens_per_useful": 450100.0,
+  "n_useful": 1
+ },
+ "D1": {
+  "n_pairs": 15,
+  "fuse_parse_rate": 1.0,
+  "formalize_rate": 1.0,
+  "validity_rate": 0.8,
+  "n_verified": 12,
+  "yield": 0.13333333333333333,
+  "yield_p_all": 0.13333333333333333,
+  "p_hist": {
+   "p=0": 9,
+   "0<p<=0.5": 2,
+   "p>0.5": 1
+  },
+  "modification_rate": 0.23611111111111113,
+  "fuser_tokens_mean": 722.2666666666667,
+  "fuser_truncation_rate": 0.0,
+  "prover_tokens_mean": 10593.75,
+  "prover_truncation_rate": 0.2708333333333333,
+  "tokens_total": 534073,
+  "tokens_per_useful": 267036.5,
+  "n_useful": 2
+ },
+ "D4": {
+  "n_pairs": 15,
+  "fuse_parse_rate": 0.9333333333333333,
+  "formalize_rate": 0.9333333333333333,
+  "validity_rate": 0.8,
+  "n_verified": 12,
+  "yield": 0.13333333333333333,
+  "yield_p_all": 0.13333333333333333,
+  "p_hist": {
+   "p=0": 8,
+   "0<p<=0.5": 2,
+   "p>0.5": 2
+  },
+  "modification_rate": 0.125,
+  "fuser_tokens_mean": 363.2,
+  "fuser_truncation_rate": 0.0,
+  "prover_tokens_mean": 8050.833333333333,
+  "prover_truncation_rate": 0.1875,
+  "tokens_total": 403281,
+  "tokens_per_useful": 201640.5,
+  "n_useful": 2
+ }
+}

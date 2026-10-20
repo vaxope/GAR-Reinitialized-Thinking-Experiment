@@ -1,0 +1,12 @@
+{"pair_id": "pair_00000", "glued": false, "analysis_leak": false, "parts": ["∃ k : ℕ, n - y = k^2 :="], "groups": [[0]]}
+{"pair_id": "pair_00001", "glued": false, "analysis_leak": false, "parts": ["{(x, y) : ℤ × ℤ | x ≠ 0 ∧ y > 0 ∧ 2 * (d : ℤ)^4 + 2 * (d : ℤ)^2 * x^2 + x^4 = y^2} = \n  {(x, y) : ℤ × ℤ | x ≠ 0 ∧ y > 0 ∧ 2 * 6^4 + 2 * 6^2 * x^2 + x^4 = y^2} :="], "groups": [[0]]}
+{"pair_id": "pair_00003", "glued": false, "analysis_leak": false, "parts": ["((k^4 + 4 : ℚ) / ((k + 4)^4 + 4 : ℚ))\n  ∃ (m : ℤ), P = (m : ℚ) ∧ (m : ℤ) ≡ 0 [ZMOD (n - 1)] :="], "groups": [[0]]}
+{"pair_id": "pair_00005", "glued": false, "analysis_leak": false, "parts": ["R^3 + 27 * 8^3 * r^3 + 6 * R * 8^3 * r^3 ≥ (1/4) * (R + 8 * r)^3 :="], "groups": [[0]]}
+{"pair_id": "pair_00007", "glued": false, "analysis_leak": false, "parts": ["(∀ x : ℝ, x ≠ 1 → is_perfect_cube (y x))", "(∀ x : ℝ, x ≠ 1 → is_odd_integer (y x))", "(∀ x : ℝ, x ≠ 1 → is_perfect_square (y x)) :="], "groups": [[0, 1, 2]]}
+{"pair_id": "pair_00008", "glued": false, "analysis_leak": false, "parts": ["{n | ∃ a : ℕ, 1 ≤ a ∧ a ≤ 9 ∧ n = 111 * a - 12}\n  let f : ℕ → ℝ := fun n => 2 * (n : ℝ)^2 + 8 * (n : ℝ) + 33 - 3 * Real.sqrt ((n : ℝ)^2 + 4 * (n : ℝ) + 9)\n  ∃ min_val : ℝ, (∀ n ∈ consecutive_decreasing_numbers, f n ≥ min_val) ∧ \n                  (∃ n ∈ consecutive_decreasing_numbers, f n = min_val) :="], "groups": [[0]]}
+{"pair_id": "pair_00009", "glued": false, "analysis_leak": false, "parts": ["∃ x : ℕ, x > 0 ∧ x > 3 ∧ 9 * x = x^x ∧ \n  (∀ y : ℕ, y > 0 ∧ y > 3 ∧ 9 * y = y^y → x ≤ y) :="], "groups": [[0]]}
+{"pair_id": "pair_00010", "glued": false, "analysis_leak": false, "parts": ["∃ (p q : ℤ), q > 0 ∧ Int.gcd p.natAbs q.natAbs = 1 ∧ (1 : ℝ) / arc_length = p / q :="], "groups": [[0]]}
+{"pair_id": "pair_00011", "glued": false, "analysis_leak": false, "parts": ["Nat.gcd (2^m - 1) (2^(10 * A + B) + 1) = 1 :="], "groups": [[0]]}
+{"pair_id": "pair_00012", "glued": false, "analysis_leak": false, "parts": ["(1/3) * (a + b + c)^2 ≥ a * Real.sqrt (b * c) + b * Real.sqrt (c * a) + c * Real.sqrt (a * b)", "x = t :="], "groups": [[0, 1]]}
+{"pair_id": "pair_00013", "glued": false, "analysis_leak": true, "parts": ["∃ (x y z w : ℕ), \n  (∃ (a b c d e f g : ℕ), \n    x + y = a^2 ∧ \n    x + z = b^2 ∧ \n    x + w = c^2 ∧ \n    y + z = d^2 ∧ \n    y + w = e^2 ∧ \n    z + w = f^2 ∧ \n    x + y + z + w = g^2) ∧ \n  x + y + z + w + x * y * z * w = 4 :="], "groups": [[0]]}
+{"pair_id": "pair_00014", "glued": false, "analysis_leak": false, "parts": ["¬(n ∣ 2^c + 3^d) :="], "groups": [[0]]}
