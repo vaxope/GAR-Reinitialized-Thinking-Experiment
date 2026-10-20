@@ -59,9 +59,10 @@ LEAN_HINT = "The new statement must be formalizable in Lean 4 with Mathlib, usin
 DOMAIN_HINTS = {
     "math": LEAN_HINT,
     "puzzles": "The new puzzle must be formalizable in Lean 4 as a statement about finite objects, with its unique answer stated explicitly.",
+    "stem": "The new problem must be formalizable in Lean 4 with Mathlib as a precise quantitative statement: give every quantity a value, state the model or law used, and state the unique answer.",
 }
 # Puzzles live on finite domains, where `decide` can check every case without any reasoning
-FORBID_BRUTE_FORCE = {"math": False, "puzzles": True}
+FORBID_BRUTE_FORCE = {"math": False, "puzzles": True, "stem": False}
 BRUTE_FORCE = re.compile(r"\b(native_decide|decide)\b")
 
 

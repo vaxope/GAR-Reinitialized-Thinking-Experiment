@@ -1,0 +1,1948 @@
+== label
+== propagate
+== validate
+[validate] purity vs Problem_type: 0.525; topic sizes {'Algebra': 3587, 'Algebraic Systems': 2536, 'Polynomials': 1541, 'Recurrence Relations': 671, 'Inequalities': 4054, 'Trigonometry': 580, 'Diophantine Equations': 1746, 'Complex Numbers': 381, 'Number Theory': 3670, 'Geometry': 1304, 'Functional Analysis': 1366, 'Probability': 129, 'Calculus': 706, 'Differential Equations': 193}
+== slots
+== embed
+== cluster
+== name
+== label
+== propagate
+== validate
+[validate] purity vs family: 1.000; topic sizes {'Knights and Knaves': 400, 'Constraint Satisfaction': 400, 'Inequality Puzzles': 400, 'Graph Theory': 400, 'Weighted Grids': 400, 'Truth Paradoxes': 400, 'Syllogistic Logic': 400, 'Queen Placement': 400}
+== slots
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+{'id': 'futoshiki_0150', 'family': 'futoshiki', 'gen_tokens': 1303, 'compiles': True, 'provable': False, 'refuted': False}
+{'id': 'futoshiki_0381', 'family': 'futoshiki', 'gen_tokens': 4493, 'compiles': True, 'provable': False, 'refuted': True}
+{'id': 'futoshiki_0006', 'family': 'futoshiki', 'gen_tokens': 1832, 'compiles': True, 'provable': False, 'refuted': True}
+{'id': 'futoshiki_0004', 'family': 'futoshiki', 'gen_tokens': 1684, 'compiles': True, 'provable': False, 'refuted': True}
+{'id': 'futoshiki_0065', 'family': 'futoshiki', 'gen_tokens': 1705, 'compiles': True, 'provable': False, 'refuted': False}
+{'id': 'futoshiki_0062', 'family': 'futoshiki', 'gen_tokens': 2082, 'compiles': True, 'provable': False, 'refuted': False}
+{'id': 'kakurasu_0057', 'family': 'kakurasu', 'gen_tokens': 1231, 'compiles': True, 'provable': True, 'refuted': False}
+{'id': 'kakurasu_0342', 'family': 'kakurasu', 'gen_tokens': 1298, 'compiles': True, 'provable': False, 'refuted': False}
+{'id': 'kakurasu_0290', 'family': 'kakurasu', 'gen_tokens': 792, 'compiles': True, 'provable': False, 'refuted': False}
+{'id': 'kakurasu_0151', 'family': 'kakurasu', 'gen_tokens': 1053, 'compiles': True, 'provable': False, 'refuted': False}
+{'id': 'kakurasu_0296', 'family': 'kakurasu', 'gen_tokens': 763, 'compiles': True, 'provable': True, 'refuted': False}
+{'id': 'kakurasu_0102', 'family': 'kakurasu', 'gen_tokens': 896, 'compiles': True, 'provable': False, 'refuted': False}
+{'id': 'knights_knaves_0158', 'family': 'knights_knaves', 'gen_tokens': 726, 'compiles': True, 'provable': True, 'refuted': False}
+{'id': 'knights_knaves_0303', 'family': 'knights_knaves', 'gen_tokens': 641, 'compiles': True, 'provable': True, 'refuted': False}
+{'id': 'knights_knaves_0130', 'family': 'knights_knaves', 'gen_tokens': 599, 'compiles': True, 'provable': False, 'refuted': True}
+{'id': 'knights_knaves_0314', 'family': 'knights_knaves', 'gen_tokens': 547, 'compiles': True, 'provable': False, 'refuted': True}
+{'id': 'knights_knaves_0223', 'family': 'knights_knaves', 'gen_tokens': 990, 'compiles': True, 'provable': False, 'refuted': True}
+{'id': 'knights_knaves_0038', 'family': 'knights_knaves', 'gen_tokens': 714, 'compiles': False, 'provable': False, 'refuted': False}
+{'id': 'mini_sudoku_0356', 'family': 'mini_sudoku', 'gen_tokens': 1069, 'compiles': True, 'provable': False, 'refuted': False}
+{'id': 'mini_sudoku_0262', 'family': 'mini_sudoku', 'gen_tokens': 987, 'compiles': True, 'provable': False, 'refuted': False}
+{'id': 'mini_sudoku_0054', 'family': 'mini_sudoku', 'gen_tokens': 1970, 'compiles': True, 'provable': False, 'refuted': False}
+{'id': 'mini_sudoku_0260', 'family': 'mini_sudoku', 'gen_tokens': 1288, 'compiles': True, 'provable': False, 'refuted': False}
+{'id': 'mini_sudoku_0096', 'family': 'mini_sudoku', 'gen_tokens': 935, 'compiles': True, 'provable': False, 'refuted': False}
+{'id': 'mini_sudoku_0248', 'family': 'mini_sudoku', 'gen_tokens': 785, 'compiles': True, 'provable': False, 'refuted': True}
+{'id': 'n_queens_0145', 'family': 'n_queens', 'gen_tokens': 879, 'compiles': True, 'provable': False, 'refuted': False}
+{'id': 'n_queens_0023', 'family': 'n_queens', 'gen_tokens': 869, 'compiles': True, 'provable': False, 'refuted': False}
+{'id': 'n_queens_0038', 'family': 'n_queens', 'gen_tokens': 8192, 'compiles': False, 'provable': False, 'refuted': False}
+{'id': 'n_queens_0321', 'family': 'n_queens', 'gen_tokens': 775, 'compiles': True, 'provable': False, 'refuted': False}
+{'id': 'n_queens_0212', 'family': 'n_queens', 'gen_tokens': 1694, 'compiles': True, 'provable': False, 'refuted': False}
+{'id': 'n_queens_0366', 'family': 'n_queens', 'gen_tokens': 1725, 'compiles': True, 'provable': False, 'refuted': False}
+{'id': 'self_reference_0202', 'family': 'self_reference', 'gen_tokens': 2030, 'compiles': False, 'provable': False, 'refuted': False}
+{'id': 'self_reference_0187', 'family': 'self_reference', 'gen_tokens': 783, 'compiles': False, 'provable': False, 'refuted': False}
+{'id': 'self_reference_0184', 'family': 'self_reference', 'gen_tokens': 742, 'compiles': True, 'provable': False, 'refuted': False}
+{'id': 'self_reference_0333', 'family': 'self_reference', 'gen_tokens': 1593, 'compiles': True, 'provable': False, 'refuted': False}
+{'id': 'self_reference_0070', 'family': 'self_reference', 'gen_tokens': 1830, 'compiles': False, 'provable': False, 'refuted': False}
+{'id': 'self_reference_0298', 'family': 'self_reference', 'gen_tokens': 756, 'compiles': False, 'provable': False, 'refuted': False}
+{'id': 'syllogism_0252', 'family': 'syllogism', 'gen_tokens': 706, 'compiles': False, 'provable': False, 'refuted': False}
+{'id': 'syllogism_0261', 'family': 'syllogism', 'gen_tokens': 550, 'compiles': False, 'provable': False, 'refuted': False}
+{'id': 'syllogism_0341', 'family': 'syllogism', 'gen_tokens': 630, 'compiles': True, 'provable': False, 'refuted': False}
+{'id': 'syllogism_0056', 'family': 'syllogism', 'gen_tokens': 312, 'compiles': False, 'provable': False, 'refuted': False}
+{'id': 'syllogism_0274', 'family': 'syllogism', 'gen_tokens': 521, 'compiles': True, 'provable': False, 'refuted': False}
+{'id': 'syllogism_0120', 'family': 'syllogism', 'gen_tokens': 523, 'compiles': False, 'provable': False, 'refuted': False}
+{
+ "futoshiki": {
+  "n": 6,
+  "compiles_unknown": 3,
+  "refuted": 3
+ },
+ "kakurasu": {
+  "n": 6,
+  "provable": 2,
+  "compiles_unknown": 4
+ },
+ "knights_knaves": {
+  "n": 6,
+  "provable": 2,
+  "refuted": 3,
+  "no_compile": 1
+ },
+ "mini_sudoku": {
+  "n": 6,
+  "compiles_unknown": 5,
+  "refuted": 1
+ },
+ "n_queens": {
+  "n": 6,
+  "compiles_unknown": 5,
+  "no_compile": 1
+ },
+ "self_reference": {
+  "n": 6,
+  "no_compile": 4,
+  "compiles_unknown": 2
+ },
+ "syllogism": {
+  "n": 6,
+  "no_compile": 4,
+  "compiles_unknown": 2
+ },
+ "ALL": {
+  "n": 42,
+  "compiles_unknown": 21,
+  "refuted": 7,
+  "provable": 4,
+  "no_compile": 10
+ }
+}
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+== fuse
+[fuse C_random] pair_00000 621 tok 25.8s
+[fuse C_random] pair_00001 735 tok 14.4s
+[fuse C_random] pair_00002 907 tok 17.75s
+[fuse C_random] pair_00003 894 tok 17.39s
+[fuse C_random] pair_00004 555 tok 10.96s
+[fuse C_random] pair_00005 808 tok 16.36s
+[fuse C_random] pair_00006 456 tok 9.09s
+[fuse C_random] pair_00007 657 tok 12.96s
+[fuse C_random] pair_00008 858 tok 16.8s
+[fuse C_random] pair_00009 522 tok 10.45s
+[fuse C_random] pair_00010 563 tok 11.3s
+[fuse C_random] pair_00011 935 tok 18.44s
+[fuse C_random] pair_00012 543 tok 11.19s
+[fuse C_random] pair_00013 546 tok 10.9s
+[fuse C_random] pair_00014 846 tok 16.75s
+[fuse C_random] pair_00015 667 tok 13.07s
+[fuse C_random] pair_00016 913 tok 17.95s
+[fuse C_random] pair_00017 650 tok 12.8s
+[fuse C_random] pair_00018 795 tok 15.67s
+[fuse C_random] pair_00019 628 tok 12.6s
+[fuse C_random] pair_00020 1080 tok 22.19s
+[fuse C_random] pair_00021 599 tok 11.86s
+[fuse C_random] pair_00022 546 tok 10.75s
+[fuse C_random] pair_00023 503 tok 10.01s
+[fuse C_random] pair_00024 602 tok 12.02s
+[fuse C_random] pair_00025 939 tok 18.63s
+[fuse C_random] pair_00026 454 tok 9.33s
+[fuse C_random] pair_00027 570 tok 11.62s
+[fuse C_random] pair_00028 713 tok 14.18s
+[fuse C_random] pair_00029 639 tok 12.61s
+[fuse C_random] pair_00030 546 tok 10.83s
+[fuse C_random] pair_00031 710 tok 13.95s
+[fuse C_random] pair_00032 626 tok 12.49s
+[fuse C_random] pair_00033 797 tok 15.76s
+[fuse C_random] pair_00034 780 tok 15.35s
+[fuse C_random] pair_00035 611 tok 12.32s
+[fuse C_random] pair_00036 652 tok 13.03s
+[fuse C_random] pair_00037 994 tok 19.74s
+[fuse C_random] pair_00038 617 tok 12.24s
+[fuse C_random] pair_00039 643 tok 12.67s
+[fuse C_random] pair_00040 544 tok 10.74s
+[fuse C_random] pair_00041 519 tok 10.35s
+[fuse C_random] pair_00042 576 tok 11.48s
+[fuse C_random] pair_00043 658 tok 13.09s
+[fuse C_random] pair_00044 433 tok 8.63s
+[fuse C_random] pair_00045 630 tok 12.31s
+[fuse C_random] pair_00046 534 tok 10.56s
+[fuse C_random] pair_00047 478 tok 9.56s
+[fuse C_random] pair_00048 838 tok 16.69s
+[fuse C_random] pair_00049 823 tok 16.26s
+[fuse C_random] pair_00050 564 tok 11.21s
+[fuse C_random] pair_00051 572 tok 11.32s
+[fuse C_random] pair_00052 648 tok 12.94s
+[fuse C_random] pair_00053 541 tok 10.86s
+[fuse C_random] pair_00054 646 tok 12.85s
+[fuse C_random] pair_00055 675 tok 13.33s
+[fuse C_random] pair_00056 733 tok 14.54s
+[fuse C_random] pair_00057 651 tok 12.95s
+[fuse C_random] pair_00058 618 tok 12.24s
+[fuse C_random] pair_00059 412 tok 8.27s
+[fuse C_random] pair_00060 441 tok 8.98s
+[fuse C_random] pair_00061 652 tok 12.95s
+[fuse C_random] pair_00062 603 tok 11.9s
+[fuse C_random] pair_00063 479 tok 9.47s
+[fuse C_random] pair_00064 648 tok 12.95s
+[fuse C_random] pair_00065 524 tok 10.59s
+[fuse C_random] pair_00066 473 tok 9.52s
+[fuse C_random] pair_00067 522 tok 10.43s
+[fuse C_random] pair_00068 401 tok 8.1s
+[fuse C_random] pair_00069 870 tok 17.07s
+[fuse C_random] pair_00070 597 tok 11.77s
+[fuse C_random] pair_00071 824 tok 16.17s
+[fuse C_random] pair_00072 845 tok 16.69s
+[fuse C_random] pair_00073 870 tok 18.11s
+[fuse C_random] pair_00074 477 tok 9.99s
+[fuse C_random] pair_00075 583 tok 12.73s
+[fuse C_random] pair_00076 525 tok 11.04s
+[fuse C_random] pair_00077 839 tok 16.79s
+[fuse C_random] pair_00078 615 tok 12.62s
+[fuse C_random] pair_00079 635 tok 13.21s
+[fuse C_random] pair_00080 975 tok 21.12s
+[fuse C_random] pair_00081 474 tok 9.56s
+[fuse C_random] pair_00082 668 tok 14.02s
+[fuse C_random] pair_00083 603 tok 12.6s
+[fuse C_random] pair_00084 511 tok 11.25s
+[fuse C_random] pair_00085 483 tok 9.99s
+[fuse C_random] pair_00086 598 tok 12.06s
+[fuse C_random] pair_00087 596 tok 12.54s
+[fuse C_random] pair_00088 599 tok 12.01s
+[fuse C_random] pair_00089 875 tok 17.39s
+[fuse C_random] pair_00090 472 tok 9.52s
+[fuse C_random] pair_00091 634 tok 12.61s
+[fuse C_random] pair_00092 563 tok 11.65s
+[fuse C_random] pair_00093 798 tok 17.06s
+[fuse C_random] pair_00094 626 tok 12.65s
+[fuse C_random] pair_00095 671 tok 13.39s
+[fuse C_random] pair_00096 568 tok 11.31s
+[fuse C_random] pair_00097 646 tok 12.77s
+[fuse C_random] pair_00098 480 tok 9.97s
+[fuse C_random] pair_00099 698 tok 13.71s
+[fuse D1_random] pair_00000 757 tok 15.07s
+[fuse D1_random] pair_00001 554 tok 10.99s
+[fuse D1_random] pair_00002 754 tok 14.88s
+[fuse D1_random] pair_00003 666 tok 13.15s
+[fuse D1_random] pair_00004 537 tok 10.64s
+[fuse D1_random] pair_00005 949 tok 19.04s
+[fuse D1_random] pair_00006 676 tok 13.23s
+[fuse D1_random] pair_00007 667 tok 13.26s
+[fuse D1_random] pair_00008 544 tok 10.84s
+[fuse D1_random] pair_00009 630 tok 12.4s
+[fuse D1_random] pair_00010 515 tok 10.34s
+[fuse D1_random] pair_00011 649 tok 12.99s
+[fuse D1_random] pair_00012 753 tok 15.07s
+[fuse D1_random] pair_00013 688 tok 13.54s
+[fuse D1_random] pair_00014 671 tok 13.31s
+[fuse D1_random] pair_00015 686 tok 13.4s
+[fuse D1_random] pair_00016 1052 tok 20.59s
+[fuse D1_random] pair_00017 580 tok 11.5s
+[fuse D1_random] pair_00018 711 tok 14.06s
+[fuse D1_random] pair_00019 723 tok 14.43s
+[fuse D1_random] pair_00020 813 tok 17.02s
+[fuse D1_random] pair_00021 552 tok 10.89s
+[fuse D1_random] pair_00022 415 tok 8.27s
+[fuse D1_random] pair_00023 444 tok 8.91s
+[fuse D1_random] pair_00024 664 tok 13.19s
+[fuse D1_random] pair_00025 834 tok 16.65s
+[fuse D1_random] pair_00026 590 tok 11.88s
+[fuse D1_random] pair_00027 713 tok 14.18s
+[fuse D1_random] pair_00028 1463 tok 29.14s
+[fuse D1_random] pair_00029 665 tok 13.12s
+[fuse D1_random] pair_00030 526 tok 10.51s
+[fuse D1_random] pair_00031 544 tok 10.81s
+[fuse D1_random] pair_00032 803 tok 15.84s
+[fuse D1_random] pair_00033 5 tok 0.82s
+[fuse D1_random] pair_00034 832 tok 16.32s
+[fuse D1_random] pair_00035 799 tok 16.27s
+[fuse D1_random] pair_00036 684 tok 14.42s
+[fuse D1_random] pair_00037 692 tok 14.14s
+[fuse D1_random] pair_00038 644 tok 12.73s
+[fuse D1_random] pair_00039 620 tok 12.25s
+[fuse D1_random] pair_00040 637 tok 12.47s
+[fuse D1_random] pair_00041 526 tok 10.43s
+[fuse D1_random] pair_00042 802 tok 15.78s
+[fuse D1_random] pair_00043 866 tok 17.14s
+[fuse D1_random] pair_00044 534 tok 10.82s
+[fuse D1_random] pair_00045 331 tok 6.75s
+[fuse D1_random] pair_00046 896 tok 17.73s
+[fuse D1_random] pair_00047 895 tok 17.46s
+[fuse D1_random] pair_00048 1073 tok 21.31s
+[fuse D1_random] pair_00049 846 tok 16.82s
+[fuse D1_random] pair_00050 879 tok 17.11s
+[fuse D1_random] pair_00051 692 tok 13.53s
+[fuse D1_random] pair_00052 827 tok 16.48s
+[fuse D1_random] pair_00053 771 tok 15.76s
+[fuse D1_random] pair_00054 618 tok 12.35s
+[fuse D1_random] pair_00055 903 tok 17.69s
+[fuse D1_random] pair_00056 880 tok 17.42s
+[fuse D1_random] pair_00057 689 tok 13.7s
+[fuse D1_random] pair_00058 705 tok 13.8s
+[fuse D1_random] pair_00059 573 tok 11.22s
+[fuse D1_random] pair_00060 721 tok 14.17s
+[fuse D1_random] pair_00061 705 tok 13.88s
+[fuse D1_random] pair_00062 494 tok 9.85s
+[fuse D1_random] pair_00063 484 tok 9.58s
+[fuse D1_random] pair_00064 1033 tok 20.25s
+[fuse D1_random] pair_00065 1080 tok 21.03s
+[fuse D1_random] pair_00066 798 tok 15.59s
+[fuse D1_random] pair_00067 534 tok 10.58s
+[fuse D1_random] pair_00068 490 tok 9.73s
+[fuse D1_random] pair_00069 666 tok 13.16s
+[fuse D1_random] pair_00070 684 tok 13.51s
+[fuse D1_random] pair_00071 652 tok 12.89s
+[fuse D1_random] pair_00072 879 tok 17.19s
+[fuse D1_random] pair_00073 947 tok 18.83s
+[fuse D1_random] pair_00074 528 tok 10.45s
+[fuse D1_random] pair_00075 578 tok 11.42s
+[fuse D1_random] pair_00076 1266 tok 24.41s
+[fuse D1_random] pair_00077 524 tok 10.43s
+[fuse D1_random] pair_00078 131 tok 3.03s
+[fuse D1_random] pair_00079 633 tok 12.53s
+[fuse D1_random] pair_00080 1135 tok 22.53s
+[fuse D1_random] pair_00081 777 tok 15.17s
+[fuse D1_random] pair_00082 1000 tok 19.94s
+[fuse D1_random] pair_00083 477 tok 9.84s
+[fuse D1_random] pair_00084 567 tok 11.26s
+[fuse D1_random] pair_00085 600 tok 12.09s
+[fuse D1_random] pair_00086 706 tok 14.02s
+[fuse D1_random] pair_00087 235 tok 5.1s
+[fuse D1_random] pair_00088 573 tok 11.31s
+[fuse D1_random] pair_00089 1058 tok 20.72s
+[fuse D1_random] pair_00090 497 tok 9.9s
+[fuse D1_random] pair_00091 658 tok 12.84s
+[fuse D1_random] pair_00092 873 tok 17.29s
+[fuse D1_random] pair_00093 530 tok 10.5s
+[fuse D1_random] pair_00094 656 tok 13.16s
+[fuse D1_random] pair_00095 790 tok 15.54s
+[fuse D1_random] pair_00096 760 tok 14.86s
+[fuse D1_random] pair_00097 679 tok 13.32s
+[fuse D1_random] pair_00098 579 tok 11.62s
+[fuse D1_random] pair_00099 627 tok 12.2s
+[fuse D2_random] pair_00000 529 tok 10.6s
+[fuse D2_random] pair_00001 772 tok 15.11s
+[fuse D2_random] pair_00002 943 tok 18.48s
+[fuse D2_random] pair_00003 500 tok 10.01s
+[fuse D2_random] pair_00004 522 tok 10.34s
+[fuse D2_random] pair_00005 1104 tok 22.03s
+[fuse D2_random] pair_00006 593 tok 11.79s
+[fuse D2_random] pair_00007 764 tok 14.92s
+[fuse D2_random] pair_00008 828 tok 16.26s
+[fuse D2_random] pair_00009 594 tok 11.73s
+[fuse D2_random] pair_00010 660 tok 13.35s
+[fuse D2_random] pair_00011 1060 tok 21.2s
+[fuse D2_random] pair_00012 767 tok 15.88s
+[fuse D2_random] pair_00013 692 tok 13.64s
+[fuse D2_random] pair_00014 817 tok 16.14s
+[fuse D2_random] pair_00015 562 tok 11.14s
+[fuse D2_random] pair_00016 1008 tok 19.81s
+[fuse D2_random] pair_00017 671 tok 13.27s
+[fuse D2_random] pair_00018 786 tok 15.53s
+[fuse D2_random] pair_00019 924 tok 18.25s
+[fuse D2_random] pair_00020 961 tok 19.98s
+[fuse D2_random] pair_00021 808 tok 15.82s
+[fuse D2_random] pair_00022 570 tok 11.27s
+[fuse D2_random] pair_00023 553 tok 11.03s
+[fuse D2_random] pair_00024 663 tok 13.18s
+[fuse D2_random] pair_00025 840 tok 16.75s
+[fuse D2_random] pair_00026 787 tok 15.69s
+[fuse D2_random] pair_00027 614 tok 12.43s
+[fuse D2_random] pair_00028 779 tok 15.43s
+[fuse D2_random] pair_00029 601 tok 11.94s
+[fuse D2_random] pair_00030 799 tok 15.7s
+[fuse D2_random] pair_00031 717 tok 14.13s
+[fuse D2_random] pair_00032 1026 tok 20.09s
+[fuse D2_random] pair_00033 466 tok 9.61s
+[fuse D2_random] pair_00034 886 tok 17.69s
+[fuse D2_random] pair_00035 764 tok 15.3s
+[fuse D2_random] pair_00036 876 tok 17.36s
+[fuse D2_random] pair_00037 874 tok 17.4s
+[fuse D2_random] pair_00038 915 tok 17.94s
+[fuse D2_random] pair_00039 287 tok 6.04s
+[fuse D2_random] pair_00040 626 tok 12.29s
+[fuse D2_random] pair_00041 922 tok 17.96s
+[fuse D2_random] pair_00042 669 tok 13.31s
+[fuse D2_random] pair_00043 905 tok 17.86s
+[fuse D2_random] pair_00044 835 tok 16.25s
+[fuse D2_random] pair_00045 549 tok 10.96s
+[fuse D2_random] pair_00046 652 tok 12.87s
+[fuse D2_random] pair_00047 678 tok 13.43s
+[fuse D2_random] pair_00048 1150 tok 22.68s
+[fuse D2_random] pair_00049 569 tok 11.45s
+[fuse D2_random] pair_00050 846 tok 16.52s
+[fuse D2_random] pair_00051 964 tok 18.77s
+[fuse D2_random] pair_00052 619 tok 12.38s
+[fuse D2_random] pair_00053 578 tok 11.61s
+[fuse D2_random] pair_00054 5 tok 0.86s
+[fuse D2_random] pair_00055 719 tok 14.1s
+[fuse D2_random] pair_00056 1120 tok 21.82s
+[fuse D2_random] pair_00057 676 tok 13.47s
+[fuse D2_random] pair_00058 859 tok 16.77s
+[fuse D2_random] pair_00059 503 tok 10.0s
+[fuse D2_random] pair_00060 699 tok 13.85s
+[fuse D2_random] pair_00061 1083 tok 21.1s
+[fuse D2_random] pair_00062 1211 tok 23.49s
+[fuse D2_random] pair_00063 527 tok 10.47s
+[fuse D2_random] pair_00064 735 tok 14.63s
+[fuse D2_random] pair_00065 954 tok 18.7s
+[fuse D2_random] pair_00066 990 tok 19.26s
+[fuse D2_random] pair_00067 674 tok 13.32s
+[fuse D2_random] pair_00068 652 tok 12.9s
+[fuse D2_random] pair_00069 782 tok 15.44s
+[fuse D2_random] pair_00070 491 tok 9.84s
+[fuse D2_random] pair_00071 943 tok 18.41s
+[fuse D2_random] pair_00072 735 tok 14.51s
+[fuse D2_random] pair_00073 829 tok 16.67s
+[fuse D2_random] pair_00074 528 tok 10.56s
+[fuse D2_random] pair_00075 1037 tok 20.15s
+[fuse D2_random] pair_00076 695 tok 13.73s
+[fuse D2_random] pair_00077 790 tok 15.59s
+[fuse D2_random] pair_00078 611 tok 12.06s
+[fuse D2_random] pair_00079 709 tok 14.0s
+[fuse D2_random] pair_00080 1568 tok 30.99s
+[fuse D2_random] pair_00081 773 tok 15.24s
+[fuse D2_random] pair_00082 966 tok 19.14s
+[fuse D2_random] pair_00083 690 tok 13.74s
+[fuse D2_random] pair_00084 715 tok 14.07s
+[fuse D2_random] pair_00085 589 tok 11.72s
+[fuse D2_random] pair_00086 658 tok 12.9s
+[fuse D2_random] pair_00087 1156 tok 22.51s
+[fuse D2_random] pair_00088 546 tok 10.92s
+[fuse D2_random] pair_00089 942 tok 18.51s
+[fuse D2_random] pair_00090 799 tok 15.65s
+[fuse D2_random] pair_00091 488 tok 9.79s
+[fuse D2_random] pair_00092 1020 tok 20.18s
+[fuse D2_random] pair_00093 655 tok 13.01s
+[fuse D2_random] pair_00094 433 tok 9.09s
+[fuse D2_random] pair_00095 749 tok 14.84s
+[fuse D2_random] pair_00096 634 tok 12.58s
+[fuse D2_random] pair_00097 627 tok 12.51s
+[fuse D2_random] pair_00098 846 tok 16.75s
+[fuse D2_random] pair_00099 533 tok 10.57s
+[fuse D3_random] pair_00000 902 tok 17.59s
+[fuse D3_random] pair_00001 943 tok 18.38s
+[fuse D3_random] pair_00002 993 tok 19.45s
+[fuse D3_random] pair_00003 600 tok 11.84s
+[fuse D3_random] pair_00004 603 tok 11.97s
+[fuse D3_random] pair_00005 768 tok 15.65s
+[fuse D3_random] pair_00006 622 tok 12.31s
+[fuse D3_random] pair_00007 596 tok 11.85s
+[fuse D3_random] pair_00008 1080 tok 21.11s
+[fuse D3_random] pair_00009 781 tok 15.36s
+[fuse D3_random] pair_00010 564 tok 11.36s
+[fuse D3_random] pair_00011 758 tok 15.13s
+[fuse D3_random] pair_00012 797 tok 16.02s
+[fuse D3_random] pair_00013 698 tok 13.74s
+[fuse D3_random] pair_00014 976 tok 19.09s
+[fuse D3_random] pair_00015 606 tok 11.89s
+[fuse D3_random] pair_00016 955 tok 18.78s
+[fuse D3_random] pair_00017 798 tok 15.68s
+[fuse D3_random] pair_00018 1004 tok 19.65s
+[fuse D3_random] pair_00019 712 tok 14.32s
+[fuse D3_random] pair_00020 916 tok 19.15s
+[fuse D3_random] pair_00021 700 tok 13.74s
+[fuse D3_random] pair_00022 543 tok 10.81s
+[fuse D3_random] pair_00023 752 tok 14.94s
+[fuse D3_random] pair_00024 754 tok 14.94s
+[fuse D3_random] pair_00025 813 tok 16.26s
+[fuse D3_random] pair_00026 1044 tok 20.53s
+[fuse D3_random] pair_00027 605 tok 12.17s
+[fuse D3_random] pair_00028 228 tok 5.03s
+[fuse D3_random] pair_00029 596 tok 11.83s
+[fuse D3_random] pair_00030 709 tok 13.92s
+[fuse D3_random] pair_00031 615 tok 12.23s
+[fuse D3_random] pair_00032 757 tok 15.01s
+[fuse D3_random] pair_00033 513 tok 10.47s
+[fuse D3_random] pair_00034 857 tok 16.84s
+[fuse D3_random] pair_00035 804 tok 16.02s
+[fuse D3_random] pair_00036 934 tok 18.48s
+[fuse D3_random] pair_00037 1001 tok 19.87s
+[fuse D3_random] pair_00038 593 tok 11.85s
+[fuse D3_random] pair_00039 633 tok 12.55s
+[fuse D3_random] pair_00040 644 tok 12.74s
+[fuse D3_random] pair_00041 578 tok 11.48s
+[fuse D3_random] pair_00042 494 tok 10.02s
+[fuse D3_random] pair_00043 668 tok 13.39s
+[fuse D3_random] pair_00044 543 tok 10.74s
+[fuse D3_random] pair_00045 5 tok 0.78s
+[fuse D3_random] pair_00046 700 tok 13.68s
+[fuse D3_random] pair_00047 881 tok 17.26s
+[fuse D3_random] pair_00048 788 tok 15.77s
+[fuse D3_random] pair_00049 607 tok 12.1s
+[fuse D3_random] pair_00050 636 tok 12.62s
+[fuse D3_random] pair_00051 611 tok 12.11s
+[fuse D3_random] pair_00052 711 tok 14.11s
+[fuse D3_random] pair_00053 760 tok 15.02s
+[fuse D3_random] pair_00054 706 tok 13.99s
+[fuse D3_random] pair_00055 960 tok 18.73s
+[fuse D3_random] pair_00056 690 tok 13.72s
+[fuse D3_random] pair_00057 574 tok 11.55s
+[fuse D3_random] pair_00058 1198 tok 23.11s
+[fuse D3_random] pair_00059 584 tok 11.51s
+[fuse D3_random] pair_00060 629 tok 12.52s
+[fuse D3_random] pair_00061 715 tok 14.15s
+[fuse D3_random] pair_00062 145 tok 3.39s
+[fuse D3_random] pair_00063 591 tok 11.6s
+[fuse D3_random] pair_00064 729 tok 14.54s
+[fuse D3_random] pair_00065 665 tok 13.21s
+[fuse D3_random] pair_00066 762 tok 14.95s
+[fuse D3_random] pair_00067 748 tok 14.7s
+[fuse D3_random] pair_00068 847 tok 16.52s
+[fuse D3_random] pair_00069 784 tok 15.46s
+[fuse D3_random] pair_00070 604 tok 11.99s
+[fuse D3_random] pair_00071 916 tok 17.94s
+[fuse D3_random] pair_00072 869 tok 17.18s
+[fuse D3_random] pair_00073 1057 tok 20.93s
+[fuse D3_random] pair_00074 686 tok 13.53s
+[fuse D3_random] pair_00075 614 tok 12.2s
+[fuse D3_random] pair_00076 901 tok 17.57s
+[fuse D3_random] pair_00077 583 tok 11.69s
+[fuse D3_random] pair_00078 803 tok 15.7s
+[fuse D3_random] pair_00079 651 tok 12.91s
+[fuse D3_random] pair_00080 1170 tok 23.27s
+[fuse D3_random] pair_00081 728 tok 14.37s
+[fuse D3_random] pair_00082 623 tok 12.65s
+[fuse D3_random] pair_00083 638 tok 12.77s
+[fuse D3_random] pair_00084 664 tok 13.12s
+[fuse D3_random] pair_00085 578 tok 11.52s
+[fuse D3_random] pair_00086 731 tok 14.24s
+[fuse D3_random] pair_00087 593 tok 11.88s
+[fuse D3_random] pair_00088 571 tok 11.38s
+[fuse D3_random] pair_00089 883 tok 17.34s
+[fuse D3_random] pair_00090 653 tok 12.95s
+[fuse D3_random] pair_00091 475 tok 9.51s
+[fuse D3_random] pair_00092 810 tok 16.15s
+[fuse D3_random] pair_00093 590 tok 11.74s
+[fuse D3_random] pair_00094 682 tok 13.68s
+[fuse D3_random] pair_00095 704 tok 14.0s
+[fuse D3_random] pair_00096 709 tok 13.99s
+[fuse D3_random] pair_00097 679 tok 13.5s
+[fuse D3_random] pair_00098 758 tok 15.08s
+[fuse D3_random] pair_00099 653 tok 12.83s
+[fuse D2_same_tag] pair_00000 640 tok 12.79s
+[fuse D2_same_tag] pair_00001 738 tok 14.42s
+[fuse D2_same_tag] pair_00002 600 tok 11.77s
+[fuse D2_same_tag] pair_00003 471 tok 9.47s
+[fuse D2_same_tag] pair_00004 811 tok 15.96s
+[fuse D2_same_tag] pair_00005 1183 tok 23.54s
+[fuse D2_same_tag] pair_00006 568 tok 11.42s
+[fuse D2_same_tag] pair_00007 206 tok 4.64s
+[fuse D2_same_tag] pair_00008 968 tok 18.81s
+[fuse D2_same_tag] pair_00009 578 tok 11.46s
+[fuse D2_same_tag] pair_00010 528 tok 10.57s
+[fuse D2_same_tag] pair_00011 1170 tok 22.87s
+[fuse D2_same_tag] pair_00012 550 tok 10.92s
+[fuse D2_same_tag] pair_00013 565 tok 11.21s
+[fuse D2_same_tag] pair_00014 767 tok 15.13s
+[fuse D2_same_tag] pair_00015 567 tok 11.27s
+[fuse D2_same_tag] pair_00016 866 tok 17.08s
+[fuse D2_same_tag] pair_00017 744 tok 14.59s
+[fuse D2_same_tag] pair_00018 750 tok 14.8s
+[fuse D2_same_tag] pair_00019 702 tok 13.95s
+[fuse D2_same_tag] pair_00020 889 tok 18.56s
+[fuse D2_same_tag] pair_00021 976 tok 19.12s
+[fuse D2_same_tag] pair_00022 925 tok 18.12s
+[fuse D2_same_tag] pair_00023 566 tok 11.43s
+[fuse D2_same_tag] pair_00024 752 tok 14.89s
+[fuse D2_same_tag] pair_00025 1057 tok 20.62s
+[fuse D2_same_tag] pair_00026 506 tok 10.17s
+[fuse D2_same_tag] pair_00027 663 tok 13.27s
+[fuse D2_same_tag] pair_00028 608 tok 12.06s
+[fuse D2_same_tag] pair_00029 765 tok 15.03s
+[fuse D2_same_tag] pair_00030 732 tok 14.42s
+[fuse D2_same_tag] pair_00031 677 tok 13.36s
+[fuse D2_same_tag] pair_00032 746 tok 14.85s
+[fuse D2_same_tag] pair_00033 1150 tok 22.44s
+[fuse D2_same_tag] pair_00034 776 tok 15.23s
+[fuse D2_same_tag] pair_00035 1291 tok 25.51s
+[fuse D2_same_tag] pair_00036 624 tok 12.37s
+[fuse D2_same_tag] pair_00037 910 tok 18.35s
+[fuse D2_same_tag] pair_00038 573 tok 11.43s
+[fuse D2_same_tag] pair_00039 706 tok 13.72s
+[fuse D2_same_tag] pair_00040 580 tok 11.44s
+[fuse D2_same_tag] pair_00041 681 tok 13.47s
+[fuse D2_same_tag] pair_00042 544 tok 10.77s
+[fuse D2_same_tag] pair_00043 572 tok 11.49s
+[fuse D2_same_tag] pair_00044 684 tok 13.3s
+[fuse D2_same_tag] pair_00045 750 tok 14.63s
+[fuse D2_same_tag] pair_00046 659 tok 13.04s
+[fuse D2_same_tag] pair_00047 561 tok 11.26s
+[fuse D2_same_tag] pair_00048 897 tok 17.84s
+[fuse D2_same_tag] pair_00049 522 tok 10.37s
+[fuse D2_same_tag] pair_00050 838 tok 16.41s
+[fuse D2_same_tag] pair_00051 767 tok 15.06s
+[fuse D2_same_tag] pair_00052 680 tok 13.45s
+[fuse D2_same_tag] pair_00053 703 tok 13.9s
+[fuse D2_same_tag] pair_00054 709 tok 13.94s
+[fuse D2_same_tag] pair_00055 783 tok 15.18s
+[fuse D2_same_tag] pair_00056 1079 tok 21.2s
+[fuse D2_same_tag] pair_00057 705 tok 14.02s
+[fuse D2_same_tag] pair_00058 699 tok 13.76s
+[fuse D2_same_tag] pair_00059 634 tok 12.43s
+[fuse D2_same_tag] pair_00060 777 tok 15.24s
+[fuse D2_same_tag] pair_00061 1004 tok 19.48s
+[fuse D2_same_tag] pair_00062 552 tok 10.94s
+[fuse D2_same_tag] pair_00063 822 tok 16.25s
+[fuse D2_same_tag] pair_00064 699 tok 13.88s
+[fuse D2_same_tag] pair_00065 238 tok 5.17s
+[fuse D2_same_tag] pair_00066 777 tok 15.1s
+[fuse D2_same_tag] pair_00067 837 tok 16.3s
+[fuse D2_same_tag] pair_00068 685 tok 13.58s
+[fuse D2_same_tag] pair_00069 970 tok 18.88s
+[fuse D2_same_tag] pair_00070 690 tok 13.84s
+[fuse D2_same_tag] pair_00071 1079 tok 21.01s
+[fuse D2_same_tag] pair_00072 1118 tok 22.06s
+[fuse D2_same_tag] pair_00073 841 tok 17.04s
+[fuse D2_same_tag] pair_00074 490 tok 9.86s
+[fuse D2_same_tag] pair_00075 526 tok 10.49s
+[fuse D2_same_tag] pair_00076 501 tok 9.92s
+[fuse D2_same_tag] pair_00077 748 tok 14.79s
+[fuse D2_same_tag] pair_00078 1044 tok 20.3s
+[fuse D2_same_tag] pair_00079 613 tok 12.27s
+[fuse D2_same_tag] pair_00080 943 tok 18.75s
+[fuse D2_same_tag] pair_00081 841 tok 16.55s
+[fuse D2_same_tag] pair_00082 788 tok 15.4s
+[fuse D2_same_tag] pair_00083 735 tok 14.55s
+[fuse D2_same_tag] pair_00084 599 tok 11.88s
+[fuse D2_same_tag] pair_00085 812 tok 16.02s
+[fuse D2_same_tag] pair_00086 638 tok 12.66s
+[fuse D2_same_tag] pair_00087 599 tok 11.96s
+[fuse D2_same_tag] pair_00088 680 tok 13.33s
+[fuse D2_same_tag] pair_00089 771 tok 15.1s
+[fuse D2_same_tag] pair_00090 691 tok 13.53s
+[fuse D2_same_tag] pair_00091 588 tok 11.57s
+[fuse D2_same_tag] pair_00092 629 tok 12.65s
+[fuse D2_same_tag] pair_00093 662 tok 12.98s
+[fuse D2_same_tag] pair_00094 596 tok 11.73s
+[fuse D2_same_tag] pair_00095 73 tok 2.01s
+[fuse D2_same_tag] pair_00096 1062 tok 20.49s
+[fuse D2_same_tag] pair_00097 601 tok 12.06s
+[fuse D2_same_tag] pair_00098 825 tok 16.35s
+[fuse D2_same_tag] pair_00099 544 tok 10.76s
+[fuse D2_band] pair_00000 715 tok 13.94s
+[fuse D2_band] pair_00001 906 tok 17.51s
+[fuse D2_band] pair_00002 707 tok 13.93s
+[fuse D2_band] pair_00003 631 tok 12.39s
+[fuse D2_band] pair_00004 1054 tok 20.38s
+[fuse D2_band] pair_00005 1169 tok 23.72s
+[fuse D2_band] pair_00006 719 tok 13.89s
+[fuse D2_band] pair_00007 784 tok 15.45s
+[fuse D2_band] pair_00008 736 tok 14.67s
+[fuse D2_band] pair_00009 896 tok 17.55s
+[fuse D2_band] pair_00010 815 tok 16.09s
+[fuse D2_band] pair_00011 1047 tok 20.35s
+[fuse D2_band] pair_00012 871 tok 17.01s
+[fuse D2_band] pair_00013 881 tok 17.32s
+[fuse D2_band] pair_00014 721 tok 14.43s
+[fuse D2_band] pair_00015 697 tok 13.74s
+[fuse D2_band] pair_00016 5 tok 0.87s
+[fuse D2_band] pair_00017 693 tok 13.7s
+[fuse D2_band] pair_00018 636 tok 12.71s
+[fuse D2_band] pair_00019 1224 tok 23.93s
+[fuse D2_band] pair_00020 1017 tok 20.96s
+[fuse D2_band] pair_00021 577 tok 11.39s
+[fuse D2_band] pair_00022 839 tok 16.62s
+[fuse D2_band] pair_00023 750 tok 14.86s
+[fuse D2_band] pair_00024 836 tok 16.45s
+[fuse D2_band] pair_00025 984 tok 19.75s
+[fuse D2_band] pair_00026 635 tok 12.67s
+[fuse D2_band] pair_00027 614 tok 12.31s
+[fuse D2_band] pair_00028 720 tok 14.12s
+[fuse D2_band] pair_00029 704 tok 13.82s
+[fuse D2_band] pair_00030 730 tok 14.48s
+[fuse D2_band] pair_00031 870 tok 16.97s
+[fuse D2_band] pair_00032 971 tok 19.16s
+[fuse D2_band] pair_00033 923 tok 18.26s
+[fuse D2_band] pair_00034 866 tok 16.99s
+[fuse D2_band] pair_00035 837 tok 16.72s
+[fuse D2_band] pair_00036 783 tok 15.37s
+[fuse D2_band] pair_00037 715 tok 14.28s
+[fuse D2_band] pair_00038 812 tok 16.22s
+[fuse D2_band] pair_00039 821 tok 16.1s
+[fuse D2_band] pair_00040 493 tok 9.82s
+[fuse D2_band] pair_00041 619 tok 12.16s
+[fuse D2_band] pair_00042 628 tok 12.52s
+[fuse D2_band] pair_00043 634 tok 12.67s
+[fuse D2_band] pair_00044 963 tok 18.76s
+[fuse D2_band] pair_00045 634 tok 12.45s
+[fuse D2_band] pair_00046 589 tok 11.59s
+[fuse D2_band] pair_00047 594 tok 11.81s
+[fuse D2_band] pair_00048 893 tok 17.6s
+[fuse D2_band] pair_00049 226 tok 4.95s
+[fuse D2_band] pair_00050 868 tok 17.01s
+[fuse D2_band] pair_00051 769 tok 15.18s
+[fuse D2_band] pair_00052 833 tok 16.44s
+[fuse D2_band] pair_00053 805 tok 15.83s
+[fuse D2_band] pair_00054 560 tok 11.17s
+[fuse D2_band] pair_00055 693 tok 13.64s
+[fuse D2_band] pair_00056 317 tok 6.82s
+[fuse D2_band] pair_00057 711 tok 13.91s
+[fuse D2_band] pair_00058 1220 tok 23.55s
+[fuse D2_band] pair_00059 696 tok 13.75s
+[fuse D2_band] pair_00060 666 tok 13.09s
+[fuse D2_band] pair_00061 731 tok 14.41s
+[fuse D2_band] pair_00062 631 tok 12.47s
+[fuse D2_band] pair_00063 453 tok 9.01s
+[fuse D2_band] pair_00064 924 tok 18.48s
+[fuse D2_band] pair_00065 1042 tok 20.34s
+[fuse D2_band] pair_00066 645 tok 12.75s
+[fuse D2_band] pair_00067 707 tok 13.82s
+[fuse D2_band] pair_00068 598 tok 11.87s
+[fuse D2_band] pair_00069 604 tok 11.94s
+[fuse D2_band] pair_00070 610 tok 12.11s
+[fuse D2_band] pair_00071 638 tok 12.71s
+[fuse D2_band] pair_00072 891 tok 17.86s
+[fuse D2_band] pair_00073 1262 tok 25.02s
+[fuse D2_band] pair_00074 1068 tok 20.85s
+[fuse D2_band] pair_00075 502 tok 9.98s
+[fuse D2_band] pair_00076 548 tok 10.93s
+[fuse D2_band] pair_00077 657 tok 13.09s
+[fuse D2_band] pair_00078 585 tok 11.52s
+[fuse D2_band] pair_00079 886 tok 17.51s
+[fuse D2_band] pair_00080 1085 tok 21.58s
+[fuse D2_band] pair_00081 615 tok 12.22s
+[fuse D2_band] pair_00082 785 tok 15.49s
+[fuse D2_band] pair_00083 667 tok 13.3s
+[fuse D2_band] pair_00084 618 tok 12.2s
+[fuse D2_band] pair_00085 425 tok 8.8s
+[fuse D2_band] pair_00086 675 tok 13.3s
+[fuse D2_band] pair_00087 984 tok 19.4s
+[fuse D2_band] pair_00088 590 tok 11.68s
+[fuse D2_band] pair_00089 732 tok 14.48s
+[fuse D2_band] pair_00090 573 tok 11.42s
+[fuse D2_band] pair_00091 585 tok 11.5s
+[fuse D2_band] pair_00092 1121 tok 22.14s
+[fuse D2_band] pair_00093 5 tok 0.75s
+[fuse D2_band] pair_00094 719 tok 14.2s
+[fuse D2_band] pair_00095 867 tok 17.15s
+[fuse D2_band] pair_00096 673 tok 13.28s
+[fuse D2_band] pair_00097 880 tok 17.43s
+[fuse D2_band] pair_00098 796 tok 15.87s
+[fuse D2_band] pair_00099 625 tok 12.26s
+== formalize
+[formalize C_random] pair_00000 1011 tok 39.19s
+[formalize C_random] pair_00001 633 tok 14.57s
+[formalize C_random] pair_00002 1575 tok 35.32s
+[formalize C_random] pair_00003 712 tok 16.15s
+[formalize C_random] pair_00004 8192 tok 191.18s
+[formalize C_random] pair_00005 1931 tok 44.05s
+[formalize C_random] pair_00006 937 tok 21.03s
+[formalize C_random] pair_00007 1250 tok 27.89s
+[formalize C_random] pair_00008 728 tok 16.53s
+[formalize C_random] pair_00009 672 tok 15.25s
+[formalize C_random] pair_00010 1000 tok 22.42s
+[formalize C_random] pair_00011 1711 tok 38.51s
+[formalize C_random] pair_00012 678 tok 15.68s
+[formalize C_random] pair_00013 1433 tok 32.04s
+[formalize C_random] pair_00014 1589 tok 35.65s
+[formalize C_random] pair_00015 1169 tok 26.06s
+[formalize C_random] pair_00016 1229 tok 27.94s
+[formalize C_random] pair_00017 1656 tok 37.12s
+[formalize C_random] pair_00018 518 tok 12.57s
+[formalize C_random] pair_00019 684 tok 15.57s
+[formalize C_random] pair_00020 613 tok 14.83s
+[formalize C_random] pair_00021 1020 tok 22.96s
+[formalize C_random] pair_00022 898 tok 20.13s
+[formalize C_random] pair_00023 710 tok 16.09s
+[formalize C_random] pair_00024 2108 tok 47.25s
+[formalize C_random] pair_00025 2091 tok 47.43s
+[formalize C_random] pair_00026 641 tok 14.52s
+[formalize C_random] pair_00027 911 tok 20.54s
+[formalize C_random] pair_00028 606 tok 14.07s
+[formalize C_random] pair_00029 1414 tok 31.78s
+[formalize C_random] pair_00030 629 tok 14.77s
+[formalize C_random] pair_00031 2721 tok 60.91s
+[formalize C_random] pair_00032 1382 tok 31.23s
+[formalize C_random] pair_00033 652 tok 15.24s
+[formalize C_random] pair_00034 2008 tok 45.35s
+[formalize C_random] pair_00035 1908 tok 42.86s
+[formalize C_random] pair_00036 927 tok 21.32s
+[formalize C_random] pair_00037 1924 tok 43.73s
+[formalize C_random] pair_00038 712 tok 16.21s
+[formalize C_random] pair_00039 1176 tok 26.58s
+[formalize C_random] pair_00040 785 tok 18.32s
+[formalize C_random] pair_00041 760 tok 17.48s
+[formalize C_random] pair_00042 829 tok 18.86s
+[formalize C_random] pair_00043 939 tok 21.32s
+[formalize C_random] pair_00044 586 tok 13.3s
+[formalize C_random] pair_00045 1471 tok 32.86s
+[formalize C_random] pair_00046 631 tok 14.3s
+[formalize C_random] pair_00047 716 tok 16.55s
+[formalize C_random] pair_00048 912 tok 20.86s
+[formalize C_random] pair_00049 905 tok 20.43s
+[formalize C_random] pair_00050 904 tok 20.4s
+[formalize C_random] pair_00051 1129 tok 25.33s
+[formalize C_random] pair_00052 1030 tok 23.16s
+[formalize C_random] pair_00053 599 tok 13.93s
+[formalize C_random] pair_00054 1905 tok 43.76s
+[formalize C_random] pair_00055 2417 tok 54.45s
+[formalize C_random] pair_00056 773 tok 17.95s
+[formalize C_random] pair_00057 1032 tok 23.42s
+[formalize C_random] pair_00058 701 tok 16.08s
+[formalize C_random] pair_00059 625 tok 14.09s
+[formalize C_random] pair_00060 655 tok 14.76s
+[formalize C_random] pair_00061 706 tok 16.02s
+[formalize C_random] pair_00062 733 tok 16.59s
+[formalize C_random] pair_00063 842 tok 18.95s
+[formalize C_random] pair_00064 1235 tok 27.8s
+[formalize C_random] pair_00065 1062 tok 24.01s
+[formalize C_random] pair_00066 808 tok 18.14s
+[formalize C_random] pair_00067 795 tok 17.9s
+[formalize C_random] pair_00068 593 tok 13.52s
+[formalize C_random] pair_00069 1510 tok 34.21s
+[formalize C_random] pair_00070 869 tok 19.62s
+[formalize C_random] pair_00071 823 tok 19.06s
+[formalize C_random] pair_00072 1564 tok 35.24s
+[formalize C_random] pair_00073 678 tok 16.06s
+[formalize C_random] pair_00074 695 tok 15.71s
+[formalize C_random] pair_00075 714 tok 16.35s
+[formalize C_random] pair_00076 703 tok 15.86s
+[formalize C_random] pair_00077 1533 tok 34.63s
+[formalize C_random] pair_00078 1082 tok 24.98s
+[formalize C_random] pair_00079 747 tok 17.09s
+[formalize C_random] pair_00080 869 tok 20.51s
+[formalize C_random] pair_00081 663 tok 15.07s
+[formalize C_random] pair_00082 1619 tok 36.31s
+[formalize C_random] pair_00083 642 tok 14.67s
+[formalize C_random] pair_00084 767 tok 17.39s
+[formalize C_random] pair_00085 710 tok 16.08s
+[formalize C_random] pair_00086 784 tok 17.63s
+[formalize C_random] pair_00087 1008 tok 22.84s
+[formalize C_random] pair_00088 855 tok 19.29s
+[formalize C_random] pair_00089 856 tok 19.72s
+[formalize C_random] pair_00090 715 tok 16.21s
+[formalize C_random] pair_00091 693 tok 15.62s
+[formalize C_random] pair_00092 742 tok 16.91s
+[formalize C_random] pair_00093 840 tok 18.93s
+[formalize C_random] pair_00094 678 tok 15.42s
+[formalize C_random] pair_00095 672 tok 15.42s
+[formalize C_random] pair_00096 851 tok 19.18s
+[formalize C_random] pair_00097 695 tok 15.77s
+[formalize C_random] pair_00098 708 tok 16.01s
+[formalize C_random] pair_00099 1083 tok 24.37s
+[formalize D1_random] pair_00000 688 tok 15.69s
+[formalize D1_random] pair_00001 2268 tok 50.96s
+[formalize D1_random] pair_00002 1664 tok 38.86s
+[formalize D1_random] pair_00003 813 tok 19.09s
+[formalize D1_random] pair_00004 1017 tok 22.73s
+[formalize D1_random] pair_00005 763 tok 17.75s
+[formalize D1_random] pair_00006 651 tok 14.69s
+[formalize D1_random] pair_00007 1315 tok 30.61s
+[formalize D1_random] pair_00008 1446 tok 32.42s
+[formalize D1_random] pair_00009 686 tok 15.59s
+[formalize D1_random] pair_00010 1475 tok 33.01s
+[formalize D1_random] pair_00011 1964 tok 44.19s
+[formalize D1_random] pair_00012 1085 tok 25.87s
+[formalize D1_random] pair_00013 696 tok 15.96s
+[formalize D1_random] pair_00014 673 tok 15.52s
+[formalize D1_random] pair_00015 1518 tok 33.78s
+[formalize D1_random] pair_00016 726 tok 17.21s
+[formalize D1_random] pair_00017 597 tok 13.61s
+[formalize D1_random] pair_00018 1056 tok 24.99s
+[formalize D1_random] pair_00019 809 tok 18.53s
+[formalize D1_random] pair_00020 2308 tok 52.13s
+[formalize D1_random] pair_00021 1670 tok 37.46s
+[formalize D1_random] pair_00022 715 tok 16.77s
+[formalize D1_random] pair_00023 788 tok 18.1s
+[formalize D1_random] pair_00024 993 tok 22.73s
+[formalize D1_random] pair_00025 715 tok 16.25s
+[formalize D1_random] pair_00026 1052 tok 23.78s
+[formalize D1_random] pair_00027 1987 tok 44.66s
+[formalize D1_random] pair_00028 692 tok 15.73s
+[formalize D1_random] pair_00029 764 tok 17.24s
+[formalize D1_random] pair_00030 678 tok 16.18s
+[formalize D1_random] pair_00031 1534 tok 34.31s
+[formalize D1_random] pair_00032 855 tok 19.65s
+[formalize D1_random] pair_00033 293 tok 6.67s
+[formalize D1_random] pair_00034 649 tok 14.85s
+[formalize D1_random] pair_00035 1669 tok 37.25s
+[formalize D1_random] pair_00036 591 tok 13.78s
+[formalize D1_random] pair_00037 712 tok 16.24s
+[formalize D1_random] pair_00038 650 tok 15.87s
+[formalize D1_random] pair_00039 1116 tok 25.04s
+[formalize D1_random] pair_00040 652 tok 14.74s
+[formalize D1_random] pair_00041 549 tok 12.98s
+[formalize D1_random] pair_00042 523 tok 12.39s
+[formalize D1_random] pair_00043 1000 tok 22.82s
+[formalize D1_random] pair_00044 711 tok 16.06s
+[formalize D1_random] pair_00045 1058 tok 24.07s
+[formalize D1_random] pair_00046 1164 tok 26.13s
+[formalize D1_random] pair_00047 769 tok 17.39s
+[formalize D1_random] pair_00048 1060 tok 24.17s
+[formalize D1_random] pair_00049 2087 tok 46.61s
+[formalize D1_random] pair_00050 1778 tok 40.09s
+[formalize D1_random] pair_00051 718 tok 16.29s
+[formalize D1_random] pair_00052 1029 tok 24.81s
+[formalize D1_random] pair_00053 952 tok 21.7s
+[formalize D1_random] pair_00054 1142 tok 25.6s
+[formalize D1_random] pair_00055 2437 tok 54.57s
+[formalize D1_random] pair_00056 1286 tok 30.79s
+[formalize D1_random] pair_00057 1676 tok 37.8s
+[formalize D1_random] pair_00058 1648 tok 39.15s
+[formalize D1_random] pair_00059 964 tok 21.72s
+[formalize D1_random] pair_00060 1395 tok 31.52s
+[formalize D1_random] pair_00061 614 tok 15.11s
+[formalize D1_random] pair_00062 738 tok 17.41s
+[formalize D1_random] pair_00063 672 tok 15.21s
+[formalize D1_random] pair_00064 1680 tok 37.96s
+[formalize D1_random] pair_00065 1654 tok 37.16s
+[formalize D1_random] pair_00066 1068 tok 23.97s
+[formalize D1_random] pair_00067 887 tok 19.86s
+[formalize D1_random] pair_00068 1002 tok 22.41s
+[formalize D1_random] pair_00069 760 tok 17.34s
+[formalize D1_random] pair_00070 1360 tok 30.36s
+[formalize D1_random] pair_00071 1984 tok 44.37s
+[formalize D1_random] pair_00072 818 tok 18.78s
+[formalize D1_random] pair_00073 877 tok 20.01s
+[formalize D1_random] pair_00074 1077 tok 24.16s
+[formalize D1_random] pair_00075 583 tok 13.32s
+[formalize D1_random] pair_00076 802 tok 18.45s
+[formalize D1_random] pair_00077 990 tok 22.93s
+[formalize D1_random] pair_00078 2305 tok 51.37s
+[formalize D1_random] pair_00079 1212 tok 27.34s
+[formalize D1_random] pair_00080 1545 tok 35.17s
+[formalize D1_random] pair_00081 1407 tok 31.45s
+[formalize D1_random] pair_00082 597 tok 13.71s
+[formalize D1_random] pair_00083 806 tok 18.17s
+[formalize D1_random] pair_00084 2032 tok 45.44s
+[formalize D1_random] pair_00085 714 tok 16.16s
+[formalize D1_random] pair_00086 748 tok 16.79s
+[formalize D1_random] pair_00087 1108 tok 25.0s
+[formalize D1_random] pair_00088 1138 tok 25.4s
+[formalize D1_random] pair_00089 1049 tok 23.98s
+[formalize D1_random] pair_00090 762 tok 17.25s
+[formalize D1_random] pair_00091 1411 tok 31.4s
+[formalize D1_random] pair_00092 2207 tok 49.69s
+[formalize D1_random] pair_00093 1754 tok 40.13s
+[formalize D1_random] pair_00094 876 tok 20.18s
+[formalize D1_random] pair_00095 924 tok 20.96s
+[formalize D1_random] pair_00096 626 tok 14.26s
+[formalize D1_random] pair_00097 882 tok 20.05s
+[formalize D1_random] pair_00098 625 tok 14.16s
+[formalize D1_random] pair_00099 611 tok 13.88s
+[formalize D2_random] pair_00000 1933 tok 43.07s
+[formalize D2_random] pair_00001 768 tok 17.38s
+[formalize D2_random] pair_00002 1738 tok 39.14s
+[formalize D2_random] pair_00003 649 tok 14.77s
+[formalize D2_random] pair_00004 751 tok 17.48s
+[formalize D2_random] pair_00005 746 tok 17.31s
+[formalize D2_random] pair_00006 739 tok 16.59s
+[formalize D2_random] pair_00007 678 tok 15.38s
+[formalize D2_random] pair_00008 819 tok 18.66s
+[formalize D2_random] pair_00009 631 tok 14.37s
+[formalize D2_random] pair_00010 688 tok 15.63s
+[formalize D2_random] pair_00011 776 tok 17.69s
+[formalize D2_random] pair_00012 1240 tok 29.34s
+[formalize D2_random] pair_00013 825 tok 18.67s
+[formalize D2_random] pair_00014 1755 tok 39.51s
+[formalize D2_random] pair_00015 607 tok 13.9s
+[formalize D2_random] pair_00016 566 tok 12.87s
+[formalize D2_random] pair_00017 772 tok 17.46s
+[formalize D2_random] pair_00018 823 tok 18.85s
+[formalize D2_random] pair_00019 2437 tok 54.85s
+[formalize D2_random] pair_00020 867 tok 20.02s
+[formalize D2_random] pair_00021 578 tok 13.27s
+[formalize D2_random] pair_00022 581 tok 14.09s
+[formalize D2_random] pair_00023 871 tok 19.57s
+[formalize D2_random] pair_00024 953 tok 21.63s
+[formalize D2_random] pair_00025 728 tok 16.58s
+[formalize D2_random] pair_00026 1335 tok 30.08s
+[formalize D2_random] pair_00027 1692 tok 37.83s
+[formalize D2_random] pair_00028 1029 tok 23.34s
+[formalize D2_random] pair_00029 633 tok 15.37s
+[formalize D2_random] pair_00030 626 tok 14.25s
+[formalize D2_random] pair_00031 826 tok 18.76s
+[formalize D2_random] pair_00032 1100 tok 24.86s
+[formalize D2_random] pair_00033 905 tok 21.03s
+[formalize D2_random] pair_00034 751 tok 17.27s
+[formalize D2_random] pair_00035 1287 tok 28.9s
+[formalize D2_random] pair_00036 1568 tok 35.52s
+[formalize D2_random] pair_00037 1061 tok 24.02s
+[formalize D2_random] pair_00038 1130 tok 25.46s
+[formalize D2_random] pair_00039 1545 tok 34.82s
+[formalize D2_random] pair_00040 688 tok 15.51s
+[formalize D2_random] pair_00041 629 tok 14.32s
+[formalize D2_random] pair_00042 744 tok 17.0s
+[formalize D2_random] pair_00043 684 tok 15.53s
+[formalize D2_random] pair_00044 601 tok 13.68s
+[formalize D2_random] pair_00045 1245 tok 27.8s
+[formalize D2_random] pair_00046 800 tok 17.93s
+[formalize D2_random] pair_00047 699 tok 15.87s
+[formalize D2_random] pair_00048 1728 tok 39.05s
+[formalize D2_random] pair_00049 2854 tok 63.86s
+[formalize D2_random] pair_00050 915 tok 20.79s
+[formalize D2_random] pair_00051 1032 tok 23.43s
+[formalize D2_random] pair_00052 636 tok 14.49s
+[formalize D2_random] pair_00053 1196 tok 26.71s
+[formalize D2_random] pair_00054 0 tok 2.26s
+[formalize D2_random] pair_00055 1062 tok 24.37s
+[formalize D2_random] pair_00056 851 tok 19.5s
+[formalize D2_random] pair_00057 783 tok 17.86s
+[formalize D2_random] pair_00058 756 tok 17.0s
+[formalize D2_random] pair_00059 620 tok 14.0s
+[formalize D2_random] pair_00060 1163 tok 25.97s
+[formalize D2_random] pair_00061 1423 tok 31.82s
+[formalize D2_random] pair_00062 1611 tok 36.29s
+[formalize D2_random] pair_00063 715 tok 16.03s
+[formalize D2_random] pair_00064 1051 tok 23.67s
+[formalize D2_random] pair_00065 1656 tok 37.14s
+[formalize D2_random] pair_00066 811 tok 18.21s
+[formalize D2_random] pair_00067 1040 tok 23.21s
+[formalize D2_random] pair_00068 746 tok 17.97s
+[formalize D2_random] pair_00069 731 tok 16.82s
+[formalize D2_random] pair_00070 1146 tok 26.39s
+[formalize D2_random] pair_00071 897 tok 20.38s
+[formalize D2_random] pair_00072 1453 tok 32.75s
+[formalize D2_random] pair_00073 866 tok 20.08s
+[formalize D2_random] pair_00074 748 tok 16.94s
+[formalize D2_random] pair_00075 660 tok 15.05s
+[formalize D2_random] pair_00076 1795 tok 39.94s
+[formalize D2_random] pair_00077 701 tok 15.89s
+[formalize D2_random] pair_00078 1519 tok 33.92s
+[formalize D2_random] pair_00079 811 tok 18.31s
+[formalize D2_random] pair_00080 2453 tok 55.59s
+[formalize D2_random] pair_00081 977 tok 22.03s
+[formalize D2_random] pair_00082 663 tok 15.34s
+[formalize D2_random] pair_00083 709 tok 16.15s
+[formalize D2_random] pair_00084 893 tok 20.09s
+[formalize D2_random] pair_00085 953 tok 21.41s
+[formalize D2_random] pair_00086 610 tok 13.79s
+[formalize D2_random] pair_00087 1044 tok 23.59s
+[formalize D2_random] pair_00088 630 tok 14.21s
+[formalize D2_random] pair_00089 508 tok 11.32s
+[formalize D2_random] pair_00090 644 tok 14.84s
+[formalize D2_random] pair_00091 704 tok 15.83s
+[formalize D2_random] pair_00092 968 tok 21.92s
+[formalize D2_random] pair_00093 667 tok 16.25s
+[formalize D2_random] pair_00094 552 tok 12.63s
+[formalize D2_random] pair_00095 8192 tok 190.63s
+[formalize D2_random] pair_00096 889 tok 20.25s
+[formalize D2_random] pair_00097 823 tok 18.72s
+[formalize D2_random] pair_00098 657 tok 14.92s
+[formalize D2_random] pair_00099 683 tok 15.48s
+[formalize D3_random] pair_00000 741 tok 16.79s
+[formalize D3_random] pair_00001 2306 tok 51.82s
+[formalize D3_random] pair_00002 1877 tok 42.16s
+[formalize D3_random] pair_00003 810 tok 19.3s
+[formalize D3_random] pair_00004 652 tok 14.77s
+[formalize D3_random] pair_00005 913 tok 20.79s
+[formalize D3_random] pair_00006 926 tok 20.73s
+[formalize D3_random] pair_00007 1085 tok 24.35s
+[formalize D3_random] pair_00008 696 tok 16.34s
+[formalize D3_random] pair_00009 776 tok 17.59s
+[formalize D3_random] pair_00010 1134 tok 25.43s
+[formalize D3_random] pair_00011 1533 tok 34.4s
+[formalize D3_random] pair_00012 1214 tok 27.83s
+[formalize D3_random] pair_00013 826 tok 18.79s
+[formalize D3_random] pair_00014 1612 tok 36.32s
+[formalize D3_random] pair_00015 732 tok 16.48s
+[formalize D3_random] pair_00016 1009 tok 22.9s
+[formalize D3_random] pair_00017 615 tok 14.03s
+[formalize D3_random] pair_00018 863 tok 21.68s
+[formalize D3_random] pair_00019 617 tok 14.12s
+[formalize D3_random] pair_00020 908 tok 20.82s
+[formalize D3_random] pair_00021 604 tok 13.77s
+[formalize D3_random] pair_00022 1150 tok 25.9s
+[formalize D3_random] pair_00023 1672 tok 37.24s
+[formalize D3_random] pair_00024 736 tok 16.91s
+[formalize D3_random] pair_00025 825 tok 18.96s
+[formalize D3_random] pair_00026 725 tok 16.84s
+[formalize D3_random] pair_00027 1673 tok 37.6s
+[formalize D3_random] pair_00028 630 tok 14.55s
+[formalize D3_random] pair_00029 870 tok 20.57s
+[formalize D3_random] pair_00030 625 tok 14.18s
+[formalize D3_random] pair_00031 779 tok 17.57s
+[formalize D3_random] pair_00032 615 tok 15.45s
+[formalize D3_random] pair_00033 1844 tok 42.02s
+[formalize D3_random] pair_00034 761 tok 17.44s
+[formalize D3_random] pair_00035 1024 tok 23.23s
+[formalize D3_random] pair_00036 1076 tok 24.76s
+[formalize D3_random] pair_00037 1797 tok 40.61s
+[formalize D3_random] pair_00038 936 tok 22.12s
+[formalize D3_random] pair_00039 1309 tok 29.24s
+[formalize D3_random] pair_00040 601 tok 14.48s
+[formalize D3_random] pair_00041 784 tok 18.63s
+[formalize D3_random] pair_00042 1279 tok 28.6s
+[formalize D3_random] pair_00043 680 tok 15.47s
+[formalize D3_random] pair_00044 654 tok 14.8s
+[formalize D3_random] pair_00045 518 tok 11.52s
+[formalize D3_random] pair_00046 1218 tok 27.1s
+[formalize D3_random] pair_00047 769 tok 17.47s
+[formalize D3_random] pair_00048 864 tok 21.07s
+[formalize D3_random] pair_00049 654 tok 15.03s
+[formalize D3_random] pair_00050 854 tok 19.34s
+[formalize D3_random] pair_00051 689 tok 16.66s
+[formalize D3_random] pair_00052 842 tok 19.24s
+[formalize D3_random] pair_00053 1643 tok 36.98s
+[formalize D3_random] pair_00054 1755 tok 39.22s
+[formalize D3_random] pair_00055 1845 tok 42.37s
+[formalize D3_random] pair_00056 1471 tok 33.25s
+[formalize D3_random] pair_00057 1780 tok 39.73s
+[formalize D3_random] pair_00058 902 tok 20.3s
+[formalize D3_random] pair_00059 586 tok 13.38s
+[formalize D3_random] pair_00060 729 tok 16.54s
+[formalize D3_random] pair_00061 1076 tok 24.2s
+[formalize D3_random] pair_00062 1699 tok 37.92s
+[formalize D3_random] pair_00063 1255 tok 27.95s
+[formalize D3_random] pair_00064 2062 tok 46.43s
+[formalize D3_random] pair_00065 1436 tok 32.27s
+[formalize D3_random] pair_00066 860 tok 19.25s
+[formalize D3_random] pair_00067 629 tok 14.24s
+[formalize D3_random] pair_00068 666 tok 15.06s
+[formalize D3_random] pair_00069 1245 tok 28.13s
+[formalize D3_random] pair_00070 1216 tok 27.28s
+[formalize D3_random] pair_00071 685 tok 15.54s
+[formalize D3_random] pair_00072 1731 tok 38.86s
+[formalize D3_random] pair_00073 2671 tok 60.19s
+[formalize D3_random] pair_00074 675 tok 15.53s
+[formalize D3_random] pair_00075 1548 tok 34.55s
+[formalize D3_random] pair_00076 672 tok 15.19s
+[formalize D3_random] pair_00077 932 tok 21.02s
+[formalize D3_random] pair_00078 823 tok 18.68s
+[formalize D3_random] pair_00079 780 tok 17.83s
+[formalize D3_random] pair_00080 1000 tok 23.43s
+[formalize D3_random] pair_00081 612 tok 14.0s
+[formalize D3_random] pair_00082 604 tok 13.78s
+[formalize D3_random] pair_00083 684 tok 15.56s
+[formalize D3_random] pair_00084 1255 tok 28.08s
+[formalize D3_random] pair_00085 839 tok 18.79s
+[formalize D3_random] pair_00086 884 tok 21.2s
+[formalize D3_random] pair_00087 1392 tok 31.14s
+[formalize D3_random] pair_00088 1055 tok 23.58s
+[formalize D3_random] pair_00089 863 tok 21.33s
+[formalize D3_random] pair_00090 1069 tok 25.14s
+[formalize D3_random] pair_00091 708 tok 16.77s
+[formalize D3_random] pair_00092 880 tok 20.02s
+[formalize D3_random] pair_00093 890 tok 20.01s
+[formalize D3_random] pair_00094 818 tok 18.79s
+[formalize D3_random] pair_00095 1529 tok 34.77s
+[formalize D3_random] pair_00096 678 tok 15.45s
+[formalize D3_random] pair_00097 683 tok 15.51s
+[formalize D3_random] pair_00098 651 tok 14.77s
+[formalize D3_random] pair_00099 1115 tok 25.0s
+[formalize D2_same_tag] pair_00000 1870 tok 42.94s
+[formalize D2_same_tag] pair_00001 631 tok 15.22s
+[formalize D2_same_tag] pair_00002 766 tok 17.22s
+[formalize D2_same_tag] pair_00003 1765 tok 39.41s
+[formalize D2_same_tag] pair_00004 1103 tok 25.01s
+[formalize D2_same_tag] pair_00005 1630 tok 36.68s
+[formalize D2_same_tag] pair_00006 861 tok 19.42s
+[formalize D2_same_tag] pair_00007 1557 tok 35.08s
+[formalize D2_same_tag] pair_00008 669 tok 15.24s
+[formalize D2_same_tag] pair_00009 888 tok 19.93s
+[formalize D2_same_tag] pair_00010 616 tok 14.06s
+[formalize D2_same_tag] pair_00011 1207 tok 27.41s
+[formalize D2_same_tag] pair_00012 954 tok 22.0s
+[formalize D2_same_tag] pair_00013 629 tok 14.77s
+[formalize D2_same_tag] pair_00014 1073 tok 24.29s
+[formalize D2_same_tag] pair_00015 660 tok 14.99s
+[formalize D2_same_tag] pair_00016 1094 tok 24.96s
+[formalize D2_same_tag] pair_00017 623 tok 14.2s
+[formalize D2_same_tag] pair_00018 8192 tok 191.9s
+[formalize D2_same_tag] pair_00019 574 tok 13.33s
+[formalize D2_same_tag] pair_00020 926 tok 21.31s
+[formalize D2_same_tag] pair_00021 1160 tok 26.44s
+[formalize D2_same_tag] pair_00022 807 tok 18.29s
+[formalize D2_same_tag] pair_00023 881 tok 19.9s
+[formalize D2_same_tag] pair_00024 752 tok 17.18s
+[formalize D2_same_tag] pair_00025 1534 tok 34.59s
+[formalize D2_same_tag] pair_00026 710 tok 16.82s
+[formalize D2_same_tag] pair_00027 2214 tok 49.58s
+[formalize D2_same_tag] pair_00028 816 tok 18.49s
+[formalize D2_same_tag] pair_00029 1371 tok 30.8s
+[formalize D2_same_tag] pair_00030 622 tok 14.19s
+[formalize D2_same_tag] pair_00031 2131 tok 47.57s
+[formalize D2_same_tag] pair_00032 828 tok 19.01s
+[formalize D2_same_tag] pair_00033 826 tok 19.62s
+[formalize D2_same_tag] pair_00034 747 tok 18.42s
+[formalize D2_same_tag] pair_00035 956 tok 22.23s
+[formalize D2_same_tag] pair_00036 848 tok 20.12s
+[formalize D2_same_tag] pair_00037 709 tok 16.48s
+[formalize D2_same_tag] pair_00038 892 tok 20.1s
+[formalize D2_same_tag] pair_00039 1217 tok 27.15s
+[formalize D2_same_tag] pair_00040 807 tok 18.24s
+[formalize D2_same_tag] pair_00041 2111 tok 47.17s
+[formalize D2_same_tag] pair_00042 716 tok 16.18s
+[formalize D2_same_tag] pair_00043 1790 tok 39.84s
+[formalize D2_same_tag] pair_00044 979 tok 23.15s
+[formalize D2_same_tag] pair_00045 952 tok 22.98s
+[formalize D2_same_tag] pair_00046 1108 tok 24.74s
+[formalize D2_same_tag] pair_00047 1498 tok 33.62s
+[formalize D2_same_tag] pair_00048 1985 tok 46.48s
+[formalize D2_same_tag] pair_00049 1068 tok 24.79s
+[formalize D2_same_tag] pair_00050 799 tok 19.74s
+[formalize D2_same_tag] pair_00051 721 tok 17.34s
+[formalize D2_same_tag] pair_00052 659 tok 15.14s
+[formalize D2_same_tag] pair_00053 1347 tok 30.22s
+[formalize D2_same_tag] pair_00054 1471 tok 33.18s
+[formalize D2_same_tag] pair_00055 1190 tok 26.64s
+[formalize D2_same_tag] pair_00056 1081 tok 24.99s
+[formalize D2_same_tag] pair_00057 813 tok 18.53s
+[formalize D2_same_tag] pair_00058 586 tok 13.31s
+[formalize D2_same_tag] pair_00059 698 tok 15.82s
+[formalize D2_same_tag] pair_00060 874 tok 20.58s
+[formalize D2_same_tag] pair_00061 1537 tok 34.38s
+[formalize D2_same_tag] pair_00062 684 tok 15.5s
+[formalize D2_same_tag] pair_00063 702 tok 16.19s
+[formalize D2_same_tag] pair_00064 1566 tok 35.1s
+[formalize D2_same_tag] pair_00065 636 tok 14.65s
+[formalize D2_same_tag] pair_00066 775 tok 17.52s
+[formalize D2_same_tag] pair_00067 909 tok 20.41s
+[formalize D2_same_tag] pair_00068 693 tok 15.74s
+[formalize D2_same_tag] pair_00069 1135 tok 25.54s
+[formalize D2_same_tag] pair_00070 630 tok 14.32s
+[formalize D2_same_tag] pair_00071 1070 tok 26.64s
+[formalize D2_same_tag] pair_00072 1166 tok 26.94s
+[formalize D2_same_tag] pair_00073 792 tok 18.31s
+[formalize D2_same_tag] pair_00074 560 tok 12.77s
+[formalize D2_same_tag] pair_00075 723 tok 16.25s
+[formalize D2_same_tag] pair_00076 3495 tok 78.31s
+[formalize D2_same_tag] pair_00077 1256 tok 28.41s
+[formalize D2_same_tag] pair_00078 725 tok 16.57s
+[formalize D2_same_tag] pair_00079 708 tok 16.09s
+[formalize D2_same_tag] pair_00080 1488 tok 33.86s
+[formalize D2_same_tag] pair_00081 1230 tok 27.86s
+[formalize D2_same_tag] pair_00082 656 tok 14.96s
+[formalize D2_same_tag] pair_00083 580 tok 13.38s
+[formalize D2_same_tag] pair_00084 610 tok 13.64s
+[formalize D2_same_tag] pair_00085 672 tok 15.61s
+[formalize D2_same_tag] pair_00086 1357 tok 30.39s
+[formalize D2_same_tag] pair_00087 699 tok 16.84s
+[formalize D2_same_tag] pair_00088 623 tok 14.1s
+[formalize D2_same_tag] pair_00089 1814 tok 40.7s
+[formalize D2_same_tag] pair_00090 582 tok 13.48s
+[formalize D2_same_tag] pair_00091 489 tok 11.75s
+[formalize D2_same_tag] pair_00092 776 tok 17.57s
+[formalize D2_same_tag] pair_00093 8192 tok 190.36s
+[formalize D2_same_tag] pair_00094 707 tok 16.21s
+[formalize D2_same_tag] pair_00095 657 tok 14.79s
+[formalize D2_same_tag] pair_00096 2821 tok 62.97s
+[formalize D2_same_tag] pair_00097 1718 tok 38.36s
+[formalize D2_same_tag] pair_00098 1079 tok 24.21s
+[formalize D2_same_tag] pair_00099 616 tok 14.58s
+[formalize D2_band] pair_00000 824 tok 18.58s
+[formalize D2_band] pair_00001 1674 tok 37.69s
+[formalize D2_band] pair_00002 784 tok 17.78s
+[formalize D2_band] pair_00003 1340 tok 29.97s
+[formalize D2_band] pair_00004 1331 tok 30.11s
+[formalize D2_band] pair_00005 844 tok 18.92s
+[formalize D2_band] pair_00006 1057 tok 23.74s
+[formalize D2_band] pair_00007 845 tok 19.23s
+[formalize D2_band] pair_00008 651 tok 14.96s
+[formalize D2_band] pair_00009 1560 tok 36.99s
+[formalize D2_band] pair_00010 1519 tok 34.23s
+[formalize D2_band] pair_00011 1520 tok 34.38s
+[formalize D2_band] pair_00012 637 tok 14.52s
+[formalize D2_band] pair_00013 868 tok 21.43s
+[formalize D2_band] pair_00014 1786 tok 40.07s
+[formalize D2_band] pair_00015 690 tok 15.98s
+[formalize D2_band] pair_00016 531 tok 11.83s
+[formalize D2_band] pair_00017 1371 tok 30.71s
+[formalize D2_band] pair_00018 660 tok 15.22s
+[formalize D2_band] pair_00019 660 tok 14.95s
+[formalize D2_band] pair_00020 809 tok 18.66s
+[formalize D2_band] pair_00021 846 tok 19.92s
+[formalize D2_band] pair_00022 1419 tok 31.95s
+[formalize D2_band] pair_00023 865 tok 19.62s
+[formalize D2_band] pair_00024 1923 tok 43.09s
+[formalize D2_band] pair_00025 2327 tok 52.83s
+[formalize D2_band] pair_00026 943 tok 21.18s
+[formalize D2_band] pair_00027 2293 tok 51.49s
+[formalize D2_band] pair_00028 825 tok 18.71s
+[formalize D2_band] pair_00029 1315 tok 29.45s
+[formalize D2_band] pair_00030 772 tok 17.47s
+[formalize D2_band] pair_00031 1161 tok 26.16s
+[formalize D2_band] pair_00032 1112 tok 25.45s
+[formalize D2_band] pair_00033 969 tok 22.26s
+[formalize D2_band] pair_00034 643 tok 14.69s
+[formalize D2_band] pair_00035 1132 tok 25.67s
+[formalize D2_band] pair_00036 592 tok 15.06s
+[formalize D2_band] pair_00037 936 tok 21.23s
+[formalize D2_band] pair_00038 826 tok 18.69s
+[formalize D2_band] pair_00039 915 tok 20.75s
+[formalize D2_band] pair_00040 608 tok 13.8s
+[formalize D2_band] pair_00041 8192 tok 190.38s
+[formalize D2_band] pair_00042 1325 tok 30.01s
+[formalize D2_band] pair_00043 1061 tok 24.07s
+[formalize D2_band] pair_00044 583 tok 13.36s
+[formalize D2_band] pair_00045 719 tok 16.2s
+[formalize D2_band] pair_00046 515 tok 11.57s
+[formalize D2_band] pair_00047 692 tok 15.63s
+[formalize D2_band] pair_00048 990 tok 22.37s
+[formalize D2_band] pair_00049 987 tok 22.31s
+[formalize D2_band] pair_00050 831 tok 18.85s
+[formalize D2_band] pair_00051 684 tok 15.53s
+[formalize D2_band] pair_00052 1438 tok 32.29s
+[formalize D2_band] pair_00053 605 tok 14.67s
+[formalize D2_band] pair_00054 1057 tok 23.68s
+[formalize D2_band] pair_00055 591 tok 13.51s
+[formalize D2_band] pair_00056 839 tok 19.2s
+[formalize D2_band] pair_00057 549 tok 13.39s
+[formalize D2_band] pair_00058 887 tok 20.28s
+[formalize D2_band] pair_00059 796 tok 18.21s
+[formalize D2_band] pair_00060 994 tok 22.37s
+[formalize D2_band] pair_00061 1501 tok 33.68s
+[formalize D2_band] pair_00062 785 tok 17.68s
+[formalize D2_band] pair_00063 551 tok 12.42s
+[formalize D2_band] pair_00064 1287 tok 28.97s
+[formalize D2_band] pair_00065 1684 tok 37.64s
+[formalize D2_band] pair_00067 1051 tok 23.51s
+[formalize D2_band] pair_00068 667 tok 16.11s
+[formalize D2_band] pair_00069 818 tok 18.65s
+[formalize D2_band] pair_00070 1289 tok 28.87s
+[formalize D2_band] pair_00071 866 tok 19.46s
+[formalize D2_band] pair_00072 761 tok 17.71s
+[formalize D2_band] pair_00073 1140 tok 25.96s
+[formalize D2_band] pair_00074 1044 tok 24.42s
+[formalize D2_band] pair_00075 400 tok 9.75s
+[formalize D2_band] pair_00076 568 tok 12.78s
+[formalize D2_band] pair_00077 1100 tok 24.82s
+[formalize D2_band] pair_00078 645 tok 14.57s
+[formalize D2_band] pair_00079 564 tok 13.05s
+[formalize D2_band] pair_00080 947 tok 21.42s
+[formalize D2_band] pair_00081 647 tok 14.61s
+[formalize D2_band] pair_00082 594 tok 13.51s
+[formalize D2_band] pair_00083 880 tok 19.84s
+[formalize D2_band] pair_00084 783 tok 17.59s
+[formalize D2_band] pair_00085 536 tok 12.18s
+[formalize D2_band] pair_00086 652 tok 14.81s
+[formalize D2_band] pair_00087 2576 tok 58.22s
+[formalize D2_band] pair_00088 579 tok 13.18s
+[formalize D2_band] pair_00089 1536 tok 34.65s
+[formalize D2_band] pair_00090 624 tok 14.26s
+[formalize D2_band] pair_00091 683 tok 16.22s
+[formalize D2_band] pair_00092 1010 tok 23.0s
+[formalize D2_band] pair_00093 586 tok 13.05s
+[formalize D2_band] pair_00094 765 tok 17.39s
+[formalize D2_band] pair_00095 675 tok 15.53s
+[formalize D2_band] pair_00096 2218 tok 49.42s
+[formalize D2_band] pair_00097 846 tok 19.4s
+[formalize D2_band] pair_00098 879 tok 19.76s
+[formalize D2_band] pair_00099 938 tok 22.13s
+== check
+== filter
+== prove
+== verify
+== summary
+{
+ "C_random": {
+  "n_pairs": 100,
+  "fuse_parse_rate": 1.0,
+  "formalize_rate": 0.99,
+  "validity_rate": 0.83,
+  "n_verified": 0,
+  "yield": 0.0,
+  "yield_p_all": 0.0,
+  "p_hist": {
+   "p=0": 0,
+   "0<p<=0.5": 0,
+   "p>0.5": 0
+  },
+  "modification_rate": 0.0,
+  "incomplete_proof_rate": 0.0,
+  "brute_force_rate": 0.0,
+  "fuser_tokens_mean": 647.74,
+  "fuser_truncation_rate": 0.0,
+  "prover_tokens_mean": 0.0,
+  "prover_truncation_rate": 0.0,
+  "tokens_total": 173579,
+  "tokens_per_useful": null,
+  "n_useful": 0,
+  "n_filtered": 83,
+  "glued_rate": 0.25301204819277107,
+  "analysis_leak_rate": 0.07228915662650602,
+  "n_useful_clean": 0,
+  "yield_clean": 0.0,
+  "tokens_total_clean": 173579,
+  "tokens_per_useful_clean": null
+ },
+ "D1_random": {
+  "n_pairs": 100,
+  "fuse_parse_rate": 1.0,
+  "formalize_rate": 1.0,
+  "validity_rate": 0.86,
+  "n_verified": 0,
+  "yield": 0.0,
+  "yield_p_all": 0.0,
+  "p_hist": {
+   "p=0": 0,
+   "0<p<=0.5": 0,
+   "p>0.5": 0
+  },
+  "modification_rate": 0.0,
+  "incomplete_proof_rate": 0.0,
+  "brute_force_rate": 0.0,
+  "fuser_tokens_mean": 696.11,
+  "fuser_truncation_rate": 0.0,
+  "prover_tokens_mean": 0.0,
+  "prover_truncation_rate": 0.0,
+  "tokens_total": 179455,
+  "tokens_per_useful": null,
+  "n_useful": 0,
+  "n_filtered": 86,
+  "glued_rate": 0.1744186046511628,
+  "analysis_leak_rate": 0.22093023255813954,
+  "n_useful_clean": 0,
+  "yield_clean": 0.0,
+  "tokens_total_clean": 179455,
+  "tokens_per_useful_clean": null
+ },
+ "D2_random": {
+  "n_pairs": 100,
+  "fuse_parse_rate": 1.0,
+  "formalize_rate": 0.98,
+  "validity_rate": 0.8,
+  "n_verified": 0,
+  "yield": 0.0,
+  "yield_p_all": 0.0,
+  "p_hist": {
+   "p=0": 0,
+   "0<p<=0.5": 0,
+   "p>0.5": 0
+  },
+  "modification_rate": 0.0,
+  "incomplete_proof_rate": 0.0,
+  "brute_force_rate": 0.0,
+  "fuser_tokens_mean": 753.88,
+  "fuser_truncation_rate": 0.0,
+  "prover_tokens_mean": 0.0,
+  "prover_truncation_rate": 0.0,
+  "tokens_total": 179680,
+  "tokens_per_useful": null,
+  "n_useful": 0,
+  "n_filtered": 80,
+  "glued_rate": 0.2625,
+  "analysis_leak_rate": 0.1,
+  "n_useful_clean": 0,
+  "yield_clean": 0.0,
+  "tokens_total_clean": 179680,
+  "tokens_per_useful_clean": null
+ },
+ "D3_random": {
+  "n_pairs": 100,
+  "fuse_parse_rate": 1.0,
+  "formalize_rate": 1.0,
+  "validity_rate": 0.81,
+  "n_verified": 0,
+  "yield": 0.0,
+  "yield_p_all": 0.0,
+  "p_hist": {
+   "p=0": 0,
+   "0<p<=0.5": 0,
+   "p>0.5": 0
+  },
+  "modification_rate": 0.0,
+  "incomplete_proof_rate": 0.0,
+  "brute_force_rate": 0.0,
+  "fuser_tokens_mean": 716.52,
+  "fuser_truncation_rate": 0.0,
+  "prover_tokens_mean": 0.0,
+  "prover_truncation_rate": 0.0,
+  "tokens_total": 175135,
+  "tokens_per_useful": null,
+  "n_useful": 0,
+  "n_filtered": 81,
+  "glued_rate": 0.14814814814814814,
+  "analysis_leak_rate": 0.1728395061728395,
+  "n_useful_clean": 0,
+  "yield_clean": 0.0,
+  "tokens_total_clean": 175135,
+  "tokens_per_useful_clean": null
+ },
+ "D2_same_tag": {
+  "n_pairs": 100,
+  "fuse_parse_rate": 1.0,
+  "formalize_rate": 0.97,
+  "validity_rate": 0.78,
+  "n_verified": 0,
+  "yield": 0.0,
+  "yield_p_all": 0.0,
+  "p_hist": {
+   "p=0": 0,
+   "0<p<=0.5": 0,
+   "p>0.5": 0
+  },
+  "modification_rate": 0.0,
+  "incomplete_proof_rate": 0.0,
+  "brute_force_rate": 0.0,
+  "fuser_tokens_mean": 725.99,
+  "fuser_truncation_rate": 0.0,
+  "prover_tokens_mean": 0.0,
+  "prover_truncation_rate": 0.0,
+  "tokens_total": 191289,
+  "tokens_per_useful": null,
+  "n_useful": 0,
+  "n_filtered": 78,
+  "glued_rate": 0.1282051282051282,
+  "analysis_leak_rate": 0.1794871794871795,
+  "n_useful_clean": 0,
+  "yield_clean": 0.0,
+  "tokens_total_clean": 191289,
+  "tokens_per_useful_clean": null
+ },
+ "D2_band": {
+  "n_pairs": 100,
+  "fuse_parse_rate": 0.99,
+  "formalize_rate": 0.98,
+  "validity_rate": 0.81,
+  "n_verified": 0,
+  "yield": 0.0,
+  "yield_p_all": 0.0,
+  "p_hist": {
+   "p=0": 0,
+   "0<p<=0.5": 0,
+   "p>0.5": 0
+  },
+  "modification_rate": 0.0,
+  "incomplete_proof_rate": 0.0,
+  "brute_force_rate": 0.0,
+  "fuser_tokens_mean": 743.24,
+  "fuser_truncation_rate": 0.0,
+  "prover_tokens_mean": 0.0,
+  "prover_truncation_rate": 0.0,
+  "tokens_total": 178717,
+  "tokens_per_useful": null,
+  "n_useful": 0,
+  "n_filtered": 81,
+  "glued_rate": 0.14814814814814814,
+  "analysis_leak_rate": 0.12345679012345678,
+  "n_useful_clean": 0,
+  "yield_clean": 0.0,
+  "tokens_total_clean": 178717,
+  "tokens_per_useful_clean": null
+ }
+}
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+== fuse
+[fuse C_random] pair_00000 719 tok 27.34s
+[fuse C_random] pair_00001 521 tok 10.67s
+[fuse C_random] pair_00002 0 tok 15.05s
+[fuse C_random] pair_00003 652 tok 12.96s
+[fuse C_random] pair_00004 797 tok 15.84s
+[fuse C_random] pair_00005 744 tok 14.9s
+[fuse C_random] pair_00006 463 tok 9.46s
+[fuse C_random] pair_00007 1295 tok 25.45s
+[fuse C_random] pair_00008 630 tok 12.82s
+[fuse C_random] pair_00009 925 tok 18.37s
+[fuse C_random] pair_00010 739 tok 14.62s
+[fuse C_random] pair_00011 847 tok 16.78s
+[fuse C_random] pair_00012 799 tok 16.02s
+[fuse C_random] pair_00013 952 tok 18.72s
+[fuse C_random] pair_00014 549 tok 10.98s
+[fuse C_random] pair_00015 609 tok 12.1s
+[fuse C_random] pair_00016 711 tok 14.21s
+[fuse C_random] pair_00017 926 tok 18.19s
+[fuse C_random] pair_00018 779 tok 15.43s
+[fuse C_random] pair_00019 629 tok 12.47s
+[fuse C_random] pair_00020 769 tok 15.28s
+[fuse C_random] pair_00021 737 tok 14.63s
+[fuse C_random] pair_00022 824 tok 16.54s
+[fuse C_random] pair_00023 537 tok 10.71s
+[fuse C_random] pair_00024 500 tok 10.18s
+[fuse C_random] pair_00025 711 tok 14.28s
+[fuse C_random] pair_00026 639 tok 12.69s
+[fuse C_random] pair_00027 0 tok 15.97s
+[fuse C_random] pair_00028 647 tok 12.9s
+[fuse C_random] pair_00029 830 tok 16.63s
+[fuse C_random] pair_00030 930 tok 18.38s
+[fuse C_random] pair_00031 558 tok 11.22s
+[fuse C_random] pair_00032 888 tok 17.49s
+[fuse C_random] pair_00033 741 tok 14.68s
+[fuse C_random] pair_00034 663 tok 13.2s
+[fuse C_random] pair_00035 694 tok 13.87s
+[fuse C_random] pair_00036 911 tok 17.89s
+[fuse C_random] pair_00037 547 tok 10.83s
+[fuse C_random] pair_00038 578 tok 11.41s
+[fuse C_random] pair_00039 859 tok 17.37s
+[fuse C_random] pair_00040 792 tok 15.63s
+[fuse C_random] pair_00041 644 tok 13.12s
+[fuse C_random] pair_00042 923 tok 18.49s
+[fuse C_random] pair_00043 817 tok 15.96s
+[fuse C_random] pair_00044 714 tok 14.14s
+[fuse C_random] pair_00045 630 tok 12.54s
+[fuse C_random] pair_00046 542 tok 10.92s
+[fuse C_random] pair_00047 815 tok 15.96s
+[fuse C_random] pair_00048 798 tok 15.66s
+[fuse C_random] pair_00049 0 tok 13.88s
+[fuse D1_random] pair_00000 805 tok 16.2s
+[fuse D1_random] pair_00001 796 tok 15.83s
+[fuse D1_random] pair_00002 606 tok 12.36s
+[fuse D1_random] pair_00003 996 tok 19.47s
+[fuse D1_random] pair_00004 924 tok 18.27s
+[fuse D1_random] pair_00005 1289 tok 25.23s
+[fuse D1_random] pair_00006 3933 tok 76.96s
+[fuse D1_random] pair_00007 858 tok 17.21s
+[fuse D1_random] pair_00008 700 tok 14.12s
+[fuse D1_random] pair_00009 1222 tok 24.13s
+[fuse D1_random] pair_00010 1049 tok 20.55s
+[fuse D1_random] pair_00011 825 tok 16.37s
+[fuse D1_random] pair_00012 891 tok 17.77s
+[fuse D1_random] pair_00013 898 tok 17.64s
+[fuse D1_random] pair_00014 544 tok 10.93s
+[fuse D1_random] pair_00015 539 tok 10.75s
+[fuse D1_random] pair_00016 667 tok 13.31s
+[fuse D1_random] pair_00017 0 tok 14.68s
+[fuse D1_random] pair_00018 655 tok 13.09s
+[fuse D1_random] pair_00019 508 tok 10.17s
+[fuse D1_random] pair_00020 663 tok 13.26s
+[fuse D1_random] pair_00021 930 tok 18.27s
+[fuse D1_random] pair_00022 907 tok 17.87s
+[fuse D1_random] pair_00023 243 tok 5.16s
+[fuse D1_random] pair_00024 617 tok 12.34s
+[fuse D1_random] pair_00025 859 tok 17.01s
+[fuse D1_random] pair_00026 708 tok 14.02s
+[fuse D1_random] pair_00027 0 tok 14.41s
+[fuse D1_random] pair_00028 820 tok 16.15s
+[fuse D1_random] pair_00029 0 tok 12.5s
+[fuse D1_random] pair_00030 631 tok 12.73s
+[fuse D1_random] pair_00031 842 tok 16.57s
+[fuse D1_random] pair_00032 939 tok 18.41s
+[fuse D1_random] pair_00033 588 tok 11.81s
+[fuse D1_random] pair_00034 1100 tok 21.46s
+[fuse D1_random] pair_00035 1032 tok 20.34s
+[fuse D1_random] pair_00036 842 tok 16.69s
+[fuse D1_random] pair_00037 190 tok 4.15s
+[fuse D1_random] pair_00038 546 tok 10.82s
+[fuse D1_random] pair_00039 722 tok 14.74s
+[fuse D1_random] pair_00040 964 tok 18.86s
+[fuse D1_random] pair_00041 723 tok 14.6s
+[fuse D1_random] pair_00042 1441 tok 28.26s
+[fuse D1_random] pair_00043 853 tok 16.67s
+[fuse D1_random] pair_00044 798 tok 15.73s
+[fuse D1_random] pair_00045 959 tok 18.73s
+[fuse D1_random] pair_00046 923 tok 18.13s
+[fuse D1_random] pair_00047 966 tok 18.86s
+[fuse D1_random] pair_00048 683 tok 13.51s
+[fuse D1_random] pair_00049 811 tok 16.17s
+[fuse D2_random] pair_00000 903 tok 17.97s
+[fuse D2_random] pair_00001 702 tok 14.18s
+[fuse D2_random] pair_00002 975 tok 19.49s
+[fuse D2_random] pair_00003 646 tok 12.99s
+[fuse D2_random] pair_00004 718 tok 14.53s
+[fuse D2_random] pair_00005 999 tok 19.91s
+[fuse D2_random] pair_00006 948 tok 18.77s
+[fuse D2_random] pair_00007 1029 tok 20.45s
+[fuse D2_random] pair_00008 999 tok 19.94s
+[fuse D2_random] pair_00009 1079 tok 21.49s
+[fuse D2_random] pair_00010 865 tok 17.15s
+[fuse D2_random] pair_00011 1184 tok 23.37s
+[fuse D2_random] pair_00012 986 tok 19.77s
+[fuse D2_random] pair_00013 968 tok 19.08s
+[fuse D2_random] pair_00014 452 tok 9.27s
+[fuse D2_random] pair_00015 825 tok 16.28s
+[fuse D2_random] pair_00016 1117 tok 22.12s
+[fuse D2_random] pair_00017 1031 tok 20.43s
+[fuse D2_random] pair_00018 837 tok 16.72s
+[fuse D2_random] pair_00019 691 tok 13.73s
+[fuse D2_random] pair_00020 907 tok 18.03s
+[fuse D2_random] pair_00021 1196 tok 23.41s
+[fuse D2_random] pair_00022 932 tok 18.71s
+[fuse D2_random] pair_00023 761 tok 15.07s
+[fuse D2_random] pair_00024 856 tok 17.07s
+[fuse D2_random] pair_00025 1117 tok 22.12s
+[fuse D2_random] pair_00026 877 tok 17.34s
+[fuse D2_random] pair_00027 0 tok 15.52s
+[fuse D2_random] pair_00028 825 tok 16.39s
+[fuse D2_random] pair_00029 845 tok 17.1s
+[fuse D2_random] pair_00030 1013 tok 20.11s
+[fuse D2_random] pair_00031 637 tok 12.88s
+[fuse D2_random] pair_00032 875 tok 17.4s
+[fuse D2_random] pair_00033 655 tok 13.28s
+[fuse D2_random] pair_00034 959 tok 18.86s
+[fuse D2_random] pair_00035 670 tok 13.6s
+[fuse D2_random] pair_00036 947 tok 18.87s
+[fuse D2_random] pair_00037 592 tok 11.83s
+[fuse D2_random] pair_00038 603 tok 12.07s
+[fuse D2_random] pair_00039 1302 tok 26.43s
+[fuse D2_random] pair_00040 928 tok 18.42s
+[fuse D2_random] pair_00041 898 tok 18.01s
+[fuse D2_random] pair_00042 1107 tok 21.93s
+[fuse D2_random] pair_00043 955 tok 18.87s
+[fuse D2_random] pair_00044 985 tok 19.41s
+[fuse D2_random] pair_00045 589 tok 11.78s
+[fuse D2_random] pair_00046 392 tok 8.31s
+[fuse D2_random] pair_00047 968 tok 19.09s
+[fuse D2_random] pair_00048 800 tok 15.86s
+[fuse D2_random] pair_00049 0 tok 15.66s
+[fuse D3_random] pair_00000 657 tok 13.36s
+[fuse D3_random] pair_00001 901 tok 17.95s
+[fuse D3_random] pair_00002 1160 tok 22.96s
+[fuse D3_random] pair_00003 689 tok 13.82s
+[fuse D3_random] pair_00004 982 tok 19.59s
+[fuse D3_random] pair_00005 1305 tok 25.72s
+[fuse D3_random] pair_00006 750 tok 15.0s
+[fuse D3_random] pair_00007 1053 tok 20.95s
+[fuse D3_random] pair_00008 986 tok 19.72s
+[fuse D3_random] pair_00009 1241 tok 24.56s
+[fuse D3_random] pair_00010 732 tok 14.63s
+[fuse D3_random] pair_00011 952 tok 18.88s
+[fuse D3_random] pair_00012 1018 tok 20.25s
+[fuse D3_random] pair_00013 1054 tok 20.75s
+[fuse D3_random] pair_00014 546 tok 11.14s
+[fuse D3_random] pair_00015 681 tok 13.54s
+[fuse D3_random] pair_00016 1177 tok 23.11s
+[fuse D3_random] pair_00017 0 tok 14.84s
+[fuse D3_random] pair_00018 957 tok 18.99s
+[fuse D3_random] pair_00019 841 tok 16.54s
+[fuse D3_random] pair_00020 874 tok 17.42s
+[fuse D3_random] pair_00021 16384 tok 356.39s
+[fuse D3_random] pair_00022 955 tok 19.69s
+[fuse D3_random] pair_00023 326 tok 6.89s
+[fuse D3_random] pair_00024 698 tok 14.04s
+[fuse D3_random] pair_00025 1122 tok 22.32s
+[fuse D3_random] pair_00026 577 tok 11.74s
+[fuse D3_random] pair_00027 0 tok 16.39s
+[fuse D3_random] pair_00028 881 tok 17.46s
+[fuse D3_random] pair_00029 0 tok 15.93s
+[fuse D3_random] pair_00030 0 tok 15.43s
+[fuse D3_random] pair_00031 837 tok 16.61s
+[fuse D3_random] pair_00032 1308 tok 25.61s
+[fuse D3_random] pair_00033 773 tok 15.59s
+[fuse D3_random] pair_00034 692 tok 13.87s
+[fuse D3_random] pair_00035 1062 tok 21.05s
+[fuse D3_random] pair_00036 0 tok 16.92s
+[fuse D3_random] pair_00037 613 tok 12.19s
+[fuse D3_random] pair_00038 782 tok 15.37s
+[fuse D3_random] pair_00039 1181 tok 24.04s
+[fuse D3_random] pair_00040 1242 tok 24.47s
+[fuse D3_random] pair_00041 837 tok 16.96s
+[fuse D3_random] pair_00042 1092 tok 21.69s
+[fuse D3_random] pair_00043 1138 tok 22.37s
+[fuse D3_random] pair_00044 1057 tok 20.8s
+[fuse D3_random] pair_00045 779 tok 15.47s
+[fuse D3_random] pair_00046 924 tok 18.31s
+[fuse D3_random] pair_00047 1155 tok 22.61s
+[fuse D3_random] pair_00048 726 tok 14.53s
+[fuse D3_random] pair_00049 803 tok 16.31s
+[fuse D2_same_tag] pair_00000 738 tok 14.73s
+[fuse D2_same_tag] pair_00001 807 tok 16.2s
+[fuse D2_same_tag] pair_00002 782 tok 15.91s
+[fuse D2_same_tag] pair_00003 512 tok 10.4s
+[fuse D2_same_tag] pair_00004 653 tok 13.26s
+[fuse D2_same_tag] pair_00005 1085 tok 21.32s
+[fuse D2_same_tag] pair_00006 1136 tok 22.73s
+[fuse D2_same_tag] pair_00007 997 tok 20.03s
+[fuse D2_same_tag] pair_00008 600 tok 12.17s
+[fuse D2_same_tag] pair_00009 1003 tok 20.17s
+[fuse D2_same_tag] pair_00010 780 tok 15.58s
+[fuse D2_same_tag] pair_00011 714 tok 14.31s
+[fuse D2_same_tag] pair_00012 728 tok 14.85s
+[fuse D2_same_tag] pair_00013 623 tok 12.59s
+[fuse D2_same_tag] pair_00014 668 tok 13.3s
+[fuse D2_same_tag] pair_00015 744 tok 14.94s
+[fuse D2_same_tag] pair_00016 571 tok 11.51s
+[fuse D2_same_tag] pair_00017 1111 tok 22.0s
+[fuse D2_same_tag] pair_00018 625 tok 12.44s
+[fuse D2_same_tag] pair_00019 578 tok 11.38s
+[fuse D2_same_tag] pair_00020 799 tok 16.65s
+[fuse D2_same_tag] pair_00021 832 tok 16.53s
+[fuse D2_same_tag] pair_00022 0 tok 14.38s
+[fuse D2_same_tag] pair_00023 492 tok 9.79s
+[fuse D2_same_tag] pair_00024 524 tok 10.65s
+[fuse D2_same_tag] pair_00025 566 tok 11.49s
+[fuse D2_same_tag] pair_00026 554 tok 10.98s
+[fuse D2_same_tag] pair_00027 864 tok 17.26s
+[fuse D2_same_tag] pair_00028 549 tok 11.04s
+[fuse D2_same_tag] pair_00029 0 tok 13.52s
+[fuse D2_same_tag] pair_00030 684 tok 13.57s
+[fuse D2_same_tag] pair_00031 796 tok 16.16s
+[fuse D2_same_tag] pair_00032 960 tok 18.95s
+[fuse D2_same_tag] pair_00033 577 tok 11.46s
+[fuse D2_same_tag] pair_00034 992 tok 19.35s
+[fuse D2_same_tag] pair_00035 1107 tok 22.05s
+[fuse D2_same_tag] pair_00036 750 tok 14.81s
+[fuse D2_same_tag] pair_00037 484 tok 9.57s
+[fuse D2_same_tag] pair_00038 597 tok 11.68s
+[fuse D2_same_tag] pair_00039 894 tok 18.02s
+[fuse D2_same_tag] pair_00040 861 tok 17.05s
+[fuse D2_same_tag] pair_00041 16384 tok 357.93s
+[fuse D2_same_tag] pair_00042 713 tok 15.19s
+[fuse D2_same_tag] pair_00043 816 tok 16.26s
+[fuse D2_same_tag] pair_00044 579 tok 11.83s
+[fuse D2_same_tag] pair_00045 566 tok 11.35s
+[fuse D2_same_tag] pair_00046 676 tok 13.6s
+[fuse D2_same_tag] pair_00047 798 tok 15.75s
+[fuse D2_same_tag] pair_00048 585 tok 11.7s
+[fuse D2_same_tag] pair_00049 0 tok 13.34s
+[fuse D2_band] pair_00000 660 tok 13.27s
+[fuse D2_band] pair_00001 986 tok 19.44s
+[fuse D2_band] pair_00002 1193 tok 23.36s
+[fuse D2_band] pair_00003 85 tok 2.41s
+[fuse D2_band] pair_00004 791 tok 15.92s
+[fuse D2_band] pair_00005 999 tok 19.33s
+[fuse D2_band] pair_00006 806 tok 15.93s
+[fuse D2_band] pair_00007 760 tok 15.06s
+[fuse D2_band] pair_00008 817 tok 15.9s
+[fuse D2_band] pair_00009 718 tok 14.3s
+[fuse D2_band] pair_00010 801 tok 15.6s
+[fuse D2_band] pair_00011 986 tok 19.1s
+[fuse D2_band] pair_00012 785 tok 15.45s
+[fuse D2_band] pair_00013 670 tok 13.13s
+[fuse D2_band] pair_00014 576 tok 11.43s
+[fuse D2_band] pair_00015 559 tok 11.11s
+[fuse D2_band] pair_00016 564 tok 11.04s
+[fuse D2_band] pair_00017 0 tok 14.13s
+[fuse D2_band] pair_00018 629 tok 12.35s
+[fuse D2_band] pair_00019 661 tok 12.86s
+[fuse D2_band] pair_00020 904 tok 17.58s
+[fuse D2_band] pair_00021 737 tok 14.39s
+[fuse D2_band] pair_00022 0 tok 13.33s
+[fuse D2_band] pair_00023 398 tok 7.93s
+[fuse D2_band] pair_00024 621 tok 12.27s
+[fuse D2_band] pair_00025 819 tok 16.25s
+[fuse D2_band] pair_00026 464 tok 9.35s
+[fuse D2_band] pair_00027 0 tok 13.17s
+[fuse D2_band] pair_00028 585 tok 11.53s
+[fuse D2_band] pair_00029 0 tok 15.24s
+[fuse D2_band] pair_00030 676 tok 13.41s
+[fuse D2_band] pair_00031 817 tok 16.11s
+[fuse D2_band] pair_00032 922 tok 17.9s
+[fuse D2_band] pair_00033 548 tok 10.88s
+[fuse D2_band] pair_00034 845 tok 16.39s
+[fuse D2_band] pair_00035 1558 tok 30.33s
+[fuse D2_band] pair_00036 608 tok 11.95s
+[fuse D2_band] pair_00037 148 tok 3.25s
+[fuse D2_band] pair_00038 678 tok 13.26s
+[fuse D2_band] pair_00039 1065 tok 20.69s
+[fuse D2_band] pair_00040 285 tok 5.93s
+[fuse D2_band] pair_00041 739 tok 15.09s
+[fuse D2_band] pair_00042 1276 tok 24.88s
+[fuse D2_band] pair_00043 767 tok 15.03s
+[fuse D2_band] pair_00044 627 tok 12.31s
+[fuse D2_band] pair_00045 437 tok 8.85s
+[fuse D2_band] pair_00046 669 tok 13.14s
+[fuse D2_band] pair_00047 545 tok 10.74s
+[fuse D2_band] pair_00048 512 tok 10.16s
+[fuse D2_band] pair_00049 723 tok 14.37s
+== formalize
+[formalize C_random] pair_00000 1502 tok 48.34s
+[formalize C_random] pair_00001 1095 tok 24.7s
+[formalize C_random] pair_00002 2200 tok 49.3s
+[formalize C_random] pair_00003 1609 tok 36.05s
+[formalize C_random] pair_00004 1685 tok 38.09s
+[formalize C_random] pair_00005 1240 tok 28.42s
+[formalize C_random] pair_00006 1283 tok 29.54s
+[formalize C_random] pair_00007 1180 tok 26.46s
+[formalize C_random] pair_00008 994 tok 22.65s
+[formalize C_random] pair_00009 994 tok 22.88s
+[formalize C_random] pair_00010 930 tok 21.19s
+[formalize C_random] pair_00011 2651 tok 59.36s
+[formalize C_random] pair_00012 1285 tok 29.39s
+[formalize C_random] pair_00013 1154 tok 26.41s
+[formalize C_random] pair_00014 1422 tok 31.7s
+[formalize C_random] pair_00015 1106 tok 24.92s
+[formalize C_random] pair_00016 750 tok 17.15s
+[formalize C_random] pair_00017 1297 tok 28.98s
+[formalize C_random] pair_00018 1553 tok 35.06s
+[formalize C_random] pair_00019 924 tok 20.96s
+[formalize C_random] pair_00020 8192 tok 191.53s
+[formalize C_random] pair_00021 1227 tok 27.97s
+[formalize C_random] pair_00022 1859 tok 41.85s
+[formalize C_random] pair_00023 809 tok 18.31s
+[formalize C_random] pair_00024 937 tok 21.03s
+[formalize C_random] pair_00025 1244 tok 28.39s
+[formalize C_random] pair_00026 1219 tok 27.58s
+[formalize C_random] pair_00027 854 tok 19.78s
+[formalize C_random] pair_00028 956 tok 21.58s
+[formalize C_random] pair_00029 1932 tok 43.6s
+[formalize C_random] pair_00030 1925 tok 43.49s
+[formalize C_random] pair_00031 1251 tok 28.13s
+[formalize C_random] pair_00032 1457 tok 33.08s
+[formalize C_random] pair_00033 1925 tok 43.15s
+[formalize C_random] pair_00034 1327 tok 29.85s
+[formalize C_random] pair_00035 1112 tok 25.33s
+[formalize C_random] pair_00036 1157 tok 26.43s
+[formalize C_random] pair_00037 625 tok 14.69s
+[formalize C_random] pair_00038 1177 tok 26.34s
+[formalize C_random] pair_00039 2004 tok 45.6s
+[formalize C_random] pair_00040 1203 tok 27.46s
+[formalize C_random] pair_00041 1655 tok 37.4s
+[formalize C_random] pair_00042 1835 tok 41.44s
+[formalize C_random] pair_00043 1635 tok 37.18s
+[formalize C_random] pair_00044 1519 tok 34.33s
+[formalize C_random] pair_00045 946 tok 21.45s
+[formalize C_random] pair_00046 1107 tok 24.99s
+[formalize C_random] pair_00047 1131 tok 25.86s
+[formalize C_random] pair_00048 1464 tok 33.0s
+[formalize D1_random] pair_00000 1710 tok 38.09s
+[formalize D1_random] pair_00001 2572 tok 58.06s
+[formalize D1_random] pair_00002 2077 tok 46.67s
+[formalize D1_random] pair_00003 1574 tok 35.8s
+[formalize D1_random] pair_00004 1109 tok 25.46s
+[formalize D1_random] pair_00005 1063 tok 24.7s
+[formalize D1_random] pair_00006 684 tok 16.24s
+[formalize D1_random] pair_00007 1160 tok 26.85s
+[formalize D1_random] pair_00008 1554 tok 34.95s
+[formalize D1_random] pair_00009 926 tok 21.01s
+[formalize D1_random] pair_00010 1124 tok 25.73s
+[formalize D1_random] pair_00011 1451 tok 33.02s
+[formalize D1_random] pair_00012 2539 tok 57.39s
+[formalize D1_random] pair_00013 1928 tok 43.63s
+[formalize D1_random] pair_00014 2042 tok 45.61s
+[formalize D1_random] pair_00015 997 tok 22.61s
+[formalize D1_random] pair_00016 931 tok 20.97s
+[formalize D1_random] pair_00017 1243 tok 28.1s
+[formalize D1_random] pair_00018 874 tok 19.99s
+[formalize D1_random] pair_00019 2240 tok 50.18s
+[formalize D1_random] pair_00020 1804 tok 40.52s
+[formalize D1_random] pair_00021 1858 tok 42.27s
+[formalize D1_random] pair_00022 2169 tok 49.47s
+[formalize D1_random] pair_00023 357 tok 8.1s
+[formalize D1_random] pair_00024 2379 tok 53.44s
+[formalize D1_random] pair_00025 1056 tok 24.16s
+[formalize D1_random] pair_00026 1581 tok 35.44s
+[formalize D1_random] pair_00027 1139 tok 25.8s
+[formalize D1_random] pair_00028 926 tok 21.17s
+[formalize D1_random] pair_00029 2337 tok 52.56s
+[formalize D1_random] pair_00030 1053 tok 23.96s
+[formalize D1_random] pair_00031 1002 tok 22.81s
+[formalize D1_random] pair_00032 2110 tok 47.74s
+[formalize D1_random] pair_00033 999 tok 22.42s
+[formalize D1_random] pair_00034 751 tok 16.85s
+[formalize D1_random] pair_00035 678 tok 16.23s
+[formalize D1_random] pair_00036 698 tok 16.31s
+[formalize D1_random] pair_00037 455 tok 10.16s
+[formalize D1_random] pair_00038 1251 tok 28.9s
+[formalize D1_random] pair_00039 2248 tok 50.73s
+[formalize D1_random] pair_00040 1799 tok 40.71s
+[formalize D1_random] pair_00041 1398 tok 31.65s
+[formalize D1_random] pair_00042 946 tok 22.52s
+[formalize D1_random] pair_00043 917 tok 21.03s
+[formalize D1_random] pair_00044 778 tok 17.35s
+[formalize D1_random] pair_00045 1878 tok 43.28s
+[formalize D1_random] pair_00046 1942 tok 45.67s
+[formalize D1_random] pair_00047 1179 tok 27.06s
+[formalize D1_random] pair_00048 1216 tok 27.53s
+[formalize D1_random] pair_00049 2030 tok 45.75s
+[formalize D2_random] pair_00000 1025 tok 23.19s
+[formalize D2_random] pair_00001 1174 tok 26.5s
+[formalize D2_random] pair_00002 1897 tok 42.5s
+[formalize D2_random] pair_00003 1541 tok 34.61s
+[formalize D2_random] pair_00004 824 tok 18.89s
+[formalize D2_random] pair_00005 1095 tok 25.65s
+[formalize D2_random] pair_00006 1167 tok 26.8s
+[formalize D2_random] pair_00007 1520 tok 34.22s
+[formalize D2_random] pair_00008 1120 tok 25.7s
+[formalize D2_random] pair_00009 2158 tok 50.01s
+[formalize D2_random] pair_00010 2341 tok 53.47s
+[formalize D2_random] pair_00011 1320 tok 30.47s
+[formalize D2_random] pair_00012 746 tok 16.9s
+[formalize D2_random] pair_00013 894 tok 20.84s
+[formalize D2_random] pair_00014 1317 tok 29.52s
+[formalize D2_random] pair_00015 1153 tok 26.27s
+[formalize D2_random] pair_00016 1131 tok 26.0s
+[formalize D2_random] pair_00017 1812 tok 41.81s
+[formalize D2_random] pair_00018 862 tok 20.27s
+[formalize D2_random] pair_00019 2816 tok 63.71s
+[formalize D2_random] pair_00020 2835 tok 64.25s
+[formalize D2_random] pair_00021 1476 tok 35.13s
+[formalize D2_random] pair_00022 1469 tok 34.0s
+[formalize D2_random] pair_00023 961 tok 22.31s
+[formalize D2_random] pair_00024 1261 tok 28.55s
+[formalize D2_random] pair_00025 1698 tok 39.2s
+[formalize D2_random] pair_00026 1662 tok 37.62s
+[formalize D2_random] pair_00027 2108 tok 47.35s
+[formalize D2_random] pair_00028 1073 tok 24.75s
+[formalize D2_random] pair_00029 1376 tok 31.29s
+[formalize D2_random] pair_00030 1907 tok 42.9s
+[formalize D2_random] pair_00031 1183 tok 26.84s
+[formalize D2_random] pair_00032 1241 tok 28.54s
+[formalize D2_random] pair_00033 1003 tok 22.63s
+[formalize D2_random] pair_00034 1854 tok 41.99s
+[formalize D2_random] pair_00035 1387 tok 31.59s
+[formalize D2_random] pair_00036 2238 tok 50.65s
+[formalize D2_random] pair_00037 709 tok 16.09s
+[formalize D2_random] pair_00038 997 tok 22.41s
+[formalize D2_random] pair_00039 4212 tok 97.37s
+[formalize D2_random] pair_00040 806 tok 18.23s
+[formalize D2_random] pair_00041 1663 tok 37.87s
+[formalize D2_random] pair_00042 1251 tok 28.73s
+[formalize D2_random] pair_00043 870 tok 20.26s
+[formalize D2_random] pair_00044 738 tok 16.72s
+[formalize D2_random] pair_00045 908 tok 20.84s
+[formalize D2_random] pair_00046 1731 tok 39.4s
+[formalize D2_random] pair_00047 849 tok 19.74s
+[formalize D2_random] pair_00048 2368 tok 53.43s
+[formalize D2_random] pair_00049 1355 tok 30.82s

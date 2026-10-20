@@ -1,0 +1,42 @@
+{
+ "Mechanics": [
+  "Make sure all forces are accounted for in the system, including friction and normal forces.",
+  "Avoid assuming uniform motion without verifying the net force acting on the object.",
+  "Check that energy conversions are correctly identified and conserved across all forms."
+ ],
+ "Thermodynamics": [
+  "Make sure all materials involved have known specific heat capacities and thermal properties.",
+  "Avoid assuming equilibrium temperature without considering heat transfer rates and thermal isolation.",
+  "Check that all temperature conversions are consistent and use absolute scales where necessary."
+ ],
+ "Biology": [
+  "Make sure all forces and torques are accounted for in the forearm problem.",
+  "Avoid assuming uniformity in genetic inheritance without proper evidence.",
+  "Check that the devised mass measurement scheme accounts for inertia and acceleration."
+ ],
+ "Chemistry": [
+  "Make sure all reactions are balanced and stoichiometric relationships are correctly applied.",
+  "Avoid mixing different solution concentrations without proper conversion between units.",
+  "Check that all given data is consistent with the laws of conservation and thermodynamic principles."
+ ],
+ "Electromagnetism": [
+  "Make sure all quantities are in consistent units before calculations. Avoid mixing different unit systems.",
+  "Avoid assuming symmetry or simplifications without justification. Check if all given data is relevant.",
+  "Ensure that induced effects like emf or current are properly linked to changing fields or currents. Avoid missing dependencies."
+ ],
+ "Optics": [
+  "Make sure all materials involved have known and consistent refractive indices.",
+  "Avoid combining different optical phenomena unless their interactions are well understood.",
+  "Check that all given angles are measured from the normal unless stated otherwise."
+ ],
+ "Materials Science": [
+  "Make sure the problem clearly defines the material properties and their relevance to the design question.",
+  "Avoid combining unrelated scientific domains without a clear integrative context.",
+  "Check that all quantitative aspects are grounded in established material science principles."
+ ],
+ "Energy Systems": [
+  "Make sure all energy units are consistent across the problem.",
+  "Avoid combining unrelated energy systems without clear context.",
+  "Check that conservation laws are properly applied in all scenarios."
+ ]
+}

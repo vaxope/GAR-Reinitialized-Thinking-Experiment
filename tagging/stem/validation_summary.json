@@ -1,0 +1,80 @@
+{
+ "meta_key": "category",
+ "purity_vs_meta": 0.7857,
+ "topic_sizes": {
+  "Electromagnetism": 240,
+  "Mechanics": 1015,
+  "Chemistry": 2023,
+  "Thermodynamics": 201,
+  "Energy Systems": 49,
+  "Optics": 35,
+  "Biology": 216,
+  "Materials Science": 47
+ },
+ "pairwise_cosine_quantiles": {
+  "0.01": 0.3827,
+  "0.1": 0.4611,
+  "0.5": 0.5842,
+  "0.9": 0.8078,
+  "0.95": 0.8552,
+  "0.99": 0.9239
+ },
+ "confidence_quantiles": {
+  "0.1": 0.336,
+  "0.25": 0.647,
+  "0.5": 0.993,
+  "0.75": 1.0
+ },
+ "share_conf_below_0.5": 0.1691,
+ "crosstab": {
+  "Electromagnetism": {
+   "Physics": 219,
+   "Chemistry": 1,
+   "Engineering": 17,
+   "Other STEM": 3
+  },
+  "Mechanics": {
+   "Physics": 941,
+   "Chemistry": 10,
+   "Biology": 9,
+   "Engineering": 17,
+   "Other STEM": 38
+  },
+  "Chemistry": {
+   "Physics": 169,
+   "Chemistry": 1435,
+   "Biology": 348,
+   "Engineering": 41,
+   "Other STEM": 30
+  },
+  "Thermodynamics": {
+   "Physics": 130,
+   "Chemistry": 53,
+   "Biology": 3,
+   "Engineering": 6,
+   "Other STEM": 9
+  },
+  "Energy Systems": {
+   "Physics": 5,
+   "Biology": 2,
+   "Engineering": 23,
+   "Other STEM": 19
+  },
+  "Optics": {
+   "Physics": 33,
+   "Other STEM": 2
+  },
+  "Biology": {
+   "Physics": 2,
+   "Biology": 189,
+   "Other STEM": 25
+  },
+  "Materials Science": {
+   "Physics": 1,
+   "Chemistry": 1,
+   "Biology": 1,
+   "Engineering": 8,
+   "Other STEM": 36
+  }
+ }
+}

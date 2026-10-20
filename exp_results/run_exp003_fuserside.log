@@ -1,0 +1,97 @@
+== label
+[label] 0/5000 1s
+[label] 250/5000 144s
+[label] 500/5000 286s
+[label] 750/5000 413s
+[label] 1000/5000 541s
+[label] 1250/5000 674s
+[label] 1500/5000 811s
+[label] 1750/5000 948s
+[label] 2000/5000 1088s
+[label] 2250/5000 1225s
+[label] 2500/5000 1367s
+[label] 2750/5000 1505s
+[label] 3000/5000 1645s
+[label] 3250/5000 1781s
+[label] 3500/5000 1919s
+[label] 3750/5000 2057s
+[label] 4000/5000 2207s
+[label] 4250/5000 2350s
+[label] 4500/5000 2486s
+[label] 4750/5000 2621s
+== propagate
+[propagate] held-out kNN vs LLM: top1 0.636, LLM top1 in kNN top2 0.834
+== validate
+[validate] purity vs Problem_type: 0.525; topic sizes {'Algebra': 3587, 'Algebraic Systems': 2536, 'Polynomials': 1541, 'Recurrence Relations': 671, 'Inequalities': 4054, 'Trigonometry': 580, 'Diophantine Equations': 1746, 'Complex Numbers': 381, 'Number Theory': 3670, 'Geometry': 1304, 'Functional Analysis': 1366, 'Probability': 129, 'Calculus': 706, 'Differential Equations': 193}
+== slots
+[slots] Polynomials: ['Make sure the combined problem does not introduce extraneous roots or coefficients that contradict the original polynomial properties.', 'Avoid mixing different types of polynomial structures (e.g., rational vs. irrational coefficients) without clear justification.', 'Check that the combined problem maintains the uniqueness and consistency of polynomial factorization and root relationships.']
+[slots] Number Theory: ['Make sure all integer and modular conditions are clearly defined and consistent across the problem.', 'Avoid ambiguous or overlapping constraints that could lead to multiple interpretations of the problem.', 'Check that all mathematical operations preserve the required properties like divisibility and congruence.']
+[slots] Differential Equations: ['Make sure the problem includes a mix of differential equation types and initial conditions for complexity.', 'Avoid making the problem too similar to standard textbook problems to ensure it remains non-trivial.', 'Check that all given conditions are consistent and do not lead to contradictions or undefined expressions.']
+[slots] Inequalities: ['Make sure all variables are clearly defined with appropriate domains (e.g., positive reals).', 'Avoid introducing extraneous variables or conditions that complicate the inequality unnecessarily.', 'Check that the problem remains non-trivial even after combining multiple inequalities or expressions.']
+[slots] Complex Numbers: ['Make sure all complex number operations are consistent with algebraic and geometric interpretations.', 'Avoid assuming properties of real numbers directly apply to complex numbers without verification.', "Check that conditions like 'imaginary roots' or 'real numbers' are properly translated into algebraic constraints."]
+[slots] Functional Analysis: ['Make sure the functional equation is consistent across all domains and does not introduce contradictions.', 'Avoid assuming properties of the function without proof, especially when dealing with periodic or recursive relationships.', "Check that all transformations and substitutions preserve the original function's constraints and domain."]
+[slots] Algebraic Systems: ['Make sure all equations are consistent and do not introduce extraneous solutions.', 'Avoid assuming variable relationships without justification from the given equations.', 'Check that the system is not over-constrained or under-constrained for a valid solution.']
+[slots] Trigonometry: ['Make sure all trigonometric identities are correctly applied and verified.', 'Avoid introducing extraneous solutions when manipulating trigonometric equations.', 'Check that all given conditions are consistent and do not lead to contradictions.']
+[slots] Geometry: ['Make sure all geometric figures are well-defined and consistent with given conditions.', 'Avoid ambiguous interpretations of intersection points or midpoints in coordinate geometry.', 'Ensure that any percentage changes in dimensions lead to a clear and non-trivial new area calculation.']
+[slots] Algebra: ['Make sure all logarithmic bases are positive and not equal to 1.', 'Avoid assuming variable values without verifying domain constraints.', 'Check that all algebraic manipulations preserve equation equivalence.']
+[slots] Calculus: ['Make sure the new problem involves multiple differentiation techniques and limit evaluation without being trivially reducible to standard forms.', 'Avoid combining problems that rely on the same method or theorem, ensuring diversity in required approaches.', 'Check that the problem remains well-posed by ensuring all limits, series, and integrals are convergent and clearly defined.']
+[slots] Probability: ['Make sure all probabilities sum to 1 and are within [0, 1].', 'Avoid assuming independence where none is given; verify conditions carefully.', 'Check that expected values and variances are consistent with given data.']
+[slots] Recurrence Relations: ['Make sure the recurrence is well-defined for all required terms and does not depend on undefined values.', 'Avoid ambiguous initial conditions or undefined behavior for the recurrence relation.', 'Check that the problem does not reduce to a trivial case or require guessing beyond the given terms.']
+[slots] Diophantine Equations: ['Make sure all equations are well-defined and have integer domains.', 'Avoid introducing extraneous solutions through algebraic manipulation.', 'Check that constraints are properly translated into equations or inequalities.']
+== embed
+[embed] 0/3200 9s
+== cluster
+== name
+[name] cluster 0: {'name': 'N-Queens Puzzle', 'description': 'These problems involve placing n queens on an n x n chessboard so that no two queens threaten each other.', 'size': 400}
+[name] cluster 1: {'name': 'Truth Value Paradoxes', 'description': 'These problems involve determining the number of consistent truth assignments to a set of statements that refer to their own truth values.', 'size': 400}
+[name] cluster 2: {'name': 'Mini Sudoku Puzzles', 'description': 'These problems involve solving 4x4 Sudoku puzzles with standard Sudoku rules applied to a smaller grid size.', 'size': 400}
+[name] cluster 3: {'name': 'Graph Coloring', 'description': 'These problems involve assigning colors to vertices of a graph such that no two adjacent vertices share the same color.', 'size': 400}
+[name] cluster 4: {'name': 'Weighted Grid Puzzle', 'description': 'These puzzles involve placing 1s in a grid to satisfy specific weighted sum constraints for rows and columns.', 'size': 360}
+[name] cluster 5: {'name': 'Syllogistic Reasoning', 'description': 'These problems involve determining the logical validity of conclusions based on given premises using categorical logic.', 'size': 119}
+[name] cluster 6: {'name': 'Truth and Lies', 'description': 'These puzzles involve determining the identities of individuals on an island where inhabitants are either always truthful or always lying.', 'size': 106}
+[name] cluster 7: {'name': 'Syllogistic Reasoning', 'description': 'These problems involve determining the logical validity of conclusions based on given premises using syllogistic logic.', 'size': 117}
+[name] cluster 8: {'name': 'Futoshiki Puzzles', 'description': 'A set of logic puzzles involving filling a grid with numbers while respecting inequality constraints between adjacent cells.', 'size': 400}
+[name] cluster 9: {'name': 'Truth and Lies', 'description': 'These problems involve determining the identity of truth-tellers and liars based on their statements.', 'size': 67}
+[name] cluster 10: {'name': 'Logic Puzzles', 'description': 'These problems involve determining the true identities of individuals on an island where altruists always tell the truth and egoists always lie.', 'size': 57}
+[name] cluster 11: {'name': 'Syllogistic Reasoning', 'description': 'These problems involve determining whether a conclusion logically follows from given premises using syllogistic logic.', 'size': 164}
+[name] cluster 12: {'name': 'Knights and Knaves', 'description': 'These problems involve determining the truth-telling nature of individuals on an island where knights always tell the truth and knaves always lie.', 'size': 54}
+[name] cluster 13: {'name': 'Logic Puzzles', 'description': 'These problems involve determining the identities of individuals on an island where heroes always tell the truth and villains always lie.', 'size': 68}
+[name] cluster 14: {'name': 'Weighted Grid Puzzle', 'description': 'These puzzles involve placing 1s in a grid to satisfy specific weighted row and column sum constraints based on cell positions.', 'size': 40}
+[name] cluster 15: {'name': 'Truth and Lies', 'description': 'These problems involve determining the identities of individuals on an island where sages always tell the truth and fools always lie.', 'size': 48}
+[name] topic Truth Paradoxes: clusters [1]
+[name] topic Constraint Satisfaction: clusters [2]
+[name] topic Graph Theory: clusters [3]
+[name] topic Syllogistic Logic: clusters [5, 7, 11]
+[name] topic Knights and Knaves: clusters [6, 9, 10, 12, 13, 15]
+[name] topic Inequality Puzzles: clusters [8]
+[name] topic Queen Placement: clusters [0]
+[name] topic Weighted Grids: clusters [4, 14]
+== label
+[label] 0/1500 1s
+[label] 250/1500 153s
+[label] 500/1500 298s
+[label] 750/1500 438s
+[label] 1000/1500 601s
+[label] 1250/1500 757s
+== propagate
+[propagate] held-out kNN vs LLM: top1 1.000, LLM top1 in kNN top2 1.000
+== validate
+[validate] purity vs family: 1.000; topic sizes {'Knights and Knaves': 400, 'Constraint Satisfaction': 400, 'Inequality Puzzles': 400, 'Graph Theory': 400, 'Weighted Grids': 400, 'Truth Paradoxes': 400, 'Syllogistic Logic': 400, 'Queen Placement': 400}
+== slots
+[slots] Truth Paradoxes: ['Make sure all statements are self-contained and do not rely on external context.', 'Avoid contradictions that make the puzzle unsolvable or trivial.', 'Check that the number of statements and their logical relations remain balanced and consistent.']
+[slots] Constraint Satisfaction: ['Make sure all constraints are clearly defined and consistent across the puzzle. Avoid ambiguous or conflicting rules that could mislead solvers.', 'Avoid over-constraining the puzzle so that it has only one solution. Ensure there are multiple valid paths to reach the solution.', 'Check that the initial clues are sufficient to allow logical deduction but not so many that the puzzle becomes trivial to solve.']
+[slots] Graph Theory: ['Make sure the graph is connected to ensure non-trivial coloring challenges.', 'Avoid using more colors than necessary to maintain constraint difficulty.', 'Check that all adjacency constraints are enforced across the entire graph.']
+[slots] Syllogistic Logic: ['Make sure all statements are in standard form and use proper quantifiers. Avoid ambiguous terms or overlapping categories.', 'Avoid assuming additional information not directly supported by the premises. Check for valid syllogistic forms only.', 'Ensure the conclusion logically follows from the premises using valid conversion, obversion, or contraposition where applicable.']
+[slots] Knights and Knaves: ['Make sure statements are logically consistent with possible roles, avoid contradictions in assumptions.', 'Avoid creating scenarios where both truth-tellers and liars can satisfy the statements simultaneously.', 'Check that each character’s statement is clearly tied to their possible role and does not introduce ambiguity.']
+[slots] Inequality Puzzles: ['Make sure all constraints are clearly defined and consistent across rows and columns. Avoid ambiguous or conflicting inequalities.', 'Avoid creating puzzles with multiple solutions or no solution. Ensure a unique valid grid exists based on constraints.', 'Check that each number from 1 to size appears exactly once in every row and column. Avoid missing or repeated numbers.']
+[slots] Queen Placement: ['Make sure each queen is in a unique row and column.', 'Avoid placing queens on the same diagonal by checking absolute differences.', 'Ensure the final board has exactly n queens and no conflicts.']
+[slots] Weighted Grids: ['Make sure the total sum of row constraints matches the total sum of column constraints.', 'Avoid having row or column constraints that are impossible to achieve with 1s and 0s.', 'Check that each row and column constraint is achievable with valid combinations of 1s and 0s.']
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+{'id': 'futoshiki_0197', 'family': 'futoshiki', 'gen_tokens': 1977, 'compiles': False, 'provable': False, 'refuted': False}
+{'id': 'futoshiki_0388', 'family': 'futoshiki', 'gen_tokens': 1751, 'compiles': True, 'provable': False, 'refuted': False}
+{'id': 'futoshiki_0215', 'family': 'futoshiki', 'gen_tokens': 1140, 'compiles': True, 'provable': False, 'refuted': False}
+{'id': 'futoshiki_0020', 'family': 'futoshiki', 'gen_tokens': 1542, 'compiles': True, 'provable': False, 'refuted': False}
+{'id': 'futoshiki_0132', 'family': 'futoshiki', 'gen_tokens': 2971, 'compiles': True, 'provable': False, 'refuted': False}
+{'id': 'futoshiki_0261', 'family': 'futoshiki', 'gen_tokens': 2197, 'compiles': True, 'provable': False, 'refuted': False}
+{'id': 'futoshiki_0248', 'family': 'futoshiki', 'gen_tokens': 1922, 'compiles': True, 'provable': False, 'refuted': True}
+{'id': 'futoshiki_0207', 'family': 'futoshiki', 'gen_tokens': 2505, 'compiles': False, 'provable': False, 'refuted': False}

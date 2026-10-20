@@ -1,0 +1,769 @@
+id,source,tag1,p1,tag2,p2,category,text,tag1_correct (y/n),tag2_correct (y/n/-),notes
+webinstruct_342946,llm,Mechanics,1.0,Chemistry,0.0,Physics,"A motorcycle traveling 91.0 km/hr approaches a car traveling in the same direction at 83.0 km/hr. When the motorcycle is 52.0 m behind the car, the rider accelerates and passes the car 16.0 s later.
+
+What is the acceleration of the motorcycle (in meters/second^2)?",,,
+webinstruct_225630,llm,Chemistry,1.0,Biology,0.0,Chemistry,"A mixture of KClO$_3
+
+$ and KCl with a mass of 0.950 g was heated to produce O$_2
+
+$. After heating the mass of reside was 0.760 g. Assuming all the KClO$_3
+
+$ decomposed to KCl and O$_2
+
+$, calculate the mass percent of KClO$_3
+
+$ in the original mixture.",,,
+webinstruct_440840,llm,Chemistry,0.2403,Materials Science,0.0,Biology,"Scientists know that the sequences of bases in a gene on a specific chromosome is converted to the production of a protein. DNA encoded information is converted to the production of protein molecules via messenger RNA, transfer RNA, ribosome, and amino acids. Recall that the 23 human chromosomes are estimated to consist of about 3.2 billion base pairs and to contain 20,000 to 25,000 distinct genes coding to making specific proteins. Let us consider this fact from a more general View of information content. Recall that it takes one byte (8 bits) to store a single letter or character. Although n",,,
+webinstruct_1910758,llm,Mechanics,0.0,Chemistry,0.0,Biology,At what age does neuron firing start declining?,,,
+webinstruct_1455032,knn,Biology,0.4287,Chemistry,0.0202,Biology,How many primates use bipedalism?,,,
+webinstruct_175090,knn,Electromagnetism,0.7644,Mechanics,0.1946,Physics,A 0.200 kg metal rod carrying a current of 10A glides on two horizontal rails 0.5 m apart. What vertical magnetic field is required to keep the rod moving at a constant speed if the coefficient of kinetic friction between the rod and rail is 0.1?,,,
+webinstruct_843154,knn,Mechanics,0.5291,Chemistry,0.3076,Physics,"What is the de Broglie wavelength of an electron traveling at 1.01 * 10^5 m/s ?
+
+Express your answer with the appropriate units.",,,
+webinstruct_201754,knn,Mechanics,0.962,Chemistry,0.038,Physics,"A skateboarder of mass 38.0 kg is riding her 3.90-kg skateboard at a speed of 5.40 m/s. She jumps backward off her skateboard, sending the skateboard forward at a speed of 8.5 m/s. At what speed is the skateboarder moving when her feet hit the ground?",,,
+webinstruct_1451740,llm,Mechanics,0.9635,Chemistry,0.02,Chemistry,"Two moles of oxygen gas, which can be regarded as ideal with $C_p
+
+$ = 29.4 J/K$\cdot
+
+$mol (independent of temperature), are maintained at 273 K in a volume of 11.35 dm$^3
+
+$. What is the pressure of the gas?",,,
+webinstruct_1239890,knn,Biology,0.205,Chemistry,0.0005,Biology,How many chromosomes are present in a cell during interphase?,,,
+webinstruct_1249684,knn,Chemistry,0.7034,Thermodynamics,0.177,Chemistry,What is the volume occupied by 12.3 grams of argon gas at a pressure of 1.17 atm and a temperature of 455 K?,,,
+webinstruct_725435,knn,Chemistry,1.0,Thermodynamics,0.0,Chemistry,What is #pH# for a solution prepared from a #5.7*g# mass of sodium hydroxide that is dissolved in a #100*mL# volume of water?,,,
+webinstruct_1164552,knn,Chemistry,1.0,Mechanics,0.0,Chemistry,How many atoms of San are in 0.796 moles of this element,,,
+webinstruct_1245700,knn,Chemistry,1.0,Thermodynamics,0.0,Chemistry,"How many molecules (not moles) of $\rm NH_3
+
+$ are produced from $\rm 1.17 \times 10^4 \text{ g of } H_2?
+
+$ Express your answer numerically as the number of molecules.",,,
+webinstruct_1426655,llm,Chemistry,0.9945,Energy Systems,0.0052,Biology,What is the maximum ATP yield for an aerobic bacterium? Express your answer as an integer.,,,
+webinstruct_1807598,knn,Mechanics,0.9993,Optics,0.0007,Physics,A helicopter flies 65km (N32 E) then 42km(E 21 ) determine the total displacement of the helicopter.,,,
+webinstruct_1152913,knn,Mechanics,0.4895,Electromagnetism,0.3395,Physics,"Point charges $q_1 = 14\ \mu C
+
+$ and $q_2 = -60\ \mu C
+
+$ are fixed at $r_1 = (5.0 \hat i - 4.0 \hat j)\ m
+
+$ and $r_2 = (9.0 \hat i + 7.5 \hat j)\ m
+
+$. What is the force (in $N
+
+$) of $q_2
+
+$ on $q_1
+
+$? (Express your answer in vector form.)",,,
+webinstruct_1106550,llm,Chemistry,0.9983,Mechanics,0.0014,Chemistry,"Mn crystallizes in the same type of cubic unit cell as Cu. Assuming that the radius of Mn is 5.6% larger than the radius of Cu and the density of Cu is 8.96 g/cm$^{3}
+
+$, calculate the density of Mn.",,,
+webinstruct_906213,knn,Thermodynamics,0.7851,Chemistry,0.1448,Physics,"Argon gas enters an adiabatic compressor at 100 kPa, 25 $^o$, 20 m/s and exits at 1 MPa, 550 $^o$C, 100 m/s. The inlet area of the compressor is 75 cm$^2$.
+
+Determine the power of the compressor.
+
+(Express your answer to three significant figures)",,,
+webinstruct_787571,knn,Chemistry,0.5555,Electromagnetism,0.3797,Engineering,"I have a serial RLC-filter for which I should first determine the transfer function and then the impulse response. I figured out that the transfer function is: $H(s)=V(s)/U(s)$ And my circuit has the formula (Ri(t) = v(t) which is the output, and u(t) is input): $$ Li'(t)+\frac{1}{C}\int_0^ti(t)dt+Ri(t)=u(t)$$ then by transforming it with Laplace and rearranging it I get: $$H(s) = \frac{R}{Ls+\frac{1}{Cs}+R}$$ But how do I get the impulse response for that? I think that I should transform H(s) back to t-domain again, but I don't really know how to do that when the expression is as it looks abo",,,
+webinstruct_1220176,llm,Chemistry,0.0,Thermodynamics,0.0,Biology,"A rare blood disease, which is due to a recessive allele that is lethal when homozygous, occurs with a frequency of one in a hundred thousand.
+
+In a city of 55,000(fifty-five thousand), how many individuals would you expect to carry this allele?",,,
+webinstruct_726079,knn,Chemistry,1.0,Thermodynamics,0.0,Chemistry,"A typical aspirin tablet contains  $324 \ mg
+
+$ aspirin  $(C_9O_4H_8),
+
+$ a monoprotic acid  $\displaystyle K_a = 2.8 \times 10^{-4}.
+
+$ A monoprotic acid donates a single proton. If you dissolve two aspirin tablets in a  $300 \ mL
+
+$ glass of water, what is the  $pH
+
+$ of the solution?",,,
+webinstruct_11094,knn,Chemistry,1.0,Thermodynamics,0.0,Chemistry,"Given Pka1=3.13, Pka2=4.76, and Pka3 = 6.40, calculate the pH of lemon juice which is about 5% citric acid.",,,
+webinstruct_879375,llm,Chemistry,0.9951,Materials Science,0.0033,Chemistry,How many atoms of potassium must be lined up to make a line 1 inch long?,,,
+webinstruct_2031200,knn,Biology,0.1473,Chemistry,0.0005,Biology,How many total pieces of DNA are lined up along the metaphase plate during the G-metaphase of meiosis 2?,,,
+webinstruct_1073442,knn,Chemistry,0.5697,Biology,0.0905,Biology,Obtain 2 test tubes. 2. Add 2 mL of animal blood plasma into the first test tube a. Use a pH test strip to measure the pH of the blood plasma. ______,,,
+webinstruct_327624,knn,Chemistry,0.9165,Thermodynamics,0.0525,Physics,The half-life of a radioactive substance is 3200 years. Find the quantity Q(t) of the substance left at time t > 0 if Q(0) = 20 g.,,,
+webinstruct_493356,knn,Chemistry,0.9928,Mechanics,0.0072,Chemistry,"A particular brand of gasoline has a density of $\rm 0.737\ g/ml
+
+$ at $25 ^\circ C
+
+$. How many grams of this gasoline would fill a $\rm 16.0\ gal
+
+$ tank (1 US gal = 3.78 L)?",,,
+webinstruct_313469,llm,Chemistry,1.0,Biology,0.0,Chemistry,"Draw the Lewis structure with a formal charge $\displaystyle \rm CF_4
+
+$.",,,
+webinstruct_1957639,knn,Mechanics,1.0,Chemistry,0.0,Physics,"A dart is thrown upward with an initial velocity of $\displaystyle \rm 65 \ mm
+
+$ per second at an angle of elevation of $\displaystyle 52 ^{\circ}
+
+$. Consider the horizontal and vertical positions of the dart at any time $\displaystyle t
+
+$. State the parametric equations.",,,
+webinstruct_1390791,knn,Chemistry,1.0,Thermodynamics,0.0,Chemistry,"An unknown sample of dopamine gave a current of 34.6 nA in an electrochemical analysis. Then 2.00 mL of solution containing 0.0156 M dopamine was mixed with 90.0 mL of an unknown, and the mixture was diluted to 100.0 mL in a volumetric flask. The signal from the new solution was 58.4 nM. What was the dopamine concentration in the unknown?",,,
+webinstruct_404794,llm,Chemistry,0.0001,Materials Science,0.0,Biology,How many rRNA genes are there per cell? Why?,,,
+webinstruct_1335519,knn,Thermodynamics,0.5666,Chemistry,0.3098,Physics,"An object with a mass of #50 g# is dropped into #300 mL# of water at #0^@C#.  If the object cools by #80 ^@C# and the water warms by #8 ^@C#, what is the specific heat of the material that the object is made of?",,,
+webinstruct_1430790,llm,Chemistry,1.0,Thermodynamics,0.0,Chemistry,"Hydrogen gas formed in the chemical reaction $2H^+(aq) + Zn(s) \to H_2(g) + Zn^{2+}(aq)
+
+$ was collected over water at 30.0 degrees Celsius at a pressure of 435 mmHg. The vapor pressure of water at 30 degrees Celsius is 31.86 mmHg. What is the mass of $H_2(g)
+
+$ that is produced?",,,
+webinstruct_1329638,knn,Mechanics,0.9437,Chemistry,0.0562,Physics,"Two children of mass 19 kg and 26 kg sit balanced on a seesaw with the pivot point located at the center of the seesaw. If the children are separated by a distance of 3.0 m, at what distance from the pivot point is the smaller child sitting in order to maintain the balance?",,,
+webinstruct_1076580,knn,Chemistry,0.6532,Energy Systems,0.3145,Other STEM,"QueSLIUI 1
+How much water are we pumping out of the ground using wells in the US alone?",,,
+webinstruct_1277161,knn,Mechanics,0.7815,Biology,0.2166,Physics,The muscles attached to the Achilles tendon can generate a maximum of 1400 N of force. The Achilles tendon inserts 35 m away from the ankle joint. What is the maximum motive torque created by these muscles at the ankle joint?,,,
+webinstruct_1087413,llm,Chemistry,0.9685,Mechanics,0.0315,Physics,"How can you use the density of Cu (8.91 g/cm$^3
+
+$) to determine the diameter of a copper wire?",,,
+webinstruct_290143,knn,Mechanics,0.969,Chemistry,0.0305,Physics,"Disk A, with a mass of 2.0 kg and a radius of 60 cm, rotates clockwise about a frictionless vertical axle at 50 rev/s. Disk B, also 2.0 kg but with a radius of 40 cm, rotates counterclockwise about that same axle but at a greater height than disk A, at 50 rev/s. Disk B slides down the axle until it lands on top of disk A, after which they rotate together. After the collision, what is their common angular speed (in rev/s)?",,,
+webinstruct_2093086,llm,Chemistry,1.0,Thermodynamics,0.0,Physics,The radioactive element carbon-14 has a half-life of 5750 years. The percentage of carbon-14 present in the remains of plants and animals can be used to determine age. How old is a skeleton that has lost 48% of its carbon-14?,,,
+webinstruct_1673906,knn,Chemistry,1.0,Thermodynamics,0.0,Chemistry,Calcium nitrate reacts with sodium phosphate to form sodium nitrate and calcium phosphate. Given 96.1 grams of calcium nitrate what’s the theoretical yield of calcium phosphate,,,
+webinstruct_359597,knn,Chemistry,0.6833,Thermodynamics,0.2661,Chemistry,Calculate the number of helium atoms (g) present in a 5.00-L tank with a pressure of 14.5 atm at 65 degrees Celsius.,,,
+webinstruct_412797,llm,Mechanics,0.9349,Chemistry,0.0646,Physics,What is the equivalent resistance of the circuit?,,,
+webinstruct_976004,llm,Mechanics,0.9358,Chemistry,0.0611,Engineering,The size factor is used to correct for the difference in stress gradients on a part in bending or torsion. Calculate the size factor for a shaft of 50 mm diameter made from steel with an ultimate tensile strength of 1100 MPa that is subjected to axial stress.,,,
+webinstruct_1198856,knn,Chemistry,0.9992,Mechanics,0.0008,Chemistry,"The equilibrium constant for HI decomposition at 500 $^o
+
+$C is 5.8 $\times
+
+$ 10$^{-3}
+
+$.
+
+2HI(g) $\leftrightharpoons
+
+$ H$_2
+
+$(g) + I$_2
+
+$(g)
+
+At that temperature reactants and products are gaseous. There is no change in the total number of moles, so Kc = Kp. A sample of 0.40 mol of HI is placed in a 1.00 L vessel which is then heated to 500 $^o
+
+$C. When equilibrium is reached, what is the molar concentration of H$_2
+
+$?",,,
+webinstruct_719513,llm,Chemistry,1.0,Thermodynamics,0.0,Chemistry,"Express the equilibrium constant for the following reaction:
+
+$\displaystyle \rm P_4 (s) + 5O_2 (g) \leftrightarrow P_4O_{10} (s)
+
+$",,,
+webinstruct_1686069,knn,Chemistry,0.9845,Thermodynamics,0.0154,Physics,The nuclide Sr-86 has a mass of 85.9094 u. What is the binding energy per nucleon for this nuclide?,,,
+webinstruct_1587190,llm,Chemistry,1.0,Thermodynamics,0.0,Chemistry,"A 0.10 M solution of a weak acid has a pH of 3.5 at 25 degrees C. What is the equilibrium constant, Ka, for this acid?",,,
+webinstruct_372051,knn,Chemistry,1.0,Biology,0.0,Chemistry,"What is the $K_c
+
+$ for the following reaction at 25 degrees Celsius?
+
+$NH_3(aq) + F^-(aq) + H_3O^+(aq) \to HF(aq) + NH_4^+(aq) + OH^-(aq)
+
+$",,,
+webinstruct_1122356,llm,Mechanics,0.9999,Chemistry,0.0001,Physics,What is the kinetic energy of an electron in a TEM having a 0.0100-nm wavelength?,,,
+webinstruct_1790394,knn,Chemistry,1.0,Thermodynamics,0.0,Chemistry,"0.40 g of 0.10 M NaOH was added to 100 mL of distilled water. 8 g of KHT was added to 100 mL of distilled water and settled for 30 min; 80 mL was decanted into a 100 mL beaker. 20 mL of saturated KHT was transferred to a 250 mL Erlenmeyer flask, and 4 drops of phenolphthalein were added. A 10 mL cylinder was marked with 0.10 M NaOH. What would be the volume used of NaOH so that the Ksp of KHT would meet the literature value of Ksp of KHT at room temperature?",,,
+webinstruct_120480,llm,Mechanics,1.0,Chemistry,0.0,Physics,"A helicopter, starting from rest, accelerates straight up from the roof of a hospital. The lifting force does work in raising the helicopter. An $870\ \rm{kg}
+
+$ helicopter rises from rest to a speed of $6.8\ \rm{m/s}
+
+$ in a time of $3.6\ \rm{s}
+
+$. During this time it climbs to a height of $8.9\ \rm{m}
+
+$. What is the average power generated by the lifting force?",,,
+webinstruct_222854,knn,Chemistry,0.8764,Thermodynamics,0.0998,Chemistry,"Mercury metal is poured into a graduated cylinder that holds exactly 22.5 mL. The mercury used to fill the cylinder weighs 306.0 g. From this information, calculate the density of mercury in grams per cubic centimeter.",,,
+webinstruct_782481,knn,Chemistry,1.0,Biology,0.0,Chemistry,"Suppose 1.232 kg of aluminum hydroxide and 2.351 kg of sulfuric acid are allowed to react. How many grams of the excess reactant remain after the limiting reactant is depleted?
+
+$2Al(OH)_3(s) + 3H_2SO_4(aq) \to Al_2(SO_4)_3(aq) + 6H_2O(l)
+
+$",,,
+webinstruct_820809,knn,Chemistry,1.0,Mechanics,0.0,Chemistry,"What is the theoretical pH of the buffer to be prepared from mixing 25.0 mL of 0.020 M $HC_2H_3O_2
+
+$ with 25.0 mL of 0.020 M $NaC_2H_3O_2
+
+$?",,,
+webinstruct_1666111,llm,Mechanics,1.0,Thermodynamics,0.0,Physics,"A toy train is pushed forward and released at $x_0 = 2.2\ m
+
+$ with a speed of $1.2\ m/s
+
+$. It rolls at a steady speed for $3.1\ s
+
+$, then one wheel begins to stick. The train comes to a stop $6.0\ m
+
+$ from the point at which it was released. What is the magnitude of the train's acceleration after its wheel begins to stick?",,,
+webinstruct_1617184,knn,Mechanics,0.9487,Chemistry,0.0506,Physics,"A 250-gram pendulum bob is initially constrained at a 53-degree angle by two strings. When the horizontal string is cut, the pendulum begins to swing. As the pendulum bob passes through its equilibrium position, what will be its velocity?",,,
+webinstruct_859767,knn,Electromagnetism,0.6305,Mechanics,0.2495,Physics,A long solenoid consists of 1600 turns and has a length of 0.55 m.The current in the wire is 0.41 A. What is the magnitude of the magnetic field inside the solenoid ?,,,
+webinstruct_1454934,llm,Chemistry,1.0,Biology,0.0,Chemistry,"Balance the chemical equation representing the combustion reaction of butane with air and enter the coefficients (the number of molecules) of air: $(O_2 + 3.76 N_2), CO_2, \;H_2O,\; N_2
+
+$.",,,
+webinstruct_1304436,llm,Mechanics,1.0,Thermodynamics,0.0,Physics,"You would like to shoot an orange out of a tree with your bow and arrow. The orange is hanging 5.00 m above the ground. On your first try, you fire the arrow at 36.0 m/s at an angle of 30.0 degrees above the horizontal from a height of 1.40 m while standing 41.0 m away. Treating the arrow as a point projectile and neglecting air resistance, what is the height of the arrow once it has travelled the 41.0 m horizontally to the tree?",,,
+webinstruct_209333,knn,Chemistry,1.0,Thermodynamics,0.0,Chemistry,What is the pH of a solution containing 25 ml of 0.10M acetic acid after 10 ml of 0.10M NaOH is added?,,,
+webinstruct_744476,llm,Mechanics,1.0,Thermodynamics,0.0,Physics,"A conical tank is resting on its apex (point). The height of the tank is 12 feet, and the radius of its top is 2 feet. The tank is full of gasoline weighing 45 $lb/ft^3
+
+$. How much work will it take to pump the gasoline to the top?",,,
+webinstruct_388629,llm,Energy Systems,0.9912,Thermodynamics,0.0062,Other STEM,What is the approximate period of each Wilson cycle?,,,
+webinstruct_214182,llm,Mechanics,1.0,Thermodynamics,0.0,Physics,"A uniform ladder of length $\displaystyle L
+
+$ and mass $\displaystyle m
+
+$ leans against a frictionless vertical wall, making an angle of 55$\displaystyle ^o
+
+$  with the horizontal. The coefficient of static friction between the ladder and the ground is 0.37.
+
+If your mass is four times that of the ladder, how high can you climb before the ladder begins to slip?",,,
+webinstruct_490971,knn,Chemistry,1.0,Thermodynamics,0.0,Chemistry,"Balance this equation; $C_3H_9N + O_2 \to CO_2 + H_2O + NO_2
+
+$",,,
+webinstruct_1059174,llm,Chemistry,0.0,Thermodynamics,0.0,Biology,"What are the allelic frequencies if there are 50GG, 30Gg and 20 gg.?",,,
+webinstruct_520529,knn,Mechanics,0.6245,Chemistry,0.2057,Other STEM,A No. 209 radial-contact ball bearing carries a combined load of 200 lb radially and 150 lb axially at 1200 rpm. The bearing is subjected to steady loading. Find the bearing life in hours for 90% reliability.,,,
+webinstruct_1274086,llm,Chemistry,1.0,Biology,0.0,Chemistry,A sample of lithium depleted in the lighter isotope was found on analysis to contain 1.442% 6Li. What is the average atomic weight of this sample of the metal?,,,
+webinstruct_1548123,knn,Materials Science,0.3721,Biology,0.2379,Other STEM,When did the Nazca Plate start subduction?,,,
+webinstruct_1565568,knn,Chemistry,0.8667,Thermodynamics,0.0832,Chemistry,"Raoul Pictet, the Swiss physicist who first liquefied oxygen, attempted to liquefy hydrogen. He heated potassium formate, $\rm
+
+KCHO_2
+
+$, with $\rm
+
+KOH
+
+$ in a closed $\rm
+
+2.50\ L
+
+$ vessel.
+
+$\rm
+
+KCHO_2(s) + KOH(s) \to K_2CO_3(s) + H_2(g)
+
+$
+
+If $\rm
+
+49.7\ g
+
+$ of potassium formate reacts in a $\rm
+
+2.50-L
+
+$ vessel, which was initially evacuated, what pressure of hydrogen will be attained when the temperature is finally cooled to $\rm
+
+25 ^\circ C
+
+$?",,,
+webinstruct_1393311,knn,Electromagnetism,0.6738,Mechanics,0.268,Physics,"Particle 1 of charge $q_1 = -5.61q
+
+$ and particle 2 of charge $q_2 = +3.31q
+
+$ are fixed to an x-axis. As a multiple of distance L, at what coordinate on the axis is the net electric field of the particles zero?",,,
+webinstruct_1294885,knn,Mechanics,0.3787,Chemistry,0.3763,Physics,How much does it cost to operate a 23-W porch light for 24 h if electric energy costs 8c /kWh?,,,
+webinstruct_470298,knn,Chemistry,1.0,Biology,0.0,Chemistry,How does #H_3COCH_2CH_2CO_2H# dissociate as an acid?,,,
+webinstruct_1897852,knn,Chemistry,1.0,Mechanics,0.0,Chemistry,"Describe in your own words how the molar mass of the $1\text{ }C{{H}_{4}}
+
+$ molecule can be calculated.",,,
+webinstruct_630889,llm,Chemistry,0.0,Materials Science,0.0,Biology,How many tropic levels does a food web have,,,
+webinstruct_1990203,knn,Thermodynamics,0.5923,Chemistry,0.2492,Physics,Alligators and other reptiles don't use enough metabolic energy to keep their body temperatures constant. They cool off at night and must warm up in the sun in the morning. Suppose a 300 kg alligator with an early-morning body temperature of 25 degree Celsius is absorbing radiation from the sun at a rate of 200 W. How long will the alligator need to warm up to a more favorable 30 degree Celsius? (Assume that the specific heat of the reptilian body is the same as that of the mammalian body.),,,
+webinstruct_172455,knn,Mechanics,1.0,Chemistry,0.0,Physics,"A truck is traveling due north at 33 km,hr approaching a crossroad. On a perpendicular road a poke car is traveling west toward the intersection at 38 km,hr. Both vehicles will reach the crossroad in exactly ore hour Find the vector currently represent the displacement of the truck with respect to the police car. The x -axis is directed to the East and the Y-axis is directed to the North.",,,
+webinstruct_1765872,knn,Chemistry,0.1645,Biology,0.0063,Biology,What is the adenylate energy charge?,,,
+webinstruct_1402627,llm,Chemistry,0.9999,Mechanics,0.0,Physics,"A large tank of water containing 500 ppm of salt is connected to a large tank of distilled water with a narrow tube $10 \, \mathrm{cm}
+
+$ long. Pressures are adjusted so that there is not bulk fluid flow. What is the approximate flux density of the salt in the tube due to molecular diffusion when the salt gradient in the tube has become steady?",,,
+webinstruct_550267,knn,Biology,0.8356,Materials Science,0.0734,Other STEM,When was the last ice age in Canada?,,,
+webinstruct_49232,knn,Chemistry,1.0,Thermodynamics,0.0,Chemistry,How do you balance sucrose reacts with oxygen to yield carbon dioxide and water?,,,
+webinstruct_1260955,knn,Chemistry,0.7229,Thermodynamics,0.2771,Chemistry,How do you calculating freezing point from molality?,,,
+webinstruct_722385,knn,Chemistry,1.0,Thermodynamics,0.0,Chemistry,"Write a balanced chemical equation using structural formulas for the reaction of 2,3-dimethylpentanoic acid and potassium hydroxide.",,,
+webinstruct_191604,llm,Biology,0.9978,Materials Science,0.0017,Biology,How long does it take for primary succession to reach climax community?,,,
+webinstruct_822888,knn,Mechanics,0.7097,Chemistry,0.1826,Other STEM,"A gear motor can develop $\frac{1}{10} hp
+
+$ when it turns at $80 rev/min
+
+$. The allowable shear stress for the shaft is $4 ksi
+
+$.
+
+Determine the smallest diameter of the shaft to the nearest $1/8 in
+
+$. that can be used.",,,
+webinstruct_1944406,knn,Chemistry,0.9171,Thermodynamics,0.0829,Chemistry,Iodine-131 is a radioactive isotope with a half-life of 8 days. How many grams of a 30.0-gram sample will remain at the end of 32 days?,,,
+webinstruct_1138616,knn,Mechanics,0.6075,Thermodynamics,0.22,Physics,"A cork in a bottle is 2.00 cm in diameter. If the pressure inside the bottle is 3.0 atm, what is the net force on the cork due to the pressure?",,,
+webinstruct_640365,llm,Mechanics,0.9961,Chemistry,0.003,Physics,"Calculate the mean free path of air molecules at a pressure of 7.00 x 10$^{-13}
+
+$ atm and a temperature of 300 K. (This pressure is readily attainable in the laboratory.) Model the air molecules as spheres with a radius of 2.00 x 10$^{-10}
+
+$ m.",,,
+webinstruct_1234199,knn,Mechanics,0.7084,Optics,0.1371,Physics,Waves with a frequency of 2.0 hertz are generated along a string. The waves have a wavelength of 0.50 meters. What is the speed of the waves along the string?,,,
+webinstruct_1330701,llm,Chemistry,1.0,Electromagnetism,0.0,Chemistry,"Calculate the value of $K_{p}
+
+$ for the equation
+
+$C_{(s)} + CO_{2(g)} \leftrightharpoons 2CO_{(g)}
+
+$
+
+given that at a certain temperature
+
+$C_{(s)} + 2H_{2}O_{(g)} \leftrightharpoons CO_{2(g)} + 2H_{2(g)}
+
+$, $K_{p1} = 3.35
+
+$
+
+$H_{2(g)} + CO_{2(g)} \leftrightharpoons H_{2}O_{(g)} + CO_{(g)}
+
+$, $K_{p2} = 0.665
+
+$",,,
+webinstruct_2091276,knn,Energy Systems,0.7272,Chemistry,0.2664,Engineering,"To decrease the cost of operating a lock in a large river, a new system of operation is proposed. The system will cost $830,000 to design and build. It is estimated that it will have to be reworked every 10 years at a cost of $120,000. In addition, an expenditure of $80,000 will have to be made at the end of the fifth year for a new type of gear that will not be available then. Annual operating costs are expected to be $70,000 for the first 15 years and $100,000 a year thereafter. Compute the capitalized cost of perpetual service at i=7%",,,
+webinstruct_1474808,knn,Chemistry,1.0,Mechanics,0.0,Chemistry,How many molecules of oxygen are in 50.0 g of oxygen?,,,
+webinstruct_111871,knn,Chemistry,0.1379,Materials Science,0.0,Biology,"What percent of point mutations are neutral, and what is the up-to-date source for this percent?",,,
+webinstruct_1305655,knn,Chemistry,1.0,Mechanics,0.0,Chemistry,"How many grams of $KMnO_4
+
+$ would you need to make 1 L of a 2 M solution?",,,
+webinstruct_1105280,knn,Chemistry,1.0,Thermodynamics,0.0,Chemistry,"What is the pH of a solution which begins to precipitate $\displaystyle \rm PbS
+
+$ ($\displaystyle \rm K_{sp} = 8.4 \times I0^{-28}
+
+$ from a solution which is $\displaystyle \rm 0.01 \ M
+
+$) with respect to $\displaystyle \rm Pb^{2+}
+
+$ and has a $\displaystyle \rm H_2S
+
+$ concentration of $\displaystyle \rm 0.02 \ M
+
+$.",,,
+webinstruct_73282,knn,Chemistry,1.0,Materials Science,0.0,Chemistry,"The element mercury has seven naturally occurring isotopes. Based on the isotopic masses and abundances shown below, calculate the average atomic mass of mercury.
+
+ 
+  
+   
+   Isotope 
+   Mass (amu) 
+   Abundance (%) 
+   
+   
+   196Hg 
+   195.9658 
+   0.146 
+   
+   
+   198Hg 
+   197.9668 
+   10.02 
+   
+   
+   199Hg 
+   198.9683 
+   16.84 
+   
+   
+   200Hg 
+   199.9683 
+   23.13 
+   
+   
+   201Hg 
+   200.9703 
+   13.22 
+   
+   
+   202Hg 
+   201.9706 
+   29.80 
+   
+   
+   204Hg 
+   203.9735 
+   6.85",,,
+webinstruct_93910,llm,Chemistry,0.0,Materials Science,0.0,Biology,How many different shapes of bacteria are there?,,,
+webinstruct_1522361,knn,Mechanics,1.0,Chemistry,0.0,Physics,"When landing after a spectacular somersault, a 42.5 kg gymnast decelerates by pushing straight down on the mat. Calculate the force she must exert if her deceleration is 7.00 times the acceleration due to gravity in Newtons.",,,
+webinstruct_1636256,llm,Chemistry,1.0,Thermodynamics,0.0,Chemistry,"Aspirin (acetylsalicylic acid, $C_9H_8O_4
+
+$) may be formed from salicylic acid ($C_7H_6O_3
+
+$) and acetic acid ($CH_3COOH
+
+$) as follows:
+
+$C_7H_6O_3(aq)+CH_3COOH(aq) \rightarrow C_9H_8O_4(s) +H_2O(l)
+
+$.
+
+How many grams of acetic acid are required to react completely with $9.37 \times 10^2
+
+$ mol salicylic acid?",,,
+webinstruct_978301,llm,Thermodynamics,1.0,Chemistry,0.0,Physics,"How much heat in joules is required to heat a $40\ g
+
+$ sample of aluminum from $77 ^\circ C
+
+$ to $150 ^\circ C
+
+$?",,,
+webinstruct_879585,knn,Chemistry,0.1146,Biology,0.0724,Biology,"Your first cousin died of tay-sachs disease (autosomal recessive, incidence 0.09%). you are not affected, nor is anyone else in your extended family. what is the chance that you are a carrier?",,,
+webinstruct_46229,knn,Biology,0.2468,Energy Systems,0.0064,Biology,When did the phylum Anthophyta first appear?,,,
+webinstruct_97162,knn,Chemistry,1.0,Thermodynamics,0.0,Chemistry,"1. If 3.25 moles of oxygen were consumed, how much moles of carbon dioxide are
+produced?",,,
+webinstruct_976603,llm,Chemistry,1.0,Thermodynamics,0.0,Chemistry,"You use 19.2 grams of $KNO_3
+
+$ to make 180.0 mL of a solution. What is the molarity of this solution?",,,
+webinstruct_1687096,knn,Chemistry,1.0,Thermodynamics,0.0,Chemistry,"The reaction of  $2.5 \ mol
+
+$ of  $O_2
+
+$ with  $4.6 \ mol
+
+$ of  $C_3H_8
+
+$  will produce  $\_\_\_\_\_\_\_\_
+
+$ mol of  $H_2O
+
+$.",,,
+webinstruct_1532667,knn,Electromagnetism,0.8527,Mechanics,0.0664,Physics,"A wire loop of radius 0.30 miles so that an external magnetic field of magnitude 0.40 T is perpendicular to the loop. The field reverses its direction, and its magnitude changes to 0.20 T in 2.0 s. Find the magnitude of the average induced emf in the loop during this time.",,,
+webinstruct_1702795,llm,Chemistry,1.0,Biology,0.0,Chemistry,"A 0.500-g mixture of $\rm
+
+Cu_2O
+
+$ and $\rm
+
+CuO
+
+$ contains $\rm
+
+0.425\ g\ Cu
+
+$. What is the mass of $\rm
+
+CuO
+
+$ in the mixture?",,,
+webinstruct_917119,llm,Chemistry,1.0,Thermodynamics,0.0,Chemistry,"For a specific reaction, the rate constant, k, is measured at six different temperatures. The natural logarithm of k is plotted on the vertical axis (y-axis) and the reciprocal of the absolute temperature (1/T) is plotted on the horizontal axis (x-axis). The result is a linear plot with a slope equal to -6000 K and a y-intercept equal to 15.0 What is the activation energy (Ea), in kJ/mole?",,,
+webinstruct_371628,knn,Energy Systems,0.5495,Chemistry,0.444,Engineering,A contractor needs to bid on construction of a new strip mall. A similar mall was constructed for $2.4 millon in 1997 when the construction cost index (CCI) was 5270. Estimate the cost of the mall today when the CCI is 7910.,,,
+webinstruct_977751,knn,Chemistry,1.0,Mechanics,0.0,Chemistry,"How many total atoms are in 7.47 moles of $NH_3
+
+$?",,,
+webinstruct_1530334,knn,Chemistry,0.2945,Biology,0.0026,Biology,How many amino acid combinations are there?,,,
+webinstruct_1758570,llm,Chemistry,1.0,Thermodynamics,0.0,Chemistry,"If a sample has a mass of #1.25 * 10^2# #g# and a volume of #51# #mL#, what is its density?",,,
+webinstruct_649991,knn,Biology,0.6099,Energy Systems,0.1746,Biology,When were ecosystem services first coined?,,,
+webinstruct_1475430,knn,Chemistry,0.9883,Thermodynamics,0.011,Chemistry,"How many hydrogen atoms are present in  $29
+
+$ grams of butane gas?",,,
+webinstruct_1089118,llm,Thermodynamics,0.9997,Chemistry,0.0003,Physics,"4.5kg of water, at 29 degrees C, is mixed with 4.5kg of water at 53 degrees C in a well-insulated container. Estimate the net change in entropy of the system.",,,
+webinstruct_202198,knn,Chemistry,0.9958,Thermodynamics,0.0042,Chemistry,What is the molarity of a solution of ammonia whose pH is 11.97?,,,
+webinstruct_1417395,knn,Chemistry,1.0,Thermodynamics,0.0,Chemistry,"Complete the ionic equation
+
+$(NH_{4})2CO_{3}(aq)+2CuF(aq)\rightarrow Cu_{2}CO_{3}(s)+NH_{4}F(aq)
+
+$
+
+The molecular equation you determined in Part B is shown above for your convenience. Examine each of the chemical species involved to determine the ions that would be present in solution.
+
+Be sure to consider both the coefficients and subscripts of the molecular equation and then write this precipitation reaction in the form of a balanced complete ionic equation.",,,
+webinstruct_1940642,llm,Chemistry,1.0,Thermodynamics,0.0,Chemistry,A buffer solution contains 0.12 mol of propionic acid and 0.10 mol of sodium propionate in 1.50 L. What is the pH of the buffer after the addition of 0.10 mol of sodium hydroxide?,,,
+webinstruct_1303223,llm,Mechanics,1.0,Thermodynamics,0.0,Physics,"In order to find the depth of a well, you drop a stone into it and time its fall. It hits the water after falling for $1.7\ s
+
+$. The depth of the well is about _____.",,,
+webinstruct_142061,knn,Biology,0.3776,Mechanics,0.0185,Biology,How long do white-cheeked gibbons live?,,,
+webinstruct_1487100,llm,Mechanics,1.0,Chemistry,0.0,Physics,You are asked to design spring bumpers for the walls of a parking garage. A freely rolling 1260-kg car moving at 0.680 m/s is to compress the spring no more than 8.00 m before stopping. What should be the force constant of the spring? Assume that the spring has negligible mass.,,,
+webinstruct_1413999,llm,Chemistry,1.0,Materials Science,0.0,Chemistry,The equilibrium fraction of lattice sites that are vacant in silver (Ag) at 700 degrees C is 2*10^-6 . Calculate the number of vacancies (per meter cubed) at 700 degrees C . Assume a density of 10.35 g/cm^3 for Ag.,,,
+webinstruct_1030815,knn,Biology,0.3337,Mechanics,0.0176,Biology,How long do mandrills live in captivity?,,,
+webinstruct_1874556,knn,Chemistry,0.9814,Mechanics,0.0186,Chemistry,"The compound AX2 decomposes according to the equation, 2 AX2(g) => 2 AX(g) + X2(g). In one experiment, AX2 was measured at various times, and these data recorded:
+
+Time (s) {AX2} mol/L
+
+0 0.0500
+
+2.0 0.0448
+
+6.0 0.0300
+
+8.0 0.0249
+
+10.0 0.0209
+
+20.0 0.0088
+
+What is the average rate from 8.0 to 20.0 seconds in mol / L s? Use 4 decimal places.",,,
+webinstruct_200458,knn,Chemistry,0.9994,Mechanics,0.0006,Chemistry,"Consider the following reaction:
+
+H2(g)+I2(g)?2HI(g)
+
+A reaction mixture at equilibrium at 175 K containsPH2=0.958atm, PI2=0.877atm, and PHI=0.020atm.
+
+A second reaction mixture, also at 175 K, contains PH2=PI2= 0.628 atm , and PHI= 0.107 atm
+
+. A) If not, what will be the partial pressure of HI when the reaction reaches equilibrium at 175 K?",,,
+webinstruct_2004204,knn,Chemistry,1.0,Thermodynamics,0.0,Chemistry,"A mixture of  $NaCl
+
+$ and  $NaBr
+
+$ has a mass of  $2.04 \ g
+
+$ and is found to contain  $0.70 \ g
+
+$ of  $Na
+
+$. What is the mass of  $NaBr
+
+$ in the mixture?",,,
+webinstruct_1238362,knn,Biology,0.4926,Chemistry,0.1898,Biology,"A population of rabbits was determined to have a birth rate of 200 and mortality rate of 50 per year. If the initial population size is 4000 individuals, after 2 years of non-interfered breeding the final population size will be _____ .",,,
+webinstruct_1280688,knn,Mechanics,0.3939,Chemistry,0.3455,Physics,"A very large nonconducting plate lying in the xy-plane carries a charge per unit area of 5 s. A second such plate located at z = 1.00 cm and oriented parallel to the xy-plane carries a charge per unit area of -4 s.
+
+Find the electric field for 0 < z < 1.00 cm.",,,
+webinstruct_601676,knn,Chemistry,0.8466,Thermodynamics,0.1534,Chemistry,"The production of ammonia (NH3) under standard conditions at 25C is represented by the following thermochemical equation. $N2(g) + 3 H2(g) --> 2 NH3(g)
+
+$; H = -91.8 kJ How much heat is released when $1.627\times10^{4}
+
+$ grams of ammonia is produced? kJ",,,
+webinstruct_159942,llm,Mechanics,1.0,Chemistry,0.0,Physics,"A satellite moves on a circular earth orbit that has a radius of $6.0 \times 10^6
+
+$ m. A model airplane is flying on a 14-m guideline in a horizontal circle. The guideline is parallel to the ground. Find the speed of the plane such that the plane and the satellite have the same centripetal acceleration.",,,
+webinstruct_815181,knn,Thermodynamics,0.7214,Chemistry,0.2215,Physics,"The thermal conductivity of aluminum is twice that of brass. Two rods, one of aluminum and the other of brass, are joined together end to end in excellent thermal contact. They are of equal lengths and radii. The free end of the brass rod is maintained at 0$^{\circ}
+
+$C while the free end of the aluminum rod is kept at 200$^{\circ}
+
+$C.
+
+Under these conditions of steady heat flow, what is the temperature at the joint between the two rods?",,,
+webinstruct_375919,knn,Chemistry,0.6137,Thermodynamics,0.3863,Chemistry,"Calculate the work of expansion in Joules done by the chemical species involved in the complete combustion of 1.0 gram of glucose (C$_6
+
+$H$_{12}
+
+$O$_6
+
+$) at 23.0 degrees Celsius when the external pressure is 1.0 atm. Assume all water produced is vapor.",,,
+webinstruct_721017,knn,Chemistry,0.1799,Biology,0.0665,Biology,"In mice, agouti fur is a dominant trait resulting in individual hairs having a light band of pigment on an otherwise dark hair shaft. A mouse with agouti fur is shown here, along with a mouse with solid color fur, which is the recessive phenotype (A = agouti; a = solid color).A separate gene, which is not linked to the agouti gene, can result in either a dominant black pigment or a recessive brown pigment (B = black; b = brown).A litter of mice from the mating of two agouti black parents includes offspring with the following fur colors:* solid color, black * solid color, brown (sometimes calle",,,
+webinstruct_368612,llm,Chemistry,1.0,Thermodynamics,0.0,Chemistry,The maximum amount of silver chloride that will dissolve in a 0.138 M ammonium chloride solution is __________ M.,,,
+webinstruct_1287557,llm,Chemistry,1.0,Thermodynamics,0.0,Chemistry,"What is the $\displaystyle \rm pH
+
+$ of the solution obtained by titrating $\displaystyle \rm 1.30 \ g
+
+$ of sodium hydrogen sulfate, $\displaystyle \rm NaHSO_4
+
+$, dissolved in $\displaystyle \rm 50.0 \ mL
+
+$ of water with $\displaystyle \rm 0.175 \ M
+
+$ sodium hydroxide until the equivalence point is reached?",,,
+webinstruct_868076,knn,Chemistry,0.9071,Thermodynamics,0.0761,Chemistry,"Suppose 27.8 mL of an unknown liquid was added to a 50.0-mL flask that weighs 464.7 g. The total mass of the flask and the liquid is 552.4 g. Calculate the density of the liquid in lb/in$^3
+
+$.",,,
+webinstruct_1421658,knn,Chemistry,0.6844,Thermodynamics,0.253,Chemistry,"If a cylinder contains 100 kg of liquid oxygen, how many liters of oxygen can be produced at 1.00 atm of pressure at room temperature?",,,
+webinstruct_149597,knn,Chemistry,0.9258,Thermodynamics,0.0734,Chemistry,How do you find the molar volume of hydrogen gas?,,,
+webinstruct_695566,knn,Mechanics,0.3737,Chemistry,0.327,Physics,What wavelength photon would be required to ionize a hydrogen atom in the ground state and give the ejected electron a kinetic energy of 15.0?,,,
+webinstruct_2094528,knn,Mechanics,0.8656,Chemistry,0.1333,Physics,"A 29.0 kg child slides down a long slide in a playground. She starts from rest at a height of 21.00 m. When she is part way down the slide, at a height of 9.00 m, she is moving at a speed of 7.00 m/s. Calculate the mechanical energy lost due to friction.",,,
+webinstruct_140118,llm,Chemistry,1.0,Biology,0.0,Chemistry,A buffer solution is prepared by adding 30.0 g of pure acetic acid to 41.0 g of sodium acetate in water and then diluting the solution to 1.00 L. What is the pH of the buffer solution?,,,
+webinstruct_484169,knn,Chemistry,0.3081,Mechanics,0.2317,Physics,Two polarizing sheets have their transmission axes at with respect for each other. What fraction of the unpolarized light that is incident on the first sheet makes through the second sheet?,,,
+webinstruct_1007246,llm,Mechanics,1.0,Chemistry,0.0,Physics,"An ideal spring obeys Hooke's law: F = -bikx. A mass of m = 0.8 kg hung vertically from this spring stretches the spring 0.06 m. The acceleration of gravity is 9.8 m/$s^2
+
+$. Calculate the value of the force constant k for the spring.",,,
+webinstruct_138688,knn,Biology,0.46,Mechanics,0.1325,Biology,"According to population surveys of the piping plover, there were 34 of these birds on Dowling Lake, Alberta, in 1992. The next year, the population of piping plover on Dowling Lake was 39. Calculate the per capita growth rate of the piping plover population during the entire survey period.",,,
+webinstruct_152670,knn,Mechanics,1.0,Thermodynamics,0.0,Physics,"The range R of a projectile is related to the initial velocity v and projection angle by the equation $R=(\frac{V^2sin2(\theta)}{g})
+
+$where g is constant.
+
+How is $\frac{dR}{dt} , related ,to, \frac{d \theta}{dt}
+
+$ if v is constant?",,,
+webinstruct_1156565,knn,Chemistry,1.0,Thermodynamics,0.0,Chemistry,Explain how you can use the laboratory technique of titration to determine the concentration of an acetic acid solution.,,,
+webinstruct_574820,llm,Mechanics,0.7703,Energy Systems,0.1369,Other STEM,"After 17 vehicular accents two years ago in a given intersection, the mayor of Boulder proposed to reduce the number of crashes by making improvements at the intersection.
+
+Assuming the appropriate CRF is 0.53, what will be the reduction in the number of crashes at that intersection achieved by the mayor?",,,
+webinstruct_2026271,knn,Chemistry,0.2828,Biology,0.0026,Biology,How many types of ribonucleic acid are there?,,,
+webinstruct_1469094,knn,Chemistry,0.5437,Thermodynamics,0.2539,Chemistry,"The air inside a beach ball is at a temp of 25 degrees Celsius, and a pressure of 1.0 atm. If the ball contains .85 mol of air what is the volume?",,,
+webinstruct_2069838,knn,Mechanics,0.9931,Thermodynamics,0.0029,Physics,A bird flies north 5 km and then south 2 km. What is the resultant displacement of the bird?,,,
+webinstruct_494081,knn,Thermodynamics,0.5993,Chemistry,0.4007,Chemistry,"When 0.320 moles of $NH_4Cl
+
+$ is dissolved in 1.00 L of water, the temperature drops by $13.7^oC.
+
+$ What is the heat of solution of ammonium chloride? The solution has a density of 1.0012 g/mL and specific heat of $0.9818 cal/g^oC.
+
+$",,,
+webinstruct_332795,knn,Chemistry,1.0,Thermodynamics,0.0,Chemistry,"When 157.3 grams of aluminum sulfide reacts with 143.0 grams of water, what mass of the excess reactant remains?
+
+$Al_2S_3 + H_2O \to Al(OH)_3 + H_2S
+
+$",,,
+webinstruct_1078984,llm,Mechanics,1.0,Thermodynamics,0.0,Physics,"How much work is done by a person lifting a $2\ \mathrm{kg}
+
+$ object from the bottom of a well at a constant speed of $2\ \mathrm{m/s}
+
+$ for $5\ \mathrm{s}
+
+$?",,,
+webinstruct_1366636,knn,Chemistry,1.0,Thermodynamics,0.0,Chemistry,"HClO is a weak acid (Ka = 4.0 x 10$^{-8}
+
+$) and so the salt NaClO acts as a weak base. What is the pH of a solution that is 0.085 M in NaClO at 25 $^{\circ}
+
+$C?",,,
+webinstruct_570802,llm,Mechanics,1.0,Thermodynamics,0.0,Physics,An object with a mass of 1500 g accelerates 10.0 m/s$^2 $ when an unknown force is applied to it. What is the amount of force?,,,
+webinstruct_1574047,knn,Chemistry,0.761,Thermodynamics,0.239,Chemistry,"When 0.949 g of CaO is added to 200.0 mL of 0.500 M HCl(aq), a temperature increase of 389 degrees C is observed. Assume the solution's final volume is 200.0 mL, the density is 1.00 g/mL, and the heat capacity is 4.184 J/gC. What is molar heat of reaction, $\Delta H_{rxn}
+
+$, for the reaction of $CaO(s) + 2H^+(aq) = Ca^{2+}(aq) + H_2O(l)
+
+$ in kJ/mol.",,,
+webinstruct_995652,llm,Chemistry,0.9864,Energy Systems,0.0135,Other STEM,"A 4,000 gallon storage tank was purchased for $240,000 12 years ago. How much would a 12,000 gallon storage tank cost today if the power-sizing exponent were 0.73 and the cost index increased from $150 to $250 over the last 12 years. Express your answer in $ to the nearest $1,000.",,,
+webinstruct_1093606,knn,Mechanics,1.0,Chemistry,0.0,Physics,"A 50.0-g Super Ball traveling at 30.0 m/s bounces off a brick wall and rebounds at 18.0 m/s. A high-speed camera records this event. If the ball is in contact with the wall for 4.10 ms, what is the magnitude of the average acceleration of the ball during this time interval?",,,
+webinstruct_488662,knn,Chemistry,1.0,Thermodynamics,0.0,Chemistry,"How many molecules (not moles) of $NH_3
+
+$ are produced from $5.01 \times 10^{-4} \ g
+
+$ of $H_2
+
+$?",,,
+webinstruct_549452,knn,Chemistry,1.0,Thermodynamics,0.0,Chemistry,"How many moles of aluminum are needed to react completely with 3.4 moles of $FeO
+
+$?
+
+$2Al(s) + 3FeO(s) \to 3Fe(s) + Al_2O_3(s)
+
+$",,,
+webinstruct_1125627,knn,Chemistry,1.0,Mechanics,0.0,Chemistry,"How much 10.0 m $HNO_3
+
+$ must be added to 1.00 l of a buffer that is 0.0100 m acetic acid and 0.100 m sodium acetate to reduce the ph to 5.05?",,,
+webinstruct_1132225,llm,Chemistry,1.0,Mechanics,0.0,Chemistry,"Consider the following mechanism.
+
+
+step 1: A+ B →C slow
+step 2 A+ C→ D fast
+overall: 2A+ B→ D
+Determine the rate law for the overall reaction (where the overall rate constant is represented as k).",,,
+webinstruct_1509075,knn,Electromagnetism,0.8449,Mechanics,0.1074,Physics,"An electron is accelerated by a 7.2 kV potential difference. The charge on an electron is $1.60218 \times10^{-19}
+
+$ C and its mass is $9.10939 \times 10^{-31}
+
+$ kg. How strong a magnetic field must be experienced by the electron if its path is a circle of radius 5.9 cm? Answer in units of T.",,,
+webinstruct_197656,llm,Chemistry,1.0,Thermodynamics,0.0,Chemistry,"Dinitrogen monoxide decomposes into nitrogen and oxygen when heated. The initial rate of the reaction is 0.012 M/s. What is the rate of change of the concentration of $N_{2}O
+
+$ (that is, $\frac{\Delta [N_{2}O]}{ \Delta t}
+
+$)?",,,
+webinstruct_894445,knn,Chemistry,0.3373,Biology,0.3204,Biology,The average human cell that is capable of dividing has a cell cycle of 20 hours. How many cells would there be in one week if they start with one cell at time zero?,,,
+webinstruct_1787078,knn,Mechanics,0.3043,Chemistry,0.245,Biology,"How quickly can the volume of a human erythrocyte decrease as it encounters high osmolarity in the interstitial fluid of the renal medulla, given the number of AQP-1 monomers in the erythrocyte membrane, the flow rate of water through the plasma membrane per AQP-1 tetramer, and the volume of an erythrocyte? Assume that the erythrocyte's interior consists entirely of water, and ignore the rate of diffusion of water across the membrane. In particular, determine the time required for an erythrocyte with a volume of $5.1 * 10^{-11}\text{ } mL $ to halve its volume when exposed to the high osmolari",,,
+webinstruct_664359,knn,Chemistry,0.25,Biology,0.1437,Biology,What percentage of water is lost through the respiratory system?,,,
+webinstruct_1374926,knn,Mechanics,0.4191,Chemistry,0.2194,Engineering,"An orthogonal cutting operation is being carried out under the following conditions: Uncut chip thickness t$_o
+
+$ = 0.1 mm, width of cut = 4 mm, V = 3 m/s, rake angle = 15 $^\circ
+
+$ , F$_c
+
+$ = 400 N, and F$_t
+
+$ = 300 N.
+
+Use the Merchant's shear angle model and calculate the percentage of the total energy that is dissipated in the shear plane (ratio of the specific energy of shearing to the total specific energy).",,,
+webinstruct_1731064,llm,Chemistry,0.0022,Materials Science,0.0,Biology,How many molecules of DNA are in Mendel sweet pea plants?,,,
+webinstruct_2006503,knn,Chemistry,1.0,Mechanics,0.0,Chemistry,Molecular weight of the NH3​,,,
+webinstruct_425389,knn,Chemistry,0.4419,Biology,0.0104,Biology,What is the equation for aerobic respiration?,,,
+webinstruct_1712330,llm,Mechanics,1.0,Electromagnetism,0.0,Physics,"Three point charges lie in a straight line along the $\rm
+
+y
+
+$-axis. A charge of $\rm
+
+-8.5\ \mu C
+
+$ is at $\rm
+
+4.0\ m
+
+$, and a charge of $\rm
+
+-6.0\ \mu C
+
+$ is at $\rm
+
+-1.0\ m
+
+$. The net electric force on the third point charge is zero. Where along the $\rm
+
+y
+
+$-axis is this charge located?
+
+Answer in units of $\rm
+
+m
+
+$.",,,
+webinstruct_1434272,knn,Chemistry,1.0,Biology,0.0,Chemistry,"Write balanced net ionic equation: $\displaystyle \rm AgNO_3 (aq) + HCl (aq) \rightleftharpoons
+
+$",,,
+webinstruct_225755,knn,Chemistry,0.1559,Biology,0.0994,Biology,How much glycogen can the human body store?,,,
+webinstruct_882990,llm,Chemistry,1.0,Thermodynamics,0.0,Chemistry,How many grams of sodium sulfate (na2so4) are required to make 4.5 liters of a 3.0M solution?,,,
+webinstruct_944567,knn,Mechanics,0.8138,Thermodynamics,0.0984,Physics,"A 4.8-kg particle and a 2.0-kg particle have a gravitational attraction with a magnitude of $2.90 \times 10^{-12}
+
+$ N. What is the gravitational potential energy of the two-particle system?",,,
+webinstruct_1584595,llm,Chemistry,1.0,Thermodynamics,0.0,Chemistry,"For the chemical equation $SO_2(g) + NO_2(g) \to SO_3(g) + NO(g)
+
+$, the equilibrium constant at a certain temperature is 2.20. At this temperature, calculate the number of moles that must be added to 3.22 mol of $SO_2(g)
+
+$ in order to form 1.40 mol of $SO_3(g)
+
+$ at equilibrium.",,,
+webinstruct_1368755,knn,Thermodynamics,0.6638,Chemistry,0.253,Physics,How much heat is absorbed by a 45g iron skillet when its temperature rises from 6oC to 21oC?,,,
+webinstruct_1405493,llm,Chemistry,1.0,Biology,0.0,Chemistry,Lead nitrate can be decomposed by heating. What is the percent yield of the decomposition reaction if 9.9 g of #Pb(NO_3)_2#are heated to give 5.5 g of #PbO#??,,,
+webinstruct_1585664,llm,Chemistry,0.978,Energy Systems,0.0219,Engineering,"What is the Taguchi constant for a device that costs  $\$400
+
+$ to repair and a tolerance of  $\pm  0.5 \ mm
+
+$ with a mean squared deviation from the target of  $0.3
+
+$?",,,
+webinstruct_1917362,knn,Mechanics,0.6122,Thermodynamics,0.1685,Physics,"A solid particle falls through a viscous fluid. The velocity of the particle, V, is a function of fluid density (\rhof), particle density (\rhop), fluid viscosity (\mu), particle diameter (D), and gravity (g). Use dimensional analysis to find the dimensionless parameters. Express your answer in the form: V/($\sqrt{gD}
+
+$)=f(pi1,pi2)",,,
+webinstruct_373970,knn,Chemistry,0.9553,Materials Science,0.0345,Chemistry,"Calculate the ionic character (in percent) of the interatomic bond for the material $CaCl_2
+
+$.",,,
+webinstruct_794124,knn,Chemistry,1.0,Mechanics,0.0,Chemistry,Calculate the number of atoms present in 2.0 pounds of magnesium.,,,
+webinstruct_1429627,knn,Electromagnetism,0.5661,Mechanics,0.2428,Physics,"A certain superconducting magnet in the for of a solenoid of length 0.60 m can generate a magnetic field of 1.5 T in its core when its coils carry a current of 80 A. The windings, made of niobium-titanium alloy, must be cooled to 4.2 K. Find the number of turns in the solenoid.",,,
+webinstruct_1732425,llm,Chemistry,0.9979,Energy Systems,0.0007,Chemistry,"A typical sugar cube has an edge length of 1.0 cm. If you had a cubical box that contained 3.7 mol of sugar cubes, what would its edge length be? (One mole = $6.02 \times 10^{23}
+
+$ units.)",,,
+webinstruct_855552,knn,Chemistry,0.9956,Thermodynamics,0.0044,Chemistry,Calculate the pH in a 0.0050 solution of NaOH.,,,
+webinstruct_1825640,knn,Chemistry,1.0,Thermodynamics,0.0,Chemistry,"Determine the pH of the solution (to 2 decimal points) after the addition of 295 mL of 0.00436 M magnesium hydroxide $(Mg(OH)_2)
+
+$ to 632 mL of 0.0186 M ammonium chloride $(NH_4Cl)
+
+$. Assume that the volumes are additive and that the 5% approximation is valid.",,,
+webinstruct_121252,knn,Biology,0.0371,Chemistry,0.0116,Biology,How many types of  blood cells are there?,,,
+webinstruct_100984,knn,Mechanics,0.4724,Optics,0.2168,Physics,"A lecturer is demonstrating two-slit interference with sound waves. Two speakers are used, 1.3 m apart. The sound frequency is 1200 Hz and the speed of sound is 343 m/s. Students sit facing the speakers in a row of seats 6.2 m away. Along the row of students, what is the spacing between the locations on either side of the center line between the speakers where no sound is heard because of destructive interference?",,,
+webinstruct_1616209,knn,Mechanics,1.0,Chemistry,0.0,Physics,"A racing car has a uniform acceleration of $4 \ m/s^2
+
+$.
+
+What distance will it cover in $10 \ s
+
+$ after its start?",,,
+webinstruct_301284,llm,Mechanics,1.0,Thermodynamics,0.0,Physics,You are climbing a mountain by the steepest route at a slope of 25 degrees when you come upon a trail branching off at a 20-degree angle from yours. What is the angle of ascent of the branch trail?,,,
+webinstruct_2002304,knn,Chemistry,1.0,Thermodynamics,0.0,Chemistry,"For a $1.0\times {{10}^{-4}}\text{ }M $ solution of benzoic acid, what is the pH when the Ca/Ka ratio is checked?",,,
+webinstruct_1619848,knn,Chemistry,1.0,Biology,0.0,Chemistry,"What is the net ionic equation for $(NH_4)_2S_2O_8
+
+$ in an aqueous solution?",,,
+webinstruct_1998080,llm,Chemistry,1.0,Biology,0.0,Chemistry,"Balance the following redox equation in acidic solution. what is the coefficient of the water?
+
+$CH_3OH(aq) + Cr_2O_7^{2-}(aq) \rightarrow CH_2O(aq) + Cr^{3+}(aq)
+
+$",,,
+webinstruct_1154882,knn,Chemistry,0.4476,Biology,0.0094,Biology,How many CO2 molecules are given off during the Kreb's cycle?,,,
+webinstruct_1962711,llm,Chemistry,1.0,Thermodynamics,0.0,Chemistry,"Balance the combustion reaction of chrysene:
+
+$(C_{18}H_{12}) \ at  \ 298K.  \\
+
+C_{18}H_{12}{_{(s)}}+ O_2{_{(g)}} \longrightarrow CO_2{_{(g)}} + H_2O_{(l)}
+
+$
+
+What is the value of ng for the combustion reaction?
+
+ng =_____  mol.",,,
+webinstruct_2060013,knn,Mechanics,0.9898,Chemistry,0.0102,Physics,"The sports car is traveling along a 30 degree banked road having a radius of curvature of p = 150 m. If the coefficient of static friction between the tires and the road is $\mu
+
+$s = 0.5, determine the maximum safe speed so no slipping occurs. Neglect the size of the car.",,,
+webinstruct_1455701,llm,Chemistry,1.0,Mechanics,0.0,Chemistry,How many atoms of carbon are in 2.50 moles of C?,,,
+webinstruct_1164205,knn,Chemistry,1.0,Energy Systems,0.0,Chemistry,"$Pd(NO_3)_2 + CaSO_4 \rightarrow PdSO_4 + Ca(NO_3)_2
+
+$
+
+If you started with 225.6 mL of 6.32 M $CaSO_4
+
+$ and the percent yield of this reaction was 78.2%, what is the actual yield of grams of $PdSO_4
+
+$?",,,
+webinstruct_973309,llm,Electromagnetism,0.9996,Mechanics,0.0004,Physics,"The positron is a particle with the same mass as an electron but charge +e. A positron in a bubble chamber moves perpendicular to a 3.9 T magnetic field. If the positron's kinetic energy is 23 eV, what is the radius of its trajectory in the bubble chamber?",,,

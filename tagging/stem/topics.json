@@ -1,0 +1,70 @@
+{
+ "topics": [
+  {
+   "name": "Mechanics",
+   "description": "Forces, motion, and energy",
+   "clusters": [
+    0,
+    5,
+    13
+   ]
+  },
+  {
+   "name": "Thermodynamics",
+   "description": "Heat, temperature, and energy transfer",
+   "clusters": [
+    1,
+    7
+   ]
+  },
+  {
+   "name": "Biology",
+   "description": "Human anatomy, physiology, and genetics",
+   "clusters": [
+    3,
+    4,
+    19
+   ]
+  },
+  {
+   "name": "Chemistry",
+   "description": "Reactions, stoichiometry, and solutions",
+   "clusters": [
+    8,
+    9,
+    16,
+    17
+   ]
+  },
+  {
+   "name": "Electromagnetism",
+   "description": "Electric and magnetic fields",
+   "clusters": [
+    6,
+    12,
+    15
+   ]
+  },
+  {
+   "name": "Optics",
+   "description": "Light and wave behavior",
+   "clusters": [
+    11
+   ]
+  },
+  {
+   "name": "Materials Science",
+   "description": "Properties and design of materials",
+   "clusters": [
+    10
+   ]
+  },
+  {
+   "name": "Energy Systems",
+   "description": "Energy conversion and conservation",
+   "clusters": [
+    18
+   ]
+  }
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "0": {
+  "name": "Work and Force",
+  "description": "These problems involve calculating work done, forces, and pressures in various physical scenarios.",
+  "size": 188
+ },
+ "1": {
+  "name": "Thermal Energy Calculations",
+  "description": "These problems involve calculating the energy required for temperature changes and phase transitions in substances like water, ice, and steam.",
+  "size": 171
+ },
+ "3": {
+  "name": "Human Biology Basics",
+  "description": "These questions focus on fundamental aspects of human biology, including anatomy, physiology, and comparative biology.",
+  "size": 224
+ },
+ "4": {
+  "name": "Hardy-Weinberg",
+  "description": "These problems focus on genetic frequencies and inheritance patterns in populations using principles of Hardy-Weinberg equilibrium.",
+  "size": 172
+ },
+ "5": {
+  "name": "Kinematics",
+  "description": "These problems involve the study of motion, including velocity, acceleration, and displacement, often requiring integration or differentiation to solve.",
+  "size": 155
+ },
+ "6": {
+  "name": "Magnetic Force and Fields",
+  "description": "These problems involve calculating magnetic forces on current-carrying wires and determining magnetic fields in various configurations such as solenoids and coils.",
+  "size": 111
+ },
+ "7": {
+  "name": "Gas Laws",
+  "description": "These problems involve the application of gas laws to calculate properties such as pressure, volume, temperature, and number of moles of gases.",
+  "size": 197
+ },
+ "8": {
+  "name": "Molar Mass Calculations",
+  "description": "These problems involve calculating the mass of substances based on moles, number of atoms or molecules, and molar masses of elements and compounds.",
+  "size": 266
+ },
+ "9": {
+  "name": "Stoichiometry",
+  "description": "These problems involve calculating the amounts of reactants and products in chemical reactions using mole ratios and molar masses.",
+  "size": 341
+ },
+ "10": {
+  "name": "Mechanical Design",
+  "description": "These problems focus on the design and analysis of mechanical components under various loading conditions, including stress, strain, failure criteria, and material properties.",
+  "size": 162
+ },
+ "11": {
+  "name": "Wave Optics",
+  "description": "These problems involve the behavior of light waves in interference, diffraction, and refraction phenomena.",
+  "size": 153
+ },
+ "12": {
+  "name": "Electric Fields",
+  "description": "These problems focus on calculating electric fields due to point charges, including magnitude, direction, and net field at specific points.",
+  "size": 197
+ },
+ "13": {
+  "name": "Orbital Mechanics",
+  "description": "These problems involve calculating orbital parameters, gravitational forces, and motion of celestial bodies in space.",
+  "size": 80
+ },
+ "15": {
+  "name": "Electrical Circuits",
+  "description": "These problems involve the analysis of electrical circuits, including capacitors, resistors, inductors, and AC/DC behavior.",
+  "size": 80
+ },
+ "16": {
+  "name": "Solution Concentration",
+  "description": "These problems focus on calculating concentrations, molarities, and masses of solutes in solutions.",
+  "size": 246
+ },
+ "17": {
+  "name": "Equilibrium Calculations",
+  "description": "These problems involve calculating equilibrium constants (Kc or Kp) for chemical reactions using given concentrations, dissociation percentages, or initial conditions.",
+  "size": 174
+ },
+ "18": {
+  "name": "Energy and Motion",
+  "description": "These problems involve the application of energy conservation, work, friction, and motion principles in various physical scenarios.",
+  "size": 379
+ },
+ "19": {
+  "name": "DNA and Respiration",
+  "description": "These questions focus on the structure and composition of DNA, nucleotide percentages, and the quantitative aspects of cellular respiration processes.",
+  "size": 160
+ }
+}
