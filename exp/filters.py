@@ -149,24 +149,31 @@ def _parts(E, V):
     return out
 
 
-def glued(statement):
-    """Return (is_glued, parts, groups). groups lists part indices that share linked variables."""
-    s = utils.rstrip_space_newline_and_by(utils.remove_comments(statement))
+def split_statement(statement):
+    """'theorem name (binders) : conclusion := by' -> (binders, conclusion), comments removed; None if it cannot split."""
+    s = utils.rstrip_space_newline_and_by(utils.remove_comments(statement)).rstrip()
+    s = s[:-2].rstrip() if s.endswith(":=") else s
     m = re.match(r"\s*theorem\s+\S+", s)
     s = s[m.end():] if m else s
-    depth, colon = 0, None
+    depth = 0
     for i, c in enumerate(s):
         depth += c in OPEN
         depth -= c in CLOSE
         if depth == 0 and c == ":" and not s.startswith(":=", i):
-            colon = i
-            break
-    if colon is None:
-        return False, [s], [[0]]
+            return s[:i].strip(), s[i + 1:].strip()
+    return None
+
+
+def glued(statement):
+    """Return (is_glued, parts, groups). groups lists part indices that share linked variables."""
+    sp = split_statement(statement)
+    if sp is None:
+        return False, [statement], [[0]]
+    binders, conclusion = sp
     V = _Vars()
-    for g in _binder_groups(s[:colon]):
+    for g in _binder_groups(binders):
         _add_binder(V, g)
-    parts = [p for p in _parts(s[colon + 1:], V) if p]
+    parts = [p for p in _parts(conclusion, V) if p]
     if len(parts) < 2:
         return False, parts, [[0]]
     roots = [{V.find(v) for v in V.mentioned(p)} for p in parts]
