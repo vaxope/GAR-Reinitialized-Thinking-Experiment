@@ -22,6 +22,7 @@ from transformers import AutoTokenizer
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from utils import PromptWriter, utils  # noqa: E402
 from LeanChecker import LeanChecker  # noqa: E402
+from filters import analysis_leak, glued  # noqa: E402
 
 OLLAMA_URL = "http://127.0.0.1:11434/api/generate"
 
@@ -44,7 +45,7 @@ NEUTRAL_SAMPLING = dict(top_k=0, min_p=0.0, repeat_penalty=1.0)
 # The prover runs on llama-server (see exp/README_local.md). The DeepSeek GGUFs lack the YaRN metadata (factor 16,
 # orig ctx 4096) and Ollama cannot override it, so that server needs the extra rope flags below
 PROVER_URL = "http://127.0.0.1:8081/completion"
-PROVER_SERVER_ARGS = {"goedel": "", "deepseek": "--rope-scaling yarn --rope-scale 16 --yarn-orig-ctx 4096"}
+PROVER_SERVER_ARGS = {"goedel": "env GGML_VK_DISABLE_HOST_VISIBLE_VIDMEM=1; -c 17408", "deepseek": "--rope-scaling yarn --rope-scale 16 --yarn-orig-ctx 4096"}
 
 LEAN_HINT = "The new statement must be formalizable in Lean 4 with Mathlib, using only standard, well-defined notions."
 
@@ -135,15 +136,41 @@ def parse_formalized(text):
     return m.group(0) if m else None
 
 
-def summarize(fused, formal, checked, attempts, verified, n_pairs):
-    """Per-arm metrics. 'useful' = valid statement and 0 < p <= 0.5 (glued guard is only required for k>=3)."""
+def incomplete_proof(proof):
+    """A lean4 block with no `:=` restates the theorem without proving it; it fails, but is not a statement edit."""
+    return ":=" not in utils.remove_comments(proof)
+
+
+def score_statement(lc, pid, statement, proofs, mod_check):
+    """Return (pass_flags, n_modified, n_incomplete) for one statement's extracted proofs.
+    gar: GAR's raw-text statement check inside LeanChecker.verify_proof (comments count as modifications).
+    nocomment: Lean-check the proof alone; it passes only if the statement, with comments removed on both sides and
+    whitespace ignored, still appears in the proof. Incomplete blocks (no `:=`) fail and are not counted as modified."""
+    ids = [f"{pid}_{i}" for i in range(len(proofs))]
+    if mod_check == "gar":
+        res = lc.verify_proof(proofs, id_list=ids, original_statement=[statement] * len(proofs))
+        modified = [utils.judge_statement_modification(statement, pr) for pr in proofs]
+        return [x["pass"] for x in res], sum(modified), sum(map(incomplete_proof, proofs))
+    res = lc.verify_proof(proofs, id_list=ids)
+    incomplete = [incomplete_proof(pr) for pr in proofs]
+    modified = [not inc and utils.judge_statement_modification(utils.remove_comments(statement), utils.remove_comments(pr))
+                for pr, inc in zip(proofs, incomplete)]
+    return [x["pass"] and not m and not inc for x, m, inc in zip(res, modified, incomplete)], sum(modified), sum(incomplete)
+
+
+def summarize(fused, formal, checked, attempts, verified, n_pairs, filtered=()):
+    """Per-arm metrics. 'useful' = valid statement and 0 < p <= 0.5. The *_clean metrics also exclude statements that
+    fail the pre-prover filters (glued or analysis leak) and count only prover tokens spent on the statements that pass."""
     by_pair = lambda recs: {r["pair_id"]: r for r in recs}
     formal, checked, verified = by_pair(formal), by_pair(checked), by_pair(verified)
+    bad = {f["pair_id"] for f in filtered if f["glued"] or f["analysis_leak"]}
     useful = [v for v in verified.values() if 0 < v["p_gar"] <= 0.5]
+    useful_clean = [v for v in useful if v["pair_id"] not in bad]
     fuser_tok = sum(r["gen_tokens"] for r in fused)
     formal_tok = sum(r["gen_tokens"] for r in formal.values())
     prover_tok = sum(a["gen_tokens"] for a in attempts)
     total = fuser_tok + formal_tok + prover_tok
+    total_clean = fuser_tok + formal_tok + sum(a["gen_tokens"] for a in attempts if a["pair_id"] not in bad)
     ps = [v["p_gar"] for v in verified.values()]
     return {
         "n_pairs": n_pairs,
@@ -156,6 +183,7 @@ def summarize(fused, formal, checked, attempts, verified, n_pairs):
         "yield_p_all": sum(0 < v["p_all"] <= 0.5 for v in verified.values()) / max(len(fused), 1),
         "p_hist": {"p=0": sum(p == 0 for p in ps), "0<p<=0.5": sum(0 < p <= 0.5 for p in ps), "p>0.5": sum(p > 0.5 for p in ps)},
         "modification_rate": sum(v["m"] for v in verified.values()) / max(len(verified), 1),
+        "incomplete_proof_rate": sum(v.get("incomplete", 0.0) for v in verified.values()) / max(len(verified), 1),
         "fuser_tokens_mean": fuser_tok / max(len(fused), 1),
         "fuser_truncation_rate": sum(r["truncated"] for r in fused) / max(len(fused), 1),
         "prover_tokens_mean": prover_tok / max(len(attempts), 1),
@@ -163,6 +191,13 @@ def summarize(fused, formal, checked, attempts, verified, n_pairs):
         "tokens_total": total,
         "tokens_per_useful": total / len(useful) if useful else None,
         "n_useful": len(useful),
+        "n_filtered": len(filtered),
+        "glued_rate": sum(f["glued"] for f in filtered) / max(len(filtered), 1),
+        "analysis_leak_rate": sum(f["analysis_leak"] for f in filtered) / max(len(filtered), 1),
+        "n_useful_clean": len(useful_clean),
+        "yield_clean": len(useful_clean) / max(len(fused), 1),
+        "tokens_total_clean": total_clean,
+        "tokens_per_useful_clean": total_clean / len(useful_clean) if useful_clean else None,
     }
 
 
@@ -178,6 +213,11 @@ def selftest():
     verified = [{"pair_id": "a", "p_gar": 0.25, "p_all": 0.25, "m": 0.0}]
     s = summarize(fused, formal, checked, attempts, verified, 2)
     assert s["yield"] == 0.5 and s["tokens_per_useful"] == 435 and s["fuser_truncation_rate"] == 0.5
+    assert s["n_useful_clean"] == 1 and s["tokens_per_useful_clean"] == 435  # no filter records: nothing excluded
+    s = summarize(fused, formal, checked, attempts, verified, 2, [{"pair_id": "a", "glued": True, "analysis_leak": False}])
+    assert s["n_useful"] == 1 and s["n_useful_clean"] == 0 and s["tokens_total_clean"] == 35 and s["glued_rate"] == 1.0
+    assert incomplete_proof("theorem t (x : ℕ) :\n  x = x") and not incomplete_proof("theorem t : 1 = 1 := by\n  rfl")
+    assert incomplete_proof("theorem t : P -- note := by") and not incomplete_proof("theorem t : 1 = 1 := by sorry")
     print("selftest ok")
 
 
@@ -192,6 +232,9 @@ def main():
     ap.add_argument("--base_data", default="base_data/GAR_base_data_Numina-Math.json")
     ap.add_argument("--out", default="exp_results/EXP-001-local")
     ap.add_argument("--lean_url", default="http://localhost:80")
+    ap.add_argument("--mod_check", default="gar", choices=["gar", "nocomment"],
+                    help="gar = GAR's raw-text statement check; nocomment ignores comments (writes verify_nocomment.jsonl)")
+    ap.add_argument("--prefilter", action="store_true", help="skip proving statements that are glued or leak <analysis>")
     ap.add_argument("--selftest", action="store_true")
     args = ap.parse_args()
     if args.selftest:
@@ -255,9 +298,17 @@ def main():
                 append_jsonl(path(arm, "check"), {"pair_id": r["pair_id"], "NL": r["problem"], "valid": res["pass"],
                                                   "Statement": blocks[-1] if blocks else None, "messages": res["verify_result"]})
 
+    print("== filter")
+    for arm in args.arms:
+        for r in todo(arm, "filter", [r for r in load(arm, "check") if r["valid"]]):
+            g, parts, groups = glued(r["Statement"])
+            append_jsonl(path(arm, "filter"), {"pair_id": r["pair_id"], "glued": g, "analysis_leak": analysis_leak(r["NL"]),
+                                               "parts": parts, "groups": groups})
+
     print("== prove")
     for arm in args.arms:
-        valid = [r for r in load(arm, "check") if r["valid"]]
+        bad = {f["pair_id"] for f in load(arm, "filter") if f["glued"] or f["analysis_leak"]} if args.prefilter else set()
+        valid = [r for r in load(arm, "check") if r["valid"] and r["pair_id"] not in bad]
         items = [dict(r, attempt=k) for r in valid for k in range(args.proofs)]
         for it in todo(arm, "prove", items, key=lambda x: (x["pair_id"], x["attempt"])):
             prompt = PromptWriter.formulate_prompt_proof_writing_Goedel_V2(it["NL"], it["Statement"], toks["prover"])
@@ -270,29 +321,31 @@ def main():
             print(f"[prove {arm}] {it['pair_id']}#{it['attempt']} {g['gen_tokens']} tok {g['seconds']}s trunc={g['truncated']}")
 
     print("== verify")
+    # v2 of the nocomment scorer stops counting incomplete blocks as modifications; v1 files are kept as they were
+    verify_stage = "verify" if args.mod_check == "gar" else f"verify_{args.mod_check}_v2"
     for arm in args.arms:
         statements = {r["pair_id"]: r["Statement"] for r in load(arm, "check") if r["valid"]}
         attempts = load(arm, "prove")
-        for pid in sorted({a["pair_id"] for a in attempts} - {r["pair_id"] for r in load(arm, "verify")}):
+        for pid in sorted({a["pair_id"] for a in attempts} - {r["pair_id"] for r in load(arm, verify_stage)}):
             mine = [a for a in attempts if a["pair_id"] == pid]
             if len(mine) < args.proofs:
                 continue  # proving for this statement is not finished yet
             proofs = [a["proof"] for a in mine if a["proof"] is not None]  # GAR drops attempts with no lean4 block
-            res = lc.verify_proof(proofs, id_list=[f"{pid}_{i}" for i in range(len(proofs))],
-                                  original_statement=[statements[pid]] * len(proofs)) if proofs else []
-            passes = sum(x["pass"] for x in res)
-            modified = sum(utils.judge_statement_modification(statements[pid], pr) for pr in proofs)
-            append_jsonl(path(arm, "verify"), {
+            flags, modified, incomplete = score_statement(lc, pid, statements[pid], proofs, args.mod_check) if proofs else ([], 0, 0)
+            passes = sum(flags)
+            append_jsonl(path(arm, verify_stage), {
                 "pair_id": pid, "n_attempts": len(mine), "n_extracted": len(proofs), "passes": passes,
                 "p_gar": passes / len(proofs) if proofs else 0.0,  # GAR's denominator: extracted proofs only
                 "p_all": passes / len(mine), "m": modified / len(proofs) if proofs else 0.0,
-                "pass_flags": [x["pass"] for x in res]})
+                "incomplete": incomplete / len(proofs) if proofs else 0.0,
+                "pass_flags": flags})
 
     print("== summary")
     summary = {arm: summarize(load(arm, "fuse"), load(arm, "formalize"), load(arm, "check"),
-                              load(arm, "prove"), load(arm, "verify"), args.n_pairs)
+                              load(arm, "prove"), load(arm, verify_stage), args.n_pairs, load(arm, "filter"))
                for arm in args.arms}
-    with open(f"{args.out}/summary.json", "w", encoding="utf-8") as f:
+    summary_name = "summary.json" if args.mod_check == "gar" else f"summary_{args.mod_check}_v2.json"
+    with open(f"{args.out}/{summary_name}", "w", encoding="utf-8") as f:
         json.dump(summary, f, indent=1)
     print(json.dumps(summary, indent=1))
 
