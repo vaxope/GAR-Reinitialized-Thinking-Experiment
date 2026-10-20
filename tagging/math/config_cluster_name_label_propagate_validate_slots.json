@@ -1,0 +1,25 @@
+{
+ "stages": [
+  "cluster",
+  "name",
+  "label",
+  "propagate",
+  "validate",
+  "slots"
+ ],
+ "domain": "math",
+ "pool": "tagging/math/pool.jsonl",
+ "out": "tagging/math",
+ "cache": "C:\\Users\\stanh\\GAR-cache\\math",
+ "desc": "competition mathematics problems",
+ "meta_key": "Problem_type",
+ "k": 30,
+ "max_topics": 15,
+ "n_label": 5000,
+ "knn_k": 15,
+ "seed": 0,
+ "force": false,
+ "embed_model": "qwen3-embedding:0.6b",
+ "llm": "qwen3:8b",
+ "time": 1792464905
+}

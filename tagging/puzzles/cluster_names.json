@@ -1,0 +1,82 @@
+{
+ "0": {
+  "name": "N-Queens Puzzle",
+  "description": "These problems involve placing n queens on an n x n chessboard so that no two queens threaten each other.",
+  "size": 400
+ },
+ "1": {
+  "name": "Truth Value Paradoxes",
+  "description": "These problems involve determining the number of consistent truth assignments to a set of statements that refer to their own truth values.",
+  "size": 400
+ },
+ "2": {
+  "name": "Mini Sudoku Puzzles",
+  "description": "These problems involve solving 4x4 Sudoku puzzles with standard Sudoku rules applied to a smaller grid size.",
+  "size": 400
+ },
+ "3": {
+  "name": "Graph Coloring",
+  "description": "These problems involve assigning colors to vertices of a graph such that no two adjacent vertices share the same color.",
+  "size": 400
+ },
+ "4": {
+  "name": "Weighted Grid Puzzle",
+  "description": "These puzzles involve placing 1s in a grid to satisfy specific weighted sum constraints for rows and columns.",
+  "size": 360
+ },
+ "5": {
+  "name": "Syllogistic Reasoning",
+  "description": "These problems involve determining the logical validity of conclusions based on given premises using categorical logic.",
+  "size": 119
+ },
+ "6": {
+  "name": "Truth and Lies",
+  "description": "These puzzles involve determining the identities of individuals on an island where inhabitants are either always truthful or always lying.",
+  "size": 106
+ },
+ "7": {
+  "name": "Syllogistic Reasoning",
+  "description": "These problems involve determining the logical validity of conclusions based on given premises using syllogistic logic.",
+  "size": 117
+ },
+ "8": {
+  "name": "Futoshiki Puzzles",
+  "description": "A set of logic puzzles involving filling a grid with numbers while respecting inequality constraints between adjacent cells.",
+  "size": 400
+ },
+ "9": {
+  "name": "Truth and Lies",
+  "description": "These problems involve determining the identity of truth-tellers and liars based on their statements.",
+  "size": 67
+ },
+ "10": {
+  "name": "Logic Puzzles",
+  "description": "These problems involve determining the true identities of individuals on an island where altruists always tell the truth and egoists always lie.",
+  "size": 57
+ },
+ "11": {
+  "name": "Syllogistic Reasoning",
+  "description": "These problems involve determining whether a conclusion logically follows from given premises using syllogistic logic.",
+  "size": 164
+ },
+ "12": {
+  "name": "Knights and Knaves",
+  "description": "These problems involve determining the truth-telling nature of individuals on an island where knights always tell the truth and knaves always lie.",
+  "size": 54
+ },
+ "13": {
+  "name": "Logic Puzzles",
+  "description": "These problems involve determining the identities of individuals on an island where heroes always tell the truth and villains always lie.",
+  "size": 68
+ },
+ "14": {
+  "name": "Weighted Grid Puzzle",
+  "description": "These puzzles involve placing 1s in a grid to satisfy specific weighted row and column sum constraints based on cell positions.",
+  "size": 40
+ },
+ "15": {
+  "name": "Truth and Lies",
+  "description": "These problems involve determining the identities of individuals on an island where sages always tell the truth and fools always lie.",
+  "size": 48
+ }
+}

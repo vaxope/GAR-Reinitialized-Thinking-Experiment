@@ -1,0 +1,118 @@
+{
+ "topics": [
+  {
+   "name": "Polynomials",
+   "description": "Properties of polynomials, roots, coefficients, and factorization",
+   "clusters": [
+    0
+   ]
+  },
+  {
+   "name": "Number Theory",
+   "description": "Integer properties, divisibility, primes, congruences, and modular arithmetic",
+   "clusters": [
+    1,
+    4,
+    8,
+    9,
+    20,
+    21,
+    25
+   ]
+  },
+  {
+   "name": "Differential Equations",
+   "description": "Solving various types of differential equations with initial conditions",
+   "clusters": [
+    2
+   ]
+  },
+  {
+   "name": "Inequalities",
+   "description": "Proving and analyzing inequalities with real or positive real numbers",
+   "clusters": [
+    3,
+    13,
+    14,
+    29
+   ]
+  },
+  {
+   "name": "Complex Numbers",
+   "description": "Properties, operations, and identities involving complex numbers",
+   "clusters": [
+    5
+   ]
+  },
+  {
+   "name": "Functional Analysis",
+   "description": "Behavior of functions, derivatives, integrals, and function relationships",
+   "clusters": [
+    6,
+    28
+   ]
+  },
+  {
+   "name": "Algebraic Systems",
+   "description": "Solving systems of equations with multiple variables and structured relationships",
+   "clusters": [
+    7,
+    15
+   ]
+  },
+  {
+   "name": "Trigonometry",
+   "description": "Trigonometric identities, equations, and integrals involving trigonometric functions",
+   "clusters": [
+    11,
+    18,
+    19
+   ]
+  },
+  {
+   "name": "Geometry",
+   "description": "Calculating lengths, areas, and properties of curves and surfaces",
+   "clusters": [
+    10,
+    16
+   ]
+  },
+  {
+   "name": "Algebra",
+   "description": "Simplifying expressions, solving equations, and working with algebraic identities",
+   "clusters": [
+    12
+   ]
+  },
+  {
+   "name": "Calculus",
+   "description": "Differentiation techniques and evaluating limits and series",
+   "clusters": [
+    23,
+    26
+   ]
+  },
+  {
+   "name": "Probability",
+   "description": "Calculating probabilities and expected values in random scenarios",
+   "clusters": [
+    24
+   ]
+  },
+  {
+   "name": "Recurrence Relations",
+   "description": "Analyzing sequences defined by recurrence relations",
+   "clusters": [
+    17,
+    22
+   ]
+  },
+  {
+   "name": "Diophantine Equations",
+   "description": "Finding integer solutions to polynomial equations",
+   "clusters": [
+    27
+   ]
+  }
+ ]
+}

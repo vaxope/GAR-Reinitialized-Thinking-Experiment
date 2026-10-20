@@ -1,0 +1,45 @@
+== name
+[name] cluster 0: {'name': 'Polynomial Properties', 'description': 'These problems focus on properties of polynomials, including roots, coefficients, factorization, and symmetry.', 'size': 858}
+[name] cluster 1: {'name': 'Number Theory', 'description': 'These problems involve sequences, integer properties, and arithmetic structures, focusing on number theory concepts.', 'size': 570}
+[name] cluster 2: {'name': 'Differential Equations', 'description': 'These problems involve solving various types of differential equations, including linear, nonlinear, and higher-order equations, often with initial conditions.', 'size': 243}
+[name] cluster 3: {'name': 'Inequality Proofs', 'description': 'These problems involve proving various inequalities with positive real numbers and algebraic expressions.', 'size': 1648}
+[name] cluster 4: {'name': 'Number Theory', 'description': 'These problems focus on properties of integers, divisibility, prime numbers, and congruences.', 'size': 1277}
+[name] cluster 5: {'name': 'Complex Numbers', 'description': 'These problems involve properties, operations, and conditions on complex numbers, including modulus, arguments, roots, and algebraic identities.', 'size': 440}
+[name] cluster 6: {'name': 'Functional Analysis', 'description': 'These problems focus on properties of functions, their derivatives, integrals, and relationships between function values and their behavior over intervals.', 'size': 731}
+[name] cluster 7: {'name': 'Algebraic Systems', 'description': 'These problems involve solving systems of equations with multiple variables, often requiring algebraic manipulation and insight into symmetric or structured relationships.', 'size': 753}
+[name] cluster 8: {'name': 'Divisors and Number Theory', 'description': 'These problems focus on properties of divisors, divisor functions, and relationships between divisors and integers in number theory.', 'size': 880}
+[name] cluster 9: {'name': 'Number Theory', 'description': 'These problems focus on properties of integers, divisibility, digit sums, and patterns in numbers.', 'size': 928}
+[name] cluster 10: {'name': 'Curves and Surfaces', 'description': 'These problems focus on calculating lengths of arcs and areas of regions bounded by various curves in the Cartesian plane.', 'size': 649}
+[name] cluster 11: {'name': 'Trigonometric Integrals', 'description': 'These problems involve evaluating definite integrals with trigonometric functions in the integrand, often requiring advanced techniques like substitution or symmetry.', 'size': 521}
+[name] cluster 12: {'name': 'Algebraic Manipulation', 'description': 'These problems involve simplifying expressions, solving equations, and working with radicals and algebraic identities.', 'size': 748}
+[name] cluster 13: {'name': 'Inequalities', 'description': 'These problems involve proving various inequalities with real or positive real numbers under given conditions.', 'size': 1602}
+[name] cluster 14: {'name': 'Algebraic Inequalities', 'description': 'These problems involve solving and analyzing algebraic inequalities, equations, and functional properties.', 'size': 1121}
+[name] cluster 15: {'name': 'Motion Problems', 'description': 'Problems involving movement, speed, time, and distance relationships between individuals or objects.', 'size': 270}
+[name] cluster 16: {'name': 'Projectile Motion', 'description': 'These problems involve the motion of objects under gravity and air resistance, focusing on trajectory, maximum height, and work done.', 'size': 289}
+[name] cluster 17: {'name': 'Sequence Analysis', 'description': 'These problems involve analyzing sequences defined by recursive relations and proving properties about their sums, limits, or inequalities.', 'size': 1033}
+[name] cluster 18: {'name': 'Trigonometric Identities', 'description': 'These problems involve solving equations and simplifying expressions using trigonometric identities and properties.', 'size': 563}
+[name] cluster 19: {'name': 'Trigonometric Equations', 'description': 'These problems involve solving and analyzing trigonometric equations and inequalities, often requiring identities, properties of trigonometric functions, and algebraic manipulation.', 'size': 582}
+[name] cluster 20: {'name': 'Number Theory', 'description': 'These problems focus on properties of integers, divisibility, modular arithmetic, and combinatorial number theory.', 'size': 545}
+[name] cluster 21: {'name': 'Number Theory', 'description': 'These problems involve properties of integers, arithmetic means, sums, and patterns in number sequences.', 'size': 579}
+[name] cluster 22: {'name': 'Recurrence Relations', 'description': 'These problems involve sequences defined by recurrence relations and require analysis of their properties and behavior.', 'size': 1176}
+[name] cluster 23: {'name': 'Differentiation Techniques', 'description': 'These problems focus on applying differentiation rules to various functions, including exponentials, logarithms, trigonometric functions, and composite functions.', 'size': 503}
+[name] cluster 24: {'name': 'Probability Theory', 'description': 'These problems focus on calculating probabilities and expected values in various random scenarios involving uniform distributions, independent events, and random variables.', 'size': 278}
+[name] cluster 25: {'name': 'Ratio and Proportion', 'description': 'These problems involve determining quantities based on given ratios, percentages, and relationships between different groups or items.', 'size': 498}
+[name] cluster 26: {'name': 'Limits and Series', 'description': 'These problems involve evaluating limits of functions, often requiring techniques like series expansions, standard limits, and algebraic manipulation.', 'size': 547}
+[name] cluster 27: {'name': 'Diophantine Equations', 'description': 'These problems involve finding integer solutions to polynomial equations.', 'size': 1241}
+[name] cluster 28: {'name': 'Function Analysis', 'description': 'These problems focus on analyzing functions, their properties, and solving related inequalities and equations.', 'size': 889}
+[name] cluster 29: {'name': 'Triangle Inequalities', 'description': 'These problems focus on various inequalities involving the sides and area of a triangle.', 'size': 502}
+[name] topic Polynomials: clusters [0]
+[name] topic Number Theory: clusters [1, 4, 8, 9, 20, 21, 25]
+[name] topic Differential Equations: clusters [2]
+[name] topic Inequalities: clusters [3, 13, 14, 29]
+[name] topic Complex Numbers: clusters [5]
+[name] topic Functional Analysis: clusters [6, 28]
+[name] topic Algebraic Systems: clusters [7, 15]
+[name] topic Trigonometry: clusters [11, 18, 19]
+[name] topic Geometry: clusters [10, 16]
+[name] topic Algebra: clusters [12]
+[name] topic Calculus: clusters [23, 26]
+[name] topic Probability: clusters [24]
+[name] topic Recurrence Relations: clusters [17, 22]
+[name] topic Diophantine Equations: clusters [27]

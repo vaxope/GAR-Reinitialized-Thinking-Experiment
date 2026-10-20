@@ -1,0 +1,72 @@
+{
+ "Polynomials": [
+  "Make sure the combined problem does not introduce extraneous roots or coefficients that contradict the original polynomial properties.",
+  "Avoid mixing different types of polynomial structures (e.g., rational vs. irrational coefficients) without clear justification.",
+  "Check that the combined problem maintains the uniqueness and consistency of polynomial factorization and root relationships."
+ ],
+ "Number Theory": [
+  "Make sure the problem is entirely within number theory and does not mix in unrelated topics like probability or geometry.",
+  "Avoid introducing undefined terms or operations that are not standard in number theory or modular arithmetic.",
+  "Check that the problem is not trivial by ensuring it requires non-obvious reasoning or multiple steps."
+ ],
+ "Differential Equations": [
+  "Make sure the problem includes a clear family of curves or equations with a specified condition.",
+  "Avoid ambiguous initial conditions or missing parameters that could lead to multiple solutions.",
+  "Check that the differential equation derived or solved is consistent with the given geometric or physical constraints."
+ ],
+ "Inequalities": [
+  "Make sure all variables are within the specified domain, such as positive reals or real numbers.",
+  "Avoid assuming symmetry or specific properties without proof, even if they seem obvious.",
+  "Check that all operations are valid and do not lead to division by zero or undefined expressions."
+ ],
+ "Complex Numbers": [
+  "Make sure all complex number operations are consistent with modulus and argument properties.",
+  "Avoid assuming roots of unity have uniform properties without verifying their specific angles.",
+  "Check that all algebraic manipulations preserve the complex structure and do not introduce extraneous solutions."
+ ],
+ "Functional Analysis": [
+  "Make sure the functional equation is consistent across all domains and does not introduce contradictions.",
+  "Avoid assuming properties of the function without proof, especially when dealing with periodic or recursive relationships.",
+  "Check that all transformations and substitutions preserve the original function's constraints and domain."
+ ],
+ "Algebraic Systems": [
+  "Make sure all variables and relationships are clearly defined and consistent across the system.",
+  "Avoid assuming values without justification; ensure all steps logically follow from given conditions.",
+  "Check that the system remains well-posed and non-trivial by maintaining distinct equations and constraints."
+ ],
+ "Trigonometry": [
+  "Make sure the problem is well-defined and all given conditions are consistent with trigonometric identities.",
+  "Avoid introducing ambiguous variables or undefined expressions that could make the problem unsolvable.",
+  "Check that the problem is not trivial by ensuring it requires deeper insight beyond basic formula application."
+ ],
+ "Geometry": [
+  "Make sure all geometric figures are well-defined and consistent with given conditions.",
+  "Avoid ambiguous interpretations of intersection points or midpoints in coordinate geometry.",
+  "Ensure that any percentage changes in dimensions lead to a clear and non-trivial new area calculation."
+ ],
+ "Algebra": [
+  "Make sure all equations are consistent and do not lead to contradictions or undefined expressions.",
+  "Avoid introducing extraneous solutions when manipulating logarithmic or algebraic identities.",
+  "Check that all variables are well-defined and that the problem remains non-trivial after combining elements."
+ ],
+ "Calculus": [
+  "Make sure all functions are differentiable in the domain of interest. Avoid assuming differentiability where it may not hold.",
+  "Check for any simplifications that could make the problem trivial. Avoid introducing unnecessary complexity.",
+  "Ensure all limit and series evaluations are consistent with the problem's context. Avoid conflicting conditions or undefined expressions."
+ ],
+ "Probability": [
+  "Make sure all probabilities sum to 1 in any scenario involving multiple outcomes.",
+  "Avoid assuming independence between events unless explicitly stated or provable.",
+  "Check that expected values are calculated correctly by considering all possible outcomes and their weights."
+ ],
+ "Recurrence Relations": [
+  "Make sure the recurrence is well-defined for all required terms and initial conditions are provided.",
+  "Avoid ambiguous or undefined operations in the recurrence relation that could lead to non-unique solutions.",
+  "Check that the problem remains non-trivial and does not reduce to a known formula or sequence without modification."
+ ],
+ "Diophantine Equations": [
+  "Make sure all equations are well-defined and have integer domains.",
+  "Avoid introducing extraneous solutions through algebraic manipulation.",
+  "Check that constraints are properly translated into equations or inequalities."
+ ]
+}

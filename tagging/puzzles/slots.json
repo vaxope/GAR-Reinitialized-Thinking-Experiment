@@ -1,0 +1,42 @@
+{
+ "Truth Paradoxes": [
+  "Make sure all statements are self-contained and do not rely on external context.",
+  "Avoid contradictions that make the puzzle unsolvable or trivial.",
+  "Check that the number of statements and their logical relations remain balanced and consistent."
+ ],
+ "Constraint Satisfaction": [
+  "Make sure all constraints are clearly defined and consistent across the puzzle. Avoid ambiguous or conflicting rules that could mislead solvers.",
+  "Avoid over-constraining the puzzle so that it has only one solution. Ensure there are multiple valid paths to reach the solution.",
+  "Check that the initial clues are sufficient to allow logical deduction but not so many that the puzzle becomes trivial to solve."
+ ],
+ "Graph Theory": [
+  "Make sure the graph is connected to ensure non-trivial coloring challenges.",
+  "Avoid using more colors than necessary to maintain constraint difficulty.",
+  "Check that all adjacency constraints are enforced across the entire graph."
+ ],
+ "Syllogistic Logic": [
+  "Make sure all statements are in standard form and use proper quantifiers. Avoid ambiguous terms or overlapping categories.",
+  "Avoid assuming additional information not directly supported by the premises. Check for valid syllogistic forms only.",
+  "Ensure the conclusion logically follows from the premises using valid conversion, obversion, or contraposition where applicable."
+ ],
+ "Knights and Knaves": [
+  "Make sure statements are logically consistent with possible roles, avoid contradictions in assumptions.",
+  "Avoid creating scenarios where both truth-tellers and liars can satisfy the statements simultaneously.",
+  "Check that each character’s statement is clearly tied to their possible role and does not introduce ambiguity."
+ ],
+ "Inequality Puzzles": [
+  "Make sure all constraints are clearly defined and consistent across rows and columns. Avoid ambiguous or conflicting inequalities.",
+  "Avoid creating puzzles with multiple solutions or no solution. Ensure a unique valid grid exists based on constraints.",
+  "Check that each number from 1 to size appears exactly once in every row and column. Avoid missing or repeated numbers."
+ ],
+ "Queen Placement": [
+  "Make sure each queen is in a unique row and column.",
+  "Avoid placing queens on the same diagonal by checking absolute differences.",
+  "Ensure the final board has exactly n queens and no conflicts."
+ ],
+ "Weighted Grids": [
+  "Make sure the total sum of row constraints matches the total sum of column constraints.",
+  "Avoid having row or column constraints that are impossible to achieve with 1s and 0s.",
+  "Check that each row and column constraint is achievable with valid combinations of 1s and 0s."
+ ]
+}

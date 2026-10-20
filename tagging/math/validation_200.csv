@@ -1,0 +1,680 @@
+id,source,tag1,p1,tag2,p2,Problem_type,text,tag1_correct (y/n),tag2_correct (y/n/-),notes
+NuminaMath_Lean_61426,knn,Geometry,0.802,Algebraic Systems,0.154,Calculus,"1.25. Find the mass of the substance filling the common part of two spheres $x^{2}+y^{2}+z^{2}=R^{2}$ and $x^{2}+y^{2}+z^{2}=2 R z$, if the volumetric density of the substance at each point is proportional to the distance from the plane XOY.",,,
+NuminaMath_Lean_100140,knn,Algebra,0.3895,Number Theory,0.297,unknown,"(2016 Australian $AMC$ C Level (Grades 7-8) Q19)
+
+There is a bag of spaghetti, of which only one-third of the spaghetti strands are intact, and the rest are each broken into two pieces. Among all the spaghetti strands in the bag (including both intact and broken ones), what is the minimum fraction of the strands that have a length no less than half the original length of an intact strand?
+
+A: $ \frac{2}{5}$
+
+B: $ \frac{3}{5}$
+
+C: $ \frac{2}{3}$
+
+D: $ \frac{1}{2}$
+
+E: $ \frac{1}{3}$",,,
+NuminaMath_Lean_94372,knn,Algebraic Systems,0.4558,Algebra,0.1988,Algebra,"1. The following arrays are all composed of three numbers, they are:
+$$
+\begin{array}{l}
+(1,2,3),(2,4,6),(3,8,11), \\
+(4,16,20),(5,32,37), \cdots . \\
+\left(a_{n}, b_{n}, c_{n}\right) .
+\end{array}
+$$
+
+Please write an expression for $a_{n}, b_{n}, c_{n}$
+$$
+a_{n}=
+$$
+,$b_{n}=$ $\qquad$ ,$c_{n}=$ $\qquad$",,,
+NuminaMath_Lean_55,knn,Functional Analysis,0.2765,Algebraic Systems,0.0467,Functional Equations,"Determine the functions \( f:(0,1) \rightarrow \mathbf{R} \) for which:
+
+\[ f(x \cdot y) = x \cdot f(x) + y \cdot f(y) \]",,,
+NuminaMath_Lean_3905,knn,Algebra,0.7489,Polynomials,0.179,Algebra,What is the exact value of $2^{\log _{6} 18} \cdot 3^{\log _{6} 3}$?,,,
+NuminaMath_Lean_55242,knn,Diophantine Equations,0.6659,Number Theory,0.3116,Number Theory,"A prime number$ q $is called[b][i] 'Kowai' [/i][/b]number if $ q = p^2 + 10$ where $q$,  $p$, $p^2-2$,  $p^2-8$,  $p^3+6$ are prime numbers. WE know that, at least one [b][i]'Kowai'[/i][/b] number can be found. Find the summation of all [b][i]'Kowai'[/i][/b] numbers.
+",,,
+NuminaMath_Lean_41724,knn,Number Theory,0.605,Algebra,0.2443,Number Theory,"nine (not necessarily distinct) nine-digit numbers have been formed; each digit has been used in each number exactly once. What is the maximum number of zeros that the sum of these nine numbers can end with
+
+#",,,
+NuminaMath_Lean_64524,knn,Diophantine Equations,0.5042,Number Theory,0.4957,Number Theory,"Let $p_1<p_2<p_3<p_4$ and $q_1<q_2<q_3<q_4$ be two sets of prime numbers, such that $p_4 - p_1 = 8$ and $q_4 - q_1= 8$. Suppose $p_1 > 5$ and $q_1>5$. Prove that $30$ divides $p_1 - q_1$.",,,
+NuminaMath_Lean_85140,knn,Algebraic Systems,0.4727,Algebra,0.2818,unknown,"Compute
+\[\begin{pmatrix} 3a^2 - 3 & 3a \\ 2a^2 - a - 2 & 2a - 1 \end{pmatrix} \begin{pmatrix} -1 & -3a - 2 \\ a & 3a^2 + 2a - 3 \end{pmatrix}.\]",,,
+NuminaMath_Lean_74,knn,Algebraic Systems,0.707,Polynomials,0.1654,Linear Algebra,"Let \( a_{1}, \ldots, a_{n} \) be pairwise distinct numbers. Prove that the system of linear equations
+
+$$
+\left\{\begin{array}{l}
+x_{1}+\ldots+x_{n}=0 \\
+a_{1} x_{1}+\ldots+a_{n} x_{n}=0 \\
+7 a_{1}^{2} x_{1}+\ldots+a_{n}^{2} x_{n}=0 \\
+\ldots \ldots \ldots \ldots \ldots \ldots \ldots \ldots \ldots \\
+a_{1}^{n-1} x_{1}+\ldots+a_{n}^{n-1} x_{n}=0
+\end{array}\right.
+$$
+
+has only the trivial solution.",,,
+NuminaMath_Lean_37382,knn,Calculus,0.395,Algebra,0.2853,Calculus,"## Problem Statement
+
+Calculate the indefinite integral:
+
+$$
+\int \frac{x^{3}-6 x^{2}+11 x-10}{(x+2)(x-2)^{3}} d x
+$$",,,
+NuminaMath_Lean_45295,knn,Inequalities,0.6482,Algebra,0.1776,Algebra,"2. Given $a^{2}+b^{2}=1, b^{2}+c^{2}=c^{2}+a^{2}=2$. Then the minimum value of $a b+b c+a c$ is ( ).
+(A) $\sqrt{3}-\frac{1}{2}$
+(B) $\frac{1}{2}-\sqrt{3}$
+(C) $-\frac{1}{2}-\sqrt{3}$
+(D) $\frac{1}{2}+\sqrt{3}$",,,
+NuminaMath_Lean_5151,knn,Number Theory,0.6297,Diophantine Equations,0.2126,Number Theory,"A finite set $S$ of positive integers has the property that, for each $s \in S$, and each positive integer divisor $d$ of $s$, there exists a unique element $t \in S$ satisfying $\operatorname{gcd}(s, t)=d$. (The elements $s$ and $t$ could be equal.)  Given this information, find all possible values for the number of elements of $S$.",,,
+NuminaMath_Lean_35513,knn,Polynomials,0.5974,Algebra,0.1833,Algebra,"1. If the quadratic equation with integer coefficients
+$$
+x^{2}+(a+3) x+2 a+3=0
+$$
+
+has one positive root $x_{1}$ and one negative root $x_{2}$, and $\left|x_{1}\right|<\left|x_{2}\right|$, then
+$$
+a=
+$$
+$\qquad$",,,
+NuminaMath_Lean_50585,knn,Algebraic Systems,0.3982,Diophantine Equations,0.2236,NaN,"How many ordered pairs of positive real numbers $(a,b)$ satisfy the equation
+\[(1+2a)(2+2b)(2a+b) = 32ab?\]
+
+$\textbf{(A) }0\qquad\textbf{(B) }1\qquad\textbf{(C) }2\qquad\textbf{(D) }3\qquad\textbf{(E) }\text{an infinite number}$",,,
+NuminaMath_Lean_84467,knn,Algebraic Systems,0.3795,Geometry,0.2932,Number Theory,"24. C1 (FIN) ${ }^{\mathrm{PMO1}}$ We are given a positive integer $r$ and a rectangular board $A B C D$ with dimensions $|A B|=20,|B C|=12$. The rectangle is divided into a grid of $20 \times 12$ unit squares. The following moves are permitted on the board: One can move from one square to another only if the distance between the centers of the two squares is $\sqrt{r}$. The task is to find a sequence of moves leading from the square corresponding to vertex $A$ to the square corresponding to vertex $B$.
+(a) Show that the task cannot be done if $r$ is divisible by 2 or 3 .
+(b) Prove that the ta",,,
+NuminaMath_Lean_52396,llm,Algebraic Systems,0.7188,Algebra,0.2077,unknown,"Three students were instructed to write an increasing arithmetic sequence of consecutive positive integers on the blackboard. The teacher found that these three sequences had $11$, $12$, and $13$ terms respectively, but their sums of numbers were equal. Find the minimum possible value of the sum of the first terms of these sequences.
+
+Answer: ___ ___ .",,,
+NuminaMath_Lean_103766,knn,Trigonometry,0.6434,Algebra,0.1406,Algebra,$4.50 \frac{1}{\cos ^{6} \alpha}-\tan^{6} \alpha=\frac{3 \tan^{2} \alpha}{\cos ^{2} \alpha}+1$.,,,
+NuminaMath_Lean_6615,knn,Number Theory,0.7088,Diophantine Equations,0.2369,Number Theory,"Let $N$ be an integer greater than 1, with prime factorization $N = p_1^{a_1} p_2^{a_2} \dots p_k^{a_k}$ (where $p_i$ are distinct primes and $a_i \ge 1$ for all $i=1, \dots, k$).
+A function $g: \mathbb{N}^+ \rightarrow \mathbb{N}^+$ (where $\mathbb{N}^+$ is the set of positive integers) satisfies the following conditions:
+(a) If $m$ is a proper divisor of $n$ (i.e., $m|n$ and $m<n$), then $g(m)<g(n)$.
+(b) If $m$ and $n$ are relatively prime and $m, n > 1$, then $g(m n)=g(m) g(n)+(n+1) g(m)+(m+1) g(n)+m+n$.
+Show that the least possible value of $g(N)$ is $\left(\prod_{i=1}^k (a_i+p_i^{a_i}+2)\",,,
+NuminaMath_Lean_26273,knn,Inequalities,0.8183,Algebra,0.1138,Inequalities,"Example 12 Let $n$ be a fixed integer, $n \geqslant 2$.
+(1) Determine the smallest constant $c$ such that the inequality
+$$
+\sum_{1 \leqslant i<j \leqslant n} x_{i} x_{j}\left(x_{i}^{2}+x_{j}^{2}\right) \leqslant c \cdot\left(\sum_{i=1}^{n} x_{i}\right)^{4}
+$$
+
+holds for all non-negative real numbers $x_{1}, x_{2}, \cdots, x_{n}$;
+(2) For this constant $c$, determine the necessary and sufficient conditions for equality to hold.",,,
+NuminaMath_Lean_85863,knn,Probability,0.9109,Number Theory,0.0605,Calculus,"Example. Let $\xi$ be a continuous random variable with probability density
+
+$$
+p(x)=\left\{\begin{array}{cl}
+\lambda e^{-\lambda x}, & x \geqslant 0 \\
+0, & x<0
+\end{array}\right.
+$$
+
+where $\lambda$ is a positive constant (exponential distribution). Let $\eta=\cos \xi$. Find $\mathrm{P}(\eta<0)$.",,,
+NuminaMath_Lean_91790,knn,Geometry,0.3691,Trigonometry,0.319,unknown,"Let $n$ be a natural number, and let $\alpha, \beta, \gamma$ be the angles of an acute triangle. Determine the least possible value of the sum:
+$T = \tan^n \alpha + \tan^n \beta + \tan^n \gamma$.",,,
+NuminaMath_Lean_37734,knn,Polynomials,0.3234,Algebra,0.2752,Algebra,"For which values of the real parameters $a$ and $b$ will the maximum of the function $\left|x^{2}+a x+b\right|$ on the interval $[-1,1]$ be the smallest?",,,
+NuminaMath_Lean_31869,knn,Inequalities,0.593,Algebra,0.1617,Inequalities,"2. Find all values of $y$, for each of which no value of $x$ satisfying the inequality $\log _{2}(|x|+|y|) \leqslant 2, \quad$ satisfies the inequality $\log _{\frac{1}{2}}(|x|+|y+4|) \geqslant-2$",,,
+NuminaMath_Lean_63351,llm,Algebraic Systems,0.992,Geometry,0.0028,Algebra,"12th Putnam 1952 Problem B2 Find the surface comprising the curves which satisfy dx/(yz) = dy/(zx) = dz/(xy) and which meet the circle x = 0, y 2 + z 2 = 1.",,,
+NuminaMath_Lean_10397,knn,Algebra,0.7958,Polynomials,0.1329,Algebra,"
+7.008. $\frac{81^{\frac{1}{\log _{5} 9}}+3^{\frac{3}{\log _{\sqrt{6}} 3}}}{409} \cdot\left((\sqrt{7})^{\frac{2}{\log _{25} 7}}-125^{\log _{25} 6}\right)$
+
+",,,
+NuminaMath_Lean_37540,llm,Geometry,0.0,Algebra,0.0,Algebra,"$3.455 A=\operatorname{tg}\left(2 \arccos \frac{5}{\sqrt{26}}-\arcsin \frac{12}{13}\right)$. 
+
+$3.455 A=\tan\left(2 \arccos \frac{5}{\sqrt{26}}-\arcsin \frac{12}{13}\right)$.",,,
+NuminaMath_Lean_68945,knn,Inequalities,0.5132,Algebra,0.2527,unknown,"Given real numbers $x$, $y$, and $z$ such that $x + y + z = 3$ and $xy + yz + zx = a$ (where $a$ is a real parameter), determine the value of $a$ for which the difference between the maximum and minimum possible values of $x$ is 8.",,,
+NuminaMath_Lean_21400,knn,Recurrence Relations,0.6021,Diophantine Equations,0.1431,Other,"Let the sequence $a_{1}, a_{2}, \cdots$ be defined recursively as follows: $a_{n}=11a_{n-1}-n$. If all terms of the sequence are positive, the smallest possible value of $a_{1}$ can be written as $\frac{m}{n}$, where $m$ and $n$ are relatively prime positive integers. What is $m+n$?",,,
+NuminaMath_Lean_100769,llm,Algebraic Systems,0.002,Algebra,0.0014,Algebra,"IMO 1990 Problem B1 Construct a function from the set of positive rational numbers into itself such that f(x f(y)) = f(x)/y for all x, y.",,,
+NuminaMath_Lean_13919,knn,Geometry,0.5112,Polynomials,0.286,NaN,"For how many integers $k$ do the parabolas with equations $y=-\frac{1}{8} x^{2}+4$ and $y=x^{2}-k$ intersect on or above the $x$-axis?
+(A) 9
+(B) 32
+(C) 33
+(D) 36
+(E) 37",,,
+NuminaMath_Lean_86227,knn,Functional Analysis,0.6041,Differential Equations,0.1587,Calculus,Example 3. Find the differential of the function $y=e^{x}\left(x^{2}+3\right)$. Calculate the value of the differential at the point $x=0$.,,,
+NuminaMath_Lean_86305,knn,Algebraic Systems,0.3968,Recurrence Relations,0.1876,Number Theory,"F4 (19-6, Bulgaria) Let $f(n)$ be a function defined on the set of positive integers, and the values it takes are also in the set of positive integers. Prove that if for every positive integer $n, f(n+1)>f[f(n)]$ holds, then $f(n)=n$ for every $n$.
+
+---
+
+The translation is provided as requested, maintaining the original formatting and structure.",,,
+NuminaMath_Lean_28317,knn,Algebra,0.4405,Diophantine Equations,0.2423,Algebra,"Let $a, b$ be rational numbers. Prove that if the equation
+
+$$
+a x^{2}+b y^{2}=1
+$$
+
+has a solution in rational numbers $x, y$, then it has infinitely many solutions in rational numbers.",,,
+NuminaMath_Lean_69796,knn,Number Theory,0.7297,Algebra,0.1493,Number Theory,"## SUBJECT II
+
+Given the numbers $a$ and $b, a>b$. If dividing $a$ by their difference results in a quotient of 2 and a remainder of 3, what is the quotient and remainder when $b$ is divided by their difference?
+
+E:14143, nr. 3/2010",,,
+NuminaMath_Lean_50127,llm,Geometry,0.9989,Algebraic Systems,0.001,Calculus,"## Task Condition
+
+Calculate the area of the figure bounded by the graphs of the functions:
+
+$$
+y=\frac{x}{1+\sqrt{x}}, y=0, x=1
+$$",,,
+NuminaMath_Lean_79204,knn,Number Theory,0.6266,Algebraic Systems,0.2052,Number Theory,"Example 10 Given a natural number $a \geqslant 2$, the sets are
+$$
+\begin{array}{l}
+A=\left\{y \mid y=a^{x}, x \in \mathbf{N}\right\}, \\
+B=\{y \mid y=(a+1) x+b, x \in \mathbf{N}\} .
+\end{array}
+$$
+
+Does there exist a $b$ in the interval $[1, a]$ such that $C=A \cap B$ $\neq \varnothing$? If it exists, find all possible values of $b$ and the corresponding set $C$; if not, explain the reason.",,,
+NuminaMath_Lean_12830,knn,Recurrence Relations,0.3606,Number Theory,0.3472,Number Theory,"We can form sequences from an initial number using two operations "" $+1=$ add 1 "" and "" $-i=$ minus the inverse"". For example, starting with the number 3, we can form several sequences, see one of them:
+
+$$
+3 \xrightarrow{+1} 4 \xrightarrow{+1} 5 \xrightarrow{-i}-\frac{1}{5} \xrightarrow{+1} \frac{4}{5} \xrightarrow{-i}-\frac{5}{4} \xrightarrow{+1}-\frac{1}{4} \xrightarrow{+1} \frac{3}{4} \xrightarrow{-i}-\frac{4}{3} .
+$$
+
+Starting with 0, with which sequence will we obtain 0 again, using only the two operations "" +1 "" and "" $-i$ ""?
+
+## List 3",,,
+NuminaMath_Lean_66981,knn,Functional Analysis,0.4935,Algebraic Systems,0.1743,Other,"Find all functions $f:\mathbb{R}\to\mathbb{R}$ for which 
+\[ x(f(x+1)-f(x)) = f(x), \] 
+for all $x\in\mathbb{R}$ and 
+\[ | f(x) - f(y) | \leq |x-y| , \] 
+for all $x,y\in\mathbb{R}$. 
+
+[i]Mihai Piticari[/i]",,,
+NuminaMath_Lean_88205,llm,Functional Analysis,1.0,Calculus,0.0,Calculus,"## Task Condition
+
+Find the derivative.
+
+$y=\operatorname{ctg}(\cos 2)+\frac{1}{6} \cdot \frac{\sin ^{2} 6 x}{\cos 12 x}$",,,
+NuminaMath_Lean_87408,knn,Inequalities,0.6935,Functional Analysis,0.2637,Inequalities,"15. Prove that if $0 \leqslant x \leqslant \frac{\pi}{2}$, then:
+(1) $1-\cos x \leqslant \frac{x^{2}}{2}$;
+(2) $x \cos x \leqslant \sin x \leqslant x \cos \frac{x}{2}$.",,,
+NuminaMath_Lean_67011,knn,Functional Analysis,0.9992,Calculus,0.0008,Calculus,"## Task Condition
+
+Find the derivative.
+
+$y=\ln \cos \frac{1}{3}+\frac{\sin ^{2} 23 x}{23 \cos 46 x}$",,,
+NuminaMath_Lean_44487,knn,Number Theory,0.5588,Diophantine Equations,0.3382,unknown,"If we list the positive integers that have exactly $3$ positive divisors in ascending order, what is the third term?",,,
+NuminaMath_Lean_47552,knn,Inequalities,0.3831,Trigonometry,0.1463,Calculus,"[b]9.[/b] Show that if the trigonometric polynomial $f(\theta)= \sum_{v=1}^{n} a_v \cos v\theta$ monotonically decreases over the closed interval $[0,\pi]$, then the trigonometric polynomial $g(\theta)=\sum_{v=1}^{n}a_v \sin v\theta$ is non negative in the same interval. [b](S. 26)[/b]",,,
+NuminaMath_Lean_86371,knn,Number Theory,0.6625,Diophantine Equations,0.2721,Number Theory,"1-114 Proof: $m(m+1)$ is not a $k$-th power of any integer, where $m$ is a natural number, and $k$ is a natural number greater than 1.",,,
+NuminaMath_Lean_55596,llm,Trigonometry,0.6729,Inequalities,0.3065,Inequalities,"10.37*. a) $\sin \alpha + \sin \beta + \sin \gamma \leqslant 3 \sqrt{3} / 2$;
+
+б) $\cos (\alpha / 2) + \cos (\beta / 2) + \cos (\gamma / 2) \leqslant 3 \sqrt{3} / 2$.
+
+a) $\sin \alpha + \sin \beta + \sin \gamma \leqslant 3 \sqrt{3} / 2$;
+
+b) $\cos (\alpha / 2) + \cos (\beta / 2) + \cos (\gamma / 2) \leqslant 3 \sqrt{3} / 2$.",,,
+NuminaMath_Lean_19316,knn,Trigonometry,0.71,Algebra,0.071,Algebra,8.040. $\operatorname{ctg}\left(\frac{3 \pi}{2}-x\right)-\operatorname{ctg}^{2} x+\frac{1+\cos 2 x}{\sin ^{2} x}=0$.,,,
+NuminaMath_Lean_31878,knn,Algebra,0.407,Number Theory,0.3301,Number Theory,"## 3. Three-digit Ending
+
+Sum all odd four-digit numbers for which the sum of the digits is equal to 4. What are the last three digits of this sum, starting with the hundreds digit?
+
+Result: $\quad 449$",,,
+NuminaMath_Lean_79364,knn,Algebraic Systems,0.4516,Recurrence Relations,0.3151,Other,"Given that, a function $f(n)$, defined on the natural numbers, satisfies the following conditions: (i)$f(n)=n-12$ if $n>2000$; (ii)$f(n)=f(f(n+16))$ if $n \leq 2000$.
+(a) Find $f(n)$.
+(b) Find all solutions to $f(n)=n$.",,,
+NuminaMath_Lean_47168,knn,Algebra,0.3508,Geometry,0.3381,unknown,"Convert the point $( -5, 0, -8 )$ in rectangular coordinates to cylindrical coordinates.  Enter your answer in the form $(r,\theta,z),$ where $r > 0$ and $0 \le \theta < 2 \pi.$",,,
+NuminaMath_Lean_57377,knn,Algebraic Systems,0.5293,Algebra,0.3442,Algebra,"13.128. Above point $A$, the helicopter was at 8:30 AM. After flying a straight distance of $s$ km, the helicopter arrived at point $B$. Hovering over point $B$ for 5 minutes, the helicopter then returned along the same route. It returned to point $A$ at 10:35 AM. From $A$ to $B$, it flew with the wind, and on the return trip, it flew against the wind. The wind speed was constant throughout. Find the wind speed, given that the helicopter's own speed was also constant and equal to $\mathrm{v}$ km/h in calm conditions:
+
+Under what relationship between the given quantities does the problem have a",,,
+NuminaMath_Lean_100148,knn,Algebraic Systems,0.4207,Algebra,0.3701,Calculus,"39. Ship $K_{1}$ notices ship $K_{2}$, which is at a distance $d$ from $K_{1}$ and is moving with a speed $v$ in a direction,
+
+![](https://cdn.mathpix.com/cropped/2024_05_21_15011fcc7946713185f0g-024.jpg?height=388&width=488&top_left_y=1063&top_left_x=131)
+
+Fig. 8. perpendicular to the line $K_{1} K_{2}$ (Fig. 8). Ship $K_{1}$ needs help and therefore wants to draw the attention of ship $K_{2}$, which, however, does not notice $K_{1}$ and continues on the same course. How close can ship $K_{1}$ get to ship $K_{2}$ if
+
+a) the speed of $K_{2}$ is also $v$ and the captain of ship $K_{1}$ at each ",,,
+NuminaMath_Lean_96766,knn,Algebraic Systems,0.3476,Diophantine Equations,0.2761,unknown,"If $x$, $y$ are positive integers, and ${{x}^{2}}+{{y}^{2}}+4y-96=0$, then $xy=$ ___          ___ or ___          ___ .",,,
+NuminaMath_Lean_47668,knn,Geometry,0.4577,Algebraic Systems,0.3707,Inequalities,"6. a) On the coordinate plane, plot the figure $\Phi$, the coordinates of the points of which satisfy the system of inequalities
+
+$$
+\left\{\begin{array}{l}
+y^{2}-x^{2} \leqslant 3(x+y) \\
+x^{2}+y^{2} \leqslant 6 y-6 x-9
+\end{array}\right.
+$$
+
+b) Find the area of the figure $\Phi$ and the distance from the point $T(-6 ; 0)$ to the nearest point of the figure $\Phi$.",,,
+NuminaMath_Lean_32431,knn,Algebraic Systems,0.5407,Polynomials,0.1693,Algebra,"6.197. $\left\{\begin{array}{l}x^{2}+y^{4}=20, \\ x^{4}+y^{2}=20 .\end{array}\right.$",,,
+NuminaMath_Lean_92068,llm,Algebra,0.4583,Algebraic Systems,0.4274,Inequalities,"Example 3 (1) Let 3 positive real numbers $a, b, c$ satisfy
+$$\left(a^{2}+b^{2}+c^{2}\right)^{2}>2\left(a^{4}+b^{4}+c^{4}\right)$$
+
+Prove: $a, b, c$ must be the lengths of the 3 sides of some triangle;
+(2) Let $n$ positive real numbers $a_{1}, a_{2}, \cdots, a_{n}$ satisfy
+$$\left(a_{1}^{2}+a_{2}^{2}+\cdots+a_{n}^{2}\right)^{2}>(n-1)\left(a_{1}^{4}+a_{2}^{4}+\cdots+a_{n}^{4}\right)$$
+
+Prove: any 3 of these numbers must be the lengths of the 3 sides of some triangle.",,,
+NuminaMath_Lean_84928,knn,Number Theory,0.6255,Diophantine Equations,0.3646,Number Theory,Let $p> 3$ be a prime number and let $q = \frac{4^p-1}{3}$. Show that $q$ is a composite integer as well is a divisor of $2^{q-1}- 1$.,,,
+NuminaMath_Lean_62030,knn,Diophantine Equations,0.3131,Number Theory,0.3128,Number Theory,"Let $a>k$ be natural numbers and $r_1<r_2<\dots r_n,s_1<s_2<\dots <s_n$ be sequences of natural numbers such that:
+
+$(a^{r_1}+k)(a^{r_2}+k)\dots (a^{r_n}+k)=(a^{s_1}+k)(a^{s_2}+k)\dots (a^{s_n}+k)$
+
+Prove that these sequences are equal.",,,
+NuminaMath_Lean_51661,llm,Number Theory,0.91,Diophantine Equations,0.0802,unknown,"Find all real numbers $a$ that satisfy the following condition: for every infinite sequence of pairwise distinct positive integers ${{a}_{1}}$, ${{a}_{2}}$, $\cdots$, ${{a}_{n}}$, $\cdots$, if ${{a}_{n}} \leqslant an$ for every positive integer $n$, then the sequence contains infinitely many terms whose sum of digits in base $4038$ is not divisible by $2019$.",,,
+NuminaMath_Lean_56849,knn,Calculus,0.989,Algebra,0.0063,Calculus,To be calculated $\lim _{x \rightarrow 0} \frac{1-\sqrt[3]{1-x}}{x}$.,,,
+NuminaMath_Lean_2792,knn,Inequalities,0.8278,Algebra,0.1303,Inequalities,"Example 3 Let $a_{1}, a_{2}, \cdots, a_{n}$ be non-negative real numbers, and satisfy $\sum_{i=1}^{n} a_{i}=4(n \geqslant 3)$. Try to prove: $a_{1}^{3} a_{2}+a_{2}^{3} a_{3}+\cdots+a_{n-1}^{3} a_{n}+a_{n}^{3} a_{1} \leqslant 27$.",,,
+NuminaMath_Lean_17490,knn,Algebra,0.2109,Number Theory,0.1997,Inequalities,"Example 4 The odd function $f(x)$ is monotonically decreasing on the interval $(-\infty, 0)$, $f(2)=0$, solve the inequality $(x-1) f(x+1)>0$.",,,
+NuminaMath_Lean_90030,knn,Algebraic Systems,0.5994,Algebra,0.2011,unknown,"Let
+\[\mathbf{A} = \begin{pmatrix} 4 & 1 \\ -9 & -2 \end{pmatrix}.\]Compute $\mathbf{A}^{100}.$",,,
+NuminaMath_Lean_39762,knn,Number Theory,0.4322,Diophantine Equations,0.3702,Number Theory,"a) Show that there is no integer whose 58th power has 64 digits.
+
+b) Can we replace the number 64 with any other natural number in the previous statement?",,,
+NuminaMath_Lean_66297,knn,Diophantine Equations,0.5594,Number Theory,0.4052,Number Theory,"3. Find the number of natural numbers $k$, not exceeding 353500, such that $k^{2}+k$ is divisible by 505.",,,
+NuminaMath_Lean_59894,knn,Polynomials,0.3158,Algebraic Systems,0.276,NaN,"Let $n$ be a positive integer. Find, with proof, the least positive integer $d_{n}$ which cannot be expressed in the form \[\sum_{i=1}^{n}(-1)^{a_{i}}2^{b_{i}},\]
+where $a_{i}$ and $b_{i}$ are nonnegative integers for each $i.$",,,
+NuminaMath_Lean_91554,llm,Polynomials,0.9952,Algebra,0.0047,unknown,"The following statement about the roots of the equation $ \sqrt{4x^{2}+2x+1}- \sqrt{4x^{2}+14x+5}=6x+2$ is correct (   ).
+
+A: The equation has no negative real roots
+
+B: The equation has no rational roots
+
+C: The equation has two real roots
+
+D: The equation has only one real root",,,
+NuminaMath_Lean_90499,knn,Inequalities,0.8791,Algebra,0.0832,Algebra,"6. Let $x, y \in \mathbf{R}_{+}$. Then the function
+$$
+\begin{array}{l}
+f(x, y) \\
+=\sqrt{x^{2}-x y+y^{2}}+\sqrt{x^{2}-9 x+27}+\sqrt{y^{2}-15 y+75}
+\end{array}
+$$
+
+has the minimum value of",,,
+NuminaMath_Lean_84633,llm,Number Theory,0.9985,Diophantine Equations,0.001,Number Theory,"1- 114 Proof: $m(m+1)$ is not a $k$-th power of any integer, where $m$ is a natural number, and $k$ is a natural number greater than 1.",,,
+NuminaMath_Lean_30277,llm,Algebra,0.4359,Polynomials,0.4343,Calculus,"Define the infinite products \[ A = \prod\limits_{i=2}^{\infty} \left(1-\frac{1}{n^3}\right) \text{ and }  B = \prod\limits_{i=1}^{\infty}\left(1+\frac{1}{n(n+1)}\right). \] If $\tfrac{A}{B} = \tfrac{m}{n}$ where $m,n$ are relatively prime positive integers, determine $100m+n$.
+
+[i]Proposed by Lewis Chen[/i]",,,
+NuminaMath_Lean_92215,llm,Algebraic Systems,0.7533,Algebra,0.239,NaN,"Let $V$ be a rectangular prism with integer side lengths. The largest face has area $240$ and the smallest face has area $48$. A third face has area $x$, where $x$ is not equal to $48$ or $240$. What is the sum of all possible values of $x$?
+",,,
+NuminaMath_Lean_21466,knn,Diophantine Equations,0.3545,Number Theory,0.3305,Number Theory,"19 The sequence of positive integers $\left\{a_{n}\right\}$ satisfies: for any positive integers $m, n$, if $m \mid n, m<n$, then $a_{m} \mid a_{n}$, and $a_{m}<a_{n}$. Find the minimum possible value of $a_{2000}$.",,,
+NuminaMath_Lean_63932,knn,Number Theory,0.779,Diophantine Equations,0.2173,unknown,"Prove that the fourth power of any integer is of the form $5k$ or $5k+1$, where $k$ is an integer.",,,
+NuminaMath_Lean_81132,knn,Geometry,0.2694,Calculus,0.2066,Calculus,"Prove that for positive number $t$, the function $F(t)=\int_0^t \frac{\sin x}{1+x^2}dx$ always takes  positive number.
+
+1972 Tokyo University of Education entrance exam",,,
+NuminaMath_Lean_52391,knn,Inequalities,0.6062,Algebra,0.3105,Inequalities,"Suppose the real numbers $a, A, b, B$ satisfy the inequalities: $$|A - 3a| \le  1 - a\,\,\, , \,\,\, |B -3b| \le  1 - b$$, and $a, b$ are positive. Prove that $$\left|\frac{AB}{3}- 3ab\right | - 3ab \le 1 - ab.$$",,,
+NuminaMath_Lean_50051,knn,Recurrence Relations,0.6647,Algebraic Systems,0.2364,Other,"A sequence $\{a_n\}_{n\geq0}$ obeys the recurrence $a_n=1+a_{n-1}+\alpha a_{n-2}$ for all $n\geq2$ and for some $\alpha>0$. Given that $a_0=1$ and $a_1=2$, compute the value of $\alpha$ for which
+$$\sum_{n=0}^{\infty}\frac{a_n}{2^n}=10$$",,,
+NuminaMath_Lean_60155,knn,Polynomials,0.9312,Algebraic Systems,0.0305,unknown,"If the roots of $x^2-2019x+689=0$ are $2$ more than those of $ax^2+bx+c=0$ and the greatest common divisor of $a$, $b$, and $c$ is $1$. Find the value of $4a-2b+c$.",,,
+NuminaMath_Lean_51882,knn,Inequalities,0.6877,Algebra,0.1774,Inequalities,"Example 4. Solve the inequality
+
+$$
+\sqrt{x+2}>\sqrt{8-x^{2}}
+$$",,,
+NuminaMath_Lean_65263,knn,Algebra,0.4401,Polynomials,0.3344,Algebra,"If $ x \equal{} \sqrt [3]{11 \plus{} \sqrt {337}} \plus{} \sqrt [3]{11 \minus{} \sqrt {337}}$, then $ x^3 \plus{} 18x$ = ?
+
+$\textbf{(A)}\ 24  \qquad\textbf{(B)}\ 22  \qquad\textbf{(C)}\ 20  \qquad\textbf{(D)}\ 11  \qquad\textbf{(E)}\ 10$",,,
+NuminaMath_Lean_92219,knn,Number Theory,0.5129,Diophantine Equations,0.3067,Number Theory,"## Task A-3.2.
+
+Prove that there does not exist a natural number $k$ such that
+
+$$
+k+4 \quad \text{and} \quad k^{2}+5k+2
+$$
+
+are cubes of some natural numbers.",,,
+NuminaMath_Lean_39668,knn,Inequalities,0.4559,Algebra,0.3282,unknown,"Prove the following inequality for all $x \in \mathbb{R^+}$ and $n \in \mathbb{N^*}$:
+\[ \sum_{k=1}^{2n} (-1)^{k-1} \frac{x^k}{k} \leq \ln(x+1) \leq \sum_{k=1}^{2n-1} (-1)^{k-1} \frac{x^k}{k} \]",,,
+NuminaMath_Lean_71526,knn,Number Theory,0.4834,Algebra,0.2779,Number Theory,"## Subject 1.
+
+If we divide the numbers 3625 and 1611 by the number $\overline{a b c}$, we get the same remainder. Determine the number $\overline{a b c}$.",,,
+NuminaMath_Lean_50710,knn,Algebraic Systems,0.3247,Recurrence Relations,0.2516,Algebra,"8. Let the function $f(x)$ be defined on $\mathbf{R}$, for any $x \in \mathbf{R}$, $f(x+1006)=\frac{1}{2}+\sqrt{f(x)-f^{2}(x)}$,
+
+and $f(-1005)=\frac{3}{4}$.
+Then $f(2013)=$",,,
+NuminaMath_Lean_87981,knn,Algebra,0.2441,Functional Analysis,0.2189,Calculus,"Example 4.38. Write the Fourier series for the function $f(x)$ defined by the equations
+
+$$
+\begin{gathered}
+f(x)=\left\{\begin{array}{l}
+-\frac{\pi}{4},-\pi<x<0 \\
+0, x=0, x=-\pi \\
+\frac{\pi}{4}, 0<x<\pi
+\end{array}\right. \\
+f(x)=f(x+2 \pi) .
+\end{gathered}
+$$",,,
+NuminaMath_Lean_33197,knn,Diophantine Equations,0.3734,Number Theory,0.2135,Number Theory,"Dudeney, Amusements in Mathematics Problem 16 Mr Morgan G Bloomgarten, the millionaire, known in the States as the Clam King, had, for his sins, more money than he knew what to do with. It bored him. So he determined to persecute some of his poor but happy friends with it. They had never done him any harm, but he resolved to inoculate them with the ""source of all evil"". He therefore proposed to distribute a million dollars among them and watch them go rapidly to the bad. But he as a man of strange fancies and superstitions, and it was an inviolable rule with him never to make a gift that was n",,,
+NuminaMath_Lean_59734,knn,Complex Numbers,0.4846,Polynomials,0.4624,NaN,"10. $[\mathbf{8}]$ Let $r_{1}, r_{2}, \ldots, r_{7}$ be the distinct complex roots of the polynomial $P(x)=x^{7}-7$. Let
+$$
+K=\prod_{1 \leq i<j \leq 7}\left(r_{i}+r_{j}\right),
+$$
+that is, the product of all numbers of the form $r_{i}+r_{j}$, where $i$ and $j$ are integers for which $1 \leq i<j \leq 7$. Determine the value of $K^{2}$.",,,
+NuminaMath_Lean_99835,knn,Inequalities,0.8203,Trigonometry,0.1796,Inequalities,"Example 5 Solve the inequality $\sqrt{\frac{\pi}{4}-\arctan \frac{|x|+|y|}{\pi}}+\tan ^{2} x+1 \leqslant \sqrt{2}|\tan x|(\sin x+\cos x)$.
+
+",,,
+NuminaMath_Lean_39867,llm,Algebraic Systems,0.3822,Number Theory,0.2985,Number Theory,"The millipede Mirka consists of a head and several segments, and on each segment, she has one pair of legs. When it got cold, she decided to get dressed. Therefore, she put on a sock on the left leg of the third segment from the end and then on every third segment thereafter. Similarly, she put on a sock on the right leg of the fifth segment from the end and then on every fifth segment thereafter. Then she found out that on 14 segments, both legs remained bare.
+
+Determine how many legs the millipede Mirka could have in total; specify all possibilities.
+
+(E. Novotná)
+
+Hint. Which segment from t",,,
+NuminaMath_Lean_45127,knn,Complex Numbers,0.9896,Algebra,0.0085,Algebra,"If $|z| = 1$, express $\overline{z}$ as a simplified fraction in terms of $z$.",,,
+NuminaMath_Lean_58845,knn,Number Theory,0.4006,Diophantine Equations,0.2261,Number Theory,"Let $f:\mathbb N\rightarrow\mathbb N$ be a non-decreasing function and let $n$ be an arbitrary natural number. Suppose that there are prime numbers $p_1,p_2,\dots,p_n$ and natural numbers $s_1,s_2,\dots,s_n$ such that for each $1\leq i\leq n$ the set $\{f(p_ir+s_i)|r=1,2,\dots\}$ is an infinite arithmetic progression. Prove that there is a natural number $a$ such that
+\[f(a+1), f(a+2), \dots, f(a+n)\]
+form an arithmetic progression.",,,
+NuminaMath_Lean_3922,llm,Algebraic Systems,0.5666,Algebra,0.4268,Algebra,"A rectangular prism has a volume of $8 \mathrm{~cm}^{3}$. If we increase each edge of the rectangular prism by 1 centimeter, we get a rectangular prism with a volume of $27 \mathrm{~cm}^{3}$. What volume of rectangular prism will we get if we again increase each edge by 1 centimeter?",,,
+NuminaMath_Lean_45396,knn,Inequalities,0.624,Trigonometry,0.2514,Inequalities,"9. 117 Let $0<\alpha<\frac{\pi}{2}, 0<\beta<\frac{\pi}{2}$, prove that:
+$$\frac{1}{\cos ^{2} \alpha}+\frac{1}{\sin ^{2} \alpha \sin ^{2} \beta \cos ^{2} \beta} \geqslant 9$$
+
+and determine the values of $\alpha, \beta$ for which equality holds.",,,
+NuminaMath_Lean_19265,knn,Algebra,0.8001,Number Theory,0.1472,unknown,"If $\frac{9^n\cdot3^{2n+1}}{81}=243$, find $n$.",,,
+NuminaMath_Lean_40205,knn,Number Theory,0.4043,Algebra,0.3667,unknown,How many possible 9-digit zip codes are possible if the first digit cannot be zero?,,,
+NuminaMath_Lean_84806,llm,Number Theory,1.0,Diophantine Equations,0.0,unknown,"For positive integers $k$ and $n$, let $d_{k}(n)$ denote the number of divisors of $n$ that are not less than $k$. Determine the value of the sum:
+
+$S=\sum_{k=1}^{2014}d_{k}(k+2014)$.",,,
+NuminaMath_Lean_60250,knn,Recurrence Relations,0.8073,Algebraic Systems,0.1778,NaN,"Let $a_0,a_1,a_2,\dots $ be a sequence of real numbers such that $a_0=0, a_1=1,$ and for every $n\geq 2$ there exists $1 \leq k \leq n$ satisfying \[ a_n=\frac{a_{n-1}+\dots + a_{n-k}}{k}. \]Find the maximum possible value of $a_{2018}-a_{2017}$.",,,
+NuminaMath_Lean_87680,knn,Inequalities,0.5218,Algebra,0.2392,unknown,"Let $x,$ $y,$ and $z$ be real numbers such that
+\[x^3 + y^3 + z^3 - 3xyz = 1.\]Find the minimum value of $x^2 + y^2 + z^2.$",,,
+NuminaMath_Lean_7574,knn,Algebraic Systems,0.5632,Algebra,0.2069,Calculus,"Find the matrix $\mathbf{M},$ with real entries, such that
+\[\mathbf{M}^3 = \begin{pmatrix} 19 & 30 \\ -45 & -71 \end{pmatrix}.\]",,,
+NuminaMath_Lean_66386,knn,Functional Analysis,0.3797,Algebra,0.3382,Calculus,"Show that if $ f(x)$ is a real-valued, continuous function on the half-line $ 0\leq x < \infty$, and \[ \int_0^{\infty} f^2(x)dx
+<\infty\] then the function \[ g(x)\equal{}f(x)\minus{}2e^{\minus{}x}\int_0^x e^tf(t)dt\] satisfies \[ \int _0^{\infty}g^2(x)dx\equal{}\int_0^{\infty}f^2(x)dx.\] [B. Szokefalvi-Nagy]",,,
+NuminaMath_Lean_28127,knn,Number Theory,0.3981,Diophantine Equations,0.2839,Number Theory,"
+05.1. Find all positive integers $k$ such that the product of the digits of $k$, in the decimal system, equals
+
+$$
+\frac{25}{8} k-211
+$$
+",,,
+NuminaMath_Lean_793,llm,Trigonometry,0.9999,Inequalities,0.0,Calculus,Let $x$ be an angle such that $\tan x = \frac{a}{b}$ and $\tan 2x = \frac{b}{a + b}.$  Then the least positive value of $x$ equals $\tan^{-1} k.$  Compute $k.$,,,
+NuminaMath_Lean_82403,knn,Number Theory,0.3266,Algebraic Systems,0.2712,Algebra,"13. (5 points) Winter has come, and the white rabbit has only stored 180 carrots, while the gray rabbit has only stored 120 cabbages. To ensure they have food to eat during the winter, the gray rabbit traded a dozen cabbages for some carrots from the white rabbit. At this point, the amount of food they stored is equal. Then, one cabbage can be exchanged for $\qquad$ carrots.",,,
+NuminaMath_Lean_60547,knn,Functional Analysis,0.9973,Calculus,0.0024,Calculus,"## Task Condition
+
+Find the $n$-th order derivative.
+
+$y=3^{2 x+5}$",,,
+NuminaMath_Lean_11431,knn,Algebraic Systems,0.6483,Algebra,0.1864,Other,"10. (SWE 4) ${ }^{\mathrm{IMO} 3}$ Let $1=a_{0} \leq a_{1} \leq a_{2} \leq \cdots \leq a_{n} \leq \cdots$ be a sequence of real numbers. Consider the sequence $b_{1}, b_{2}, \ldots$ defined by:  $$ b_{n}=\sum_{k=1}^{n}\left(1-\frac{a_{k-1}}{a_{k}}\right) \frac{1}{\sqrt{a_{k}}} $$  Prove that: (a) For all natural numbers $n, 0 \leq b_{n}<2$. (b) Given an arbitrary $0 \leq b<2$, there is a sequence $a_{0}, a_{1}, \ldots, a_{n}, \ldots$ of the above type such that $b_{n}>b$ is true for infinitely many natural numbers $n$.",,,
+NuminaMath_Lean_48514,knn,Polynomials,0.8573,Algebraic Systems,0.0607,Other,Let $P_n(x)=1+2x+3x^2+\cdots+nx^{n-1}.$ Prove that the polynomials $P_j(x)$ and $P_k(x)$ are relatively prime for all positive integers $j$ and $k$ with $j\ne k.$,,,
+NuminaMath_Lean_63990,knn,Complex Numbers,0.4486,Functional Analysis,0.3219,Calculus,"3.23. Calculate
+
+$$
+\int_{L} \frac{e^{z}}{z^{2}+9} d z
+$$
+
+where $L$ is the circle: a) $|z-3 i|=2 ;$ b) $|z-3 i|=9$.",,,
+NuminaMath_Lean_92893,llm,Number Theory,0.3949,Diophantine Equations,0.3571,NaN,Compute the sum of all 2-digit prime numbers $p$ such that there exists a prime number $q$ for which $100q + p$ is a perfect square.,,,
+NuminaMath_Lean_19813,knn,Number Theory,0.4258,Diophantine Equations,0.2137,Number Theory,"Slytinsky V.
+
+It is known that the number $n$ is the sum of the squares of three natural numbers. Show that the number $n^{2}$ is also the sum of the squares of three natural numbers.",,,
+NuminaMath_Lean_8821,llm,Inequalities,1.0,Algebra,0.0,Inequalities,"Prove the inequality
+$$\frac{n\pi}4-\frac1{\sqrt{8n}}\le\frac12+\sum_{k=1}^{n-1}\sqrt{1-\frac{k^2}{n^2}}\le\frac{n\pi}4$$for every integer $n\ge2$.",,,
+NuminaMath_Lean_73990,knn,Algebra,0.7088,Polynomials,0.1987,unknown,Let $m$ and $n$ satisfy $mn=7$ and $m+n=8$. What is $|m-n|$?,,,
+NuminaMath_Lean_43241,knn,Inequalities,0.8934,Algebra,0.0964,Inequalities,"99. Let $a, b, c$ be positive real numbers, and $a^{4}+b^{4}+c^{4} \geqslant a^{3}+b^{3}+c^{3}$, prove: $\frac{a^{3}}{\sqrt{b^{4}+b^{2} c^{2}+c^{4}}}+$ $\frac{b^{3}}{\sqrt{c^{4}+c^{2} a^{2}+a^{4}}}+\frac{c^{3}}{\sqrt{a^{4}+a^{2} b^{2}+b^{4}}} \geqslant \sqrt{3}$. (62nd Polish Mathematical Olympiad Problem)",,,
+NuminaMath_Lean_44246,knn,Number Theory,0.4873,Algebra,0.2431,Number Theory,"21. $A$ and $B$ are two different non-zero natural numbers less than 1000, find the maximum value of $\frac{A-B}{A+B}$
+
+",,,
+NuminaMath_Lean_17375,llm,Trigonometry,0.7564,Algebra,0.1549,Inequalities,"4. Let $\alpha_{i} \in(0,1), i=1,2, \ldots, 2021$ and $x \in\left(0, \frac{\pi}{4}\right)$. Prove that for the expression
+
+$$
+A=\frac{2021 \sin \left(\alpha_{1} x\right) \sin \left(\alpha_{2} x\right) \ldots \sin \left(\alpha_{2021} x\right)}{\cos \left(\alpha_{1} x\right)+\cos \left(\alpha_{2} x\right)+\ldots+\cos \left(\alpha_{2021} x\right)}
+$$
+
+the inequality holds:
+
+$$
+\log _{\cos \left(\alpha_{1} x\right)} A+\log _{\cos \left(\alpha_{2} x\right)} A+\ldots+\log _{\cos \left(\alpha_{2021} x\right)} A \geq 2020 \cdot 2021
+$$",,,
+NuminaMath_Lean_46553,knn,Diophantine Equations,0.6121,Number Theory,0.356,unknown,"Find all natural numbers $n$ such that there exist natural numbers $a$, $b$, and $c$ satisfying the equation $n = \operatorname{lcm}(a,b) + \operatorname{lcm}(b,c) + \operatorname{lcm}(a,c)$.",,,
+NuminaMath_Lean_47756,llm,Recurrence Relations,0.9973,Algebraic Systems,0.0026,Other,"For a given value $t$, we consider number sequences $a_1, a_2, a_3,...$ such that $a_{n+1} =\frac{a_n + t}{a_n + 1}$ for all $n \ge 1$.
+
+(a) Suppose that $t = 2$. Determine all starting values $a_1 > 0$ such that $\frac43 \le a_n \le \frac32$ holds for all $n \ge 2$.
+
+(b) Suppose that $t = -3$. Investigate whether $a_{2020} = a_1$ for all starting values $a_1$ different from $-1$ and $1$.",,,
+NuminaMath_Lean_65872,knn,Geometry,0.4922,Algebra,0.2438,unknown,"An 8.5-by-11-inch piece of paper is folded in half repeatedly (never being unfolded), each time shortening what was then the longer side. What is the length of the longest side, in inches, immediately after the second fold? Express your answer as a decimal to the nearest tenth.",,,
+NuminaMath_Lean_68018,knn,Recurrence Relations,0.5037,Algebraic Systems,0.427,Algebra,"9. In the sequence $\left\{a_{n}\right\}$, $a_{1}=\sqrt{2}, a_{n}=\sqrt{2+a_{n-1}}$, then $a_{n}=$",,,
+NuminaMath_Lean_22630,llm,Diophantine Equations,0.9584,Number Theory,0.0406,NaN,"7. [45] Compute the number of ordered pairs of positive integers $(a, b)$ satisfying the equation $\operatorname{gcd}(a, b) \cdot a+b^{2}=10000$.",,,
+NuminaMath_Lean_84092,knn,Algebra,0.5717,Algebraic Systems,0.2776,Number Theory,"3. Find the four-digit number $\overline{\mathrm{abcd}}$, if $\overline{\mathrm{abcd}}+\overline{\mathrm{abc}}+\overline{\mathrm{ab}}+\mathrm{a}=1990$.",,,
+NuminaMath_Lean_51002,knn,Functional Analysis,0.9994,Calculus,0.0006,Calculus,"## Task Condition
+
+Find the derivative of the specified order.
+
+$y=(2 x+3) \ln ^{2} x, y^{\prime \prime \prime}=?$",,,
+NuminaMath_Lean_35966,llm,Number Theory,1.0,Diophantine Equations,0.0,Number Theory,"6 Let $[x]$ denote the greatest integer not exceeding $x$, then $\left[\log _{3} 1\right]+\left[\log _{3} 2\right]+$ $\left[\log _{3} 3\right]+\cdots+\left[\log _{3} 258\right]=$ $\qquad$",,,
+NuminaMath_Lean_97805,knn,Algebra,0.6429,Algebraic Systems,0.1973,Other,"5. (10 points). Three small metal spheres, one with radius $R$ and two with radius $2R$, are charged with the same charge $+q$ and are located at the vertices of an equilateral triangle with a side length significantly exceeding the radii of the spheres. The spheres are connected by a wire, and then the wire is removed. Find the ratio of the forces acting on the small sphere before and after the connection?",,,
+NuminaMath_Lean_55204,knn,Geometry,0.5962,Algebraic Systems,0.2632,Calculus,"Let $a$ be a constant. In the $xy$ palne, the curve $C_1:y=\frac{\ln x}{x}$ touches $C_2:y=ax^2$.
+Find the volume of the solid generated by a rotation of the part enclosed by $C_1,\ C_2$ and the $x$ axis about the $x$ axis.
+
+[i]2011 Yokohama National Universty entrance exam/Engineering[/i]",,,
+NuminaMath_Lean_32366,knn,Algebra,0.4663,Number Theory,0.1938,Number Theory,"## Task $4 / 86$
+
+Determine a method by which any cube number can be represented as the difference of the squares of two natural numbers, and derive from this a formula for the sum of the first $n$ cube numbers!",,,
+NuminaMath_Lean_33987,knn,Complex Numbers,0.5314,Polynomials,0.3629,Algebra,"Find all solutions $x$ (real and otherwise) to the equation
+\[x^4+64=0.\]Enter all the solutions, separated by commas.",,,
+NuminaMath_Lean_102672,knn,Number Theory,0.5211,Algebra,0.2391,Number Theory,"Theorem 2 (Principle of the Least Natural Number) Any non-empty subset $T$ of the set of natural numbers $\boldsymbol{N}$ must have a least element, i.e., there exists a natural number $t_{0} \in T$, such that for any $t \in T$, we have $t_{0} \leqslant t$.",,,
+NuminaMath_Lean_52476,knn,Inequalities,0.844,Algebra,0.1434,Inequalities,"Let $n$ be a positive integer, and let $b_{1}$, $b_{2}$, ..., $b_{n}$ be $n$ positive reals. Set $a_{1}=\frac{b_{1}}{b_{1}+b_{2}+...+b_{n}}$ and $a_{k}=\frac{b_{1}+b_{2}+...+b_{k}}{b_{1}+b_{2}+...+b_{k-1}}$ for every $k>1$. Prove the inequality
+
+$a_{1}+a_{2}+...+a_{n}\leq\frac{1}{a_{1}}+\frac{1}{a_{2}}+...+\frac{1}{a_{n}}$.",,,
+NuminaMath_Lean_90298,knn,Number Theory,0.7973,Diophantine Equations,0.2005,unknown,"Prove that for all positive integers $n$,
+$$\left(\sum_{k|n} d(k) \right)^2 = \sum_{k|n}d(k)^3.$$",,,
+NuminaMath_Lean_72594,knn,Algebraic Systems,0.4137,Geometry,0.266,Other,"6. A sphere of radius $R$, made of a material with a density equal to that of water, floats in water, touching its surface (see figure). Find the force with which the water acts on the lower half of the sphere. The density of water $\rho$ is known.
+
+![](https://cdn.mathpix.com/cropped/2024_05_06_68830dad9e31db52b84ag-1.jpg?height=243&width=326&top_left_y=1986&top_left_x=1593)",,,
+NuminaMath_Lean_62912,knn,Geometry,0.3875,Algebra,0.3343,Calculus,"## Problem Statement
+
+Calculate the definite integral:
+
+$$
+\int_{-1}^{0}\left(x^{2}+2 x+1\right) \sin 3 x d x
+$$",,,
+NuminaMath_Lean_16382,knn,Number Theory,0.5278,Algebra,0.2903,Number Theory,"10. If a four-digit number satisfies the following conditions:
+（1）The thousands digit is the same as the hundreds digit, and the tens digit is the same as the units digit;
+（2）The difference between this four-digit number and 99 is a perfect square. Find this four-digit number.",,,
+NuminaMath_Lean_37970,knn,Number Theory,0.5771,Diophantine Equations,0.2756,Number Theory,"1. If $q$ is a prime number, and $q+1$ is a perfect square, then $q$ is called a $P$-type prime. There are ( ) such $P$-type primes.
+(A) 0
+(B) 1
+(C) 2
+(D) infinitely many",,,
+NuminaMath_Lean_95252,knn,Number Theory,0.6592,Diophantine Equations,0.278,Number Theory,Problem 8. Prove that there are infinitely many prime numbers whose remainder when divided by 3 is 2.,,,
+NuminaMath_Lean_63882,knn,Inequalities,0.5822,Algebra,0.1725,Inequalities,12. The range of negative values of $a$ that make the inequality $\sin ^{2} x+a \cos x+a^{2} \geqslant 1+\cos x$ hold for all $\mathbf{x} \in \mathbf{R}$ is $\qquad$.,,,
+NuminaMath_Lean_18457,llm,Number Theory,0.9774,Diophantine Equations,0.0201,Number Theory,"Let $p>7$ be a prime and let $A$ be subset of $\{0,1, \ldots, p-1\}$ with size at least $\frac{p-1}{2}$. Show that for each integer $r$, there exist $a, b, c, d \in A$, not necessarily distinct, such that $ab-cd \equiv r \pmod p$.",,,
+NuminaMath_Lean_10540,knn,Inequalities,0.6612,Algebra,0.2978,Inequalities,"Let $a, b, c$ be strictly positive real numbers such that $1 < b \le c^2 \le a^{10}$, and 
+
+\[\log_ab + 2\log_bc + 5\log_ca = 12.\]
+
+Prove that
+
+\[2\log_ac + 5\log_cb + 10\log_ba \ge 21.\]",,,
+NuminaMath_Lean_38430,llm,Algebra,0.7551,Polynomials,0.2086,Algebra,"8.1 Prove that if $\mathrm{ab}(\mathrm{a}+\mathrm{b})=1$, then $\frac{\mathrm{a}}{\mathrm{a}^{3}+\mathrm{a}+1}=\frac{\mathrm{b}}{\mathrm{b}^{3}+\mathrm{b}+1}$.",,,
+NuminaMath_Lean_10123,llm,Algebraic Systems,0.9294,Recurrence Relations,0.0705,Other,"Let sequences of real numbers $(x_n)$ and $(y_n)$ satisfy $x_1 = y_1 = 1$ and $x_{n+1} =\frac{x_n + 2}{x_n + 1}$  and $y_{n+1} = \frac{y_n^2 + 2}{2y_n}$ for $n = 1,2, ...$ Prove that $y_{n+1} = x_{2^n}$ holds for $n =0, 1,2, ... $ ",,,
+NuminaMath_Lean_13421,knn,Recurrence Relations,0.3909,Algebraic Systems,0.3433,Other,"The real-valued function $f$ is defined for positive integers, and the positive integer $a$ satisfies
+$f(a) = f(1995), f(a+1) = f(1996), f(a+2) = f(1997), f(n + a) = \frac{f(n) - 1}{f(n) + 1}$ for all positive integers $n$.
+(i) Show that $f(n+ 4a) = f(n)$ for all positive integers $n$.
+(ii) Determine the smallest possible $a$.",,,
+NuminaMath_Lean_38342,knn,Diophantine Equations,0.387,Number Theory,0.319,unknown,"Prove that for every integer $n$ such that $n > 2$, there exists a Pythagorean triple $(a, b, c)$ where $a^2 + b^2 = c^2$ and $n$ is one of the elements of the triple.",,,
+NuminaMath_Lean_70219,knn,Algebra,0.4625,Number Theory,0.2968,unknown,"In $2001$, the climate conditions in Beijing were good, and there were no pests or diseases. That year, the planting area of winter-stored Chinese cabbage in Haidian District, Beijing, was about $2000$ mu, which was the same as the previous year. The yield per mu reached $5000$ kilograms, an increase of $25\%$ compared to the previous year. However, the average price was lower than the previous year. In $2001$, the average wholesale price at the field was $0.20$ yuan per kilogram. Assuming all the Chinese cabbage was wholesaled at the field and the income for both years was the same, then the ",,,
+NuminaMath_Lean_76982,knn,Functional Analysis,0.4826,Inequalities,0.1459,Inequalities,"Example 2 Let $f(x)$ be defined on $[0,+\infty)$, and satisfy the functional inequality:
+$$
+(x-y) f(x+y)-(x+y) f(x-y) \geqslant 4 x y\left(x^{2}-y^{2}\right) .
+$$
+
+Find all such functions $f(x)$.",,,
+NuminaMath_Lean_91780,knn,Diophantine Equations,0.5567,Number Theory,0.3754,Number Theory,"Given that $x$ and $y$ are positive integers such that $xy^{10}$ is perfect 33rd power of a positive integer, prove that $x^{10}y$ is also a perfect 33rd power!",,,
+NuminaMath_Lean_73927,llm,Number Theory,0.9109,Diophantine Equations,0.0637,unknown,Show that there are infinitely many natural numbers $n$ such that $n^2+1$ has two positive divisors whose difference is $n$.,,,
+NuminaMath_Lean_25163,knn,Polynomials,0.9999,Algebra,0.0001,Algebra,"$29 \cdot 37 x^{4}+2 x^{2}+9$ has a factor of
+(A) $x^{2}+3$.
+(B) $x+1$.
+(C) $x^{2}-3$.
+(D) $x^{2}-2 x-3$.
+(E) None of the above.
+(6th American High School Mathematics Examination, 1955)",,,
+NuminaMath_Lean_73808,knn,Geometry,0.86,Algebraic Systems,0.0981,Calculus,Example 3. Determine the area bounded by the parabola $y=x^{2}-5 x+6$ and the coordinate axes (and adjacent to both axes).,,,
+NuminaMath_Lean_58117,llm,Algebra,0.0001,Geometry,0.0,unknown,"Find all solutions for $x$ in the interval $[0, 2\pi]$ that satisfy the equation $\sin{x} - \cos{x} = 0$.",,,
+NuminaMath_Lean_64440,llm,Algebraic Systems,0.5908,Recurrence Relations,0.3288,Calculus,"Let $x_0=1$, and let $\delta$ be some constant satisfying $0<\delta<1$. Iteratively, for $n=0,1,2,\dots$, a point $x_{n+1}$ is chosen uniformly form the interval $[0,x_n]$. Let $Z$ be the smallest value of $n$ for which $x_n<\delta$. Find the expected value of $Z$, as a function of $\delta$.",,,
+NuminaMath_Lean_57555,llm,Algebra,0.562,Diophantine Equations,0.2778,Other,"17. After building a petroleum production base $\qquad$ and achieving ""basic self-sufficiency in oil,"" our country removed the ""oil-poor"" label.
+A. Yumen Oilfield
+B. Daqing Oilfield
+C. Liaohe Oilfield
+D. Yan'an Oilfield",,,
+NuminaMath_Lean_94417,knn,Polynomials,0.2862,Algebraic Systems,0.2019,unknown,"The function $f$ defined by $f(x)= \frac{ax+b}{cx+d}$, where $a$,$b$,$c$ and $d$ are nonzero real numbers, has the properties $f(19)=19$, $f(97)=97$ and $f(f(x))=x$ for all values except $\frac{-d}{c}$. Find the unique number that is not in the range of $f$.",,,
+NuminaMath_Lean_61063,knn,Algebraic Systems,0.3902,Algebra,0.3733,Calculus,"\section*{Problem 14}
+
+A spy-plane circles point A at a distance \(10 \mathrm{~km}\) with speed \(1000 \mathrm{~km} / \mathrm{h}\). A missile is fired towards the plane from A at the same speed and moves so that it is always on the line between A and the plane. How long does it take to hit?
+
+",,,
+NuminaMath_Lean_63664,knn,Polynomials,0.884,Algebraic Systems,0.0999,Algebra,"4. A polynomial in $x$, $a x^{3}+x^{2}+c x+2022$, when $x=8$, the value of the algebraic expression is 2068. Then when $x=-8$, the value of the algebraic expression is $\qquad$ .",,,
+NuminaMath_Lean_58801,knn,Probability,0.4142,Number Theory,0.3064,Other,"Anya is waiting for a bus. Which event has the highest probability?
+
+$A=\{$ Anya waits for the bus for at least one minute $\}$,
+
+$B=\{$ Anya waits for the bus for at least two minutes $\}$,
+
+$C=\{$ Anya waits for the bus for at least five minutes $\}$.",,,
+NuminaMath_Lean_2537,knn,Geometry,0.6745,Algebraic Systems,0.2251,Geometry,"Let [triangle](https://artofproblemsolving.com/wiki/index.php/Triangle) $ABC$ be a [right triangle](https://artofproblemsolving.com/wiki/index.php/Right_triangle) in the xy-plane with a right angle at $C_{}$. Given that the length of the [hypotenuse](https://artofproblemsolving.com/wiki/index.php/Hypotenuse) $AB$ is $60$, and that the [medians](https://artofproblemsolving.com/wiki/index.php/Median) through $A$ and $B$ lie along the lines $y=x+3$ and $y=2x+4$ respectively, find the area of triangle $ABC$.",,,
+NuminaMath_Lean_34997,llm,Complex Numbers,0.7997,Polynomials,0.1522,Algebra,"2. Simplify the result of $x \sqrt{-\frac{1}{x}}$ is ( ).
+(A) $\sqrt{x}$
+(B) $-\sqrt{x}$
+(C) $\sqrt{-x}$
+(D) $-\sqrt{-x}$",,,
+NuminaMath_Lean_77890,knn,Number Theory,0.2692,Diophantine Equations,0.2472,unknown,"Given a positive integer $n$, it is known that with $k$ weights, each of whose masses are positive integers, and a balance, one can measure the mass of all items weighing $1, 2, 3, \cdots, n$ grams.
+
+Find the minimum value of $k$, denoted as $f(n)$.",,,
+NuminaMath_Lean_72352,llm,Number Theory,0.9955,Algebra,0.0044,Algebra,"## Task 1 - 010931
+
+In the first $2 \frac{1}{2}$ years of the Seven-Year Plan, the steelworkers of the Soviet Union produced a total of 113 percent more than the entire Italian steel production of 1959 over the plan.
+
+On average, 310,000 tons of steel were produced additionally each year, which is only 310,000 tons less than in half a year (1959) in Italy.
+
+How many tons of steel did the steelworkers of the Soviet Union produce additionally?
+
+How many tons of steel were produced in Italy in 1959?",,,
+NuminaMath_Lean_10434,knn,Diophantine Equations,0.8306,Algebraic Systems,0.1219,Algebra,"Solve the system of equations in integers:
+
+$$
+\left\{\begin{array}{l}
+z^{x}=y^{2 x} \\
+2^{z}=4^{x} \\
+x+y+z=20 .
+\end{array}\right.
+$$",,,
+NuminaMath_Lean_85890,knn,Algebra,0.3542,Number Theory,0.281,Algebra,"1. A vessel with a capacity of 10 liters is filled with air containing $24\%$ oxygen. A certain volume of air was pumped out of the vessel and an equal volume of argon was added. Then, the same volume of the mixture as the first time was pumped out and again topped up with the same volume of argon. In the new mixture, $11.76\%$ oxygen was found. How many liters of the mixture were released each time from the vessel? Give your answer as a number without specifying the unit.
+
+points)",,,
+NuminaMath_Lean_29767,llm,Algebra,0.572,Number Theory,0.3732,Number Theory,"\[\left(1 + \frac{1}{1+2^1}\right)\left(1+\frac{1}{1+2^2}\right)\left(1 + \frac{1}{1+2^3}\right)\cdots\left(1 + \frac{1}{1+2^{10}}\right)= \frac{m}{n},\] where $m$ and $n$ are relatively prime positive integers. Find $m + n$.",,,
+NuminaMath_Lean_63251,knn,Algebra,0.579,Polynomials,0.1685,Algebra,Task 5. (20 points) Solve the equation $674 \frac{1}{3}\left(x^{2}+\frac{x^{2}}{(1-x)^{2}}\right)=2023$.,,,
+NuminaMath_Lean_61372,knn,Inequalities,0.5313,Algebra,0.4352,Inequalities,"Let $a,b,c$ be reals and
+\[f(a, b, c) = \left| \frac{ |b-a|}{|ab|} +\frac{b+a}{ab} -\frac 2c \right| +\frac{ |b-a|}{|ab|} +\frac{b+a}{ab} +\frac 2c\]
+Prove that $f(a, b, c) = 4 \max \{\frac 1a, \frac 1b,\frac 1c \}.$",,,
+NuminaMath_Lean_5619,knn,Number Theory,0.4586,Algebra,0.3134,Combinatorics,"A 24-hour digital clock shows times $h: m: s$, where $h, m$, and $s$ are integers with $0 \leq h \leq 23$, $0 \leq m \leq 59$, and $0 \leq s \leq 59$. How many times $h: m: s$ satisfy $h+m=s$ ?",,,
+NuminaMath_Lean_68160,knn,Inequalities,0.8104,Algebra,0.1766,Inequalities,"Example 5 Let real numbers $x_{i}$ satisfy $\left|x_{i}\right|<1(i=1,2, \cdots, n), n \geqslant 2$, prove:
+$$\sum_{i=1}^{n} \frac{1}{1-\left|x_{i}\right|^{n}} \geqslant \frac{n}{1-\prod_{i=1}^{n} x_{i}}$$",,,
+NuminaMath_Lean_28997,knn,Trigonometry,0.5643,Algebra,0.1207,Algebra,"I1.1 Let $A=15 \times \tan 44^{\circ} \times \tan 45^{\circ} \times \tan 46^{\circ}$, find the value of $A$.",,,
+NuminaMath_Lean_95141,knn,Diophantine Equations,0.5653,Number Theory,0.2838,unknown,"Find all numbers $a$ among $1$, $2$, $3$, $\cdots$, $1995$ that satisfy the following condition: $(1995 + a)$ can divide $1995 \times a$.",,,
+NuminaMath_Lean_84666,knn,Algebra,0.3087,Functional Analysis,0.2165,Calculus,"Let $0<a<1$ be a fixed real number. Show that there are at least two values of $x$ in the interval $(0,1)$ such that
+$$
+\begin{array}{l}
+\int_{0}^{x}\left(\sin \left(\frac{\pi \sin \frac{\pi t}{2}}{2}\right)+\frac{2}{\pi} \arcsin \left(\frac{2}{\pi} \arcsin t\right)-2 t\right) \mathrm{d} t= \\
+\frac{1}{2}\left(a-\frac{2}{\pi} \arcsin \left(\frac{2}{\pi} \arcsin a\right)\right)\left(\sin \left(\frac{\pi \sin \frac{\pi a}{2}}{2}\right)-a\right) .
+\end{array}
+$$",,,
+NuminaMath_Lean_63752,llm,Inequalities,1.0,Number Theory,0.0,Inequalities,"The 23rd question: Given a positive real number $k(k>2)$ and a positive integer $n(n \geq 3)$, find the largest positive real number $\lambda$, such that if the positive real numbers $\mathrm{a}_{\mathrm{i}}(1 \leq \mathrm{i} \leq \mathrm{n})$ satisfy $\left(\sum_{\mathrm{i}=1}^{\mathrm{n}} \mathrm{a}_{\mathrm{i}}\right)\left(\sum_{\mathrm{i}=1}^{\mathrm{n}} \frac{1}{a}\right)<\lambda$, then it must be true that $\mathrm{a}_{1}+\mathrm{a}_{2}<k \mathrm{a}_{3}$.",,,
+NuminaMath_Lean_24477,knn,Inequalities,0.9256,Algebra,0.0671,Inequalities,"14. Let $a, b, c$ be positive numbers, no two of which are zero. If $n$ is a positive integer, then
+$$\frac{2 a^{n}-b^{n}-c^{n}}{b^{2}-b c+c^{2}}+\frac{2 b^{n}-c^{n}-a^{n}}{c^{2}-c a+a^{2}}+\frac{2 c^{n}-a^{n}-b^{n}}{a^{2}-a b+b^{2}} \geqslant 0$$",,,
+NuminaMath_Lean_79753,knn,Complex Numbers,0.9366,Polynomials,0.0486,Algebra,"10. In the complex plane, region $A$ consists of points $Z$ corresponding to complex numbers $z$, if the real and imaginary parts of $\frac{z}{40}$ and $\frac{40}{z}$ are both between 0 and 1, find the area of $A$.",,,
+NuminaMath_Lean_89088,llm,Geometry,0.959,Algebra,0.0341,Calculus,"## Problem Statement
+
+Calculate the definite integral:
+
+$$
+\int_{0}^{\sqrt{3}} \frac{d x}{\sqrt{\left(4-x^{2}\right)^{3}}}
+$$",,,
+NuminaMath_Lean_95359,knn,Calculus,0.9179,Algebra,0.0768,Calculus,"## Problem Statement
+
+Calculate the limit of the function:
+
+$$
+\lim _{x \rightarrow 2} \frac{\ln (x-\sqrt[3]{2 x-3})}{\sin \left(\frac{\pi x}{2}\right)-\sin ((x-1) \pi)}
+$$",,,
+NuminaMath_Lean_2506,knn,Geometry,0.4791,Algebraic Systems,0.1628,Geometry,Diameter $AB$ of a circle has length a $2$-digit integer (base ten). Reversing the digits gives the length of the perpendicular chord $CD$. The distance from their intersection point $H$ to the center $O$ is a positive rational number. Determine the length of $AB$.,,,
+NuminaMath_Lean_11467,knn,Algebraic Systems,0.7367,Diophantine Equations,0.1275,Number Theory,Find all functions $f: \mathbb{N} \rightarrow \mathbb{N}$ that attain the value $1$ and satisfy the relation $f(n + f(n)) = f(n)$ for all $n \in \mathbb{N}$.,,,
+NuminaMath_Lean_75619,knn,Probability,0.2867,Complex Numbers,0.2368,Calculus,"Example 1. Find the complex Fourier transform of the function
+
+$$
+f(x)=e^{-b^{2} x^{2}}
+$$
+
+using the formula
+
+$$
+e^{-x^{2}} \longmapsto \frac{1}{\sqrt{2}} e^{-p^{2} / 4}
+$$",,,
+NuminaMath_Lean_91829,llm,Complex Numbers,1.0,Algebra,0.0,unknown,"Let $a = 4 + 3i,$ $b = 1 -2i,$ and $c = 8 - 5i.$  The complex number $d$ is such that $a,$ $b,$ $c,$ and $d$ form the vertices of a parallelogram, when plotted in the complex plane.  Enter all possible values of $d,$ separated by commas.",,,
+NuminaMath_Lean_66803,knn,Inequalities,0.3674,Algebraic Systems,0.3295,Inequalities,"Let $a_1,a_2,\ldots ,a_9$ be any non-negative numbers such that $a_1=a_9=0$ and at least one of the numbers is non-zero. Prove that for some $i$, $2\le i\le 8$, the inequality $a_{i-1}+a_{i+1}<2a_i$ holds. Will the statement remain true if we change the number $2$ in the last inequality to $1.9$?",,,
+NuminaMath_Lean_25637,knn,Functional Analysis,0.7584,Algebra,0.1127,unknown,"Given the function $f(x) = x^x$, determine the derivative $f'(x)$. Use implicit differentiation to find the solution. Additionally, for further practice, consider finding the derivative of $x^{x^x}$ with respect to $x$.",,,
+NuminaMath_Lean_90407,llm,Inequalities,0.9592,Algebra,0.0393,Inequalities,"13. Given $x, y, z \geqslant 0$, and $x+y+z=\frac{1}{2}$. Prove: $\frac{\sqrt{x}}{4 x+1}+\frac{\sqrt{y}}{4 y+1}+\frac{\sqrt{z}}{4 z+1} \leqslant \frac{3 \sqrt{6}}{10}$.",,,
+NuminaMath_Lean_41477,knn,Diophantine Equations,0.6957,Number Theory,0.2516,Number Theory,"10th APMO 1998 Problem 2 Show that (36m + n)(m + 36n) is not a power of 2 for any positive integers m, n.",,,
+NuminaMath_Lean_21996,knn,Functional Analysis,0.2671,Algebraic Systems,0.2535,Inequalities,"Find  all functions  $f:Q\rightarrow Q$ such that  \[ f(x+y)+f(y+z)+f(z+t)+f(t+x)+f(x+z)+f(y+t)\ge 6f(x-3y+5z+7t) \]  for all  $x,y,z,t\in Q.$",,,
+NuminaMath_Lean_58169,knn,Number Theory,0.8471,Diophantine Equations,0.1442,Number Theory,"Fermat's Little Theorem $\quad]$
+$[$ Modular Arithmetic (miscellaneous) $]$
+
+Prove that if $x^{2}+1$ (where $x$ is an integer) is divisible by an odd prime $p$, then $p=4k+1$.",,,
+NuminaMath_Lean_23005,llm,Number Theory,1.0,Diophantine Equations,0.0,Number Theory,Prove that the number $x = \sqrt{1 + \sqrt 2}$ is irrational.,,,
+NuminaMath_Lean_36106,llm,Polynomials,0.7455,Diophantine Equations,0.2544,Algebra,A point whose coordinates are both integers is called a lattice point. How many lattice points lie on the hyperbola $x^2 - y^2 = 2000^2$?,,,
+NuminaMath_Lean_83906,knn,Polynomials,0.5513,Algebra,0.186,Algebra,"A6. Determine the condition for $c$ so that the vertex of the quadratic parabola $f(x)=2 x^{2}+3 x+c$ lies in the III. quadrant.
+(A) $c=0$
+(B) $c>-1$
+(C) $c>1 \frac{1}{8}$
+(D) $c=1$
+(E) $c<\frac{9}{8}$
+
+## II. PART",,,
+NuminaMath_Lean_73223,knn,Inequalities,0.7754,Algebra,0.15,Inequalities,7. The solution set of the inequality $\sqrt{2 x+5}>x+1$ is,,,
+NuminaMath_Lean_34795,knn,Number Theory,0.2945,Polynomials,0.2154,NaN,"For a set $S$ of nonnegative integers, let $r_S(n)$ denote the number of ordered pairs $(s_1, s_2)$ such that $s_1 \in S$, $s_2 \in S$, $s_1 \neq s_2$, and $s_1 + s_2 = n$. Is it possible to partition the nonnegative integers into two sets $A$ and $B$ in such a way that $r_A(n) = r_B(n)$ for all $n$?",,,
+NuminaMath_Lean_7471,knn,Number Theory,0.4098,Algebra,0.2503,Inequalities,"Soit $a_{1}, a_{2}, \ldots, a_{n}$ des entiers strictement positifs. Pour tout $k=1,2, \ldots, n$, on note
+
+$$
+m_{k}=\max _{1 \leq \ell \leq k} \frac{a_{k-\ell+1}+a_{k-\ell+2}+\cdots+a_{k}}{\ell} .
+$$
+
+Montrer que pour tout $\alpha>0$, le nombre d'entiers $k$ tel que $m_{k}>\alpha$ est strictement plus petit que $\frac{a_{1}+a_{2}+\cdots+a_{n}}{\alpha}$.",,,
+NuminaMath_Lean_13470,llm,Diophantine Equations,0.9948,Number Theory,0.0051,Number Theory,"Example 2 (17th All-Russian High School Mathematics Competition, 3rd Stage Problem) Prove: for any natural number $n$, the number $1+\left[(3+\sqrt{5})^{n}\right]$ is divisible by $2^{n}$.
+
+保持源文本的换行和格式如下：
+
+Example 2 (17th All-Russian High School Mathematics Competition, 3rd Stage Problem) Prove: for any natural number $n$, the number $1+\left[(3+\sqrt{5})^{n}\right]$ is divisible by $2^{n}$.",,,
+NuminaMath_Lean_45666,llm,Polynomials,0.9842,Algebra,0.0106,Calculus,"Let
+$ f(x)\equal{}\sum_{k\equal{}1}^n a_k x^k$ and $ g(x)\equal{}\sum_{k\equal{}1}^n \frac{a_k x^k}{2^k \minus{}1}$ be two polynomials with real coefficients.
+Let g(x) have $ 0,2^{n\plus{}1}$ as two of its roots. Prove That $ f(x)$ has a positive root less than $ 2^n$.",,,
+NuminaMath_Lean_82645,llm,Inequalities,1.0,Algebra,0.0,Inequalities,"Prove that the following inequality holds for all positive $\{a_i\}$: 
+$$\frac{1}{a_1} + \frac{2}{a_1+a_2} + ... +\frac{ n}{a_1+...+a_n} < 4\left(\frac{1}{a_1} + ... + \frac{1}{a_n}\right)$$",,,
+NuminaMath_Lean_22934,knn,Polynomials,0.723,Number Theory,0.2001,Algebra,"a) Prove that there are two polynomials in $ \mathbb Z[x]$ with at least one coefficient larger than 1387 such that coefficients of their product is in the set $ \{\minus{}1,0,1\}$.
+b) Does there exist a multiple of $ x^2\minus{}3x\plus{}1$ such that all of its coefficient are in the set $ \{\minus{}1,0,1\}$",,,
+NuminaMath_Lean_6002,llm,Algebra,0.9997,Algebraic Systems,0.0003,Combinatorics,"Find $P(7,3)$.",,,
+NuminaMath_Lean_63988,knn,Diophantine Equations,0.7191,Algebraic Systems,0.1371,Number Theory,"Find pairs of positive integers $(x, y)$, satisfying
+$$
+x>y \text {, and }(x-y)^{x y}=x^{y} y^{x} \text {. }
+$$
+(2013, Taiwan Mathematical Olympiad Training Camp)",,,
+NuminaMath_Lean_23756,knn,Polynomials,0.4919,Algebra,0.2291,Calculus,"Determine the minimum value of
+$$x^{2014} + 2x^{2013} + 3x^{2012} + 4x^{2011} +\ldots + 2014x + 2015$$
+where $x$ is a real number.",,,
+NuminaMath_Lean_25469,knn,Algebra,0.3581,Algebraic Systems,0.2306,unknown,"If the function $f\left(x\right)=\sqrt{1-(x-2022)^{2}}+2023$, then for any real numbers $x_{1},x_{2}$ satisfying $2022<  x_{1}<  x_{2}<  2023$, we have (       )
+
+A:$x_{1}f\left(x_{2}\right)<  x_{2}f\left(x_{1}\right)$
+B:$x_{1}f\left(x_{2}\right)> x_{2}f\left(x_{1}\right)$
+C:$x_{1}f\left(x_{2}\right)=x_{2}f\left(x_{1}\right)$
+D:$x_{1}f\left(x_{1}\right)=x_{2}f\left(x_{2}\right)$",,,
+NuminaMath_Lean_88243,knn,Number Theory,0.5441,Algebra,0.2305,Number Theory,"87. Prove that the sum of all natural numbers, in the notation of which each of the digits from 1 to 9 appears exactly once, is divisible by 999999999.",,,
+NuminaMath_Lean_81649,knn,Polynomials,0.8566,Algebraic Systems,0.1113,Algebra,"# Problem 1. (2 points)
+
+A cubic polynomial has three roots. The greatest value of the polynomial on the interval $[4 ; 9]$ is achieved at $x=5$, and the smallest value is achieved at $x=7$. Find the sum of the roots of the polynomial.
+
+#",,,
+NuminaMath_Lean_54648,knn,Geometry,0.9553,Algebraic Systems,0.0443,Calculus,"## Problem Statement
+
+Calculate the lengths of the arcs of the curves given by the parametric equations.
+
+$$
+\begin{aligned}
+& \left\{\begin{array}{l}
+x=e^{t}(\cos t+\sin t) \\
+y=e^{t}(\cos t-\sin t)
+\end{array}\right. \\
+& 0 \leq t \leq \pi
+\end{aligned}
+$$",,,
+NuminaMath_Lean_33183,knn,Polynomials,0.8752,Number Theory,0.0757,Algebra,"Example 3 Let $P(x), Q(x), R(x)$, and $S(x)$ be polynomials, and satisfy
+$$
+P\left(x^{3}\right)+x Q\left(x^{5}\right)+x^{2} R\left(x^{5}\right)=\left(x^{4}+x^{3}+x^{2}+x+1\right) S(x)
+$$
+
+Prove: $x-1 \mid P(x)$.",,,

@@ -1,0 +1,1930 @@
+id,source,tag1,p1,tag2,p2,family,text,tag1_correct (y/n),tag2_correct (y/n/-),notes
+mini_sudoku_0150,llm,Constraint Satisfaction,0.9557,Inequality Puzzles,0.0443,mini_sudoku,"In 4x4 Mini Sudoku:
+- Each row must contain each number from 1-4 exactly once
+- Each column must contain each number 1-4 exactly once
+- Each 2x2 subgrid must contain each number 1-4 exactly once
+Solve this 4x4 Mini Sudoku puzzle:
+_ 4 _ _
+2 3 _ 1
+_ _ 2 _
+_ _ 1 4
+Format your response as the puzzle above, with spaces separating each number within a row, and newlines separating rows.
+",,,
+self_reference_0331,llm,Truth Paradoxes,1.0,Constraint Satisfaction,0.0,self_reference,"Given the truthfulness of these statements, please tell me the number of possible solutions: 
+ - Statement 1: 'At least 3 of these 7 statements are true.'
+ - Statement 2: 'At most 4 of these 7 statements are false.'
+ - Statement 3: 'Exactly 4 of these 7 statements are true.'
+ - Statement 4: 'Exactly 3 of these 7 statements are false.'
+ - Statement 5: 'Either Statement 3 or Statement 4 is true, but not both.'
+ - Statement 6: 'The number of true statements is a prime number.'
+ - Statement 7: 'The number of false statements is a composite number.'
+",,,
+n_queens_0328,knn,Queen Placement,1.0,Constraint Satisfaction,0.0,n_queens,"Your job is to complete an n x n chess board with n Queens in total, such that no two attack each other.
+
+No two queens attack each other if they are not in the same row, column, or diagonal.
+
+You can place a queen by replacing an underscore (_) with a Q.
+
+Your output should be also a board in the same format as the input, with queens placed on the board by replacing underscores with the letter Q.
+
+Given the below board of size 8 x 8 your job is to place 5 queen(s) on the board such that no two queens attack each other.
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ Q _ _ _ _ _
+_ _ _ _ _ ",,,
+knights_knaves_0258,knn,Knights and Knaves,1.0,Constraint Satisfaction,0.0,knights_knaves,"A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 2 inhabitants: Logan, and Amelia. Logan was heard saying, ""Amelia is a knave if and only if Amelia is a knight"". According to Amelia, ""Logan is a knight if and only if Logan is a knave"". So who is a knight and who is a knave? (Format your answer like: ""Logan is a knight/knave, and Amelia is a knight/knave"")",,,
+futoshiki_0244,knn,Inequality Puzzles,0.9993,Constraint Satisfaction,0.0007,futoshiki,"Solve the following 9x9 Futoshiki puzzle:
+
+_ < 6   _   _ < _   3   _   _   7
+                                ∨
+8 < _   1   _   _ < 7   _   3 < 5
+        ∧       ∨                
+6   _   5   _   2 < _   _   _   1
+∧       ∧               ∧        
+9   _   _   1   _   _ > _ > _   _
+    ∨               ∧            
+1 < _   7   _ < 6 < 8   _   _   2
+    ∧                       ∨    
+4 < _   _   _   _   2   7 > 1 < 9
+                            ∧   ∨
+_   _ < _   _   _   9   6   5   4
+                                ∧
+_ > 2   _   4   _   _ < _   9   _
+∨   ∧           ∧                
+_   _   9   _",,,
+mini_sudoku_0082,knn,Constraint Satisfaction,0.9565,Inequality Puzzles,0.0435,mini_sudoku,"In 4x4 Mini Sudoku:
+- Each row must contain each number from 1-4 exactly once
+- Each column must contain each number 1-4 exactly once
+- Each 2x2 subgrid must contain each number 1-4 exactly once
+Solve this 4x4 Mini Sudoku puzzle:
+_ 4 1 _
+_ _ _ 3
+4 3 _ 1
+_ 1 _ _
+Format your response as the puzzle above, with spaces separating each number within a row, and newlines separating rows.
+",,,
+self_reference_0029,llm,Truth Paradoxes,1.0,Constraint Satisfaction,0.0,self_reference,"Given the truthfulness of these statements, please tell me the number of possible solutions: 
+ - Statement 1: 'At least 1 of these 7 statements are true.'
+ - Statement 2: 'At most 6 of these 7 statements are false.'
+ - Statement 3: 'Exactly 5 of these 7 statements are true.'
+ - Statement 4: 'Exactly 2 of these 7 statements are false.'
+ - Statement 5: 'Either Statement 3 or Statement 4 is true, but not both.'
+ - Statement 6: 'The number of true statements is a prime number.'
+ - Statement 7: 'The number of false statements is a composite number.'
+",,,
+n_queens_0316,knn,Queen Placement,1.0,Graph Theory,0.0,n_queens,"Your job is to complete an n x n chess board with n Queens in total, such that no two attack each other.
+
+No two queens attack each other if they are not in the same row, column, or diagonal.
+
+You can place a queen by replacing an underscore (_) with a Q.
+
+Your output should be also a board in the same format as the input, with queens placed on the board by replacing underscores with the letter Q.
+
+Given the below board of size 8 x 8 your job is to place 7 queen(s) on the board such that no two queens attack each other.
+Q _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ ",,,
+kakurasu_0241,knn,Weighted Grids,1.0,Inequality Puzzles,0.0,kakurasu,"You are given a 4 x 5 grid representing a Kukurasu puzzle. In this puzzle, you need to place 1s in the grid so that the weighted sum of each row and column matches the given constraints. The row sums are [5, 1, 11, 3] and the column sums are [6, 3, 7, 1, 3].
+1. Rules:
+  1. Each cell can contain either a 1 or an 0.
+  2. The weight of a 1 in a row is its column position (1 to 5).
+  3. The weight of a 1 in a column is its row position (1 to 4).
+  4. The weighted sum of each row must match the corresponding row constraint.
+  5. The weighted sum of each column must match the corresponding column co",,,
+kakurasu_0334,llm,Weighted Grids,1.0,Inequality Puzzles,0.0,kakurasu,"Here's a 4 x 5 Kukurasu logic puzzle. You need to place 1s in the grid so that the weighted sums match the constraints. Row sums: [4, 1, 12, 3]. Column sums: [6, 4, 3, 4, 3].
+1. Rules:
+  1. Each cell can be filled with either a 1 or an 0.
+  2. A 1 in the jth position of a row contributes j points to that row's sum.
+  3. A 1 in the ith position of a column contributes i points to that column's sum.
+  4. The weighted sum of each row must equal its constraint value.
+  5. The weighted sum of each column must equal its constraint value.
+2. Input:
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0",,,
+syllogism_0268,knn,Syllogistic Logic,0.9999,Constraint Satisfaction,0.0001,syllogism,"Consider these statements:
+1. Some whales are not dolphins
+2. All dolphins are dogs
+
+Does it logically follow that:
+Some dogs are dolphins?
+(Answer Yes or No)",,,
+graph_color_0354,llm,Graph Theory,1.0,Constraint Satisfaction,0.0,graph_color,"Please provide a coloring for this graph such that every vertex is not connected to a vertex of the same color. The graph has these properties:
+
+Vertices: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Edges: [(3, 8), (6, 8)]
+Possible colors: [1, 2, 3]
+
+Return your solution as a JSON map of vertices to colors. (For example: {""0"": 1, ""1"": 2, ""2"": 3}.)
+",,,
+futoshiki_0059,knn,Inequality Puzzles,0.9999,Constraint Satisfaction,0.0001,futoshiki,"Solve the following 5x5 Futoshiki puzzle:
+
+3   2   _   _   _
+                 
+_   _   _   _   _
+                 
+5   _   3   _   _
+                 
+_   5   _   2   _
+                 
+_   4   1   _   _
+
+Ensure your answer follows the same format as the puzzle above, just replace blanks (_) with the correct value for the cell.
+Use < and > for horizontal constraints. Use ∧ and ∨ for vertical constraints.
+Remember, in Futoshiki each row and column must contain each number from 1 to 5 exactly once.",,,
+knights_knaves_0384,llm,Knights and Knaves,1.0,Constraint Satisfaction,0.0,knights_knaves,"A very special island is inhabited only by altruists and egoists. Altruists always tell the truth, and egoists always lie. You meet 2 inhabitants: Isabella, and Jack. ""Jack is an altruist if and only if Isabella is an altruist,"" Isabella mentioned. Jack noted, ""Jack is an altruist if and only if Isabella is an altruist"". So who is an altruist and who is an egoist? (Format your answer like: ""Isabella is a altruist/egoist, and Jack is a altruist/egoist"")",,,
+kakurasu_0398,llm,Weighted Grids,1.0,Inequality Puzzles,0.0,kakurasu,"This 5 x 5 grid represents a Kukurasu puzzle. Your task is to place 1s in the grid so that the weighted sums match the constraints. Row sums: [3, 15, 1, 6, 7]. Column sums: [9, 2, 8, 7, 6].
+1. Rules:
+  1. Each cell must contain either a 1 or an 0.
+  2. A 1 in the jth position of a row contributes j points to that row's sum.
+  3. A 1 in the ith position of a column contributes i points to that column's sum.
+  4. The weighted sum of each row must equal its constraint value.
+  5. The weighted sum of each column must equal its constraint value.
+2. Input:
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0",,,
+knights_knaves_0116,knn,Knights and Knaves,1.0,Constraint Satisfaction,0.0,knights_knaves,"A very special island is inhabited only by sages and fools. Sages always tell the truth, and fools always lie. You meet 2 inhabitants: Victoria, and Grace. In a statement by Victoria: ""if Victoria is a sage then Grace is a fool"". Grace remarked, ""Victoria is a sage and Grace is a sage"". So who is a sage and who is a fool? (Format your answer like: ""Victoria is a sage/fool, and Grace is a sage/fool"")",,,
+graph_color_0396,knn,Graph Theory,1.0,Constraint Satisfaction,0.0,graph_color,"Please provide a coloring for this graph such that every vertex is not connected to a vertex of the same color. The graph has these properties:
+
+Vertices: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Edges: [(0, 5), (1, 8), (1, 9), (3, 8), (4, 7), (5, 8), (5, 9)]
+Possible colors: [1, 2, 3]
+
+Return your solution as a JSON map of vertices to colors. (For example: {""0"": 1, ""1"": 2, ""2"": 3}.)
+",,,
+kakurasu_0172,knn,Weighted Grids,0.9531,Inequality Puzzles,0.0468,kakurasu,"I'm presenting you with a 5 x 4 Kukurasu puzzle. Your task is to place 1s in the grid so that the weighted sums match the given constraints: row sums [10, 2, 6, 2, 6] and column sums [1, 15, 1, 9].
+1. Rules:
+  1. Each cell must be filled with either a 1 or an 0.
+  2. In each row, a 1 in position j has a weight of j (where j ranges from 1 to 4).
+  3. In each column, a 1 in position i has a weight of i (where i ranges from 1 to 5).
+  4. The weighted sum of each row must match its constraint.
+  5. The weighted sum of each column must match its constraint.
+2. Input:
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0",,,
+syllogism_0088,llm,Syllogistic Logic,0.9997,Constraint Satisfaction,0.0003,syllogism,"Consider these statements:
+1. All insects are musicians
+2. No musicians are cats
+
+Does it logically follow that:
+No insects are cats?
+(Answer Yes or No)",,,
+n_queens_0322,knn,Queen Placement,1.0,Constraint Satisfaction,0.0,n_queens,"Your job is to complete an n x n chess board with n Queens in total, such that no two attack each other.
+
+No two queens attack each other if they are not in the same row, column, or diagonal.
+
+You can place a queen by replacing an underscore (_) with a Q.
+
+Your output should be also a board in the same format as the input, with queens placed on the board by replacing underscores with the letter Q.
+
+Given the below board of size 8 x 8 your job is to place 7 queen(s) on the board such that no two queens attack each other.
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ ",,,
+n_queens_0342,knn,Queen Placement,1.0,Constraint Satisfaction,0.0,n_queens,"Your job is to complete an n x n chess board with n Queens in total, such that no two attack each other.
+
+No two queens attack each other if they are not in the same row, column, or diagonal.
+
+You can place a queen by replacing an underscore (_) with a Q.
+
+Your output should be also a board in the same format as the input, with queens placed on the board by replacing underscores with the letter Q.
+
+Given the below board of size 8 x 8 your job is to place 2 queen(s) on the board such that no two queens attack each other.
+_ _ Q _ _ _ _ _
+_ _ _ _ Q _ _ _
+_ _ _ _ _ _ Q _
+Q _ _ _ _ _ _ _
+_ _ _ _ _ ",,,
+knights_knaves_0008,knn,Knights and Knaves,0.9962,Truth Paradoxes,0.0038,knights_knaves,"A very special island is inhabited only by saints and sinners. Saints always tell the truth, and sinners always lie. You meet 2 inhabitants: Aiden, and Ella. Aiden remarked, ""if Aiden is a saint then Ella is a saint"". ""Aiden is a saint,"" Ella claimed. So who is a saint and who is a sinner? (Format your answer like: ""Aiden is a saint/sinner, and Ella is a saint/sinner"")",,,
+n_queens_0050,llm,Queen Placement,1.0,Graph Theory,0.0,n_queens,"Your job is to complete an n x n chess board with n Queens in total, such that no two attack each other.
+
+No two queens attack each other if they are not in the same row, column, or diagonal.
+
+You can place a queen by replacing an underscore (_) with a Q.
+
+Your output should be also a board in the same format as the input, with queens placed on the board by replacing underscores with the letter Q.
+
+Given the below board of size 8 x 8 your job is to place 7 queen(s) on the board such that no two queens attack each other.
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ ",,,
+kakurasu_0224,llm,Weighted Grids,1.0,Inequality Puzzles,0.0,kakurasu,"Consider this 4 x 4 Kukurasu puzzle grid. You need to place 1s in the grid such that the weighted sums match the constraints. Row sums: [3, 4, 5, 1]. Column sums: [4, 3, 4, 2].
+1. Rules:
+  1. Each cell must contain either a 1 or an 0.
+  2. A 1 in column position j contributes j points to its row's sum.
+  3. A 1 in row position i contributes i points to its column's sum.
+  4. Each row's weighted sum must equal its constraint value.
+  5. Each column's weighted sum must equal its constraint value.
+2. Input:
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0",,,
+futoshiki_0290,knn,Inequality Puzzles,1.0,Constraint Satisfaction,0.0,futoshiki,"Solve the following 8x8 Futoshiki puzzle:
+
+_   4   6   _   2   1   _   8
+        ∧                    
+_   _   8   _   _   7 > _   2
+                    ∨   ∧    
+5   _   _   _   4   2   3   _
+∨                            
+_   _ < 3   6   _   _   _   _
+    ∧       ∨               ∨
+7   _   2   _   6   _   _   _
+                             
+4   7 > _   _   _   8   _   _
+∧                            
+_   1 < _   _   _ > 3   _ > _
+∨                           ∧
+2   8   _   _   3 < _ > _ < _
+
+Ensure your answer follows the same format as the puzzle above, just replace blanks (_) with the correct v",,,
+n_queens_0155,llm,Queen Placement,1.0,Graph Theory,0.0,n_queens,"Your job is to complete an n x n chess board with n Queens in total, such that no two attack each other.
+
+No two queens attack each other if they are not in the same row, column, or diagonal.
+
+You can place a queen by replacing an underscore (_) with a Q.
+
+Your output should be also a board in the same format as the input, with queens placed on the board by replacing underscores with the letter Q.
+
+Given the below board of size 8 x 8 your job is to place 5 queen(s) on the board such that no two queens attack each other.
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ Q _ _ _ _
+Q _ _ _ _ ",,,
+futoshiki_0137,knn,Inequality Puzzles,0.9999,Constraint Satisfaction,0.0001,futoshiki,"Solve the following 4x4 Futoshiki puzzle:
+
+3   _   _ < 4
+    ∧        
+_   _   _   _
+             
+_ > 2 < _   _
+             
+2   _   _   _
+
+Ensure your answer follows the same format as the puzzle above, just replace blanks (_) with the correct value for the cell.
+Use < and > for horizontal constraints. Use ∧ and ∨ for vertical constraints.
+Remember, in Futoshiki each row and column must contain each number from 1 to 4 exactly once.",,,
+syllogism_0021,llm,Syllogistic Logic,1.0,Constraint Satisfaction,0.0,syllogism,"Consider these statements:
+1. Some scientists are not butterflies
+2. No butterflies are animals
+
+Does it logically follow that:
+No scientists are animals?
+(Answer Yes or No)",,,
+mini_sudoku_0018,knn,Constraint Satisfaction,0.9554,Inequality Puzzles,0.0446,mini_sudoku,"In 4x4 Mini Sudoku:
+- Each row must contain each number from 1-4 exactly once
+- Each column must contain each number 1-4 exactly once
+- Each 2x2 subgrid must contain each number 1-4 exactly once
+Solve this 4x4 Mini Sudoku puzzle:
+_ _ _ 4
+_ _ _ 1
+1 2 4 3
+3 _ _ _
+Format your response as the puzzle above, with spaces separating each number within a row, and newlines separating rows.
+",,,
+graph_color_0100,knn,Graph Theory,1.0,Constraint Satisfaction,0.0,graph_color,"Please provide a coloring for this graph such that every vertex is not connected to a vertex of the same color. The graph has these properties:
+
+Vertices: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Edges: [(5, 6), (7, 9)]
+Possible colors: [1, 2, 3]
+
+Return your solution as a JSON map of vertices to colors. (For example: {""0"": 1, ""1"": 2, ""2"": 3}.)
+",,,
+knights_knaves_0125,llm,Knights and Knaves,1.0,Constraint Satisfaction,0.0,knights_knaves,"A very special island is inhabited only by heros and villains. Heros always tell the truth, and villains always lie. You meet 2 inhabitants: Abigail, and Mason. ""Mason is a villain and Mason is a hero,"" Abigail declared. ""Abigail is a hero,"" Mason mentioned. So who is a hero and who is a villain? (Format your answer like: ""Abigail is a hero/villain, and Mason is a hero/villain"")",,,
+knights_knaves_0091,knn,Knights and Knaves,1.0,Constraint Satisfaction,0.0,knights_knaves,"A very special island is inhabited only by heros and villains. Heros always tell the truth, and villains always lie. You meet 2 inhabitants: Avery, and Aiden. ""Avery is a hero,"" Avery mentioned. Aiden expressed that if Aiden is a hero then Avery is a hero. So who is a hero and who is a villain? (Format your answer like: ""Avery is a hero/villain, and Aiden is a hero/villain"")",,,
+knights_knaves_0104,llm,Knights and Knaves,1.0,Constraint Satisfaction,0.0,knights_knaves,"A very special island is inhabited only by heros and villains. Heros always tell the truth, and villains always lie. You meet 2 inhabitants: Ethan, and Liam. As Ethan put it, ""Ethan is a hero if and only if Liam is a hero"". Liam said that if Liam is a hero then Ethan is a hero. So who is a hero and who is a villain? (Format your answer like: ""Ethan is a hero/villain, and Liam is a hero/villain"")",,,
+syllogism_0260,knn,Syllogistic Logic,0.9997,Constraint Satisfaction,0.0003,syllogism,"Consider these statements:
+1. All writers are parents
+2. No parents are butterflies
+
+Does it logically follow that:
+No writers are butterflies?
+(Answer Yes or No)",,,
+self_reference_0217,llm,Truth Paradoxes,1.0,Constraint Satisfaction,0.0,self_reference,"Given the truthfulness of these statements, please tell me the number of possible solutions: 
+ - Statement 1: 'At least 5 of these 7 statements are true.'
+ - Statement 2: 'At most 6 of these 7 statements are false.'
+ - Statement 3: 'Exactly 6 of these 7 statements are true.'
+ - Statement 4: 'Exactly 1 of these 7 statements are false.'
+ - Statement 5: 'Either Statement 3 or Statement 4 is true, but not both.'
+ - Statement 6: 'The number of true statements is a prime number.'
+ - Statement 7: 'The number of false statements is a composite number.'
+",,,
+knights_knaves_0037,llm,Knights and Knaves,1.0,Constraint Satisfaction,0.0,knights_knaves,"A very special island is inhabited only by heros and villains. Heros always tell the truth, and villains always lie. You meet 2 inhabitants: Henry, and Ethan. According to Henry, ""Henry is a hero if and only if Ethan is a hero"". ""Henry is a villain,"" Ethan claimed. So who is a hero and who is a villain? (Format your answer like: ""Henry is a hero/villain, and Ethan is a hero/villain"")",,,
+graph_color_0361,llm,Graph Theory,1.0,Constraint Satisfaction,0.0,graph_color,"Please provide a coloring for this graph such that every vertex is not connected to a vertex of the same color. The graph has these properties:
+
+Vertices: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Edges: [(0, 4), (1, 9), (2, 6), (4, 8), (5, 7), (5, 8), (7, 8)]
+Possible colors: [1, 2, 3]
+
+Return your solution as a JSON map of vertices to colors. (For example: {""0"": 1, ""1"": 2, ""2"": 3}.)
+",,,
+n_queens_0011,knn,Queen Placement,1.0,Graph Theory,0.0,n_queens,"Your job is to complete an n x n chess board with n Queens in total, such that no two attack each other.
+
+No two queens attack each other if they are not in the same row, column, or diagonal.
+
+You can place a queen by replacing an underscore (_) with a Q.
+
+Your output should be also a board in the same format as the input, with queens placed on the board by replacing underscores with the letter Q.
+
+Given the below board of size 8 x 8 your job is to place 7 queen(s) on the board such that no two queens attack each other.
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ ",,,
+futoshiki_0087,knn,Inequality Puzzles,0.9999,Constraint Satisfaction,0.0001,futoshiki,"Solve the following 5x5 Futoshiki puzzle:
+
+_   _   _   _   _
+                 
+_   _   4   _   3
+            ∨    
+_   4   1   _   _
+    ∨           ∨
+_   _   _   4   _
+                 
+1   _   3   _   _
+
+Ensure your answer follows the same format as the puzzle above, just replace blanks (_) with the correct value for the cell.
+Use < and > for horizontal constraints. Use ∧ and ∨ for vertical constraints.
+Remember, in Futoshiki each row and column must contain each number from 1 to 5 exactly once.",,,
+kakurasu_0128,llm,Weighted Grids,1.0,Inequality Puzzles,0.0,kakurasu,"You are given a 4 x 5 grid representing a Kukurasu puzzle. In this puzzle, you need to place 1s in the grid so that the weighted sum of each row and column matches the given constraints. The row sums are [2, 5, 9, 10] and the column sums are [7, 3, 5, 4, 7].
+1. Rules:
+  1. Each cell can contain either a 1 or an 0.
+  2. The weight of a 1 in a row is its column position (1 to 5).
+  3. The weight of a 1 in a column is its row position (1 to 4).
+  4. The weighted sum of each row must match the corresponding row constraint.
+  5. The weighted sum of each column must match the corresponding column co",,,
+n_queens_0173,knn,Queen Placement,1.0,Constraint Satisfaction,0.0,n_queens,"Your job is to complete an n x n chess board with n Queens in total, such that no two attack each other.
+
+No two queens attack each other if they are not in the same row, column, or diagonal.
+
+You can place a queen by replacing an underscore (_) with a Q.
+
+Your output should be also a board in the same format as the input, with queens placed on the board by replacing underscores with the letter Q.
+
+Given the below board of size 8 x 8 your job is to place 4 queen(s) on the board such that no two queens attack each other.
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ Q _
+_ _ _ _ _ _ _ _
+_ Q _ _ _ _ _ _
+_ _ _ _ _ ",,,
+knights_knaves_0118,llm,Knights and Knaves,1.0,Constraint Satisfaction,0.0,knights_knaves,"A very special island is inhabited only by altruists and egoists. Altruists always tell the truth, and egoists always lie. You meet 2 inhabitants: Owen, and Benjamin. Owen stated, ""Benjamin is an egoist and Owen is an altruist"". ""Owen is an altruist if and only if Benjamin is an altruist,"" Benjamin mentioned. So who is an altruist and who is an egoist? (Format your answer like: ""Owen is a altruist/egoist, and Benjamin is a altruist/egoist"")",,,
+self_reference_0161,knn,Truth Paradoxes,1.0,Constraint Satisfaction,0.0,self_reference,"Given the truthfulness of these statements, please tell me the number of possible solutions: 
+ - Statement 1: 'At least 1 of these 7 statements are true.'
+ - Statement 2: 'At most 7 of these 7 statements are false.'
+ - Statement 3: 'Exactly 6 of these 7 statements are true.'
+ - Statement 4: 'Exactly 2 of these 7 statements are false.'
+ - Statement 5: 'Either Statement 3 or Statement 4 is true, but not both.'
+ - Statement 6: 'The number of true statements is a prime number.'
+ - Statement 7: 'The number of false statements is a composite number.'
+",,,
+futoshiki_0108,llm,Inequality Puzzles,1.0,Constraint Satisfaction,0.0,futoshiki,"Solve the following 5x5 Futoshiki puzzle:
+
+5   _   2   _   4
+                 
+2   _   _   1 < _
+                 
+4   _   3   _   _
+            ∧    
+_   _   _   _   _
+                 
+_   _   4   5   _
+
+Ensure your answer follows the same format as the puzzle above, just replace blanks (_) with the correct value for the cell.
+Use < and > for horizontal constraints. Use ∧ and ∨ for vertical constraints.
+Remember, in Futoshiki each row and column must contain each number from 1 to 5 exactly once.",,,
+kakurasu_0193,llm,Weighted Grids,1.0,Inequality Puzzles,0.0,kakurasu,"Here's a 5 x 4 Kukurasu logic puzzle. You need to place 1s in the grid so that the weighted sums match the constraints. Row sums: [2, 8, 4, 6, 3]. Column sums: [2, 5, 7, 9].
+1. Rules:
+  1. Each cell can be filled with either a 1 or an 0.
+  2. A 1 in the jth position of a row contributes j points to that row's sum.
+  3. A 1 in the ith position of a column contributes i points to that column's sum.
+  4. The weighted sum of each row must equal its constraint value.
+  5. The weighted sum of each column must equal its constraint value.
+2. Input:
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0",,,
+self_reference_0030,knn,Truth Paradoxes,1.0,Constraint Satisfaction,0.0,self_reference,"Given the truthfulness of these statements, please tell me the number of possible solutions: 
+ - Statement 1: 'At least 3 of these 7 statements are true.'
+ - Statement 2: 'At most 0 of these 7 statements are false.'
+ - Statement 3: 'Exactly 5 of these 7 statements are true.'
+ - Statement 4: 'Exactly 2 of these 7 statements are false.'
+ - Statement 5: 'Either Statement 3 or Statement 4 is true, but not both.'
+ - Statement 6: 'The number of true statements is a prime number.'
+ - Statement 7: 'The number of false statements is a composite number.'
+",,,
+self_reference_0264,knn,Truth Paradoxes,1.0,Constraint Satisfaction,0.0,self_reference,"Given the truthfulness of these statements, please tell me the number of possible solutions: 
+ - Statement 1: 'At least 3 of these 7 statements are true.'
+ - Statement 2: 'At most 3 of these 7 statements are false.'
+ - Statement 3: 'Exactly 5 of these 7 statements are true.'
+ - Statement 4: 'Exactly 6 of these 7 statements are false.'
+ - Statement 5: 'Either Statement 3 or Statement 4 is true, but not both.'
+ - Statement 6: 'The number of true statements is a prime number.'
+ - Statement 7: 'The number of false statements is a composite number.'
+",,,
+futoshiki_0154,llm,Inequality Puzzles,0.9999,Constraint Satisfaction,0.0001,futoshiki,"Solve the following 5x5 Futoshiki puzzle:
+
+_   _   5   2   _
+        ∨       ∨
+_   _   2   4   _
+    ∨       ∨   ∧
+_   _   _   _   _
+                ∨
+_ < _   _   _   1
+                 
+_ > _   _   3   2
+
+Ensure your answer follows the same format as the puzzle above, just replace blanks (_) with the correct value for the cell.
+Use < and > for horizontal constraints. Use ∧ and ∨ for vertical constraints.
+Remember, in Futoshiki each row and column must contain each number from 1 to 5 exactly once.",,,
+graph_color_0215,knn,Graph Theory,1.0,Constraint Satisfaction,0.0,graph_color,"Please provide a coloring for this graph such that every vertex is not connected to a vertex of the same color. The graph has these properties:
+
+Vertices: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Edges: [(0, 8), (3, 8), (4, 7)]
+Possible colors: [1, 2, 3]
+
+Return your solution as a JSON map of vertices to colors. (For example: {""0"": 1, ""1"": 2, ""2"": 3}.)
+",,,
+futoshiki_0145,knn,Inequality Puzzles,0.9997,Constraint Satisfaction,0.0003,futoshiki,"Solve the following 7x7 Futoshiki puzzle:
+
+_   2   5   7   _   _   _
+                         
+4   _   _   2   _   3   _
+                         
+5   7   _   _   1   _   6
+                         
+_   6   _   _   4   2 < _
+                         
+_   _   _   1   _   6   2
+                         
+1   _   4   _   _   _   _
+                         
+_   _   _   _   _   _   7
+
+Ensure your answer follows the same format as the puzzle above, just replace blanks (_) with the correct value for the cell.
+Use < and > for horizontal constraints. Use ∧ and ∨ for vertical constraints.
+Remember, in Fu",,,
+syllogism_0372,knn,Syllogistic Logic,0.9993,Constraint Satisfaction,0.0007,syllogism,"Consider these statements:
+1. No students are fish
+2. Some fish are not engineers
+
+Does it logically follow that:
+No fish are students?
+(Answer Yes or No)",,,
+futoshiki_0096,llm,Inequality Puzzles,0.9999,Constraint Satisfaction,0.0001,futoshiki,"Solve the following 6x6 Futoshiki puzzle:
+
+_ < _   _   2 < 4   _
+                     
+_   _   _   _ > _   _
+                     
+_   4   _   5   _   _
+                     
+_   6   3 > _ < _   _
+                     
+_   _   6   _   3   5
+    ∨       ∨        
+_ > _   5   _   _   4
+
+Ensure your answer follows the same format as the puzzle above, just replace blanks (_) with the correct value for the cell.
+Use < and > for horizontal constraints. Use ∧ and ∨ for vertical constraints.
+Remember, in Futoshiki each row and column must contain each number from 1 to 6 exactly once.",,,
+kakurasu_0282,knn,Weighted Grids,0.9294,Inequality Puzzles,0.0706,kakurasu,"You're presented with a 4 x 5 Kukurasu puzzle grid. The goal is to place 1s in the grid so that the weighted sums of rows and columns match the given constraints: row sums [1, 8, 6, 4] and column sums [5, 3, 6, 3, 2].
+1. Rules:
+  1. Each cell must be filled with either a 1 or an 0.
+  2. A 1 in column j of any row contributes j points to that row's sum (j ranges from 1 to 5).
+  3. A 1 in row i of any column contributes i points to that column's sum (i ranges from 1 to 4).
+  4. Each row's weighted sum must match its constraint value.
+  5. Each column's weighted sum must match its constraint valu",,,
+futoshiki_0386,llm,Inequality Puzzles,1.0,Constraint Satisfaction,0.0,futoshiki,"Solve the following 8x8 Futoshiki puzzle:
+
+2   _   _   1   6   _   5   7
+                ∨       ∨   ∨
+_   6   _   _ < _   7   3 < _
+                             
+_   _   _   _   _   _ < _ > 3
+                            ∧
+_ < 4   _   _   8   _   2   _
+        ∧       ∨   ∨        
+6   _   _ < 3   1 < _ > _   _
+            ∧   ∧            
+_ > _   _   _   _   8   1   _
+            ∧           ∧    
+_   _   5   8   2 > 1   7   6
+∧                            
+_ > _   4   5   _   _   _   1
+
+Ensure your answer follows the same format as the puzzle above, just replace blanks (_) with the correct v",,,
+knights_knaves_0088,llm,Knights and Knaves,1.0,Constraint Satisfaction,0.0,knights_knaves,"A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 2 inhabitants: Aiden, and Sophia. ""if Aiden is a knight then Sophia is a knave,"" Aiden claimed. ""Sophia is a knight and Aiden is a knight"" - Sophia. So who is a knight and who is a knave? (Format your answer like: ""Aiden is a knight/knave, and Sophia is a knight/knave"")",,,
+kakurasu_0104,knn,Weighted Grids,0.957,Inequality Puzzles,0.0429,kakurasu,"I'm presenting you with a 4 x 4 Kukurasu puzzle. Your task is to place 1s in the grid so that the weighted sums match the given constraints: row sums [2, 6, 4, 2] and column sums [2, 7, 2, 3].
+1. Rules:
+  1. Each cell must be filled with either a 1 or an 0.
+  2. In each row, a 1 in position j has a weight of j (where j ranges from 1 to 4).
+  3. In each column, a 1 in position i has a weight of i (where i ranges from 1 to 4).
+  4. The weighted sum of each row must match its constraint.
+  5. The weighted sum of each column must match its constraint.
+2. Input:
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0",,,
+self_reference_0279,llm,Truth Paradoxes,1.0,Constraint Satisfaction,0.0,self_reference,"Given the truthfulness of these statements, please tell me the number of possible solutions: 
+ - Statement 1: 'At least 2 of these 7 statements are true.'
+ - Statement 2: 'At most 5 of these 7 statements are false.'
+ - Statement 3: 'Exactly 4 of these 7 statements are true.'
+ - Statement 4: 'Exactly 3 of these 7 statements are false.'
+ - Statement 5: 'Either Statement 3 or Statement 4 is true, but not both.'
+ - Statement 6: 'The number of true statements is a prime number.'
+ - Statement 7: 'The number of false statements is a composite number.'
+",,,
+syllogism_0230,knn,Syllogistic Logic,0.9999,Constraint Satisfaction,0.0001,syllogism,"Consider these statements:
+1. No scientists are mammals
+2. All mammals are whales
+
+Does it logically follow that:
+No mammals are scientists?
+(Answer Yes or No)",,,
+mini_sudoku_0009,knn,Constraint Satisfaction,0.9648,Inequality Puzzles,0.0352,mini_sudoku,"In 4x4 Mini Sudoku:
+- Each row must contain each number from 1-4 exactly once
+- Each column must contain each number 1-4 exactly once
+- Each 2x2 subgrid must contain each number 1-4 exactly once
+Solve this 4x4 Mini Sudoku puzzle:
+4 _ _ _
+_ 1 _ 3
+_ _ _ 4
+_ _ 2 _
+Format your response as the puzzle above, with spaces separating each number within a row, and newlines separating rows.
+",,,
+mini_sudoku_0361,knn,Constraint Satisfaction,0.9764,Inequality Puzzles,0.0236,mini_sudoku,"In 4x4 Mini Sudoku:
+- Each row must contain each number from 1-4 exactly once
+- Each column must contain each number 1-4 exactly once
+- Each 2x2 subgrid must contain each number 1-4 exactly once
+Solve this 4x4 Mini Sudoku puzzle:
+_ _ 4 _
+3 _ _ _
+_ _ _ _
+_ _ 1 4
+Format your response as the puzzle above, with spaces separating each number within a row, and newlines separating rows.
+",,,
+syllogism_0177,llm,Syllogistic Logic,0.9997,Constraint Satisfaction,0.0003,syllogism,"Consider these statements:
+1. All writers are elephants
+2. All elephants are butterflies
+
+Does it logically follow that:
+Some writers are butterflies?
+(Answer Yes or No)",,,
+n_queens_0164,llm,Queen Placement,1.0,Graph Theory,0.0,n_queens,"Your job is to complete an n x n chess board with n Queens in total, such that no two attack each other.
+
+No two queens attack each other if they are not in the same row, column, or diagonal.
+
+You can place a queen by replacing an underscore (_) with a Q.
+
+Your output should be also a board in the same format as the input, with queens placed on the board by replacing underscores with the letter Q.
+
+Given the below board of size 8 x 8 your job is to place 6 queen(s) on the board such that no two queens attack each other.
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ Q _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ ",,,
+graph_color_0014,knn,Graph Theory,1.0,Constraint Satisfaction,0.0,graph_color,"Please provide a coloring for this graph such that every vertex is not connected to a vertex of the same color. The graph has these properties:
+
+Vertices: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Edges: [(0, 7), (2, 8), (2, 9), (3, 5), (4, 7)]
+Possible colors: [1, 2, 3]
+
+Return your solution as a JSON map of vertices to colors. (For example: {""0"": 1, ""1"": 2, ""2"": 3}.)
+",,,
+mini_sudoku_0095,llm,Constraint Satisfaction,0.9775,Inequality Puzzles,0.0225,mini_sudoku,"In 4x4 Mini Sudoku:
+- Each row must contain each number from 1-4 exactly once
+- Each column must contain each number 1-4 exactly once
+- Each 2x2 subgrid must contain each number 1-4 exactly once
+Solve this 4x4 Mini Sudoku puzzle:
+_ _ 1 _
+_ 3 2 _
+3 _ _ 1
+4 _ _ _
+Format your response as the puzzle above, with spaces separating each number within a row, and newlines separating rows.
+",,,
+n_queens_0243,llm,Queen Placement,1.0,Constraint Satisfaction,0.0,n_queens,"Your job is to complete an n x n chess board with n Queens in total, such that no two attack each other.
+
+No two queens attack each other if they are not in the same row, column, or diagonal.
+
+You can place a queen by replacing an underscore (_) with a Q.
+
+Your output should be also a board in the same format as the input, with queens placed on the board by replacing underscores with the letter Q.
+
+Given the below board of size 8 x 8 your job is to place 3 queen(s) on the board such that no two queens attack each other.
+_ _ _ _ _ Q _ _
+_ _ _ _ _ _ _ _
+Q _ _ _ _ _ _ _
+_ _ _ _ _ _ Q _
+_ _ _ _ Q ",,,
+graph_color_0162,llm,Graph Theory,1.0,Constraint Satisfaction,0.0,graph_color,"Please provide a coloring for this graph such that every vertex is not connected to a vertex of the same color. The graph has these properties:
+
+Vertices: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Edges: [(0, 9), (1, 7), (2, 3), (2, 6), (2, 7), (3, 6)]
+Possible colors: [1, 2, 3]
+
+Return your solution as a JSON map of vertices to colors. (For example: {""0"": 1, ""1"": 2, ""2"": 3}.)
+",,,
+n_queens_0113,llm,Queen Placement,1.0,Constraint Satisfaction,0.0,n_queens,"Your job is to complete an n x n chess board with n Queens in total, such that no two attack each other.
+
+No two queens attack each other if they are not in the same row, column, or diagonal.
+
+You can place a queen by replacing an underscore (_) with a Q.
+
+Your output should be also a board in the same format as the input, with queens placed on the board by replacing underscores with the letter Q.
+
+Given the below board of size 8 x 8 your job is to place 6 queen(s) on the board such that no two queens attack each other.
+Q _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ Q _ _ _ ",,,
+self_reference_0051,llm,Truth Paradoxes,1.0,Constraint Satisfaction,0.0,self_reference,"Given the truthfulness of these statements, please tell me the number of possible solutions: 
+ - Statement 1: 'At least 7 of these 7 statements are true.'
+ - Statement 2: 'At most 1 of these 7 statements are false.'
+ - Statement 3: 'Exactly 1 of these 7 statements are true.'
+ - Statement 4: 'Exactly 7 of these 7 statements are false.'
+ - Statement 5: 'Either Statement 3 or Statement 4 is true, but not both.'
+ - Statement 6: 'The number of true statements is a prime number.'
+ - Statement 7: 'The number of false statements is a composite number.'
+",,,
+self_reference_0079,knn,Truth Paradoxes,1.0,Constraint Satisfaction,0.0,self_reference,"Given the truthfulness of these statements, please tell me the number of possible solutions: 
+ - Statement 1: 'At least 5 of these 7 statements are true.'
+ - Statement 2: 'At most 4 of these 7 statements are false.'
+ - Statement 3: 'Exactly 1 of these 7 statements are true.'
+ - Statement 4: 'Exactly 5 of these 7 statements are false.'
+ - Statement 5: 'Either Statement 3 or Statement 4 is true, but not both.'
+ - Statement 6: 'The number of true statements is a prime number.'
+ - Statement 7: 'The number of false statements is a composite number.'
+",,,
+syllogism_0345,knn,Syllogistic Logic,0.9998,Constraint Satisfaction,0.0001,syllogism,"Consider these statements:
+1. Some animals are mortals
+2. No mortals are scientists
+
+Does it logically follow that:
+Some animals are scientists?
+(Answer Yes or No)",,,
+mini_sudoku_0377,knn,Constraint Satisfaction,0.9663,Inequality Puzzles,0.0337,mini_sudoku,"In 4x4 Mini Sudoku:
+- Each row must contain each number from 1-4 exactly once
+- Each column must contain each number 1-4 exactly once
+- Each 2x2 subgrid must contain each number 1-4 exactly once
+Solve this 4x4 Mini Sudoku puzzle:
+3 _ _ 2
+_ 1 _ 4
+_ _ _ _
+_ 3 2 1
+Format your response as the puzzle above, with spaces separating each number within a row, and newlines separating rows.
+",,,
+graph_color_0042,llm,Graph Theory,1.0,Constraint Satisfaction,0.0,graph_color,"Please provide a coloring for this graph such that every vertex is not connected to a vertex of the same color. The graph has these properties:
+
+Vertices: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Edges: [(0, 1), (0, 7), (0, 9), (1, 4), (2, 4), (3, 5), (3, 6), (6, 8), (7, 9)]
+Possible colors: [1, 2, 3]
+
+Return your solution as a JSON map of vertices to colors. (For example: {""0"": 1, ""1"": 2, ""2"": 3}.)
+",,,
+futoshiki_0363,knn,Inequality Puzzles,0.9999,Constraint Satisfaction,0.0001,futoshiki,"Solve the following 5x5 Futoshiki puzzle:
+
+3   _   _   _   _
+                 
+_   _   5   _   _
+                 
+_ < _   _   _   2
+                 
+_   5   2   _   3
+                 
+_   _   1   _   _
+
+Ensure your answer follows the same format as the puzzle above, just replace blanks (_) with the correct value for the cell.
+Use < and > for horizontal constraints. Use ∧ and ∨ for vertical constraints.
+Remember, in Futoshiki each row and column must contain each number from 1 to 5 exactly once.",,,
+syllogism_0006,llm,Syllogistic Logic,0.9999,Constraint Satisfaction,0.0001,syllogism,"Consider these statements:
+1. No grandparents are elephants
+2. No elephants are lawyers
+
+Does it logically follow that:
+No lawyers are elephants?
+(Answer Yes or No)",,,
+self_reference_0045,knn,Truth Paradoxes,1.0,Constraint Satisfaction,0.0,self_reference,"Given the truthfulness of these statements, please tell me the number of possible solutions: 
+ - Statement 1: 'At least 7 of these 7 statements are true.'
+ - Statement 2: 'At most 2 of these 7 statements are false.'
+ - Statement 3: 'Exactly 0 of these 7 statements are true.'
+ - Statement 4: 'Exactly 4 of these 7 statements are false.'
+ - Statement 5: 'Either Statement 3 or Statement 4 is true, but not both.'
+ - Statement 6: 'The number of true statements is a prime number.'
+ - Statement 7: 'The number of false statements is a composite number.'
+",,,
+self_reference_0069,knn,Truth Paradoxes,1.0,Constraint Satisfaction,0.0,self_reference,"Given the truthfulness of these statements, please tell me the number of possible solutions: 
+ - Statement 1: 'At least 1 of these 7 statements are true.'
+ - Statement 2: 'At most 3 of these 7 statements are false.'
+ - Statement 3: 'Exactly 4 of these 7 statements are true.'
+ - Statement 4: 'Exactly 3 of these 7 statements are false.'
+ - Statement 5: 'Either Statement 3 or Statement 4 is true, but not both.'
+ - Statement 6: 'The number of true statements is a prime number.'
+ - Statement 7: 'The number of false statements is a composite number.'
+",,,
+kakurasu_0011,knn,Weighted Grids,0.9996,Inequality Puzzles,0.0004,kakurasu,"This is a 5 x 5 Kukurasu puzzle grid. Your task is to fill in the grid with 1s and 0s such that the weighted sums match the given constraints. The row sums are [8, 10, 1, 6, 4] and the column sums are [10, 5, 4, 7, 3].
+1. Rules:
+  1. Each cell must contain either a 1 or an 0.
+  2. In each row, a 1 in position j contributes j points to that row's sum (positions are 1-indexed).
+  3. In each column, a 1 in position i contributes i points to that column's sum (positions are 1-indexed).
+  4. The weighted sum of each row must equal its constraint value.
+  5. The weighted sum of each column must equa",,,
+syllogism_0012,llm,Syllogistic Logic,0.999,Constraint Satisfaction,0.001,syllogism,"Consider these statements:
+1. All horses are chefs
+2. Some chefs are tigers
+
+Does it logically follow that:
+Some horses are not tigers?
+(Answer Yes or No)",,,
+knights_knaves_0141,knn,Knights and Knaves,1.0,Constraint Satisfaction,0.0,knights_knaves,"A very special island is inhabited only by sages and fools. Sages always tell the truth, and fools always lie. You meet 2 inhabitants: Lily, and Samuel. ""Samuel is a sage if and only if Lily is a sage,"" Lily claimed. In a statement by Samuel: ""Lily is a sage"". So who is a sage and who is a fool? (Format your answer like: ""Lily is a sage/fool, and Samuel is a sage/fool"")",,,
+kakurasu_0367,llm,Weighted Grids,1.0,Inequality Puzzles,0.0,kakurasu,"This 4 x 5 grid represents a Kukurasu puzzle. Your task is to place 1s in the grid so that the weighted sums match the constraints. Row sums: [2, 3, 5, 8]. Column sums: [4, 1, 6, 4, 3].
+1. Rules:
+  1. Each cell must contain either a 1 or an 0.
+  2. A 1 in the jth position of a row contributes j points to that row's sum.
+  3. A 1 in the ith position of a column contributes i points to that column's sum.
+  4. The weighted sum of each row must equal its constraint value.
+  5. The weighted sum of each column must equal its constraint value.
+2. Input:
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0",,,
+futoshiki_0194,llm,Inequality Puzzles,1.0,Constraint Satisfaction,0.0,futoshiki,"Solve the following 8x8 Futoshiki puzzle:
+
+1   _   5   _   _   _   _   _
+                             
+_   _   6   _   _   3   4   7
+                    ∧        
+4   3   8   _   5   _   _   _
+                ∧            
+2   5   _   _   _   7 > 3   _
+                             
+_   1   _   7   _ > 5   _   _
+                             
+_   _   _   _   1   8   _   6
+            ∨                
+_   _   _   3   4   _   _   2
+                             
+6   _   _   8   _   _   _   _
+
+Ensure your answer follows the same format as the puzzle above, just replace blanks (_) with the correct v",,,
+n_queens_0246,knn,Queen Placement,1.0,Constraint Satisfaction,0.0,n_queens,"Your job is to complete an n x n chess board with n Queens in total, such that no two attack each other.
+
+No two queens attack each other if they are not in the same row, column, or diagonal.
+
+You can place a queen by replacing an underscore (_) with a Q.
+
+Your output should be also a board in the same format as the input, with queens placed on the board by replacing underscores with the letter Q.
+
+Given the below board of size 8 x 8 your job is to place 5 queen(s) on the board such that no two queens attack each other.
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+Q _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ ",,,
+kakurasu_0055,knn,Weighted Grids,0.9971,Inequality Puzzles,0.0029,kakurasu,"Examine this 4 x 4 Kukurasu puzzle grid. Your objective is to place 1s in the grid such that the weighted sums match the given constraints: row sums [5, 3, 1, 2] and column sums [4, 4, 2, 1].
+1. Rules:
+  1. Each cell must be filled with either a 1 or an 0.
+  2. The weight of a 1 in a row equals its column number (1 to 4).
+  3. The weight of a 1 in a column equals its row number (1 to 4).
+  4. The weighted sum of each row must match its constraint.
+  5. The weighted sum of each column must match its constraint.
+2. Input:
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0",,,
+kakurasu_0097,llm,Weighted Grids,1.0,Inequality Puzzles,0.0,kakurasu,"This is a 4 x 5 Kukurasu puzzle grid. Your task is to fill in the grid with 1s and 0s such that the weighted sums match the given constraints. The row sums are [2, 5, 6, 6] and the column sums are [3, 7, 2, 4, 3].
+1. Rules:
+  1. Each cell must contain either a 1 or an 0.
+  2. In each row, a 1 in position j contributes j points to that row's sum (positions are 1-indexed).
+  3. In each column, a 1 in position i contributes i points to that column's sum (positions are 1-indexed).
+  4. The weighted sum of each row must equal its constraint value.
+  5. The weighted sum of each column must equal its",,,
+syllogism_0322,knn,Syllogistic Logic,0.9997,Constraint Satisfaction,0.0003,syllogism,"Consider these statements:
+1. Some butterflies are doctors
+2. No doctors are parents
+
+Does it logically follow that:
+Some doctors are butterflies?
+(Answer Yes or No)",,,
+mini_sudoku_0308,knn,Constraint Satisfaction,0.9615,Inequality Puzzles,0.0385,mini_sudoku,"In 4x4 Mini Sudoku:
+- Each row must contain each number from 1-4 exactly once
+- Each column must contain each number 1-4 exactly once
+- Each 2x2 subgrid must contain each number 1-4 exactly once
+Solve this 4x4 Mini Sudoku puzzle:
+_ _ _ _
+_ 4 1 _
+4 _ _ 1
+2 _ _ 4
+Format your response as the puzzle above, with spaces separating each number within a row, and newlines separating rows.
+",,,
+graph_color_0303,llm,Graph Theory,1.0,Constraint Satisfaction,0.0,graph_color,"Please provide a coloring for this graph such that every vertex is not connected to a vertex of the same color. The graph has these properties:
+
+Vertices: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Edges: [(0, 3), (1, 3), (1, 6), (2, 4), (2, 8), (5, 7), (8, 9)]
+Possible colors: [1, 2, 3]
+
+Return your solution as a JSON map of vertices to colors. (For example: {""0"": 1, ""1"": 2, ""2"": 3}.)
+",,,
+self_reference_0247,llm,Truth Paradoxes,1.0,Constraint Satisfaction,0.0,self_reference,"Given the truthfulness of these statements, please tell me the number of possible solutions: 
+ - Statement 1: 'At least 1 of these 7 statements are true.'
+ - Statement 2: 'At most 7 of these 7 statements are false.'
+ - Statement 3: 'Exactly 4 of these 7 statements are true.'
+ - Statement 4: 'Exactly 2 of these 7 statements are false.'
+ - Statement 5: 'Either Statement 3 or Statement 4 is true, but not both.'
+ - Statement 6: 'The number of true statements is a prime number.'
+ - Statement 7: 'The number of false statements is a composite number.'
+",,,
+n_queens_0079,knn,Queen Placement,1.0,Constraint Satisfaction,0.0,n_queens,"Your job is to complete an n x n chess board with n Queens in total, such that no two attack each other.
+
+No two queens attack each other if they are not in the same row, column, or diagonal.
+
+You can place a queen by replacing an underscore (_) with a Q.
+
+Your output should be also a board in the same format as the input, with queens placed on the board by replacing underscores with the letter Q.
+
+Given the below board of size 8 x 8 your job is to place 4 queen(s) on the board such that no two queens attack each other.
+_ _ _ _ _ _ _ _
+_ _ _ _ _ Q _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+Q _ _ _ _ ",,,
+n_queens_0377,llm,Queen Placement,1.0,Graph Theory,0.0,n_queens,"Your job is to complete an n x n chess board with n Queens in total, such that no two attack each other.
+
+No two queens attack each other if they are not in the same row, column, or diagonal.
+
+You can place a queen by replacing an underscore (_) with a Q.
+
+Your output should be also a board in the same format as the input, with queens placed on the board by replacing underscores with the letter Q.
+
+Given the below board of size 8 x 8 your job is to place 5 queen(s) on the board such that no two queens attack each other.
+_ _ _ _ _ _ _ _
+_ Q _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ ",,,
+syllogism_0362,llm,Syllogistic Logic,0.9999,Constraint Satisfaction,0.0001,syllogism,"Consider these statements:
+1. All tigers are fish
+2. No fish are engineers
+
+Does it logically follow that:
+Some tigers are not engineers?
+(Answer Yes or No)",,,
+n_queens_0223,knn,Queen Placement,1.0,Constraint Satisfaction,0.0,n_queens,"Your job is to complete an n x n chess board with n Queens in total, such that no two attack each other.
+
+No two queens attack each other if they are not in the same row, column, or diagonal.
+
+You can place a queen by replacing an underscore (_) with a Q.
+
+Your output should be also a board in the same format as the input, with queens placed on the board by replacing underscores with the letter Q.
+
+Given the below board of size 8 x 8 your job is to place 3 queen(s) on the board such that no two queens attack each other.
+_ _ _ Q _ _ _ _
+_ _ _ _ _ _ Q _
+_ _ _ _ _ _ _ _
+_ _ Q _ _ _ _ _
+Q _ _ _ _ ",,,
+graph_color_0334,knn,Graph Theory,1.0,Constraint Satisfaction,0.0,graph_color,"Please provide a coloring for this graph such that every vertex is not connected to a vertex of the same color. The graph has these properties:
+
+Vertices: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Edges: [(1, 7), (2, 9), (4, 5), (6, 7), (8, 9)]
+Possible colors: [1, 2, 3]
+
+Return your solution as a JSON map of vertices to colors. (For example: {""0"": 1, ""1"": 2, ""2"": 3}.)
+",,,
+knights_knaves_0354,llm,Knights and Knaves,1.0,Constraint Satisfaction,0.0,knights_knaves,"A very special island is inhabited only by angels and devils. Angels always tell the truth, and devils always lie. You meet 2 inhabitants: Joseph, and Mia. Joseph said, ""Mia is a devil and Mia is an angel."" Mia was heard saying, ""Joseph is a devil or Mia is an angel"". So who is an angel and who is a devil? (Format your answer like: ""Joseph is a angel/devil, and Mia is a angel/devil"")",,,
+kakurasu_0197,knn,Weighted Grids,1.0,Inequality Puzzles,0.0,kakurasu,"You are given a 4 x 4 grid representing a Kukurasu puzzle. In this puzzle, you need to place 1s in the grid so that the weighted sum of each row and column matches the given constraints. The row sums are [4, 4, 2, 5] and the column sums are [1, 7, 5, 2].
+1. Rules:
+  1. Each cell can contain either a 1 or an 0.
+  2. The weight of a 1 in a row is its column position (1 to 4).
+  3. The weight of a 1 in a column is its row position (1 to 4).
+  4. The weighted sum of each row must match the corresponding row constraint.
+  5. The weighted sum of each column must match the corresponding column constr",,,
+syllogism_0318,knn,Syllogistic Logic,0.9998,Constraint Satisfaction,0.0002,syllogism,"Consider these statements:
+1. Some adults are spiders
+2. Some spiders are not insects
+
+Does it logically follow that:
+Some adults are not insects?
+(Answer Yes or No)",,,
+self_reference_0082,llm,Truth Paradoxes,1.0,Constraint Satisfaction,0.0,self_reference,"Given the truthfulness of these statements, please tell me the number of possible solutions: 
+ - Statement 1: 'At least 7 of these 7 statements are true.'
+ - Statement 2: 'At most 2 of these 7 statements are false.'
+ - Statement 3: 'Exactly 7 of these 7 statements are true.'
+ - Statement 4: 'Exactly 5 of these 7 statements are false.'
+ - Statement 5: 'Either Statement 3 or Statement 4 is true, but not both.'
+ - Statement 6: 'The number of true statements is a prime number.'
+ - Statement 7: 'The number of false statements is a composite number.'
+",,,
+mini_sudoku_0042,llm,Constraint Satisfaction,0.9667,Inequality Puzzles,0.0333,mini_sudoku,"In 4x4 Mini Sudoku:
+- Each row must contain each number from 1-4 exactly once
+- Each column must contain each number 1-4 exactly once
+- Each 2x2 subgrid must contain each number 1-4 exactly once
+Solve this 4x4 Mini Sudoku puzzle:
+4 _ _ _
+_ 3 _ _
+_ 1 3 _
+_ _ _ _
+Format your response as the puzzle above, with spaces separating each number within a row, and newlines separating rows.
+",,,
+n_queens_0388,llm,Queen Placement,1.0,Constraint Satisfaction,0.0,n_queens,"Your job is to complete an n x n chess board with n Queens in total, such that no two attack each other.
+
+No two queens attack each other if they are not in the same row, column, or diagonal.
+
+You can place a queen by replacing an underscore (_) with a Q.
+
+Your output should be also a board in the same format as the input, with queens placed on the board by replacing underscores with the letter Q.
+
+Given the below board of size 8 x 8 your job is to place 3 queen(s) on the board such that no two queens attack each other.
+_ _ _ _ Q _ _ _
+Q _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ Q _ _ _ _
+_ _ _ _ _ ",,,
+mini_sudoku_0270,llm,Constraint Satisfaction,0.9595,Inequality Puzzles,0.0405,mini_sudoku,"In 4x4 Mini Sudoku:
+- Each row must contain each number from 1-4 exactly once
+- Each column must contain each number 1-4 exactly once
+- Each 2x2 subgrid must contain each number 1-4 exactly once
+Solve this 4x4 Mini Sudoku puzzle:
+_ 1 _ _
+4 _ _ _
+1 _ 2 4
+_ 4 1 3
+Format your response as the puzzle above, with spaces separating each number within a row, and newlines separating rows.
+",,,
+self_reference_0133,llm,Truth Paradoxes,1.0,Constraint Satisfaction,0.0,self_reference,"Given the truthfulness of these statements, please tell me the number of possible solutions: 
+ - Statement 1: 'At least 7 of these 7 statements are true.'
+ - Statement 2: 'At most 7 of these 7 statements are false.'
+ - Statement 3: 'Exactly 4 of these 7 statements are true.'
+ - Statement 4: 'Exactly 3 of these 7 statements are false.'
+ - Statement 5: 'Either Statement 3 or Statement 4 is true, but not both.'
+ - Statement 6: 'The number of true statements is a prime number.'
+ - Statement 7: 'The number of false statements is a composite number.'
+",,,
+kakurasu_0010,knn,Weighted Grids,1.0,Inequality Puzzles,0.0,kakurasu,"Below is a 4 x 5 Kukurasu puzzle grid. Your objective is to place 1s in the grid such that the weighted sums of rows and columns match the given constraints. Row sums: [2, 9, 6, 1]. Column sums: [7, 4, 3, 2, 2].
+1. Rules:
+  1. Each cell must contain either a 1 or an 0.
+  2. The weight of a 1 in a row equals its column number (1 to 5).
+  3. The weight of a 1 in a column equals its row number (1 to 4).
+  4. The sum of weighted 1s in each row must equal the row constraint.
+  5. The sum of weighted 1s in each column must equal the column constraint.
+2. Input:
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 ",,,
+graph_color_0317,knn,Graph Theory,1.0,Constraint Satisfaction,0.0,graph_color,"Please provide a coloring for this graph such that every vertex is not connected to a vertex of the same color. The graph has these properties:
+
+Vertices: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Edges: [(0, 1), (0, 3), (2, 3), (2, 6), (2, 8), (6, 7), (6, 8)]
+Possible colors: [1, 2, 3]
+
+Return your solution as a JSON map of vertices to colors. (For example: {""0"": 1, ""1"": 2, ""2"": 3}.)
+",,,
+self_reference_0005,knn,Truth Paradoxes,1.0,Constraint Satisfaction,0.0,self_reference,"Given the truthfulness of these statements, please tell me the number of possible solutions: 
+ - Statement 1: 'At least 4 of these 7 statements are true.'
+ - Statement 2: 'At most 0 of these 7 statements are false.'
+ - Statement 3: 'Exactly 5 of these 7 statements are true.'
+ - Statement 4: 'Exactly 2 of these 7 statements are false.'
+ - Statement 5: 'Either Statement 3 or Statement 4 is true, but not both.'
+ - Statement 6: 'The number of true statements is a prime number.'
+ - Statement 7: 'The number of false statements is a composite number.'
+",,,
+n_queens_0201,llm,Queen Placement,1.0,Graph Theory,0.0,n_queens,"Your job is to complete an n x n chess board with n Queens in total, such that no two attack each other.
+
+No two queens attack each other if they are not in the same row, column, or diagonal.
+
+You can place a queen by replacing an underscore (_) with a Q.
+
+Your output should be also a board in the same format as the input, with queens placed on the board by replacing underscores with the letter Q.
+
+Given the below board of size 8 x 8 your job is to place 6 queen(s) on the board such that no two queens attack each other.
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ Q _ _ _ _ _
+_ _ _ _ _ ",,,
+knights_knaves_0121,knn,Knights and Knaves,1.0,Constraint Satisfaction,0.0,knights_knaves,"A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 2 inhabitants: Ella, and Alexander. Ella asserted: ""Ella is a knight or Alexander is a knight"". In Alexander's words: ""Ella is a knave"". So who is a knight and who is a knave? (Format your answer like: ""Ella is a knight/knave, and Alexander is a knight/knave"")",,,
+kakurasu_0322,llm,Weighted Grids,0.9797,Inequality Puzzles,0.0203,kakurasu,"I'm presenting you with a 5 x 4 Kukurasu puzzle. Your task is to place 1s in the grid so that the weighted sums match the given constraints: row sums [7, 4, 1, 2, 7] and column sums [3, 4, 6, 8].
+1. Rules:
+  1. Each cell must be filled with either a 1 or an 0.
+  2. In each row, a 1 in position j has a weight of j (where j ranges from 1 to 4).
+  3. In each column, a 1 in position i has a weight of i (where i ranges from 1 to 5).
+  4. The weighted sum of each row must match its constraint.
+  5. The weighted sum of each column must match its constraint.
+2. Input:
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0",,,
+knights_knaves_0178,knn,Knights and Knaves,1.0,Constraint Satisfaction,0.0,knights_knaves,"A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 2 inhabitants: Chloe, and Zoey. Chloe noted, ""if Chloe is a knight then Zoey is a knave"". Zoey expressed that if Chloe is a knight then Chloe is a knave. So who is a knight and who is a knave? (Format your answer like: ""Chloe is a knight/knave, and Zoey is a knight/knave"")",,,
+graph_color_0063,knn,Graph Theory,1.0,Constraint Satisfaction,0.0,graph_color,"Please provide a coloring for this graph such that every vertex is not connected to a vertex of the same color. The graph has these properties:
+
+Vertices: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Edges: [(0, 6), (1, 4), (2, 3), (2, 4), (3, 8), (4, 8), (5, 7), (6, 7), (6, 8), (6, 9)]
+Possible colors: [1, 2, 3]
+
+Return your solution as a JSON map of vertices to colors. (For example: {""0"": 1, ""1"": 2, ""2"": 3}.)
+",,,
+n_queens_0081,knn,Queen Placement,1.0,Constraint Satisfaction,0.0,n_queens,"Your job is to complete an n x n chess board with n Queens in total, such that no two attack each other.
+
+No two queens attack each other if they are not in the same row, column, or diagonal.
+
+You can place a queen by replacing an underscore (_) with a Q.
+
+Your output should be also a board in the same format as the input, with queens placed on the board by replacing underscores with the letter Q.
+
+Given the below board of size 8 x 8 your job is to place 7 queen(s) on the board such that no two queens attack each other.
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ ",,,
+syllogism_0118,knn,Syllogistic Logic,0.9998,Constraint Satisfaction,0.0002,syllogism,"Consider these statements:
+1. All artists are mammals
+2. Some mammals are not philosophers
+
+Does it logically follow that:
+Some artists are philosophers?
+(Answer Yes or No)",,,
+syllogism_0029,llm,Syllogistic Logic,0.9999,Constraint Satisfaction,0.0001,syllogism,"Consider these statements:
+1. All dolphins are parents
+2. All parents are birds
+
+Does it logically follow that:
+All dolphins are birds?
+(Answer Yes or No)",,,
+self_reference_0368,knn,Truth Paradoxes,1.0,Constraint Satisfaction,0.0,self_reference,"Given the truthfulness of these statements, please tell me the number of possible solutions: 
+ - Statement 1: 'At least 1 of these 7 statements are true.'
+ - Statement 2: 'At most 1 of these 7 statements are false.'
+ - Statement 3: 'Exactly 4 of these 7 statements are true.'
+ - Statement 4: 'Exactly 3 of these 7 statements are false.'
+ - Statement 5: 'Either Statement 3 or Statement 4 is true, but not both.'
+ - Statement 6: 'The number of true statements is a prime number.'
+ - Statement 7: 'The number of false statements is a composite number.'
+",,,
+kakurasu_0012,knn,Weighted Grids,1.0,Inequality Puzzles,0.0,kakurasu,"This 5 x 5 grid represents a Kukurasu puzzle. Your task is to place 1s in the grid so that the weighted sums match the constraints. Row sums: [3, 2, 7, 1, 5]. Column sums: [4, 2, 4, 3, 5].
+1. Rules:
+  1. Each cell must contain either a 1 or an 0.
+  2. A 1 in the jth position of a row contributes j points to that row's sum.
+  3. A 1 in the ith position of a column contributes i points to that column's sum.
+  4. The weighted sum of each row must equal its constraint value.
+  5. The weighted sum of each column must equal its constraint value.
+2. Input:
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 ",,,
+syllogism_0250,knn,Syllogistic Logic,0.9997,Constraint Satisfaction,0.0003,syllogism,"Consider these statements:
+1. Some reptiles are insects
+2. Some insects are not scientists
+
+Does it logically follow that:
+Some reptiles are scientists?
+(Answer Yes or No)",,,
+mini_sudoku_0297,knn,Constraint Satisfaction,0.9669,Inequality Puzzles,0.0331,mini_sudoku,"In 4x4 Mini Sudoku:
+- Each row must contain each number from 1-4 exactly once
+- Each column must contain each number 1-4 exactly once
+- Each 2x2 subgrid must contain each number 1-4 exactly once
+Solve this 4x4 Mini Sudoku puzzle:
+_ _ _ _
+_ _ _ 3
+_ 4 _ 2
+3 _ 4 _
+Format your response as the puzzle above, with spaces separating each number within a row, and newlines separating rows.
+",,,
+mini_sudoku_0290,knn,Constraint Satisfaction,0.9757,Inequality Puzzles,0.0243,mini_sudoku,"In 4x4 Mini Sudoku:
+- Each row must contain each number from 1-4 exactly once
+- Each column must contain each number 1-4 exactly once
+- Each 2x2 subgrid must contain each number 1-4 exactly once
+Solve this 4x4 Mini Sudoku puzzle:
+2 _ 1 _
+1 _ _ 3
+_ _ _ _
+4 _ _ 1
+Format your response as the puzzle above, with spaces separating each number within a row, and newlines separating rows.
+",,,
+self_reference_0057,llm,Truth Paradoxes,1.0,Constraint Satisfaction,0.0,self_reference,"Given the truthfulness of these statements, please tell me the number of possible solutions: 
+ - Statement 1: 'At least 4 of these 7 statements are true.'
+ - Statement 2: 'At most 4 of these 7 statements are false.'
+ - Statement 3: 'Exactly 5 of these 7 statements are true.'
+ - Statement 4: 'Exactly 0 of these 7 statements are false.'
+ - Statement 5: 'Either Statement 3 or Statement 4 is true, but not both.'
+ - Statement 6: 'The number of true statements is a prime number.'
+ - Statement 7: 'The number of false statements is a composite number.'
+",,,
+futoshiki_0129,knn,Inequality Puzzles,1.0,Constraint Satisfaction,0.0,futoshiki,"Solve the following 8x8 Futoshiki puzzle:
+
+_ < 7   _   3   2   4   6   1
+                            ∧
+_ < _ > _   _   _   _   _   3
+                             
+_   _   5   _   _   1   _   2
+                             
+_   8   4   _   6   _   _   _
+                             
+_   2   3   _ > _ < _   7 < 8
+                             
+_   _   _   _   _   _   4 < _
+                            ∨
+1 < 6 > 2   _   7   _ < _   4
+        ∧                    
+8   _   _ > 2   _   _   3   _
+
+Ensure your answer follows the same format as the puzzle above, just replace blanks (_) with the correct v",,,
+knights_knaves_0050,llm,Knights and Knaves,1.0,Constraint Satisfaction,0.0,knights_knaves,"A very special island is inhabited only by altruists and egoists. Altruists always tell the truth, and egoists always lie. You meet 2 inhabitants: Riley, and Lily. Riley commented, ""Riley is an altruist if and only if Lily is an altruist"". In Lily's words: ""Riley is an egoist"". So who is an altruist and who is an egoist? (Format your answer like: ""Riley is a altruist/egoist, and Lily is a altruist/egoist"")",,,
+n_queens_0356,knn,Queen Placement,1.0,Graph Theory,0.0,n_queens,"Your job is to complete an n x n chess board with n Queens in total, such that no two attack each other.
+
+No two queens attack each other if they are not in the same row, column, or diagonal.
+
+You can place a queen by replacing an underscore (_) with a Q.
+
+Your output should be also a board in the same format as the input, with queens placed on the board by replacing underscores with the letter Q.
+
+Given the below board of size 8 x 8 your job is to place 1 queen(s) on the board such that no two queens attack each other.
+_ _ _ _ _ _ _ _
+_ _ Q _ _ _ _ _
+Q _ _ _ _ _ _ _
+_ _ _ _ _ Q _ _
+_ _ _ _ _ ",,,
+futoshiki_0017,knn,Inequality Puzzles,1.0,Constraint Satisfaction,0.0,futoshiki,"Solve the following 8x8 Futoshiki puzzle:
+
+_ > 4   _   6   _   _ > _   5
+                ∧           ∨
+_   _   _ > _   7   _   _ > _
+∧       ∧                    
+4   3 < _   _   _   _   2   _
+            ∨           ∧    
+_   _   _   1   _ > _   _ > _
+                             
+_   _   3 < _ > _   8   _   _
+∨                           ∧
+2   5 < _ > _ > _ > _   7 > 6
+                    ∧   ∨    
+5   6 < _   _   4   3 > _   _
+        ∨       ∧           ∨
+3 < _   4 < _ < 8   2   _ > _
+
+Ensure your answer follows the same format as the puzzle above, just replace blanks (_) with the correct v",,,
+self_reference_0210,knn,Truth Paradoxes,1.0,Constraint Satisfaction,0.0,self_reference,"Given the truthfulness of these statements, please tell me the number of possible solutions: 
+ - Statement 1: 'At least 3 of these 7 statements are true.'
+ - Statement 2: 'At most 0 of these 7 statements are false.'
+ - Statement 3: 'Exactly 4 of these 7 statements are true.'
+ - Statement 4: 'Exactly 3 of these 7 statements are false.'
+ - Statement 5: 'Either Statement 3 or Statement 4 is true, but not both.'
+ - Statement 6: 'The number of true statements is a prime number.'
+ - Statement 7: 'The number of false statements is a composite number.'
+",,,
+self_reference_0245,knn,Truth Paradoxes,1.0,Constraint Satisfaction,0.0,self_reference,"Given the truthfulness of these statements, please tell me the number of possible solutions: 
+ - Statement 1: 'At least 6 of these 7 statements are true.'
+ - Statement 2: 'At most 0 of these 7 statements are false.'
+ - Statement 3: 'Exactly 2 of these 7 statements are true.'
+ - Statement 4: 'Exactly 3 of these 7 statements are false.'
+ - Statement 5: 'Either Statement 3 or Statement 4 is true, but not both.'
+ - Statement 6: 'The number of true statements is a prime number.'
+ - Statement 7: 'The number of false statements is a composite number.'
+",,,
+futoshiki_0150,llm,Inequality Puzzles,0.9984,Constraint Satisfaction,0.0016,futoshiki,"Solve the following 6x6 Futoshiki puzzle:
+
+_   _   5   _   _   _
+                     
+_ < 6   _   _   _ < _
+        ∨            
+_   5   2   4   _ < _
+∧                    
+_ < 4 < _   _   1   _
+    ∨                
+_ < 3   _   _   _ > 1
+                     
+6   _   _   _ > 4   _
+
+Ensure your answer follows the same format as the puzzle above, just replace blanks (_) with the correct value for the cell.
+Use < and > for horizontal constraints. Use ∧ and ∨ for vertical constraints.
+Remember, in Futoshiki each row and column must contain each number from 1 to 6 exactly once.",,,
+kakurasu_0056,knn,Weighted Grids,1.0,Inequality Puzzles,0.0,kakurasu,"Here's a 4 x 5 Kukurasu logic puzzle. You need to place 1s in the grid so that the weighted sums match the constraints. Row sums: [5, 4, 1, 7]. Column sums: [6, 4, 2, 1, 4].
+1. Rules:
+  1. Each cell can be filled with either a 1 or an 0.
+  2. A 1 in the jth position of a row contributes j points to that row's sum.
+  3. A 1 in the ith position of a column contributes i points to that column's sum.
+  4. The weighted sum of each row must equal its constraint value.
+  5. The weighted sum of each column must equal its constraint value.
+2. Input:
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0",,,
+self_reference_0104,llm,Truth Paradoxes,1.0,Constraint Satisfaction,0.0,self_reference,"Given the truthfulness of these statements, please tell me the number of possible solutions: 
+ - Statement 1: 'At least 3 of these 7 statements are true.'
+ - Statement 2: 'At most 5 of these 7 statements are false.'
+ - Statement 3: 'Exactly 7 of these 7 statements are true.'
+ - Statement 4: 'Exactly 1 of these 7 statements are false.'
+ - Statement 5: 'Either Statement 3 or Statement 4 is true, but not both.'
+ - Statement 6: 'The number of true statements is a prime number.'
+ - Statement 7: 'The number of false statements is a composite number.'
+",,,
+graph_color_0208,llm,Graph Theory,1.0,Constraint Satisfaction,0.0,graph_color,"Please provide a coloring for this graph such that every vertex is not connected to a vertex of the same color. The graph has these properties:
+
+Vertices: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Edges: [(3, 4), (5, 6), (5, 7)]
+Possible colors: [1, 2, 3]
+
+Return your solution as a JSON map of vertices to colors. (For example: {""0"": 1, ""1"": 2, ""2"": 3}.)
+",,,
+self_reference_0366,llm,Truth Paradoxes,1.0,Constraint Satisfaction,0.0,self_reference,"Given the truthfulness of these statements, please tell me the number of possible solutions: 
+ - Statement 1: 'At least 5 of these 7 statements are true.'
+ - Statement 2: 'At most 5 of these 7 statements are false.'
+ - Statement 3: 'Exactly 7 of these 7 statements are true.'
+ - Statement 4: 'Exactly 0 of these 7 statements are false.'
+ - Statement 5: 'Either Statement 3 or Statement 4 is true, but not both.'
+ - Statement 6: 'The number of true statements is a prime number.'
+ - Statement 7: 'The number of false statements is a composite number.'
+",,,
+graph_color_0247,llm,Graph Theory,1.0,Constraint Satisfaction,0.0,graph_color,"Please provide a coloring for this graph such that every vertex is not connected to a vertex of the same color. The graph has these properties:
+
+Vertices: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Edges: [(0, 5), (2, 3), (2, 5), (2, 6), (2, 8), (3, 5), (3, 6), (6, 7)]
+Possible colors: [1, 2, 3]
+
+Return your solution as a JSON map of vertices to colors. (For example: {""0"": 1, ""1"": 2, ""2"": 3}.)
+",,,
+kakurasu_0280,knn,Weighted Grids,1.0,Inequality Puzzles,0.0,kakurasu,"Consider this 5 x 5 Kukurasu puzzle grid. You need to place 1s in the grid such that the weighted sums match the constraints. Row sums: [4, 6, 3, 5, 9]. Column sums: [5, 2, 8, 3, 9].
+1. Rules:
+  1. Each cell must contain either a 1 or an 0.
+  2. A 1 in column position j contributes j points to its row's sum.
+  3. A 1 in row position i contributes i points to its column's sum.
+  4. Each row's weighted sum must equal its constraint value.
+  5. Each column's weighted sum must equal its constraint value.
+2. Input:
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0",,,
+futoshiki_0302,knn,Inequality Puzzles,0.9999,Constraint Satisfaction,0.0001,futoshiki,"Solve the following 8x8 Futoshiki puzzle:
+
+_   _   6 > 5 > _   _   _ < 8
+        ∨           ∧        
+_   _   _   _   5 < _   7 > _
+                ∧           ∨
+4   _   _   _   _   5   _   3
+        ∧   ∨                
+_ < _   7   4 < _ > _   _   _
+    ∧                   ∨    
+_ > _   _ > _ < 8   _ > _   _
+                             
+_ > _ < 5 > 3   2 < _   _   _
+                    ∨   ∧   ∨
+_   3   _   _   1   _   6   _
+            ∧       ∨        
+_ > 6   1   _   _   _ < _   _
+
+Ensure your answer follows the same format as the puzzle above, just replace blanks (_) with the correct v",,,
+syllogism_0300,llm,Syllogistic Logic,0.9999,Constraint Satisfaction,0.0001,syllogism,"Consider these statements:
+1. All birds are mortals
+2. All mortals are elephants
+
+Does it logically follow that:
+All birds are elephants?
+(Answer Yes or No)",,,
+self_reference_0244,llm,Truth Paradoxes,1.0,Constraint Satisfaction,0.0,self_reference,"Given the truthfulness of these statements, please tell me the number of possible solutions: 
+ - Statement 1: 'At least 4 of these 7 statements are true.'
+ - Statement 2: 'At most 6 of these 7 statements are false.'
+ - Statement 3: 'Exactly 4 of these 7 statements are true.'
+ - Statement 4: 'Exactly 3 of these 7 statements are false.'
+ - Statement 5: 'Either Statement 3 or Statement 4 is true, but not both.'
+ - Statement 6: 'The number of true statements is a prime number.'
+ - Statement 7: 'The number of false statements is a composite number.'
+",,,
+syllogism_0094,knn,Syllogistic Logic,0.9984,Constraint Satisfaction,0.0016,syllogism,"Consider these statements:
+1. All whales are artists
+2. Some artists are students
+
+Does it logically follow that:
+Some whales are students?
+(Answer Yes or No)",,,
+n_queens_0187,llm,Queen Placement,1.0,Graph Theory,0.0,n_queens,"Your job is to complete an n x n chess board with n Queens in total, such that no two attack each other.
+
+No two queens attack each other if they are not in the same row, column, or diagonal.
+
+You can place a queen by replacing an underscore (_) with a Q.
+
+Your output should be also a board in the same format as the input, with queens placed on the board by replacing underscores with the letter Q.
+
+Given the below board of size 8 x 8 your job is to place 7 queen(s) on the board such that no two queens attack each other.
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ ",,,
+knights_knaves_0023,knn,Knights and Knaves,0.996,Truth Paradoxes,0.004,knights_knaves,"A very special island is inhabited only by saints and sinners. Saints always tell the truth, and sinners always lie. You meet 2 inhabitants: Luke, and Aiden. In Luke's words: ""Luke is a saint if and only if Aiden is a saint"". According to Aiden, ""if Luke is a saint then Luke is a sinner"". So who is a saint and who is a sinner? (Format your answer like: ""Luke is a saint/sinner, and Aiden is a saint/sinner"")",,,
+graph_color_0371,llm,Graph Theory,1.0,Constraint Satisfaction,0.0,graph_color,"Please provide a coloring for this graph such that every vertex is not connected to a vertex of the same color. The graph has these properties:
+
+Vertices: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Edges: [(0, 4), (2, 8), (6, 7)]
+Possible colors: [1, 2, 3]
+
+Return your solution as a JSON map of vertices to colors. (For example: {""0"": 1, ""1"": 2, ""2"": 3}.)
+",,,
+n_queens_0233,llm,Queen Placement,1.0,Graph Theory,0.0,n_queens,"Your job is to complete an n x n chess board with n Queens in total, such that no two attack each other.
+
+No two queens attack each other if they are not in the same row, column, or diagonal.
+
+You can place a queen by replacing an underscore (_) with a Q.
+
+Your output should be also a board in the same format as the input, with queens placed on the board by replacing underscores with the letter Q.
+
+Given the below board of size 8 x 8 your job is to place 7 queen(s) on the board such that no two queens attack each other.
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ Q _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ ",,,
+self_reference_0099,knn,Truth Paradoxes,1.0,Constraint Satisfaction,0.0,self_reference,"Given the truthfulness of these statements, please tell me the number of possible solutions: 
+ - Statement 1: 'At least 2 of these 7 statements are true.'
+ - Statement 2: 'At most 4 of these 7 statements are false.'
+ - Statement 3: 'Exactly 4 of these 7 statements are true.'
+ - Statement 4: 'Exactly 3 of these 7 statements are false.'
+ - Statement 5: 'Either Statement 3 or Statement 4 is true, but not both.'
+ - Statement 6: 'The number of true statements is a prime number.'
+ - Statement 7: 'The number of false statements is a composite number.'
+",,,
+mini_sudoku_0129,llm,Constraint Satisfaction,0.9495,Inequality Puzzles,0.0505,mini_sudoku,"In 4x4 Mini Sudoku:
+- Each row must contain each number from 1-4 exactly once
+- Each column must contain each number 1-4 exactly once
+- Each 2x2 subgrid must contain each number 1-4 exactly once
+Solve this 4x4 Mini Sudoku puzzle:
+_ _ 1 3
+1 _ _ _
+_ 4 3 _
+3 _ 4 2
+Format your response as the puzzle above, with spaces separating each number within a row, and newlines separating rows.
+",,,
+self_reference_0124,llm,Truth Paradoxes,1.0,Constraint Satisfaction,0.0,self_reference,"Given the truthfulness of these statements, please tell me the number of possible solutions: 
+ - Statement 1: 'At least 4 of these 7 statements are true.'
+ - Statement 2: 'At most 1 of these 7 statements are false.'
+ - Statement 3: 'Exactly 0 of these 7 statements are true.'
+ - Statement 4: 'Exactly 3 of these 7 statements are false.'
+ - Statement 5: 'Either Statement 3 or Statement 4 is true, but not both.'
+ - Statement 6: 'The number of true statements is a prime number.'
+ - Statement 7: 'The number of false statements is a composite number.'
+",,,
+n_queens_0384,knn,Queen Placement,1.0,Graph Theory,0.0,n_queens,"Your job is to complete an n x n chess board with n Queens in total, such that no two attack each other.
+
+No two queens attack each other if they are not in the same row, column, or diagonal.
+
+You can place a queen by replacing an underscore (_) with a Q.
+
+Your output should be also a board in the same format as the input, with queens placed on the board by replacing underscores with the letter Q.
+
+Given the below board of size 8 x 8 your job is to place 7 queen(s) on the board such that no two queens attack each other.
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ ",,,
+self_reference_0299,llm,Truth Paradoxes,1.0,Constraint Satisfaction,0.0,self_reference,"Given the truthfulness of these statements, please tell me the number of possible solutions: 
+ - Statement 1: 'At least 5 of these 7 statements are true.'
+ - Statement 2: 'At most 0 of these 7 statements are false.'
+ - Statement 3: 'Exactly 4 of these 7 statements are true.'
+ - Statement 4: 'Exactly 5 of these 7 statements are false.'
+ - Statement 5: 'Either Statement 3 or Statement 4 is true, but not both.'
+ - Statement 6: 'The number of true statements is a prime number.'
+ - Statement 7: 'The number of false statements is a composite number.'
+",,,
+futoshiki_0041,knn,Inequality Puzzles,0.9998,Constraint Satisfaction,0.0002,futoshiki,"Solve the following 7x7 Futoshiki puzzle:
+
+_   _   5   _   4 < _   _
+∧       ∧   ∨   ∧        
+_ < _   _   _ < _   6   4
+∧           ∧            
+7   _   _   _   _ < 4   _
+                    ∨    
+_   2   _   _   7   1   _
+        ∧                
+_   _   _ > _   3   _   _
+                         
+_   1   3   2   _   _   _
+∧                        
+6   4   _ < _ > 1   _   _
+
+Ensure your answer follows the same format as the puzzle above, just replace blanks (_) with the correct value for the cell.
+Use < and > for horizontal constraints. Use ∧ and ∨ for vertical constraints.
+Remember, in Fu",,,
+kakurasu_0145,llm,Weighted Grids,1.0,Inequality Puzzles,0.0,kakurasu,"Consider this 5 x 4 Kukurasu puzzle grid. You need to place 1s in the grid such that the weighted sums match the constraints. Row sums: [5, 3, 4, 3, 6]. Column sums: [1, 5, 6, 9].
+1. Rules:
+  1. Each cell must contain either a 1 or an 0.
+  2. A 1 in column position j contributes j points to its row's sum.
+  3. A 1 in row position i contributes i points to its column's sum.
+  4. Each row's weighted sum must equal its constraint value.
+  5. Each column's weighted sum must equal its constraint value.
+2. Input:
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0",,,
+knights_knaves_0229,knn,Knights and Knaves,1.0,Constraint Satisfaction,0.0,knights_knaves,"A very special island is inhabited only by altruists and egoists. Altruists always tell the truth, and egoists always lie. You meet 2 inhabitants: Luke, and Riley. In a statement by Luke: ""if Riley is an egoist then Luke is an altruist"". Riley remarked, ""Luke is an egoist if and only if Riley is an altruist"". So who is an altruist and who is an egoist? (Format your answer like: ""Luke is a altruist/egoist, and Riley is a altruist/egoist"")",,,
+kakurasu_0370,llm,Weighted Grids,1.0,Inequality Puzzles,0.0,kakurasu,"This 4 x 5 grid represents a Kukurasu puzzle. Your task is to place 1s in the grid so that the weighted sums match the constraints. Row sums: [5, 5, 2, 7]. Column sums: [4, 8, 1, 4, 2].
+1. Rules:
+  1. Each cell must contain either a 1 or an 0.
+  2. A 1 in the jth position of a row contributes j points to that row's sum.
+  3. A 1 in the ith position of a column contributes i points to that column's sum.
+  4. The weighted sum of each row must equal its constraint value.
+  5. The weighted sum of each column must equal its constraint value.
+2. Input:
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0",,,
+graph_color_0293,knn,Graph Theory,1.0,Constraint Satisfaction,0.0,graph_color,"Please provide a coloring for this graph such that every vertex is not connected to a vertex of the same color. The graph has these properties:
+
+Vertices: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Edges: [(1, 4), (1, 5), (2, 4), (3, 9), (4, 6), (5, 9), (6, 8)]
+Possible colors: [1, 2, 3]
+
+Return your solution as a JSON map of vertices to colors. (For example: {""0"": 1, ""1"": 2, ""2"": 3}.)
+",,,
+self_reference_0334,knn,Truth Paradoxes,1.0,Constraint Satisfaction,0.0,self_reference,"Given the truthfulness of these statements, please tell me the number of possible solutions: 
+ - Statement 1: 'At least 6 of these 7 statements are true.'
+ - Statement 2: 'At most 3 of these 7 statements are false.'
+ - Statement 3: 'Exactly 1 of these 7 statements are true.'
+ - Statement 4: 'Exactly 2 of these 7 statements are false.'
+ - Statement 5: 'Either Statement 3 or Statement 4 is true, but not both.'
+ - Statement 6: 'The number of true statements is a prime number.'
+ - Statement 7: 'The number of false statements is a composite number.'
+",,,
+self_reference_0270,knn,Truth Paradoxes,1.0,Constraint Satisfaction,0.0,self_reference,"Given the truthfulness of these statements, please tell me the number of possible solutions: 
+ - Statement 1: 'At least 3 of these 7 statements are true.'
+ - Statement 2: 'At most 4 of these 7 statements are false.'
+ - Statement 3: 'Exactly 2 of these 7 statements are true.'
+ - Statement 4: 'Exactly 7 of these 7 statements are false.'
+ - Statement 5: 'Either Statement 3 or Statement 4 is true, but not both.'
+ - Statement 6: 'The number of true statements is a prime number.'
+ - Statement 7: 'The number of false statements is a composite number.'
+",,,
+futoshiki_0018,knn,Inequality Puzzles,0.9999,Constraint Satisfaction,0.0001,futoshiki,"Solve the following 5x5 Futoshiki puzzle:
+
+_   _   1   _   4
+                ∨
+_   _   5   _   _
+                 
+5   1   _   _   _
+                 
+4   _   _   _   _
+                 
+1   _   3   5   _
+
+Ensure your answer follows the same format as the puzzle above, just replace blanks (_) with the correct value for the cell.
+Use < and > for horizontal constraints. Use ∧ and ∨ for vertical constraints.
+Remember, in Futoshiki each row and column must contain each number from 1 to 5 exactly once.",,,
+self_reference_0067,llm,Truth Paradoxes,1.0,Constraint Satisfaction,0.0,self_reference,"Given the truthfulness of these statements, please tell me the number of possible solutions: 
+ - Statement 1: 'At least 2 of these 7 statements are true.'
+ - Statement 2: 'At most 3 of these 7 statements are false.'
+ - Statement 3: 'Exactly 4 of these 7 statements are true.'
+ - Statement 4: 'Exactly 3 of these 7 statements are false.'
+ - Statement 5: 'Either Statement 3 or Statement 4 is true, but not both.'
+ - Statement 6: 'The number of true statements is a prime number.'
+ - Statement 7: 'The number of false statements is a composite number.'
+",,,
+kakurasu_0093,knn,Weighted Grids,1.0,Inequality Puzzles,0.0,kakurasu,"Consider this 5 x 5 Kukurasu puzzle grid. You need to place 1s in the grid such that the weighted sums match the constraints. Row sums: [2, 10, 5, 10, 10]. Column sums: [2, 10, 9, 2, 14].
+1. Rules:
+  1. Each cell must contain either a 1 or an 0.
+  2. A 1 in column position j contributes j points to its row's sum.
+  3. A 1 in row position i contributes i points to its column's sum.
+  4. Each row's weighted sum must equal its constraint value.
+  5. Each column's weighted sum must equal its constraint value.
+2. Input:
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0",,,
+kakurasu_0386,knn,Weighted Grids,1.0,Inequality Puzzles,0.0,kakurasu,"Here's a 5 x 5 Kukurasu logic puzzle. You need to place 1s in the grid so that the weighted sums match the constraints. Row sums: [5, 10, 2, 3, 9]. Column sums: [2, 8, 9, 7, 3].
+1. Rules:
+  1. Each cell can be filled with either a 1 or an 0.
+  2. A 1 in the jth position of a row contributes j points to that row's sum.
+  3. A 1 in the ith position of a column contributes i points to that column's sum.
+  4. The weighted sum of each row must equal its constraint value.
+  5. The weighted sum of each column must equal its constraint value.
+2. Input:
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0",,,
+graph_color_0261,llm,Graph Theory,1.0,Constraint Satisfaction,0.0,graph_color,"Please provide a coloring for this graph such that every vertex is not connected to a vertex of the same color. The graph has these properties:
+
+Vertices: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Edges: [(0, 2), (1, 9), (2, 3), (2, 8), (6, 7)]
+Possible colors: [1, 2, 3]
+
+Return your solution as a JSON map of vertices to colors. (For example: {""0"": 1, ""1"": 2, ""2"": 3}.)
+",,,
+graph_color_0217,knn,Graph Theory,1.0,Constraint Satisfaction,0.0,graph_color,"Please provide a coloring for this graph such that every vertex is not connected to a vertex of the same color. The graph has these properties:
+
+Vertices: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Edges: [(1, 4), (1, 7), (2, 4), (4, 9), (5, 9)]
+Possible colors: [1, 2, 3]
+
+Return your solution as a JSON map of vertices to colors. (For example: {""0"": 1, ""1"": 2, ""2"": 3}.)
+",,,
+knights_knaves_0006,llm,Knights and Knaves,1.0,Constraint Satisfaction,0.0,knights_knaves,"A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 2 inhabitants: Amelia, and Lucas. ""Amelia is a knight or Lucas is a knight,"" Amelia mentioned. Lucas expressed that Amelia is a knight or Amelia is a knave. So who is a knight and who is a knave? (Format your answer like: ""Amelia is a knight/knave, and Lucas is a knight/knave"")",,,
+self_reference_0205,knn,Truth Paradoxes,1.0,Constraint Satisfaction,0.0,self_reference,"Given the truthfulness of these statements, please tell me the number of possible solutions: 
+ - Statement 1: 'At least 4 of these 7 statements are true.'
+ - Statement 2: 'At most 4 of these 7 statements are false.'
+ - Statement 3: 'Exactly 4 of these 7 statements are true.'
+ - Statement 4: 'Exactly 3 of these 7 statements are false.'
+ - Statement 5: 'Either Statement 3 or Statement 4 is true, but not both.'
+ - Statement 6: 'The number of true statements is a prime number.'
+ - Statement 7: 'The number of false statements is a composite number.'
+",,,
+self_reference_0212,knn,Truth Paradoxes,1.0,Constraint Satisfaction,0.0,self_reference,"Given the truthfulness of these statements, please tell me the number of possible solutions: 
+ - Statement 1: 'At least 3 of these 7 statements are true.'
+ - Statement 2: 'At most 2 of these 7 statements are false.'
+ - Statement 3: 'Exactly 4 of these 7 statements are true.'
+ - Statement 4: 'Exactly 3 of these 7 statements are false.'
+ - Statement 5: 'Either Statement 3 or Statement 4 is true, but not both.'
+ - Statement 6: 'The number of true statements is a prime number.'
+ - Statement 7: 'The number of false statements is a composite number.'
+",,,
+syllogism_0153,llm,Syllogistic Logic,0.9979,Constraint Satisfaction,0.0021,syllogism,"Consider these statements:
+1. Some elephants are not parents
+2. Some parents are children
+
+Does it logically follow that:
+Some children are parents?
+(Answer Yes or No)",,,
+syllogism_0108,llm,Syllogistic Logic,0.9999,Constraint Satisfaction,0.0,syllogism,"Consider these statements:
+1. Some teachers are grandparents
+2. No grandparents are reptiles
+
+Does it logically follow that:
+Some teachers are not reptiles?
+(Answer Yes or No)",,,
+graph_color_0156,knn,Graph Theory,1.0,Constraint Satisfaction,0.0,graph_color,"Please provide a coloring for this graph such that every vertex is not connected to a vertex of the same color. The graph has these properties:
+
+Vertices: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Edges: [(1, 5), (3, 7), (3, 9), (6, 7), (6, 9)]
+Possible colors: [1, 2, 3]
+
+Return your solution as a JSON map of vertices to colors. (For example: {""0"": 1, ""1"": 2, ""2"": 3}.)
+",,,
+kakurasu_0276,llm,Weighted Grids,1.0,Inequality Puzzles,0.0,kakurasu,"This 5 x 4 grid represents a Kukurasu puzzle. Your task is to place 1s in the grid so that the weighted sums match the constraints. Row sums: [6, 2, 10, 4, 3]. Column sums: [3, 6, 8, 8].
+1. Rules:
+  1. Each cell must contain either a 1 or an 0.
+  2. A 1 in the jth position of a row contributes j points to that row's sum.
+  3. A 1 in the ith position of a column contributes i points to that column's sum.
+  4. The weighted sum of each row must equal its constraint value.
+  5. The weighted sum of each column must equal its constraint value.
+2. Input:
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0",,,
+syllogism_0057,knn,Syllogistic Logic,0.9997,Constraint Satisfaction,0.0003,syllogism,"Consider these statements:
+1. Some children are fish
+2. Some fish are not humans
+
+Does it logically follow that:
+Some fish are children?
+(Answer Yes or No)",,,
+knights_knaves_0114,llm,Knights and Knaves,1.0,Constraint Satisfaction,0.0,knights_knaves,"A very special island is inhabited only by heros and villains. Heros always tell the truth, and villains always lie. You meet 2 inhabitants: Harper, and Jackson. Harper noted, ""Jackson is a hero"". According to Jackson, ""Harper is a hero or Harper is a villain"". So who is a hero and who is a villain? (Format your answer like: ""Harper is a hero/villain, and Jackson is a hero/villain"")",,,
+futoshiki_0140,llm,Inequality Puzzles,1.0,Constraint Satisfaction,0.0,futoshiki,"Solve the following 4x4 Futoshiki puzzle:
+
+_   _   1   _
+             
+4   _   _   _
+             
+_   _   3   4
+             
+_   _   _   2
+
+Ensure your answer follows the same format as the puzzle above, just replace blanks (_) with the correct value for the cell.
+Use < and > for horizontal constraints. Use ∧ and ∨ for vertical constraints.
+Remember, in Futoshiki each row and column must contain each number from 1 to 4 exactly once.",,,
+syllogism_0202,llm,Syllogistic Logic,0.9989,Constraint Satisfaction,0.001,syllogism,"Consider these statements:
+1. Some reptiles are not horses
+2. All horses are butterflies
+
+Does it logically follow that:
+Some reptiles are not butterflies?
+(Answer Yes or No)",,,
+mini_sudoku_0325,llm,Constraint Satisfaction,0.9484,Inequality Puzzles,0.0516,mini_sudoku,"In 4x4 Mini Sudoku:
+- Each row must contain each number from 1-4 exactly once
+- Each column must contain each number 1-4 exactly once
+- Each 2x2 subgrid must contain each number 1-4 exactly once
+Solve this 4x4 Mini Sudoku puzzle:
+_ 1 _ 3
+_ _ _ 4
+_ 4 3 _
+2 3 _ _
+Format your response as the puzzle above, with spaces separating each number within a row, and newlines separating rows.
+",,,
+self_reference_0255,llm,Truth Paradoxes,1.0,Constraint Satisfaction,0.0,self_reference,"Given the truthfulness of these statements, please tell me the number of possible solutions: 
+ - Statement 1: 'At least 4 of these 7 statements are true.'
+ - Statement 2: 'At most 5 of these 7 statements are false.'
+ - Statement 3: 'Exactly 6 of these 7 statements are true.'
+ - Statement 4: 'Exactly 7 of these 7 statements are false.'
+ - Statement 5: 'Either Statement 3 or Statement 4 is true, but not both.'
+ - Statement 6: 'The number of true statements is a prime number.'
+ - Statement 7: 'The number of false statements is a composite number.'
+",,,
+self_reference_0393,knn,Truth Paradoxes,1.0,Constraint Satisfaction,0.0,self_reference,"Given the truthfulness of these statements, please tell me the number of possible solutions: 
+ - Statement 1: 'At least 5 of these 7 statements are true.'
+ - Statement 2: 'At most 0 of these 7 statements are false.'
+ - Statement 3: 'Exactly 3 of these 7 statements are true.'
+ - Statement 4: 'Exactly 7 of these 7 statements are false.'
+ - Statement 5: 'Either Statement 3 or Statement 4 is true, but not both.'
+ - Statement 6: 'The number of true statements is a prime number.'
+ - Statement 7: 'The number of false statements is a composite number.'
+",,,
+mini_sudoku_0340,knn,Constraint Satisfaction,0.9661,Inequality Puzzles,0.0339,mini_sudoku,"In 4x4 Mini Sudoku:
+- Each row must contain each number from 1-4 exactly once
+- Each column must contain each number 1-4 exactly once
+- Each 2x2 subgrid must contain each number 1-4 exactly once
+Solve this 4x4 Mini Sudoku puzzle:
+3 _ 1 4
+_ 4 _ 2
+_ _ _ _
+2 1 _ 3
+Format your response as the puzzle above, with spaces separating each number within a row, and newlines separating rows.
+",,,
+knights_knaves_0375,llm,Knights and Knaves,1.0,Constraint Satisfaction,0.0,knights_knaves,"A very special island is inhabited only by sages and fools. Sages always tell the truth, and fools always lie. You meet 2 inhabitants: Logan, and Aria. According to Logan, ""if Aria is a fool then Logan is a sage"". ""Logan is a fool,"" Aria claimed. So who is a sage and who is a fool? (Format your answer like: ""Logan is a sage/fool, and Aria is a sage/fool"")",,,
+self_reference_0257,llm,Truth Paradoxes,1.0,Constraint Satisfaction,0.0,self_reference,"Given the truthfulness of these statements, please tell me the number of possible solutions: 
+ - Statement 1: 'At least 4 of these 7 statements are true.'
+ - Statement 2: 'At most 2 of these 7 statements are false.'
+ - Statement 3: 'Exactly 5 of these 7 statements are true.'
+ - Statement 4: 'Exactly 4 of these 7 statements are false.'
+ - Statement 5: 'Either Statement 3 or Statement 4 is true, but not both.'
+ - Statement 6: 'The number of true statements is a prime number.'
+ - Statement 7: 'The number of false statements is a composite number.'
+",,,
+futoshiki_0245,knn,Inequality Puzzles,0.9998,Constraint Satisfaction,0.0002,futoshiki,"Solve the following 5x5 Futoshiki puzzle:
+
+_ > _ > _   _   _
+                ∧
+_   _   _ < _   5
+∨                
+_   5   _ > _ < _
+                 
+3 < _   _   _   2
+        ∧   ∨    
+4   _   _ > _ > _
+
+Ensure your answer follows the same format as the puzzle above, just replace blanks (_) with the correct value for the cell.
+Use < and > for horizontal constraints. Use ∧ and ∨ for vertical constraints.
+Remember, in Futoshiki each row and column must contain each number from 1 to 5 exactly once.",,,
+knights_knaves_0132,llm,Knights and Knaves,1.0,Constraint Satisfaction,0.0,knights_knaves,"A very special island is inhabited only by heros and villains. Heros always tell the truth, and villains always lie. You meet 2 inhabitants: Avery, and Jacob. Avery remarked, ""Avery is a hero and Jacob is a villain"". ""if Avery is a villain then Avery is a hero,"" Jacob declared. So who is a hero and who is a villain? (Format your answer like: ""Avery is a hero/villain, and Jacob is a hero/villain"")",,,
+syllogism_0357,llm,Syllogistic Logic,0.9998,Constraint Satisfaction,0.0002,syllogism,"Consider these statements:
+1. No artists are fish
+2. Some fish are parents
+
+Does it logically follow that:
+No fish are artists?
+(Answer Yes or No)",,,
+knights_knaves_0288,llm,Knights and Knaves,1.0,Constraint Satisfaction,0.0,knights_knaves,"A very special island is inhabited only by altruists and egoists. Altruists always tell the truth, and egoists always lie. You meet 2 inhabitants: Evelyn, and Jackson. Evelyn noted, ""Evelyn is an altruist if and only if Jackson is an egoist"". Jackson noted, ""Jackson is an altruist if and only if Evelyn is an altruist"". So who is an altruist and who is an egoist? (Format your answer like: ""Evelyn is a altruist/egoist, and Jackson is a altruist/egoist"")",,,
+knights_knaves_0340,knn,Knights and Knaves,1.0,Constraint Satisfaction,0.0,knights_knaves,"A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 2 inhabitants: Mia, and Matthew. Mia expressed that Matthew is a knave if and only if Mia is a knight. Matthew was heard saying, ""if Mia is a knight then Mia is a knave"". So who is a knight and who is a knave? (Format your answer like: ""Mia is a knight/knave, and Matthew is a knight/knave"")",,,
+knights_knaves_0068,knn,Knights and Knaves,1.0,Constraint Satisfaction,0.0,knights_knaves,"A very special island is inhabited only by sages and fools. Sages always tell the truth, and fools always lie. You meet 2 inhabitants: Abigail, and David. As Abigail put it, ""David is a sage if and only if David is a fool"". David said that Abigail is a fool. So who is a sage and who is a fool? (Format your answer like: ""Abigail is a sage/fool, and David is a sage/fool"")",,,
+kakurasu_0255,llm,Weighted Grids,1.0,Inequality Puzzles,0.0,kakurasu,"This is a 4 x 5 Kukurasu puzzle grid. Your task is to fill in the grid with 1s and 0s such that the weighted sums match the given constraints. The row sums are [6, 5, 7, 6] and the column sums are [8, 6, 3, 3, 4].
+1. Rules:
+  1. Each cell must contain either a 1 or an 0.
+  2. In each row, a 1 in position j contributes j points to that row's sum (positions are 1-indexed).
+  3. In each column, a 1 in position i contributes i points to that column's sum (positions are 1-indexed).
+  4. The weighted sum of each row must equal its constraint value.
+  5. The weighted sum of each column must equal its",,,
+knights_knaves_0059,knn,Knights and Knaves,1.0,Constraint Satisfaction,0.0,knights_knaves,"A very special island is inhabited only by heros and villains. Heros always tell the truth, and villains always lie. You meet 2 inhabitants: David, and Mia. David asserted: ""Mia is a hero"". In Mia's words: ""David is a hero or David is a villain"". So who is a hero and who is a villain? (Format your answer like: ""David is a hero/villain, and Mia is a hero/villain"")",,,
+n_queens_0288,llm,Queen Placement,1.0,Graph Theory,0.0,n_queens,"Your job is to complete an n x n chess board with n Queens in total, such that no two attack each other.
+
+No two queens attack each other if they are not in the same row, column, or diagonal.
+
+You can place a queen by replacing an underscore (_) with a Q.
+
+Your output should be also a board in the same format as the input, with queens placed on the board by replacing underscores with the letter Q.
+
+Given the below board of size 8 x 8 your job is to place 4 queen(s) on the board such that no two queens attack each other.
+_ _ _ Q _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ Q _ _ _
+_ Q _ _ _ ",,,
+n_queens_0294,knn,Queen Placement,1.0,Graph Theory,0.0,n_queens,"Your job is to complete an n x n chess board with n Queens in total, such that no two attack each other.
+
+No two queens attack each other if they are not in the same row, column, or diagonal.
+
+You can place a queen by replacing an underscore (_) with a Q.
+
+Your output should be also a board in the same format as the input, with queens placed on the board by replacing underscores with the letter Q.
+
+Given the below board of size 8 x 8 your job is to place 1 queen(s) on the board such that no two queens attack each other.
+_ _ Q _ _ _ _ _
+_ _ _ _ _ Q _ _
+_ _ _ _ _ _ _ Q
+Q _ _ _ _ _ _ _
+_ _ _ _ _ ",,,
+futoshiki_0351,knn,Inequality Puzzles,0.9999,Constraint Satisfaction,0.0001,futoshiki,"Solve the following 8x8 Futoshiki puzzle:
+
+1   2   _   5   7   3   _   _
+                        ∨    
+_   _   5   8   _   4   _ < 7
+                             
+2   6   1 < _   8   _   _   _
+                            ∨
+_   _   _   1 < _   _   _   _
+                        ∨    
+5   _   _   _   _ < 8   4   _
+    ∨                   ∧    
+_ > _   _   6   3   _ < _   1
+            ∧                
+_ < _   _   _   _   1 < 6   _
+∧       ∧               ∨   ∧
+_   _   _   _ < _ > 2   1   8
+
+Ensure your answer follows the same format as the puzzle above, just replace blanks (_) with the correct v",,,
+futoshiki_0222,llm,Inequality Puzzles,1.0,Constraint Satisfaction,0.0,futoshiki,"Solve the following 4x4 Futoshiki puzzle:
+
+_   _   _   _
+             
+_   4   _   _
+             
+1   2   _   _
+             
+_   _   4   1
+
+Ensure your answer follows the same format as the puzzle above, just replace blanks (_) with the correct value for the cell.
+Use < and > for horizontal constraints. Use ∧ and ∨ for vertical constraints.
+Remember, in Futoshiki each row and column must contain each number from 1 to 4 exactly once.",,,
+futoshiki_0300,knn,Inequality Puzzles,1.0,Constraint Satisfaction,0.0,futoshiki,"Solve the following 8x8 Futoshiki puzzle:
+
+2   _   5   _ > _   4   _   6
+                    ∨   ∧    
+7   2   _   _   8   _ < _   _
+                             
+8   3 > _ < _ > _   _   7   _
+    ∨   ∧                    
+_   1 < _   2   _   8 > 3   _
+                    ∨        
+5   _   _   7   _   _   _   1
+                            ∧
+_   _   _   _   7 > _ < 5 < _
+                ∨   ∧        
+1   _   _   _   4 < _   _ > _
+        ∨                   ∧
+_ < _   1   4   _   3 > _   7
+
+Ensure your answer follows the same format as the puzzle above, just replace blanks (_) with the correct v",,,
+mini_sudoku_0048,knn,Constraint Satisfaction,0.95,Inequality Puzzles,0.05,mini_sudoku,"In 4x4 Mini Sudoku:
+- Each row must contain each number from 1-4 exactly once
+- Each column must contain each number 1-4 exactly once
+- Each 2x2 subgrid must contain each number 1-4 exactly once
+Solve this 4x4 Mini Sudoku puzzle:
+4 3 _ 2
+1 _ _ 3
+_ _ _ 1
+_ _ 3 _
+Format your response as the puzzle above, with spaces separating each number within a row, and newlines separating rows.
+",,,
+syllogism_0159,knn,Syllogistic Logic,0.9997,Constraint Satisfaction,0.0003,syllogism,"Consider these statements:
+1. No insects are scientists
+2. No scientists are ants
+
+Does it logically follow that:
+No scientists are insects?
+(Answer Yes or No)",,,
+mini_sudoku_0356,knn,Constraint Satisfaction,0.9689,Inequality Puzzles,0.0311,mini_sudoku,"In 4x4 Mini Sudoku:
+- Each row must contain each number from 1-4 exactly once
+- Each column must contain each number 1-4 exactly once
+- Each 2x2 subgrid must contain each number 1-4 exactly once
+Solve this 4x4 Mini Sudoku puzzle:
+_ 4 3 _
+_ 3 _ 1
+_ _ _ _
+3 1 _ _
+Format your response as the puzzle above, with spaces separating each number within a row, and newlines separating rows.
+",,,
+graph_color_0210,llm,Graph Theory,1.0,Constraint Satisfaction,0.0,graph_color,"Please provide a coloring for this graph such that every vertex is not connected to a vertex of the same color. The graph has these properties:
+
+Vertices: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Edges: [(0, 1), (2, 4), (2, 5), (3, 4), (3, 5), (8, 9)]
+Possible colors: [1, 2, 3]
+
+Return your solution as a JSON map of vertices to colors. (For example: {""0"": 1, ""1"": 2, ""2"": 3}.)
+",,,
+futoshiki_0389,llm,Inequality Puzzles,0.997,Constraint Satisfaction,0.003,futoshiki,"Solve the following 9x9 Futoshiki puzzle:
+
+3   _   5   _   _ < _   2   4   _
+        ∧                        
+_   _   _   _ > _   _   8   2   _
+                    ∨            
+7 > _   4 > _   _   1   6   3   _
+                ∨                
+6   _ > _   5   _   4   _   8   _
+                        ∨   ∨    
+9   7   _   _   3   _   _   _ < 2
+        ∨           ∨       ∧    
+_   _   _   7 > _ > _   _   5   _
+        ∧           ∧            
+1   2   _   _   _   _ > _   _   _
+                                 
+4   _   3   _ < 2   7 > _   _   6
+            ∧                    
+_   4 > 1 < _",,,
+knights_knaves_0284,knn,Knights and Knaves,1.0,Constraint Satisfaction,0.0,knights_knaves,"A very special island is inhabited only by heros and villains. Heros always tell the truth, and villains always lie. You meet 2 inhabitants: Penelope, and Matthew. Penelope expressed that Matthew is a hero and Matthew is a villain. Matthew remarked, ""Penelope is a hero if and only if Penelope is a villain"". So who is a hero and who is a villain? (Format your answer like: ""Penelope is a hero/villain, and Matthew is a hero/villain"")",,,
+mini_sudoku_0285,knn,Constraint Satisfaction,0.9551,Inequality Puzzles,0.0449,mini_sudoku,"In 4x4 Mini Sudoku:
+- Each row must contain each number from 1-4 exactly once
+- Each column must contain each number 1-4 exactly once
+- Each 2x2 subgrid must contain each number 1-4 exactly once
+Solve this 4x4 Mini Sudoku puzzle:
+_ _ _ 2
+_ 4 _ 1
+_ _ _ _
+1 _ _ 4
+Format your response as the puzzle above, with spaces separating each number within a row, and newlines separating rows.
+",,,
+mini_sudoku_0253,knn,Constraint Satisfaction,0.9574,Inequality Puzzles,0.0426,mini_sudoku,"In 4x4 Mini Sudoku:
+- Each row must contain each number from 1-4 exactly once
+- Each column must contain each number 1-4 exactly once
+- Each 2x2 subgrid must contain each number 1-4 exactly once
+Solve this 4x4 Mini Sudoku puzzle:
+_ _ 2 _
+_ _ 1 4
+_ 1 4 2
+_ _ _ _
+Format your response as the puzzle above, with spaces separating each number within a row, and newlines separating rows.
+",,,
+self_reference_0160,llm,Truth Paradoxes,1.0,Constraint Satisfaction,0.0,self_reference,"Given the truthfulness of these statements, please tell me the number of possible solutions: 
+ - Statement 1: 'At least 6 of these 7 statements are true.'
+ - Statement 2: 'At most 2 of these 7 statements are false.'
+ - Statement 3: 'Exactly 4 of these 7 statements are true.'
+ - Statement 4: 'Exactly 1 of these 7 statements are false.'
+ - Statement 5: 'Either Statement 3 or Statement 4 is true, but not both.'
+ - Statement 6: 'The number of true statements is a prime number.'
+ - Statement 7: 'The number of false statements is a composite number.'
+",,,
+mini_sudoku_0288,knn,Constraint Satisfaction,0.9524,Inequality Puzzles,0.0476,mini_sudoku,"In 4x4 Mini Sudoku:
+- Each row must contain each number from 1-4 exactly once
+- Each column must contain each number 1-4 exactly once
+- Each 2x2 subgrid must contain each number 1-4 exactly once
+Solve this 4x4 Mini Sudoku puzzle:
+_ _ 2 _
+_ _ _ 1
+_ 1 3 2
+3 2 1 _
+Format your response as the puzzle above, with spaces separating each number within a row, and newlines separating rows.
+",,,
+syllogism_0289,llm,Syllogistic Logic,0.9998,Constraint Satisfaction,0.0002,syllogism,"Consider these statements:
+1. All chefs are artists
+2. All artists are grandparents
+
+Does it logically follow that:
+All chefs are grandparents?
+(Answer Yes or No)",,,
+futoshiki_0317,knn,Inequality Puzzles,0.9997,Constraint Satisfaction,0.0003,futoshiki,"Solve the following 7x7 Futoshiki puzzle:
+
+_   _   _   _   _   4   6
+        ∨                
+1   _   _   3   _   6 > _
+                         
+_   1   _   6   4   _   3
+                         
+_   _   3 < _   5   _   _
+                         
+_   _   _   _   _   1   _
+                         
+_   4   _   _   6   _   _
+            ∨            
+_ > 6   _   _   _   2   _
+
+Ensure your answer follows the same format as the puzzle above, just replace blanks (_) with the correct value for the cell.
+Use < and > for horizontal constraints. Use ∧ and ∨ for vertical constraints.
+Remember, in Fu",,,
+syllogism_0255,knn,Syllogistic Logic,0.9997,Constraint Satisfaction,0.0003,syllogism,"Consider these statements:
+1. Some adults are dogs
+2. No dogs are children
+
+Does it logically follow that:
+Some adults are not children?
+(Answer Yes or No)",,,

@@ -1,0 +1,26 @@
+{
+ "stages": [
+  "embed",
+  "cluster",
+  "name",
+  "label",
+  "propagate",
+  "validate",
+  "slots"
+ ],
+ "domain": "puzzles",
+ "pool": "tagging/puzzles/pool.jsonl",
+ "out": "tagging/puzzles",
+ "cache": "C:\\Users\\stanh\\GAR-cache\\puzzles",
+ "desc": "logic and constraint puzzles",
+ "meta_key": "family",
+ "k": 16,
+ "max_topics": 10,
+ "n_label": 1500,
+ "knn_k": 15,
+ "seed": 0,
+ "force": false,
+ "embed_model": "qwen3-embedding:0.6b",
+ "llm": "qwen3:8b",
+ "time": 1792475010
+}

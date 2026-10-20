@@ -1,0 +1,55 @@
+{
+ "meta_key": "family",
+ "purity_vs_meta": 1.0,
+ "topic_sizes": {
+  "Knights and Knaves": 400,
+  "Constraint Satisfaction": 400,
+  "Inequality Puzzles": 400,
+  "Graph Theory": 400,
+  "Weighted Grids": 400,
+  "Truth Paradoxes": 400,
+  "Syllogistic Logic": 400,
+  "Queen Placement": 400
+ },
+ "pairwise_cosine_quantiles": {
+  "0.01": 0.5105,
+  "0.1": 0.545,
+  "0.5": 0.699,
+  "0.9": 0.9588,
+  "0.95": 0.999,
+  "0.99": 0.9996
+ },
+ "confidence_quantiles": {
+  "0.1": 0.971,
+  "0.25": 1.0,
+  "0.5": 1.0,
+  "0.75": 1.0
+ },
+ "share_conf_below_0.5": 0.0,
+ "crosstab": {
+  "Knights and Knaves": {
+   "knights_knaves": 400
+  },
+  "Constraint Satisfaction": {
+   "mini_sudoku": 400
+  },
+  "Inequality Puzzles": {
+   "futoshiki": 400
+  },
+  "Graph Theory": {
+   "graph_color": 400
+  },
+  "Weighted Grids": {
+   "kakurasu": 400
+  },
+  "Truth Paradoxes": {
+   "self_reference": 400
+  },
+  "Syllogistic Logic": {
+   "syllogism": 400
+  },
+  "Queen Placement": {
+   "n_queens": 400
+  }
+ }
+}

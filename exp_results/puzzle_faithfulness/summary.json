@@ -1,0 +1,45 @@
+{
+ "futoshiki": {
+  "n": 6,
+  "compiles_unknown": 3,
+  "refuted": 3
+ },
+ "kakurasu": {
+  "n": 6,
+  "provable": 2,
+  "compiles_unknown": 4
+ },
+ "knights_knaves": {
+  "n": 6,
+  "provable": 2,
+  "refuted": 3,
+  "no_compile": 1
+ },
+ "mini_sudoku": {
+  "n": 6,
+  "compiles_unknown": 5,
+  "refuted": 1
+ },
+ "n_queens": {
+  "n": 6,
+  "compiles_unknown": 5,
+  "no_compile": 1
+ },
+ "self_reference": {
+  "n": 6,
+  "no_compile": 4,
+  "compiles_unknown": 2
+ },
+ "syllogism": {
+  "n": 6,
+  "no_compile": 4,
+  "compiles_unknown": 2
+ },
+ "ALL": {
+  "n": 42,
+  "compiles_unknown": 21,
+  "refuted": 7,
+  "provable": 4,
+  "no_compile": 10
+ }
+}

@@ -1,0 +1,176 @@
+{
+ "meta_key": "Problem_type",
+ "purity_vs_meta": 0.4686,
+ "topic_sizes": {
+  "Algebra": 4561,
+  "Polynomials": 1710,
+  "Diophantine Equations": 2121,
+  "Inequalities": 3589,
+  "Number Theory": 4194,
+  "Complex Numbers": 319,
+  "Trigonometry": 178,
+  "Algebraic Systems": 3010,
+  "Geometry": 1146,
+  "Functional Analysis": 899,
+  "Recurrence Relations": 196,
+  "Calculus": 509,
+  "Differential Equations": 17,
+  "Probability": 15
+ },
+ "confidence_quantiles": {
+  "0.1": 0.335,
+  "0.25": 0.41,
+  "0.5": 0.531,
+  "0.75": 0.717
+ },
+ "share_conf_below_0.5": 0.4414,
+ "crosstab": {
+  "Algebra": {
+   "Algebra": 975,
+   "Arithmetic": 1,
+   "Calculus": 1373,
+   "Combinatorics": 61,
+   "Inequalities": 802,
+   "Logic and Puzzles": 3,
+   "NaN": 110,
+   "Number Theory": 225,
+   "Other": 216,
+   "Statistics": 1,
+   "Trigonometry": 3,
+   "unknown": 791
+  },
+  "Polynomials": {
+   "Algebra": 765,
+   "Calculus": 86,
+   "Combinatorics": 3,
+   "Inequalities": 69,
+   "Intermediate Algebra": 1,
+   "NaN": 122,
+   "Number Theory": 103,
+   "Other": 69,
+   "Precalculus": 2,
+   "unknown": 490
+  },
+  "Diophantine Equations": {
+   "Algebra": 189,
+   "Calculus": 19,
+   "Combinatorics": 11,
+   "Geometry": 1,
+   "Inequalities": 21,
+   "Logic and Puzzles": 2,
+   "NaN": 187,
+   "Number Theory": 1158,
+   "Other": 87,
+   "Recurrence Relations": 1,
+   "unknown": 445
+  },
+  "Inequalities": {
+   "Algebra": 374,
+   "Calculus": 357,
+   "Combinatorics": 2,
+   "Inequalities": 2336,
+   "Intermediate Algebra": 3,
+   "NaN": 42,
+   "Number Theory": 15,
+   "Other": 49,
+   "Precalculus": 1,
+   "unknown": 410
+  },
+  "Number Theory": {
+   "Algebra": 389,
+   "Arithmetic": 3,
+   "Calculus": 27,
+   "Combinatorics": 99,
+   "Geometry": 1,
+   "Inequalities": 225,
+   "Logic and Puzzles": 9,
+   "NaN": 281,
+   "Number Theory": 2112,
+   "Other": 134,
+   "Prealgebra": 2,
+   "unknown": 912
+  },
+  "Complex Numbers": {
+   "Algebra": 114,
+   "Calculus": 57,
+   "Inequalities": 19,
+   "Intermediate Algebra": 2,
+   "NaN": 22,
+   "Number Theory": 8,
+   "Other": 7,
+   "unknown": 90
+  },
+  "Trigonometry": {
+   "Algebra": 54,
+   "Calculus": 43,
+   "Inequalities": 36,
+   "NaN": 1,
+   "Other": 3,
+   "unknown": 41
+  },
+  "Algebraic Systems": {
+   "Algebra": 905,
+   "Arithmetic": 2,
+   "Calculus": 372,
+   "Combinatorics": 164,
+   "Functional Equations": 4,
+   "Geometry": 17,
+   "Graph Theory": 1,
+   "Inequalities": 227,
+   "Intermediate Algebra": 2,
+   "Linear Algebra": 6,
+   "Logic and Puzzles": 13,
+   "NaN": 118,
+   "Number Theory": 300,
+   "Other": 334,
+   "Recursion Other": 2,
+   "unknown": 543
+  },
+  "Geometry": {
+   "Algebra": 101,
+   "Calculus": 554,
+   "Combinatorics": 1,
+   "Geometry": 48,
+   "Inequalities": 232,
+   "NaN": 12,
+   "Number Theory": 18,
+   "Other": 21,
+   "unknown": 159
+  },
+  "Functional Analysis": {
+   "Algebra": 105,
+   "Calculus": 583,
+   "Functional Equations": 2,
+   "Inequalities": 32,
+   "NaN": 16,
+   "Number Theory": 1,
+   "Other": 73,
+   "unknown": 87
+  },
+  "Recurrence Relations": {
+   "Algebra": 29,
+   "Calculus": 18,
+   "Combinatorics": 3,
+   "NaN": 17,
+   "Number Theory": 60,
+   "Other": 55,
+   "unknown": 14
+  },
+  "Calculus": {
+   "Calculus": 491,
+   "Other": 1,
+   "unknown": 17
+  },
+  "Differential Equations": {
+   "Calculus": 17
+  },
+  "Probability": {
+   "Calculus": 3,
+   "Combinatorics": 5,
+   "Inequalities": 1,
+   "NaN": 1,
+   "Other": 4,
+   "unknown": 1
+  }
+ }
+}

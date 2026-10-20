@@ -1,0 +1,68 @@
+{
+ "topics": [
+  {
+   "name": "Truth Paradoxes",
+   "description": "Resolving self-referential truth assignments",
+   "clusters": [
+    1
+   ]
+  },
+  {
+   "name": "Constraint Satisfaction",
+   "description": "Assigning values to satisfy specific constraints",
+   "clusters": [
+    2
+   ]
+  },
+  {
+   "name": "Graph Theory",
+   "description": "Coloring vertices with adjacency constraints",
+   "clusters": [
+    3
+   ]
+  },
+  {
+   "name": "Syllogistic Logic",
+   "description": "Evaluating logical validity of categorical statements",
+   "clusters": [
+    5,
+    7,
+    11
+   ]
+  },
+  {
+   "name": "Knights and Knaves",
+   "description": "Determining truth-tellers and liars based on statements",
+   "clusters": [
+    6,
+    9,
+    10,
+    12,
+    13,
+    15
+   ]
+  },
+  {
+   "name": "Inequality Puzzles",
+   "description": "Filling grids with numbers respecting inequality constraints",
+   "clusters": [
+    8
+   ]
+  },
+  {
+   "name": "Queen Placement",
+   "description": "Placing queens on a board without mutual attacks",
+   "clusters": [
+    0
+   ]
+  },
+  {
+   "name": "Weighted Grids",
+   "description": "Placing 1s to meet weighted sum constraints",
+   "clusters": [
+    4,
+    14
+   ]
+  }
+ ]
+}
