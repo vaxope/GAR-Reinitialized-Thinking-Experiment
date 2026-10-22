@@ -1,0 +1,183 @@
+{
+ "C_random": [
+  {
+   "pair_id": "pair_00025",
+   "passes": 0,
+   "p_gar": 0.0
+  },
+  {
+   "pair_id": "pair_00027",
+   "passes": 0,
+   "p_gar": 0.0
+  },
+  {
+   "pair_id": "pair_00028",
+   "passes": 0,
+   "p_gar": 0.0
+  },
+  {
+   "pair_id": "pair_00029",
+   "passes": 0,
+   "p_gar": 0.0
+  },
+  {
+   "pair_id": "pair_00032",
+   "passes": 0,
+   "p_gar": 0.0
+  },
+  {
+   "pair_id": "pair_00033",
+   "passes": 0,
+   "p_gar": 0.0
+  },
+  {
+   "pair_id": "pair_00034",
+   "passes": 0,
+   "p_gar": 0.0
+  },
+  {
+   "pair_id": "pair_00036",
+   "passes": 0,
+   "p_gar": 0.0
+  },
+  {
+   "pair_id": "pair_00039",
+   "passes": 0,
+   "p_gar": 0.0
+  },
+  {
+   "pair_id": "pair_00043",
+   "passes": 0,
+   "p_gar": 0.0
+  },
+  {
+   "pair_id": "pair_00045",
+   "passes": 0,
+   "p_gar": 0.0
+  },
+  {
+   "pair_id": "pair_00046",
+   "passes": 0,
+   "p_gar": 0.0
+  },
+  {
+   "pair_id": "pair_00047",
+   "passes": 0,
+   "p_gar": 0.0
+  },
+  {
+   "pair_id": "pair_00048",
+   "passes": 0,
+   "p_gar": 0.0
+  }
+ ],
+ "D1_random": [
+  {
+   "pair_id": "pair_00025",
+   "passes": 0,
+   "p_gar": 0.0
+  },
+  {
+   "pair_id": "pair_00026",
+   "passes": 0,
+   "p_gar": 0.0
+  },
+  {
+   "pair_id": "pair_00028",
+   "passes": 0,
+   "p_gar": 0.0
+  },
+  {
+   "pair_id": "pair_00029",
+   "passes": 0,
+   "p_gar": 0.0
+  },
+  {
+   "pair_id": "pair_00031",
+   "passes": 0,
+   "p_gar": 0.0
+  },
+  {
+   "pair_id": "pair_00033",
+   "passes": 0,
+   "p_gar": 0.0
+  },
+  {
+   "pair_id": "pair_00034",
+   "passes": 0,
+   "p_gar": 0.0
+  },
+  {
+   "pair_id": "pair_00036",
+   "passes": 0,
+   "p_gar": 0.0
+  },
+  {
+   "pair_id": "pair_00037",
+   "passes": 4,
+   "p_gar": 1.0
+  },
+  {
+   "pair_id": "pair_00040",
+   "passes": 0,
+   "p_gar": 0.0
+  },
+  {
+   "pair_id": "pair_00041",
+   "passes": 0,
+   "p_gar": 0.0
+  },
+  {
+   "pair_id": "pair_00042",
+   "passes": 0,
+   "p_gar": 0.0
+  },
+  {
+   "pair_id": "pair_00043",
+   "passes": 0,
+   "p_gar": 0.0
+  },
+  {
+   "pair_id": "pair_00044",
+   "passes": 0,
+   "p_gar": 0.0
+  },
+  {
+   "pair_id": "pair_00049",
+   "passes": 0,
+   "p_gar": 0.0
+  }
+ ],
+ "D2_random": [
+  {
+   "pair_id": "pair_00026",
+   "passes": 0,
+   "p_gar": 0.0
+  },
+  {
+   "pair_id": "pair_00027",
+   "passes": 0,
+   "p_gar": 0.0
+  },
+  {
+   "pair_id": "pair_00028",
+   "passes": 0,
+   "p_gar": 0.0
+  },
+  {
+   "pair_id": "pair_00029",
+   "passes": 0,
+   "p_gar": 0.0
+  },
+  {
+   "pair_id": "pair_00031",
+   "passes": 0,
+   "p_gar": 0.0
+  },
+  {
+   "pair_id": "pair_00032",
+   "passes": 0,
+   "p_gar": 0.0
+  }
+ ]
+}

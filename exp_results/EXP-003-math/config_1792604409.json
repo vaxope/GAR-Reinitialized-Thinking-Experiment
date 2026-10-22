@@ -1,0 +1,77 @@
+{
+ "arms": [
+  "C",
+  "D1",
+  "D4"
+ ],
+ "cells": [
+  "C:random",
+  "D1:random",
+  "D2:random"
+ ],
+ "pool": "tagging/math/pool.jsonl",
+ "domain": "math",
+ "tags_dir": null,
+ "tag_conf": 0.5,
+ "band": [
+  0.84,
+  0.9229
+ ],
+ "dup_cut": 0.9229,
+ "n_pairs": 28,
+ "proofs": 4,
+ "prover": "goedel",
+ "prover_max_tokens": 16385,
+ "seed": 0,
+ "base_data": "base_data/GAR_base_data_Numina-Math.json",
+ "out": "exp_results/EXP-003-math",
+ "lean_url": "http://localhost:80",
+ "mod_check": "gar",
+ "prefilter": true,
+ "selftest": false,
+ "git": "e8c47c7f31b1599ec8e97f393cf87db496d7af42",
+ "ollama": "ollama version is 0.32.6",
+ "models": {
+  "fuser": [
+   "qwen3:8b",
+   "Qwen/Qwen3-8B",
+   {
+    "temperature": 0.8,
+    "top_p": 0.95,
+    "num_predict": 16384
+   }
+  ],
+  "formalizer": [
+   "hf.co/mradermacher/Goedel-Formalizer-V2-8B-GGUF:Q6_K",
+   "Goedel-LM/Goedel-Formalizer-V2-8B",
+   {
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "num_predict": 8192
+   }
+  ],
+  "prover": [
+   "hf.co/mradermacher/Goedel-Prover-V2-8B-GGUF:Q6_K",
+   "Goedel-LM/Goedel-Prover-V2-8B",
+   {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "num_predict": 16385
+   }
+  ]
+ },
+ "num_ctx": 17408,
+ "neutral_sampling": {
+  "top_k": 0,
+  "min_p": 0.0,
+  "repeat_penalty": 1.0
+ },
+ "prover_url": "http://127.0.0.1:8081/completion",
+ "prover_server": "env GGML_VK_DISABLE_HOST_VISIBLE_VIDMEM=1; -c 17408",
+ "kv_cache": null,
+ "arm_steps": {
+  "D1": "1. List the skills each source problem requires.\n2. Decide how to combine them so the new problem needs all of these skills together, not side by side. State how each source's key skill is used in the single combined problem.\n3. Check that the new problem is solvable: its conditions are consistent and not contradictory.\n4. Check that the new problem is verifiable: its answer is unique and checkable. The new statement must be formalizable in Lean 4 with Mathlib, using only standard, well-defined notions.",
+  "D4": "1. Inside <guideline></guideline>, write your own short guideline (about 100 tokens) for fusing these specific problems into a single harder problem that is still solvable and verifiable. The new statement must be formalizable in Lean 4 with Mathlib, using only standard, well-defined notions.\n2. Follow your guideline step by step to draft the new problem."
+ },
+ "domain_hint": "The new statement must be formalizable in Lean 4 with Mathlib, using only standard, well-defined notions."
+}

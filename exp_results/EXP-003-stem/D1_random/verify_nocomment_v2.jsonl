@@ -1,0 +1,10 @@
+{"pair_id": "pair_00001", "n_attempts": 4, "n_extracted": 4, "passes": 0, "p_gar": 0.0, "p_all": 0.0, "m": 0.0, "incomplete": 0.0, "brute_force": 0.0, "pass_flags": [false, false, false, false]}
+{"pair_id": "pair_00011", "n_attempts": 4, "n_extracted": 4, "passes": 0, "p_gar": 0.0, "p_all": 0.0, "m": 0.0, "incomplete": 0.0, "brute_force": 0.0, "pass_flags": [false, false, false, false]}
+{"pair_id": "pair_00013", "n_attempts": 4, "n_extracted": 4, "passes": 0, "p_gar": 0.0, "p_all": 0.0, "m": 0.0, "incomplete": 0.0, "brute_force": 0.0, "pass_flags": [false, false, false, false]}
+{"pair_id": "pair_00014", "n_attempts": 4, "n_extracted": 4, "passes": 0, "p_gar": 0.0, "p_all": 0.0, "m": 0.0, "incomplete": 0.0, "brute_force": 0.0, "pass_flags": [false, false, false, false]}
+{"pair_id": "pair_00017", "n_attempts": 4, "n_extracted": 3, "passes": 0, "p_gar": 0.0, "p_all": 0.0, "m": 0.0, "incomplete": 0.0, "brute_force": 0.0, "pass_flags": [false, false, false]}
+{"pair_id": "pair_00020", "n_attempts": 4, "n_extracted": 4, "passes": 0, "p_gar": 0.0, "p_all": 0.0, "m": 0.0, "incomplete": 0.0, "brute_force": 0.0, "pass_flags": [false, false, false, false]}
+{"pair_id": "pair_00025", "n_attempts": 4, "n_extracted": 4, "passes": 3, "p_gar": 0.75, "p_all": 0.75, "m": 0.0, "incomplete": 0.0, "brute_force": 0.0, "pass_flags": [true, true, false, true]}
+{"pair_id": "pair_00030", "n_attempts": 4, "n_extracted": 4, "passes": 4, "p_gar": 1.0, "p_all": 1.0, "m": 0.0, "incomplete": 0.0, "brute_force": 0.0, "pass_flags": [true, true, true, true]}
+{"pair_id": "pair_00037", "n_attempts": 4, "n_extracted": 4, "passes": 0, "p_gar": 0.0, "p_all": 0.0, "m": 0.0, "incomplete": 0.0, "brute_force": 0.0, "pass_flags": [false, false, false, false]}
+{"pair_id": "pair_00039", "n_attempts": 4, "n_extracted": 4, "passes": 4, "p_gar": 1.0, "p_all": 1.0, "m": 0.0, "incomplete": 0.0, "brute_force": 0.0, "pass_flags": [true, true, true, true]}

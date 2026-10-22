@@ -1,0 +1,103 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+== fuse
+== formalize
+== check
+== filter
+== prove
+== verify
+== summary
+{
+ "C_random": {
+  "n_pairs": 40,
+  "fuse_parse_rate": 0.975,
+  "formalize_rate": 0.975,
+  "validity_rate": 0.825,
+  "n_verified": 15,
+  "yield": 0.025,
+  "yield_p_all": 0.025,
+  "p_hist": {
+   "p=0": 7,
+   "0<p<=0.5": 1,
+   "p>0.5": 7
+  },
+  "modification_rate": 0.0,
+  "incomplete_proof_rate": 0.016666666666666666,
+  "brute_force_rate": 0.0,
+  "fuser_tokens_mean": 616.8,
+  "fuser_truncation_rate": 0.0,
+  "prover_tokens_mean": 7408.1,
+  "prover_truncation_rate": 0.15,
+  "tokens_total": 503762,
+  "tokens_per_useful": 503762.0,
+  "n_useful": 1,
+  "n_filtered": 33,
+  "glued_rate": 0.3939393939393939,
+  "analysis_leak_rate": 0.21212121212121213,
+  "n_useful_clean": 1,
+  "yield_clean": 0.025,
+  "tokens_total_clean": 503762,
+  "tokens_per_useful_clean": 503762.0
+ },
+ "D1_random": {
+  "n_pairs": 40,
+  "fuse_parse_rate": 0.925,
+  "formalize_rate": 0.925,
+  "validity_rate": 0.7,
+  "n_verified": 10,
+  "yield": 0.0,
+  "yield_p_all": 0.0,
+  "p_hist": {
+   "p=0": 7,
+   "0<p<=0.5": 0,
+   "p>0.5": 3
+  },
+  "modification_rate": 0.0,
+  "incomplete_proof_rate": 0.0,
+  "brute_force_rate": 0.0,
+  "fuser_tokens_mean": 1177.575,
+  "fuser_truncation_rate": 0.025,
+  "prover_tokens_mean": 7828.7,
+  "prover_truncation_rate": 0.075,
+  "tokens_total": 391874,
+  "tokens_per_useful": null,
+  "n_useful": 0,
+  "n_filtered": 28,
+  "glued_rate": 0.2857142857142857,
+  "analysis_leak_rate": 0.5,
+  "n_useful_clean": 0,
+  "yield_clean": 0.0,
+  "tokens_total_clean": 391874,
+  "tokens_per_useful_clean": null
+ },
+ "D2_random": {
+  "n_pairs": 40,
+  "fuse_parse_rate": 0.975,
+  "formalize_rate": 0.975,
+  "validity_rate": 0.875,
+  "n_verified": 18,
+  "yield": 0.075,
+  "yield_p_all": 0.075,
+  "p_hist": {
+   "p=0": 10,
+   "0<p<=0.5": 3,
+   "p>0.5": 5
+  },
+  "modification_rate": 0.027777777777777776,
+  "incomplete_proof_rate": 0.013888888888888888,
+  "brute_force_rate": 0.0,
+  "fuser_tokens_mean": 998.625,
+  "fuser_truncation_rate": 0.0,
+  "prover_tokens_mean": 6395.805555555556,
+  "prover_truncation_rate": 0.041666666666666664,
+  "tokens_total": 535201,
+  "tokens_per_useful": 178400.33333333334,
+  "n_useful": 3,
+  "n_filtered": 35,
+  "glued_rate": 0.2571428571428571,
+  "analysis_leak_rate": 0.37142857142857144,
+  "n_useful_clean": 3,
+  "yield_clean": 0.075,
+  "tokens_total_clean": 535201,
+  "tokens_per_useful_clean": 178400.33333333334
+ }
+}

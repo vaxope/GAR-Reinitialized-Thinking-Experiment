@@ -1,0 +1,132 @@
+{
+ "cells": {
+  "math": {
+   "C": {
+    "fused": 100,
+    "compiles": 83,
+    "clean": 58,
+    "proved": 16,
+    "useful": 1,
+    "easy": 2,
+    "hard": 13,
+    "pairs_proved": 27,
+    "tokens": 818728,
+    "brute": 0.05208333333333333
+   },
+   "D1": {
+    "fused": 100,
+    "compiles": 86,
+    "clean": 57,
+    "proved": 12,
+    "useful": 0,
+    "easy": 1,
+    "hard": 11,
+    "pairs_proved": 26,
+    "tokens": 564233,
+    "brute": 0.041666666666666664
+   },
+   "D2": {
+    "fused": 100,
+    "compiles": 80,
+    "clean": 53,
+    "proved": 11,
+    "useful": 0,
+    "easy": 1,
+    "hard": 10,
+    "pairs_proved": 20,
+    "tokens": 480937,
+    "brute": 0.022727272727272728
+   }
+  },
+  "stem": {
+   "C": {
+    "fused": 40,
+    "compiles": 33,
+    "clean": 15,
+    "proved": 15,
+    "useful": 6,
+    "easy": 1,
+    "hard": 8,
+    "pairs_proved": 30,
+    "tokens": 489093,
+    "brute": 0.0
+   },
+   "D1": {
+    "fused": 40,
+    "compiles": 28,
+    "clean": 10,
+    "proved": 10,
+    "useful": 1,
+    "easy": 1,
+    "hard": 8,
+    "pairs_proved": 40,
+    "tokens": 391874,
+    "brute": 0.0
+   },
+   "D2": {
+    "fused": 40,
+    "compiles": 35,
+    "clean": 18,
+    "proved": 18,
+    "useful": 4,
+    "easy": 3,
+    "hard": 11,
+    "pairs_proved": 40,
+    "tokens": 535201,
+    "brute": 0.0
+   }
+  },
+  "puzzles": {
+   "C": {
+    "fused": 50,
+    "compiles": 38,
+    "clean": 31,
+    "proved": 17,
+    "useful": 0,
+    "easy": 0,
+    "hard": 17,
+    "pairs_proved": 23,
+    "tokens": 844647,
+    "brute": 0.4901960784313726
+   },
+   "D1": {
+    "fused": 50,
+    "compiles": 26,
+    "clean": 25,
+    "proved": 10,
+    "useful": 0,
+    "easy": 1,
+    "hard": 9,
+    "pairs_proved": 24,
+    "tokens": 420385,
+    "brute": 0.5416666666666667
+   },
+   "D2": {
+    "fused": 50,
+    "compiles": 26,
+    "clean": 23,
+    "proved": 11,
+    "useful": 1,
+    "easy": 0,
+    "hard": 10,
+    "pairs_proved": 22,
+    "tokens": 455498,
+    "brute": 0.5757575757575757
+   }
+  }
+ },
+ "pooled": {
+  "C": [
+   7,
+   48
+  ],
+  "D1": [
+   1,
+   32
+  ],
+  "D2": [
+   5,
+   40
+  ]
+ }
+}

@@ -1,0 +1,529 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+== fuse
+== formalize
+== check
+== filter
+== prove
+[prove C_random] pair_00015#0 12424 tok 328.53s trunc=False
+[prove C_random] pair_00015#1 7638 tok 195.04s trunc=False
+[prove C_random] pair_00015#2 10541 tok 274.32s trunc=False
+[prove C_random] pair_00015#3 9707 tok 250.97s trunc=False
+[prove C_random] pair_00016#0 16385 tok 448.22s trunc=True
+[prove C_random] pair_00016#1 16385 tok 447.12s trunc=True
+[prove C_random] pair_00016#2 16385 tok 447.03s trunc=True
+[prove C_random] pair_00016#3 13885 tok 372.17s trunc=False
+[prove C_random] pair_00017#0 16242 tok 439.78s trunc=False
+[prove C_random] pair_00017#1 7062 tok 178.41s trunc=False
+[prove C_random] pair_00017#2 4616 tok 114.87s trunc=False
+[prove C_random] pair_00017#3 4763 tok 118.46s trunc=False
+[prove C_random] pair_00019#0 16385 tok 443.63s trunc=True
+[prove C_random] pair_00019#1 16385 tok 443.28s trunc=True
+[prove C_random] pair_00019#2 14029 tok 372.91s trunc=False
+[prove C_random] pair_00019#3 16385 tok 444.03s trunc=True
+[prove C_random] pair_00020#0 16385 tok 448.43s trunc=True
+[prove C_random] pair_00020#1 12005 tok 317.51s trunc=False
+[prove C_random] pair_00020#2 16385 tok 446.46s trunc=True
+[prove C_random] pair_00020#3 7539 tok 193.73s trunc=False
+[prove C_random] pair_00024#0 4818 tok 122.22s trunc=False
+[prove C_random] pair_00024#1 4128 tok 102.76s trunc=False
+[prove C_random] pair_00024#2 2772 tok 68.38s trunc=False
+[prove C_random] pair_00024#3 5296 tok 133.02s trunc=False
+[prove C_random] pair_00025#0 16330 tok 449.22s trunc=True
+[prove C_random] pair_00025#1 12783 tok 342.96s trunc=False
+[prove C_random] pair_00025#2 16330 tok 447.8s trunc=True
+[prove C_random] pair_00025#3 10573 tok 279.42s trunc=False
+[prove C_random] pair_00026#0 6406 tok 163.5s trunc=False
+[prove C_random] pair_00026#1 16385 tok 446.67s trunc=True
+[prove C_random] pair_00026#2 5623 tok 142.75s trunc=False
+[prove C_random] pair_00026#3 5959 tok 151.78s trunc=False
+[prove D1_random] pair_00016#0 12454 tok 334.22s trunc=False
+[prove D1_random] pair_00016#1 8314 tok 217.54s trunc=False
+[prove D1_random] pair_00016#2 16385 tok 449.66s trunc=True
+[prove D1_random] pair_00016#3 10562 tok 278.72s trunc=False
+[prove D1_random] pair_00017#0 6698 tok 171.85s trunc=False
+[prove D1_random] pair_00017#1 6413 tok 163.24s trunc=False
+[prove D1_random] pair_00017#2 9658 tok 251.76s trunc=False
+[prove D1_random] pair_00017#3 7846 tok 202.83s trunc=False
+[prove D1_random] pair_00019#0 1201 tok 30.52s trunc=False
+[prove D1_random] pair_00019#1 1269 tok 31.05s trunc=False
+[prove D1_random] pair_00019#2 1279 tok 31.4s trunc=False
+[prove D1_random] pair_00019#3 1222 tok 29.92s trunc=False
+[prove D1_random] pair_00020#0 16254 tok 451.29s trunc=True
+[prove D1_random] pair_00020#1 6055 tok 155.16s trunc=False
+[prove D1_random] pair_00020#2 9481 tok 247.65s trunc=False
+[prove D1_random] pair_00020#3 11978 tok 319.22s trunc=False
+[prove D1_random] pair_00025#0 6417 tok 163.83s trunc=False
+[prove D1_random] pair_00025#1 4851 tok 121.55s trunc=False
+[prove D1_random] pair_00025#2 5499 tok 138.54s trunc=False
+[prove D1_random] pair_00025#3 5576 tok 140.59s trunc=False
+[prove D2_random] pair_00014#0 16385 tok 451.33s trunc=True
+[prove D2_random] pair_00014#1 16385 tok 448.96s trunc=True
+[prove D2_random] pair_00014#2 7068 tok 181.57s trunc=False
+[prove D2_random] pair_00014#3 16385 tok 448.86s trunc=True
+[prove D2_random] pair_00015#0 11680 tok 308.27s trunc=False
+[prove D2_random] pair_00015#1 10024 tok 261.02s trunc=False
+[prove D2_random] pair_00015#2 13452 tok 357.36s trunc=False
+[prove D2_random] pair_00015#3 8543 tok 220.6s trunc=False
+[prove D2_random] pair_00016#0 10912 tok 286.25s trunc=False
+[prove D2_random] pair_00016#1 9322 tok 242.12s trunc=False
+[prove D2_random] pair_00016#2 10553 tok 275.69s trunc=False
+[prove D2_random] pair_00016#3 7106 tok 181.34s trunc=False
+[prove D2_random] pair_00019#0 8162 tok 210.81s trunc=False
+[prove D2_random] pair_00019#1 8422 tok 217.18s trunc=False
+[prove D2_random] pair_00019#2 6021 tok 152.35s trunc=False
+[prove D2_random] pair_00019#3 16385 tok 446.44s trunc=True
+== verify
+== summary
+{
+ "C_random": {
+  "n_pairs": 28,
+  "fuse_parse_rate": 1.0,
+  "formalize_rate": 0.9642857142857143,
+  "validity_rate": 0.75,
+  "n_verified": 16,
+  "yield": 0.03571428571428571,
+  "yield_p_all": 0.03571428571428571,
+  "p_hist": {
+   "p=0": 13,
+   "0<p<=0.5": 1,
+   "p>0.5": 2
+  },
+  "modification_rate": 0.3541666666666667,
+  "incomplete_proof_rate": 0.020833333333333332,
+  "brute_force_rate": 0.05208333333333333,
+  "fuser_tokens_mean": 692.5714285714286,
+  "fuser_truncation_rate": 0.0,
+  "prover_tokens_mean": 11914.328125,
+  "prover_truncation_rate": 0.359375,
+  "tokens_total": 820209,
+  "tokens_per_useful": 820209.0,
+  "n_useful": 1,
+  "n_filtered": 21,
+  "glued_rate": 0.19047619047619047,
+  "analysis_leak_rate": 0.047619047619047616,
+  "n_useful_clean": 1,
+  "yield_clean": 0.03571428571428571,
+  "tokens_total_clean": 820209,
+  "tokens_per_useful_clean": 820209.0
+ },
+ "D1_random": {
+  "n_pairs": 28,
+  "fuse_parse_rate": 1.0,
+  "formalize_rate": 1.0,
+  "validity_rate": 0.7857142857142857,
+  "n_verified": 12,
+  "yield": 0.0,
+  "yield_p_all": 0.0,
+  "p_hist": {
+   "p=0": 11,
+   "0<p<=0.5": 0,
+   "p>0.5": 1
+  },
+  "modification_rate": 0.17361111111111113,
+  "incomplete_proof_rate": 0.020833333333333332,
+  "brute_force_rate": 0.041666666666666664,
+  "fuser_tokens_mean": 670.9642857142857,
+  "fuser_truncation_rate": 0.0,
+  "prover_tokens_mean": 10784.375,
+  "prover_truncation_rate": 0.25,
+  "tokens_total": 568575,
+  "tokens_per_useful": null,
+  "n_useful": 0,
+  "n_filtered": 22,
+  "glued_rate": 0.18181818181818182,
+  "analysis_leak_rate": 0.36363636363636365,
+  "n_useful_clean": 0,
+  "yield_clean": 0.0,
+  "tokens_total_clean": 568575,
+  "tokens_per_useful_clean": null
+ },
+ "D2_random": {
+  "n_pairs": 28,
+  "fuse_parse_rate": 1.0,
+  "formalize_rate": 1.0,
+  "validity_rate": 0.6428571428571429,
+  "n_verified": 11,
+  "yield": 0.0,
+  "yield_p_all": 0.0,
+  "p_hist": {
+   "p=0": 10,
+   "0<p<=0.5": 0,
+   "p>0.5": 1
+  },
+  "modification_rate": 0.26515151515151514,
+  "incomplete_proof_rate": 0.022727272727272728,
+  "brute_force_rate": 0.022727272727272728,
+  "fuser_tokens_mean": 746.1428571428571,
+  "fuser_truncation_rate": 0.0,
+  "prover_tokens_mean": 10134.09090909091,
+  "prover_truncation_rate": 0.20454545454545456,
+  "tokens_total": 494338,
+  "tokens_per_useful": null,
+  "n_useful": 0,
+  "n_filtered": 18,
+  "glued_rate": 0.2777777777777778,
+  "analysis_leak_rate": 0.16666666666666666,
+  "n_useful_clean": 0,
+  "yield_clean": 0.0,
+  "tokens_total_clean": 494338,
+  "tokens_per_useful_clean": null
+ }
+}
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+== fuse
+== formalize
+== check
+== filter
+== prove
+[prove C_random] pair_00020#0 7481 tok 193.62s trunc=False
+[prove C_random] pair_00020#1 16385 tok 447.22s trunc=True
+[prove C_random] pair_00020#2 6288 tok 160.35s trunc=False
+[prove C_random] pair_00020#3 6849 tok 175.3s trunc=False
+[prove C_random] pair_00022#0 2468 tok 62.48s trunc=False
+[prove C_random] pair_00022#1 2831 tok 70.27s trunc=False
+[prove C_random] pair_00022#2 2564 tok 63.53s trunc=False
+[prove C_random] pair_00022#3 2325 tok 57.39s trunc=False
+[prove C_random] pair_00024#0 9354 tok 242.52s trunc=False
+[prove C_random] pair_00024#1 12877 tok 342.13s trunc=False
+[prove C_random] pair_00024#2 16385 tok 446.34s trunc=True
+[prove C_random] pair_00024#3 7114 tok 181.2s trunc=False
+[prove C_random] pair_00025#0 7010 tok 180.63s trunc=False
+[prove C_random] pair_00025#1 4879 tok 122.99s trunc=False
+[prove C_random] pair_00025#2 6094 tok 155.02s trunc=False
+[prove C_random] pair_00025#3 4364 tok 109.74s trunc=False
+[prove C_random] pair_00027#0 1360 tok 34.15s trunc=False
+[prove C_random] pair_00027#1 1421 tok 34.87s trunc=False
+[prove C_random] pair_00027#2 3148 tok 77.96s trunc=False
+[prove C_random] pair_00027#3 2316 tok 57.19s trunc=False
+[prove C_random] pair_00029#0 11207 tok 296.27s trunc=False
+[prove C_random] pair_00029#1 9363 tok 244.25s trunc=False
+[prove C_random] pair_00029#2 16385 tok 447.44s trunc=True
+[prove C_random] pair_00029#3 12463 tok 331.17s trunc=False
+[prove D1_random] pair_00020#0 8260 tok 212.4s trunc=False
+[prove D1_random] pair_00020#1 6625 tok 169.76s trunc=False
+[prove D1_random] pair_00020#2 5602 tok 142.2s trunc=False
+[prove D1_random] pair_00020#3 9335 tok 243.42s trunc=False
+[prove D1_random] pair_00025#0 8488 tok 219.93s trunc=False
+[prove D1_random] pair_00025#1 9216 tok 239.13s trunc=False
+[prove D1_random] pair_00025#2 8204 tok 211.91s trunc=False
+[prove D1_random] pair_00025#3 6732 tok 172.11s trunc=False
+[prove D1_random] pair_00030#0 1039 tok 26.8s trunc=False
+[prove D1_random] pair_00030#1 1389 tok 34.05s trunc=False
+[prove D1_random] pair_00030#2 1270 tok 30.99s trunc=False
+[prove D1_random] pair_00030#3 1377 tok 33.82s trunc=False
+[prove D1_random] pair_00037#0 6731 tok 172.24s trunc=False
+[prove D1_random] pair_00037#1 10647 tok 281.67s trunc=False
+[prove D1_random] pair_00037#2 9063 tok 239.33s trunc=False
+[prove D1_random] pair_00037#3 6387 tok 162.8s trunc=False
+[prove D1_random] pair_00039#0 954 tok 25.2s trunc=False
+[prove D1_random] pair_00039#1 932 tok 22.82s trunc=False
+[prove D1_random] pair_00039#2 1046 tok 25.58s trunc=False
+[prove D1_random] pair_00039#3 976 tok 23.87s trunc=False
+[prove D2_random] pair_00020#0 8540 tok 219.5s trunc=False
+[prove D2_random] pair_00020#1 7070 tok 180.19s trunc=False
+[prove D2_random] pair_00020#2 14911 tok 401.68s trunc=False
+[prove D2_random] pair_00020#3 13329 tok 355.78s trunc=False
+[prove D2_random] pair_00022#0 7610 tok 195.55s trunc=False
+[prove D2_random] pair_00022#1 9826 tok 255.35s trunc=False
+[prove D2_random] pair_00022#2 8608 tok 221.07s trunc=False
+[prove D2_random] pair_00022#3 7944 tok 203.39s trunc=False
+[prove D2_random] pair_00023#0 549 tok 13.78s trunc=False
+[prove D2_random] pair_00023#1 710 tok 17.15s trunc=False
+[prove D2_random] pair_00023#2 568 tok 13.67s trunc=False
+[prove D2_random] pair_00023#3 604 tok 14.6s trunc=False
+[prove D2_random] pair_00028#0 10133 tok 266.11s trunc=False
+[prove D2_random] pair_00028#1 6782 tok 172.94s trunc=False
+[prove D2_random] pair_00028#2 4891 tok 122.92s trunc=False
+[prove D2_random] pair_00028#3 6964 tok 177.58s trunc=False
+[prove D2_random] pair_00029#0 11865 tok 323.51s trunc=False
+[prove D2_random] pair_00029#1 16385 tok 446.9s trunc=True
+[prove D2_random] pair_00029#2 4440 tok 112.14s trunc=False
+[prove D2_random] pair_00029#3 6199 tok 157.64s trunc=False
+[prove D2_random] pair_00031#0 2050 tok 51.38s trunc=False
+[prove D2_random] pair_00031#1 2114 tok 51.68s trunc=False
+[prove D2_random] pair_00031#2 1663 tok 40.44s trunc=False
+[prove D2_random] pair_00031#3 2407 tok 59.11s trunc=False
+[prove D2_random] pair_00034#0 8565 tok 223.08s trunc=False
+[prove D2_random] pair_00034#1 10312 tok 270.59s trunc=False
+[prove D2_random] pair_00034#2 4568 tok 115.24s trunc=False
+[prove D2_random] pair_00034#3 7149 tok 182.79s trunc=False
+[prove D2_random] pair_00035#0 10720 tok 283.33s trunc=False
+[prove D2_random] pair_00035#1 7384 tok 190.15s trunc=False
+[prove D2_random] pair_00035#2 6897 tok 176.85s trunc=False
+[prove D2_random] pair_00035#3 9446 tok 250.6s trunc=False
+[prove D2_random] pair_00038#0 3832 tok 97.95s trunc=False
+[prove D2_random] pair_00038#1 3302 tok 82.54s trunc=False
+[prove D2_random] pair_00038#2 5457 tok 138.37s trunc=False
+[prove D2_random] pair_00038#3 2977 tok 73.81s trunc=False
+[prove D2_random] pair_00039#0 15682 tok 431.57s trunc=False
+[prove D2_random] pair_00039#1 9016 tok 238.0s trunc=False
+[prove D2_random] pair_00039#2 8014 tok 210.6s trunc=False
+[prove D2_random] pair_00039#3 10284 tok 271.93s trunc=False
+== verify
+== summary
+{
+ "C_random": {
+  "n_pairs": 40,
+  "fuse_parse_rate": 0.975,
+  "formalize_rate": 0.975,
+  "validity_rate": 0.825,
+  "n_verified": 15,
+  "yield": 0.15,
+  "yield_p_all": 0.15,
+  "p_hist": {
+   "p=0": 8,
+   "0<p<=0.5": 6,
+   "p>0.5": 1
+  },
+  "modification_rate": 0.48333333333333334,
+  "incomplete_proof_rate": 0.016666666666666666,
+  "brute_force_rate": 0.0,
+  "fuser_tokens_mean": 616.8,
+  "fuser_truncation_rate": 0.0,
+  "prover_tokens_mean": 7408.1,
+  "prover_truncation_rate": 0.15,
+  "tokens_total": 503762,
+  "tokens_per_useful": 83960.33333333333,
+  "n_useful": 6,
+  "n_filtered": 33,
+  "glued_rate": 0.3939393939393939,
+  "analysis_leak_rate": 0.21212121212121213,
+  "n_useful_clean": 6,
+  "yield_clean": 0.15,
+  "tokens_total_clean": 503762,
+  "tokens_per_useful_clean": 83960.33333333333
+ },
+ "D1_random": {
+  "n_pairs": 40,
+  "fuse_parse_rate": 0.925,
+  "formalize_rate": 0.925,
+  "validity_rate": 0.7,
+  "n_verified": 10,
+  "yield": 0.025,
+  "yield_p_all": 0.025,
+  "p_hist": {
+   "p=0": 8,
+   "0<p<=0.5": 1,
+   "p>0.5": 1
+  },
+  "modification_rate": 0.30833333333333335,
+  "incomplete_proof_rate": 0.0,
+  "brute_force_rate": 0.0,
+  "fuser_tokens_mean": 1177.575,
+  "fuser_truncation_rate": 0.025,
+  "prover_tokens_mean": 7828.7,
+  "prover_truncation_rate": 0.075,
+  "tokens_total": 391874,
+  "tokens_per_useful": 391874.0,
+  "n_useful": 1,
+  "n_filtered": 28,
+  "glued_rate": 0.2857142857142857,
+  "analysis_leak_rate": 0.5,
+  "n_useful_clean": 1,
+  "yield_clean": 0.025,
+  "tokens_total_clean": 391874,
+  "tokens_per_useful_clean": 391874.0
+ },
+ "D2_random": {
+  "n_pairs": 40,
+  "fuse_parse_rate": 0.975,
+  "formalize_rate": 0.975,
+  "validity_rate": 0.875,
+  "n_verified": 18,
+  "yield": 0.1,
+  "yield_p_all": 0.1,
+  "p_hist": {
+   "p=0": 11,
+   "0<p<=0.5": 4,
+   "p>0.5": 3
+  },
+  "modification_rate": 0.4583333333333333,
+  "incomplete_proof_rate": 0.013888888888888888,
+  "brute_force_rate": 0.0,
+  "fuser_tokens_mean": 998.625,
+  "fuser_truncation_rate": 0.0,
+  "prover_tokens_mean": 6395.805555555556,
+  "prover_truncation_rate": 0.041666666666666664,
+  "tokens_total": 535201,
+  "tokens_per_useful": 133800.25,
+  "n_useful": 4,
+  "n_filtered": 35,
+  "glued_rate": 0.2571428571428571,
+  "analysis_leak_rate": 0.37142857142857144,
+  "n_useful_clean": 4,
+  "yield_clean": 0.1,
+  "tokens_total_clean": 535201,
+  "tokens_per_useful_clean": 133800.25
+ }
+}
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+== fuse
+== formalize
+== check
+== filter
+== prove
+[prove C_random] pair_00025#0 7362 tok 192.51s trunc=False
+[prove C_random] pair_00025#1 10658 tok 282.9s trunc=False
+[prove C_random] pair_00025#2 16385 tok 446.68s trunc=True
+[prove C_random] pair_00025#3 6526 tok 166.62s trunc=False
+[prove C_random] pair_00027#0 5500 tok 141.69s trunc=False
+[prove C_random] pair_00027#1 13954 tok 375.27s trunc=False
+[prove C_random] pair_00027#2 16385 tok 449.28s trunc=True
+[prove C_random] pair_00027#3 7791 tok 201.64s trunc=False
+[prove C_random] pair_00028#0 11586 tok 307.6s trunc=False
+[prove C_random] pair_00028#1 7689 tok 198.11s trunc=False
+[prove C_random] pair_00028#2 14201 tok 382.64s trunc=False
+[prove C_random] pair_00028#3 9430 tok 244.34s trunc=False
+[prove C_random] pair_00029#0 12492 tok 335.81s trunc=False
+[prove C_random] pair_00029#1 12491 tok 334.16s trunc=False
+[prove C_random] pair_00029#2 16385 tok 450.78s trunc=True
+[prove C_random] pair_00029#3 16355 tok 451.17s trunc=False
+[prove C_random] pair_00032#0 16357 tok 451.38s trunc=True
+[prove C_random] pair_00032#1 16357 tok 449.7s trunc=True
+[prove C_random] pair_00032#2 6762 tok 173.7s trunc=False
+[prove C_random] pair_00032#3 16357 tok 446.6s trunc=True
+[prove C_random] pair_00033#0 8793 tok 230.48s trunc=False
+[prove C_random] pair_00033#1 12833 tok 342.11s trunc=False
+[prove C_random] pair_00033#2 12041 tok 320.96s trunc=False
+[prove C_random] pair_00033#3 16385 tok 449.21s trunc=True
+[prove C_random] pair_00034#0 16385 tok 450.28s trunc=True
+[prove C_random] pair_00034#1 10131 tok 265.73s trunc=False
+[prove C_random] pair_00034#2 12020 tok 321.19s trunc=False
+[prove C_random] pair_00034#3 10774 tok 286.07s trunc=False
+[prove C_random] pair_00036#0 10878 tok 290.39s trunc=False
+[prove C_random] pair_00036#1 6500 tok 166.98s trunc=False
+[prove C_random] pair_00036#2 9483 tok 249.28s trunc=False
+[prove C_random] pair_00036#3 7588 tok 196.91s trunc=False
+[prove C_random] pair_00039#0 11444 tok 314.52s trunc=False
+[prove C_random] pair_00039#1 9271 tok 245.83s trunc=False
+[prove C_random] pair_00039#2 11640 tok 313.91s trunc=False
+[prove C_random] pair_00039#3 15432 tok 427.16s trunc=True
+[prove C_random] pair_00043#0 3651 tok 94.0s trunc=False
+[prove C_random] pair_00043#1 5192 tok 131.56s trunc=False
+[prove C_random] pair_00043#2 4412 tok 111.05s trunc=False
+[prove C_random] pair_00043#3 6104 tok 154.88s trunc=False
+[prove C_random] pair_00045#0 9072 tok 234.21s trunc=False
+[prove C_random] pair_00045#1 8369 tok 216.99s trunc=False
+[prove C_random] pair_00045#2 3876 tok 97.39s trunc=False
+[prove C_random] pair_00045#3 9498 tok 248.16s trunc=False
+[prove C_random] pair_00046#0 4811 tok 124.32s trunc=False
+[prove C_random] pair_00046#1 6431 tok 164.76s trunc=False
+[prove C_random] pair_00046#2 4412 tok 111.45s trunc=False
+[prove C_random] pair_00046#3 16385 tok 449.97s trunc=True
+[prove C_random] pair_00047#0 5714 tok 147.07s trunc=False
+[prove C_random] pair_00047#1 3550 tok 88.64s trunc=False
+[prove C_random] pair_00047#2 3925 tok 98.13s trunc=False
+[prove C_random] pair_00047#3 2898 tok 72.13s trunc=False
+[prove C_random] pair_00048#0 16046 tok 446.06s trunc=True
+[prove C_random] pair_00048#1 16046 tok 442.15s trunc=True
+[prove C_random] pair_00048#2 10197 tok 270.19s trunc=False
+[prove C_random] pair_00048#3 15149 tok 414.87s trunc=False
+[prove D1_random] pair_00025#0 10428 tok 277.95s trunc=False
+[prove D1_random] pair_00025#1 8022 tok 207.58s trunc=False
+[prove D1_random] pair_00025#2 16385 tok 449.57s trunc=True
+[prove D1_random] pair_00025#3 12227 tok 326.05s trunc=False
+[prove D1_random] pair_00026#0 16385 tok 449.75s trunc=True
+[prove D1_random] pair_00026#1 10231 tok 268.32s trunc=False
+[prove D1_random] pair_00026#2 12558 tok 334.64s trunc=False
+[prove D1_random] pair_00026#3 15973 tok 436.59s trunc=False
+[prove D1_random] pair_00028#0 6353 tok 164.24s trunc=False
+[prove D1_random] pair_00028#1 5008 tok 127.33s trunc=False
+[prove D1_random] pair_00028#2 6175 tok 155.68s trunc=False
+[prove D1_random] pair_00028#3 7636 tok 193.89s trunc=False
+[prove D1_random] pair_00029#0 8908 tok 232.08s trunc=False
+[prove D1_random] pair_00029#1 9833 tok 257.58s trunc=False
+[prove D1_random] pair_00029#2 16385 tok 449.72s trunc=True
+[prove D1_random] pair_00029#3 13679 tok 368.84s trunc=False
+[prove D1_random] pair_00031#0 9093 tok 239.56s trunc=False
+[prove D1_random] pair_00031#1 7469 tok 193.0s trunc=False
+[prove D1_random] pair_00031#2 16385 tok 450.46s trunc=True
+[prove D1_random] pair_00031#3 16385 tok 450.29s trunc=True
+[prove D1_random] pair_00033#0 13560 tok 367.3s trunc=False
+[prove D1_random] pair_00033#1 16385 tok 446.68s trunc=True
+[prove D1_random] pair_00033#2 10656 tok 280.65s trunc=False
+[prove D1_random] pair_00033#3 8364 tok 216.69s trunc=False
+[prove D1_random] pair_00034#0 16385 tok 447.41s trunc=True
+[prove D1_random] pair_00034#1 15315 tok 414.43s trunc=False
+[prove D1_random] pair_00034#2 13233 tok 353.11s trunc=False
+[prove D1_random] pair_00034#3 16379 tok 446.9s trunc=False
+[prove D1_random] pair_00036#0 6855 tok 176.59s trunc=False
+[prove D1_random] pair_00036#1 7033 tok 179.65s trunc=False
+[prove D1_random] pair_00036#2 9322 tok 242.6s trunc=False
+[prove D1_random] pair_00036#3 6031 tok 153.4s trunc=False
+[prove D1_random] pair_00037#0 767 tok 19.13s trunc=False
+[prove D1_random] pair_00037#1 1333 tok 32.4s trunc=False
+[prove D1_random] pair_00037#2 729 tok 17.81s trunc=False
+[prove D1_random] pair_00037#3 926 tok 22.45s trunc=False
+[prove D1_random] pair_00040#0 4363 tok 111.89s trunc=False
+[prove D1_random] pair_00040#1 8188 tok 211.9s trunc=False
+[prove D1_random] pair_00040#2 6875 tok 176.59s trunc=False
+[prove D1_random] pair_00040#3 5850 tok 149.11s trunc=False
+[prove D1_random] pair_00041#0 12413 tok 333.7s trunc=False
+[prove D1_random] pair_00041#1 5395 tok 137.19s trunc=False
+[prove D1_random] pair_00041#2 16385 tok 449.82s trunc=True
+[prove D1_random] pair_00041#3 6274 tok 160.69s trunc=False
+[prove D1_random] pair_00042#0 13651 tok 372.56s trunc=False
+[prove D1_random] pair_00042#1 12125 tok 325.04s trunc=False
+[prove D1_random] pair_00042#2 9637 tok 253.68s trunc=False
+[prove D1_random] pair_00042#3 16216 tok 446.67s trunc=True
+[prove D1_random] pair_00043#0 7598 tok 197.87s trunc=False
+[prove D1_random] pair_00043#1 7030 tok 180.27s trunc=False
+[prove D1_random] pair_00043#2 12750 tok 340.9s trunc=False
+[prove D1_random] pair_00043#3 8560 tok 222.54s trunc=False
+[prove D1_random] pair_00044#0 3752 tok 94.22s trunc=False
+[prove D1_random] pair_00044#1 10378 tok 271.0s trunc=False
+[prove D1_random] pair_00044#2 9387 tok 243.83s trunc=False
+[prove D1_random] pair_00044#3 5345 tok 134.83s trunc=False
+[prove D1_random] pair_00049#0 16220 tok 449.76s trunc=True
+[prove D1_random] pair_00049#1 9824 tok 259.05s trunc=False
+[prove D1_random] pair_00049#2 7372 tok 190.62s trunc=False
+[prove D1_random] pair_00049#3 7385 tok 190.91s trunc=False
+[prove D2_random] pair_00026#0 7074 tok 184.28s trunc=False
+[prove D2_random] pair_00026#1 16385 tok 449.82s trunc=True
+[prove D2_random] pair_00026#2 16385 tok 450.41s trunc=True
+[prove D2_random] pair_00026#3 16385 tok 449.53s trunc=True
+[prove D2_random] pair_00027#0 8273 tok 219.26s trunc=False
+[prove D2_random] pair_00027#1 8011 tok 208.45s trunc=False
+[prove D2_random] pair_00027#2 6678 tok 171.85s trunc=False
+[prove D2_random] pair_00027#3 5488 tok 139.9s trunc=False
+[prove D2_random] pair_00028#0 9570 tok 252.7s trunc=False
+[prove D2_random] pair_00028#1 11908 tok 317.38s trunc=False
+[prove D2_random] pair_00028#2 9187 tok 241.93s trunc=False
+[prove D2_random] pair_00028#3 9105 tok 237.68s trunc=False
+[prove D2_random] pair_00029#0 13359 tok 360.31s trunc=False
+[prove D2_random] pair_00029#1 16385 tok 449.57s trunc=True
+[prove D2_random] pair_00029#2 16385 tok 449.86s trunc=True
+[prove D2_random] pair_00029#3 8089 tok 209.56s trunc=False
+[prove D2_random] pair_00031#0 9932 tok 262.69s trunc=False
+[prove D2_random] pair_00031#1 4263 tok 107.44s trunc=False
+[prove D2_random] pair_00031#2 16385 tok 449.93s trunc=True
+[prove D2_random] pair_00031#3 16385 tok 449.16s trunc=True
+[prove D2_random] pair_00032#0 7541 tok 197.1s trunc=False
+[prove D2_random] pair_00032#1 16385 tok 450.02s trunc=True
+[prove D2_random] pair_00032#2 9383 tok 246.12s trunc=False
+[prove D2_random] pair_00032#3 6491 tok 164.71s trunc=False
+[prove D2_random] pair_00035#0 16284 tok 444.42s trunc=True
+[prove D2_random] pair_00035#1 16284 tok 441.6s trunc=True
+[prove D2_random] pair_00035#2 16284 tok 443.63s trunc=True
+[prove D2_random] pair_00035#3 16284 tok 448.22s trunc=True
+[prove D2_random] pair_00037#0 2904 tok 73.09s trunc=False
+[prove D2_random] pair_00037#1 3943 tok 97.78s trunc=False
+[prove D2_random] pair_00037#2 1935 tok 47.51s trunc=False
+[prove D2_random] pair_00037#3 1683 tok 41.32s trunc=False
+[prove D2_random] pair_00040#0 16385 tok 445.3s trunc=True
+[prove D2_random] pair_00040#1 9451 tok 244.72s trunc=False
+[prove D2_random] pair_00040#2 16385 tok 446.27s trunc=True
+[prove D2_random] pair_00040#3 8901 tok 229.45s trunc=False
+[prove D2_random] pair_00045#0 8394 tok 219.28s trunc=False
+[prove D2_random] pair_00045#1 16385 tok 447.8s trunc=True
+[prove D2_random] pair_00045#2 16385 tok 448.93s trunc=True
+[prove D2_random] pair_00045#3 9997 tok 261.98s trunc=False
+[prove D2_random] pair_00047#0 4852 tok 123.65s trunc=False
+[prove D2_random] pair_00047#1 8753 tok 226.99s trunc=False
+[prove D2_random] pair_00047#2 4410 tok 110.84s trunc=False
+[prove D2_random] pair_00047#3 8267 tok 213.64s trunc=False
+[prove D2_random] pair_00048#0 7881 tok 206.78s trunc=False
+[prove D2_random] pair_00048#1 9469 tok 247.56s trunc=False
+[prove D2_random] pair_00048#2 10594 tok 278.92s trunc=False
+[prove D2_random] pair_00048#3 16320 tok 447.47s trunc=True
+== verify

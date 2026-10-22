@@ -6,6 +6,7 @@ Per domain x arm: fused pairs, compile rate, clean statements, statements proved
 too easy, too hard, useful per fused pair, total tokens per useful problem. Fisher exact tests vs C on compile rate and on
 useful-per-statement; pooled across domains as well (stratification ignored, so the pooled test is only indicative).
 """
+import argparse
 import json
 import os
 import sys
@@ -16,6 +17,7 @@ from compare_arms import fisher_two_sided, wilson  # noqa: E402
 RUNS = {"math": 28, "stem": 40, "puzzles": 50}  # pairs per arm whose statements go to the prover in pass 2
 FUSED = {"math": 100, "stem": 40, "puzzles": 50}
 ARMS = [("C", "C_random"), ("D1", "D1_random"), ("D2", "D2_random")]
+VERIFY = "verify"  # or verify_nocomment_v2 (comment-insensitive scorer)
 
 
 def L(path):
@@ -29,7 +31,7 @@ def cell(D, c):
     form = [r for r in L(f"{base}/formalize.jsonl") if keep(r, FUSED[D])]
     check = [r for r in L(f"{base}/check.jsonl") if keep(r, FUSED[D])]
     filt = {r["pair_id"]: r for r in L(f"{base}/filter.jsonl")}
-    ver = L(f"{base}/verify.jsonl")
+    ver = L(f"{base}/{VERIFY}.jsonl")
     att = L(f"{base}/prove.jsonl")
     proved_pairs = {v["pair_id"] for v in ver}
     pairs_covered = max([int(p[-5:]) + 1 for p in proved_pairs] + [0])  # prefix of pairs whose statements were proved
@@ -47,6 +49,10 @@ def cell(D, c):
 
 
 def main():
+    global VERIFY
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--verify", default="verify", choices=["verify", "verify_nocomment_v2"])
+    VERIFY = ap.parse_args().verify
     out = ["| Domain | Arm | Compiles (of fused) | Clean | Proved | Useful | Too easy | Too hard | Useful / proved [95% CI] "
            "| p vs C (useful) | Tokens per useful |", "|---|---|---|---|---|---|---|---|---|---|---|"]
     pooled = {a: [0, 0] for a, _ in ARMS}
@@ -72,9 +78,10 @@ def main():
         p = fisher_two_sided(u, n - u, pooled["C"][0], pooled["C"][1] - pooled["C"][0])
         out.append(f"| {a} | {u}/{n} | {u / max(n, 1):.2f} [{lo:.2f}, {hi:.2f}] | {'–' if a == 'C' else f'{p:.2f}'} |")
     text = "\n".join(out)
-    with open("exp_results/EXP-003-report.md", "w", encoding="utf-8") as f:
+    tag = "" if VERIFY == "verify" else "-nocomment"
+    with open(f"exp_results/EXP-003-report{tag}.md", "w", encoding="utf-8") as f:
         f.write(text + "\n")
-    with open("exp_results/EXP-003-report.json", "w", encoding="utf-8") as f:
+    with open(f"exp_results/EXP-003-report{tag}.json", "w", encoding="utf-8") as f:
         json.dump({"cells": data, "pooled": pooled}, f, indent=1)
     sys.stdout.reconfigure(encoding="utf-8")
     print(text)

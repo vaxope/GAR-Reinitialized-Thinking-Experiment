@@ -1,0 +1,16 @@
+{"pair_id": "pair_00000", "n_attempts": 4, "n_extracted": 1, "passes": 0, "p_gar": 0.0, "p_all": 0.0, "m": 0.0, "incomplete": 0.0, "brute_force": 0.0, "pass_flags": [false]}
+{"pair_id": "pair_00002", "n_attempts": 4, "n_extracted": 4, "passes": 0, "p_gar": 0.0, "p_all": 0.0, "m": 1.0, "incomplete": 0.0, "brute_force": 0.0, "pass_flags": [false, false, false, false]}
+{"pair_id": "pair_00003", "n_attempts": 4, "n_extracted": 4, "passes": 2, "p_gar": 0.5, "p_all": 0.5, "m": 0.0, "incomplete": 0.0, "brute_force": 0.0, "pass_flags": [false, false, true, true]}
+{"pair_id": "pair_00005", "n_attempts": 4, "n_extracted": 4, "passes": 0, "p_gar": 0.0, "p_all": 0.0, "m": 1.0, "incomplete": 0.0, "brute_force": 0.5, "pass_flags": [false, false, false, false]}
+{"pair_id": "pair_00006", "n_attempts": 4, "n_extracted": 4, "passes": 0, "p_gar": 0.0, "p_all": 0.0, "m": 0.0, "incomplete": 0.0, "brute_force": 0.0, "pass_flags": [false, false, false, false]}
+{"pair_id": "pair_00007", "n_attempts": 4, "n_extracted": 3, "passes": 0, "p_gar": 0.0, "p_all": 0.0, "m": 1.0, "incomplete": 0.0, "brute_force": 0.0, "pass_flags": [false, false, false]}
+{"pair_id": "pair_00008", "n_attempts": 4, "n_extracted": 3, "passes": 0, "p_gar": 0.0, "p_all": 0.0, "m": 1.0, "incomplete": 0.0, "brute_force": 0.0, "pass_flags": [false, false, false]}
+{"pair_id": "pair_00013", "n_attempts": 4, "n_extracted": 2, "passes": 0, "p_gar": 0.0, "p_all": 0.0, "m": 0.0, "incomplete": 0.0, "brute_force": 0.0, "pass_flags": [false, false]}
+{"pair_id": "pair_00015", "n_attempts": 4, "n_extracted": 4, "passes": 0, "p_gar": 0.0, "p_all": 0.0, "m": 0.0, "incomplete": 0.0, "brute_force": 0.0, "pass_flags": [false, false, false, false]}
+{"pair_id": "pair_00016", "n_attempts": 4, "n_extracted": 4, "passes": 0, "p_gar": 0.0, "p_all": 0.0, "m": 1.0, "incomplete": 0.0, "brute_force": 0.0, "pass_flags": [false, false, false, false]}
+{"pair_id": "pair_00017", "n_attempts": 4, "n_extracted": 4, "passes": 3, "p_gar": 0.75, "p_all": 0.75, "m": 0.0, "incomplete": 0.0, "brute_force": 0.0, "pass_flags": [true, false, true, true]}
+{"pair_id": "pair_00019", "n_attempts": 4, "n_extracted": 3, "passes": 0, "p_gar": 0.0, "p_all": 0.0, "m": 0.0, "incomplete": 0.0, "brute_force": 0.3333333333333333, "pass_flags": [false, false, false]}
+{"pair_id": "pair_00020", "n_attempts": 4, "n_extracted": 3, "passes": 0, "p_gar": 0.0, "p_all": 0.0, "m": 0.0, "incomplete": 0.0, "brute_force": 0.0, "pass_flags": [false, false, false]}
+{"pair_id": "pair_00024", "n_attempts": 4, "n_extracted": 4, "passes": 4, "p_gar": 1.0, "p_all": 1.0, "m": 0.0, "incomplete": 0.0, "brute_force": 0.0, "pass_flags": [true, true, true, true]}
+{"pair_id": "pair_00025", "n_attempts": 4, "n_extracted": 3, "passes": 0, "p_gar": 0.0, "p_all": 0.0, "m": 0.6666666666666666, "incomplete": 0.3333333333333333, "brute_force": 0.0, "pass_flags": [false, false, false]}
+{"pair_id": "pair_00026", "n_attempts": 4, "n_extracted": 4, "passes": 0, "p_gar": 0.0, "p_all": 0.0, "m": 0.0, "incomplete": 0.0, "brute_force": 0.0, "pass_flags": [false, false, false, false]}

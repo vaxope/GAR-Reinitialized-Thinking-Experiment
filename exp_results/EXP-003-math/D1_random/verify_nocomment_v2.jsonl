@@ -1,0 +1,12 @@
+{"pair_id": "pair_00000", "n_attempts": 4, "n_extracted": 3, "passes": 0, "p_gar": 0.0, "p_all": 0.0, "m": 0.0, "incomplete": 0.0, "brute_force": 0.0, "pass_flags": [false, false, false]}
+{"pair_id": "pair_00004", "n_attempts": 4, "n_extracted": 4, "passes": 0, "p_gar": 0.0, "p_all": 0.0, "m": 0.0, "incomplete": 0.0, "brute_force": 0.0, "pass_flags": [false, false, false, false]}
+{"pair_id": "pair_00005", "n_attempts": 4, "n_extracted": 4, "passes": 0, "p_gar": 0.0, "p_all": 0.0, "m": 0.0, "incomplete": 0.25, "brute_force": 0.0, "pass_flags": [false, false, false, false]}
+{"pair_id": "pair_00006", "n_attempts": 4, "n_extracted": 3, "passes": 0, "p_gar": 0.0, "p_all": 0.0, "m": 0.0, "incomplete": 0.0, "brute_force": 0.0, "pass_flags": [false, false, false]}
+{"pair_id": "pair_00008", "n_attempts": 4, "n_extracted": 4, "passes": 0, "p_gar": 0.0, "p_all": 0.0, "m": 0.0, "incomplete": 0.0, "brute_force": 0.5, "pass_flags": [false, false, false, false]}
+{"pair_id": "pair_00009", "n_attempts": 4, "n_extracted": 3, "passes": 0, "p_gar": 0.0, "p_all": 0.0, "m": 0.0, "incomplete": 0.0, "brute_force": 0.0, "pass_flags": [false, false, false]}
+{"pair_id": "pair_00013", "n_attempts": 4, "n_extracted": 4, "passes": 0, "p_gar": 0.0, "p_all": 0.0, "m": 0.0, "incomplete": 0.0, "brute_force": 0.0, "pass_flags": [false, false, false, false]}
+{"pair_id": "pair_00016", "n_attempts": 4, "n_extracted": 4, "passes": 0, "p_gar": 0.0, "p_all": 0.0, "m": 0.0, "incomplete": 0.0, "brute_force": 0.0, "pass_flags": [false, false, false, false]}
+{"pair_id": "pair_00017", "n_attempts": 4, "n_extracted": 4, "passes": 0, "p_gar": 0.0, "p_all": 0.0, "m": 0.0, "incomplete": 0.0, "brute_force": 0.0, "pass_flags": [false, false, false, false]}
+{"pair_id": "pair_00019", "n_attempts": 4, "n_extracted": 4, "passes": 4, "p_gar": 1.0, "p_all": 1.0, "m": 0.0, "incomplete": 0.0, "brute_force": 0.0, "pass_flags": [true, true, true, true]}
+{"pair_id": "pair_00020", "n_attempts": 4, "n_extracted": 3, "passes": 0, "p_gar": 0.0, "p_all": 0.0, "m": 0.0, "incomplete": 0.0, "brute_force": 0.0, "pass_flags": [false, false, false]}
+{"pair_id": "pair_00025", "n_attempts": 4, "n_extracted": 4, "passes": 1, "p_gar": 0.25, "p_all": 0.25, "m": 0.0, "incomplete": 0.0, "brute_force": 0.0, "pass_flags": [false, true, false, false]}

@@ -1,0 +1,1029 @@
+== embed
+[embed] 0/3826 9s
+[embed] 3200/3826 147s
+== cluster
+== name
+[name] cluster 0: {'name': 'Work and Force', 'description': 'These problems involve calculating work done, forces, and pressures in various physical scenarios.', 'size': 188}
+[name] cluster 1: {'name': 'Thermal Energy Calculations', 'description': 'These problems involve calculating the energy required for temperature changes and phase transitions in substances like water, ice, and steam.', 'size': 171}
+[name] cluster 2: None
+[name] cluster 3: {'name': 'Human Biology Basics', 'description': 'These questions focus on fundamental aspects of human biology, including anatomy, physiology, and comparative biology.', 'size': 224}
+[name] cluster 4: {'name': 'Hardy-Weinberg', 'description': 'These problems focus on genetic frequencies and inheritance patterns in populations using principles of Hardy-Weinberg equilibrium.', 'size': 172}
+[name] cluster 5: {'name': 'Kinematics', 'description': 'These problems involve the study of motion, including velocity, acceleration, and displacement, often requiring integration or differentiation to solve.', 'size': 155}
+[name] cluster 6: {'name': 'Magnetic Force and Fields', 'description': 'These problems involve calculating magnetic forces on current-carrying wires and determining magnetic fields in various configurations such as solenoids and coils.', 'size': 111}
+[name] cluster 7: {'name': 'Gas Laws', 'description': 'These problems involve the application of gas laws to calculate properties such as pressure, volume, temperature, and number of moles of gases.', 'size': 197}
+[name] cluster 8: {'name': 'Molar Mass Calculations', 'description': 'These problems involve calculating the mass of substances based on moles, number of atoms or molecules, and molar masses of elements and compounds.', 'size': 266}
+[name] cluster 9: {'name': 'Stoichiometry', 'description': 'These problems involve calculating the amounts of reactants and products in chemical reactions using mole ratios and molar masses.', 'size': 341}
+[name] cluster 10: {'name': 'Mechanical Design', 'description': 'These problems focus on the design and analysis of mechanical components under various loading conditions, including stress, strain, failure criteria, and material properties.', 'size': 162}
+[name] cluster 11: {'name': 'Wave Optics', 'description': 'These problems involve the behavior of light waves in interference, diffraction, and refraction phenomena.', 'size': 153}
+[name] cluster 12: {'name': 'Electric Fields', 'description': 'These problems focus on calculating electric fields due to point charges, including magnitude, direction, and net field at specific points.', 'size': 197}
+[name] cluster 13: {'name': 'Orbital Mechanics', 'description': 'These problems involve calculating orbital parameters, gravitational forces, and motion of celestial bodies in space.', 'size': 80}
+[name] cluster 14: None
+[name] cluster 15: {'name': 'Electrical Circuits', 'description': 'These problems involve the analysis of electrical circuits, including capacitors, resistors, inductors, and AC/DC behavior.', 'size': 80}
+[name] cluster 16: {'name': 'Solution Concentration', 'description': 'These problems focus on calculating concentrations, molarities, and masses of solutes in solutions.', 'size': 246}
+[name] cluster 17: {'name': 'Equilibrium Calculations', 'description': 'These problems involve calculating equilibrium constants (Kc or Kp) for chemical reactions using given concentrations, dissociation percentages, or initial conditions.', 'size': 174}
+[name] cluster 18: {'name': 'Energy and Motion', 'description': 'These problems involve the application of energy conservation, work, friction, and motion principles in various physical scenarios.', 'size': 379}
+[name] cluster 19: {'name': 'DNA and Respiration', 'description': 'These questions focus on the structure and composition of DNA, nucleotide percentages, and the quantitative aspects of cellular respiration processes.', 'size': 160}
+[name] topic Mechanics: clusters [0, 5, 13]
+[name] topic Thermodynamics: clusters [1, 7]
+[name] topic Biology: clusters [3, 4, 19]
+[name] topic Chemistry: clusters [8, 9, 16, 17]
+[name] topic Electromagnetism: clusters [6, 12, 15]
+[name] topic Optics: clusters [11]
+[name] topic Materials Science: clusters [10]
+[name] topic Energy Systems: clusters [18]
+== label
+[label] 0/1500 1s
+[label] 250/1500 113s
+[label] 500/1500 227s
+[label] 750/1500 341s
+[label] 1000/1500 457s
+[label] 1250/1500 592s
+== propagate
+[propagate] held-out kNN vs LLM: top1 0.778, LLM top1 in kNN top2 0.920
+== validate
+[validate] purity vs category: 0.786; topic sizes {'Electromagnetism': 240, 'Mechanics': 1015, 'Chemistry': 2023, 'Thermodynamics': 201, 'Energy Systems': 49, 'Optics': 35, 'Biology': 216, 'Materials Science': 47}
+== slots
+[slots] Mechanics: ['Make sure all forces are accounted for in the system, including friction and normal forces.', 'Avoid assuming uniform motion without verifying the net force acting on the object.', 'Check that energy conversions are correctly identified and conserved across all forms.']
+[slots] Thermodynamics: ['Make sure all materials involved have known specific heat capacities and thermal properties.', 'Avoid assuming equilibrium temperature without considering heat transfer rates and thermal isolation.', 'Check that all temperature conversions are consistent and use absolute scales where necessary.']
+[slots] Biology: ['Make sure all forces and torques are accounted for in the forearm problem.', 'Avoid assuming uniformity in genetic inheritance without proper evidence.', 'Check that the devised mass measurement scheme accounts for inertia and acceleration.']
+[slots] Chemistry: ['Make sure all reactions are balanced and stoichiometric relationships are correctly applied.', 'Avoid mixing different solution concentrations without proper conversion between units.', 'Check that all given data is consistent with the laws of conservation and thermodynamic principles.']
+[slots] Electromagnetism: ['Make sure all quantities are in consistent units before calculations. Avoid mixing different unit systems.', 'Avoid assuming symmetry or simplifications without justification. Check if all given data is relevant.', 'Ensure that induced effects like emf or current are properly linked to changing fields or currents. Avoid missing dependencies.']
+[slots] Optics: ['Make sure all materials involved have known and consistent refractive indices.', 'Avoid combining different optical phenomena unless their interactions are well understood.', 'Check that all given angles are measured from the normal unless stated otherwise.']
+[slots] Materials Science: ['Make sure the problem clearly defines the material properties and their relevance to the design question.', 'Avoid combining unrelated scientific domains without a clear integrative context.', 'Check that all quantitative aspects are grounded in established material science principles.']
+[slots] Energy Systems: ['Make sure all energy units are consistent across the problem.', 'Avoid combining unrelated energy systems without clear context.', 'Check that conservation laws are properly applied in all scenarios.']
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+== fuse
+[fuse C_random] pair_00000 423 tok 22.71s
+[fuse C_random] pair_00001 565 tok 11.84s
+[fuse C_random] pair_00002 466 tok 9.44s
+[fuse C_random] pair_00003 515 tok 10.19s
+[fuse C_random] pair_00004 625 tok 12.29s
+[fuse C_random] pair_00005 624 tok 12.44s
+[fuse C_random] pair_00006 680 tok 14.0s
+[fuse C_random] pair_00007 677 tok 13.69s
+[fuse C_random] pair_00008 446 tok 9.04s
+[fuse C_random] pair_00009 571 tok 11.52s
+[fuse C_random] pair_00010 531 tok 10.63s
+[fuse C_random] pair_00011 571 tok 11.46s
+[fuse C_random] pair_00012 462 tok 9.31s
+[fuse C_random] pair_00013 756 tok 14.94s
+[fuse C_random] pair_00014 691 tok 13.7s
+[fuse C_random] pair_00015 510 tok 10.23s
+[fuse C_random] pair_00016 474 tok 9.51s
+[fuse C_random] pair_00017 766 tok 15.22s
+[fuse C_random] pair_00018 798 tok 15.75s
+[fuse C_random] pair_00019 750 tok 14.85s
+[fuse C_random] pair_00020 605 tok 12.14s
+[fuse C_random] pair_00021 639 tok 13.19s
+[fuse C_random] pair_00022 659 tok 16.56s
+[fuse C_random] pair_00023 572 tok 11.34s
+[fuse C_random] pair_00024 567 tok 11.19s
+[fuse C_random] pair_00025 910 tok 17.69s
+[fuse C_random] pair_00026 608 tok 11.96s
+[fuse C_random] pair_00027 525 tok 10.38s
+[fuse C_random] pair_00028 600 tok 12.16s
+[fuse C_random] pair_00029 886 tok 17.4s
+[fuse C_random] pair_00030 583 tok 11.62s
+[fuse C_random] pair_00031 582 tok 11.41s
+[fuse C_random] pair_00032 463 tok 9.24s
+[fuse C_random] pair_00033 575 tok 11.32s
+[fuse C_random] pair_00034 963 tok 20.68s
+[fuse C_random] pair_00035 579 tok 11.45s
+[fuse C_random] pair_00036 479 tok 9.54s
+[fuse C_random] pair_00037 676 tok 13.35s
+[fuse C_random] pair_00038 487 tok 9.69s
+[fuse C_random] pair_00039 813 tok 16.2s
+[fuse D1_random] pair_00000 265 tok 5.71s
+[fuse D1_random] pair_00001 715 tok 14.19s
+[fuse D1_random] pair_00002 757 tok 14.76s
+[fuse D1_random] pair_00003 775 tok 15.23s
+[fuse D1_random] pair_00004 881 tok 17.48s
+[fuse D1_random] pair_00005 500 tok 12.17s
+[fuse D1_random] pair_00006 1182 tok 23.14s
+[fuse D1_random] pair_00007 341 tok 7.11s
+[fuse D1_random] pair_00008 1663 tok 32.37s
+[fuse D1_random] pair_00009 957 tok 18.57s
+[fuse D1_random] pair_00010 951 tok 18.49s
+[fuse D1_random] pair_00011 474 tok 9.36s
+[fuse D1_random] pair_00012 699 tok 13.47s
+[fuse D1_random] pair_00013 828 tok 16.16s
+[fuse D1_random] pair_00014 782 tok 15.25s
+[fuse D1_random] pair_00015 705 tok 13.78s
+[fuse D1_random] pair_00016 636 tok 12.31s
+[fuse D1_random] pair_00017 919 tok 17.93s
+[fuse D1_random] pair_00018 978 tok 18.83s
+[fuse D1_random] pair_00019 656 tok 12.85s
+[fuse D1_random] pair_00020 666 tok 13.03s
+[fuse D1_random] pair_00021 768 tok 14.79s
+[fuse D1_random] pair_00022 926 tok 17.87s
+[fuse D1_random] pair_00023 680 tok 13.23s
+[fuse D1_random] pair_00024 631 tok 12.29s
+[fuse D1_random] pair_00025 573 tok 11.21s
+[fuse D1_random] pair_00026 745 tok 14.49s
+[fuse D1_random] pair_00027 16384 tok 355.84s
+[fuse D1_random] pair_00028 1128 tok 22.52s
+[fuse D1_random] pair_00029 1004 tok 19.44s
+[fuse D1_random] pair_00030 662 tok 12.92s
+[fuse D1_random] pair_00031 808 tok 15.61s
+[fuse D1_random] pair_00032 972 tok 18.73s
+[fuse D1_random] pair_00033 576 tok 11.25s
+[fuse D1_random] pair_00034 484 tok 9.74s
+[fuse D1_random] pair_00035 660 tok 12.89s
+[fuse D1_random] pair_00036 907 tok 17.54s
+[fuse D1_random] pair_00037 760 tok 14.8s
+[fuse D1_random] pair_00038 1072 tok 20.66s
+[fuse D1_random] pair_00039 1033 tok 20.27s
+[fuse D2_random] pair_00000 484 tok 9.63s
+[fuse D2_random] pair_00001 848 tok 16.64s
+[fuse D2_random] pair_00002 714 tok 13.89s
+[fuse D2_random] pair_00003 804 tok 15.72s
+[fuse D2_random] pair_00004 890 tok 17.26s
+[fuse D2_random] pair_00005 1091 tok 21.16s
+[fuse D2_random] pair_00006 811 tok 16.1s
+[fuse D2_random] pair_00007 706 tok 14.01s
+[fuse D2_random] pair_00008 605 tok 11.92s
+[fuse D2_random] pair_00009 1029 tok 20.11s
+[fuse D2_random] pair_00010 1013 tok 19.69s
+[fuse D2_random] pair_00011 602 tok 11.9s
+[fuse D2_random] pair_00012 1576 tok 30.39s
+[fuse D2_random] pair_00013 754 tok 14.87s
+[fuse D2_random] pair_00014 648 tok 12.86s
+[fuse D2_random] pair_00015 717 tok 14.18s
+[fuse D2_random] pair_00016 708 tok 13.77s
+[fuse D2_random] pair_00017 5 tok 0.86s
+[fuse D2_random] pair_00018 1044 tok 20.22s
+[fuse D2_random] pair_00019 849 tok 16.7s
+[fuse D2_random] pair_00020 716 tok 14.1s
+[fuse D2_random] pair_00021 789 tok 15.31s
+[fuse D2_random] pair_00022 690 tok 13.59s
+[fuse D2_random] pair_00023 5 tok 0.73s
+[fuse D2_random] pair_00024 9557 tok 194.96s
+[fuse D2_random] pair_00025 922 tok 18.28s
+[fuse D2_random] pair_00026 833 tok 16.39s
+[fuse D2_random] pair_00027 698 tok 13.72s
+[fuse D2_random] pair_00028 741 tok 15.03s
+[fuse D2_random] pair_00029 795 tok 16.23s
+[fuse D2_random] pair_00030 559 tok 12.02s
+[fuse D2_random] pair_00031 619 tok 13.28s
+[fuse D2_random] pair_00032 705 tok 14.48s
+[fuse D2_random] pair_00033 1018 tok 20.67s
+[fuse D2_random] pair_00034 590 tok 12.15s
+[fuse D2_random] pair_00035 775 tok 15.4s
+[fuse D2_random] pair_00036 1224 tok 23.65s
+[fuse D2_random] pair_00037 703 tok 13.9s
+[fuse D2_random] pair_00038 616 tok 12.28s
+[fuse D2_random] pair_00039 1492 tok 29.29s
+== formalize
+[formalize C_random] pair_00000 844 tok 33.41s
+[formalize C_random] pair_00001 740 tok 17.42s
+[formalize C_random] pair_00002 735 tok 16.7s
+[formalize C_random] pair_00003 770 tok 17.45s
+[formalize C_random] pair_00004 762 tok 18.1s
+[formalize C_random] pair_00005 991 tok 22.49s
+[formalize C_random] pair_00006 1114 tok 25.53s
+[formalize C_random] pair_00007 970 tok 22.25s
+[formalize C_random] pair_00008 765 tok 17.37s
+[formalize C_random] pair_00009 694 tok 15.76s
+[formalize C_random] pair_00010 745 tok 17.88s
+[formalize C_random] pair_00011 776 tok 18.37s
+[formalize C_random] pair_00013 905 tok 20.61s
+[formalize C_random] pair_00014 812 tok 18.55s
+[formalize C_random] pair_00015 826 tok 18.69s
+[formalize C_random] pair_00016 1455 tok 33.49s
+[formalize C_random] pair_00017 1270 tok 28.81s
+[formalize C_random] pair_00018 896 tok 20.47s
+[formalize C_random] pair_00019 1155 tok 26.16s
+[formalize C_random] pair_00020 922 tok 20.87s
+[formalize C_random] pair_00021 811 tok 19.08s
+[formalize C_random] pair_00022 762 tok 17.63s
+[formalize C_random] pair_00023 988 tok 22.31s
+[formalize C_random] pair_00024 629 tok 14.27s
+[formalize C_random] pair_00025 1062 tok 24.36s
+[formalize C_random] pair_00026 785 tok 17.73s
+[formalize C_random] pair_00027 911 tok 20.62s
+[formalize C_random] pair_00028 1132 tok 25.73s
+[formalize C_random] pair_00029 908 tok 20.58s
+[formalize C_random] pair_00030 667 tok 15.27s
+[formalize C_random] pair_00031 990 tok 22.98s
+[formalize C_random] pair_00032 790 tok 17.98s
+[formalize C_random] pair_00033 699 tok 15.91s
+[formalize C_random] pair_00034 751 tok 17.17s
+[formalize C_random] pair_00035 785 tok 17.99s
+[formalize C_random] pair_00036 1262 tok 29.14s
+[formalize C_random] pair_00037 958 tok 21.65s
+[formalize C_random] pair_00038 771 tok 17.54s
+[formalize C_random] pair_00039 796 tok 18.56s
+[formalize D1_random] pair_00000 1054 tok 24.13s
+[formalize D1_random] pair_00001 805 tok 18.6s
+[formalize D1_random] pair_00002 935 tok 21.68s
+[formalize D1_random] pair_00003 812 tok 19.98s
+[formalize D1_random] pair_00004 808 tok 19.21s
+[formalize D1_random] pair_00005 1054 tok 24.61s
+[formalize D1_random] pair_00007 656 tok 15.44s
+[formalize D1_random] pair_00008 801 tok 19.15s
+[formalize D1_random] pair_00010 798 tok 19.7s
+[formalize D1_random] pair_00011 721 tok 16.53s
+[formalize D1_random] pair_00012 782 tok 18.98s
+[formalize D1_random] pair_00013 1453 tok 33.23s
+[formalize D1_random] pair_00014 770 tok 17.91s
+[formalize D1_random] pair_00015 838 tok 19.0s
+[formalize D1_random] pair_00016 725 tok 17.54s
+[formalize D1_random] pair_00017 906 tok 20.82s
+[formalize D1_random] pair_00018 1059 tok 24.53s
+[formalize D1_random] pair_00019 878 tok 19.99s
+[formalize D1_random] pair_00020 753 tok 17.07s
+[formalize D1_random] pair_00021 1054 tok 24.65s
+[formalize D1_random] pair_00022 807 tok 20.4s
+[formalize D1_random] pair_00023 949 tok 22.62s
+[formalize D1_random] pair_00024 755 tok 17.66s
+[formalize D1_random] pair_00025 1049 tok 23.55s
+[formalize D1_random] pair_00026 853 tok 19.49s
+[formalize D1_random] pair_00027 737 tok 17.31s
+[formalize D1_random] pair_00029 1065 tok 24.39s
+[formalize D1_random] pair_00030 966 tok 22.08s
+[formalize D1_random] pair_00031 950 tok 22.18s
+[formalize D1_random] pair_00032 502 tok 12.0s
+[formalize D1_random] pair_00033 732 tok 16.64s
+[formalize D1_random] pair_00034 704 tok 16.03s
+[formalize D1_random] pair_00035 837 tok 20.09s
+[formalize D1_random] pair_00036 549 tok 13.2s
+[formalize D1_random] pair_00037 957 tok 21.93s
+[formalize D1_random] pair_00038 716 tok 18.75s
+[formalize D1_random] pair_00039 833 tok 19.61s
+[formalize D2_random] pair_00000 948 tok 21.86s
+[formalize D2_random] pair_00001 876 tok 20.24s
+[formalize D2_random] pair_00002 1099 tok 25.58s
+[formalize D2_random] pair_00003 806 tok 18.65s
+[formalize D2_random] pair_00004 681 tok 15.97s
+[formalize D2_random] pair_00005 683 tok 16.29s
+[formalize D2_random] pair_00006 944 tok 21.62s
+[formalize D2_random] pair_00007 693 tok 15.85s
+[formalize D2_random] pair_00008 1161 tok 26.01s
+[formalize D2_random] pair_00010 715 tok 16.96s
+[formalize D2_random] pair_00011 706 tok 17.05s
+[formalize D2_random] pair_00012 735 tok 17.64s
+[formalize D2_random] pair_00013 974 tok 22.4s
+[formalize D2_random] pair_00014 719 tok 16.53s
+[formalize D2_random] pair_00015 739 tok 16.85s
+[formalize D2_random] pair_00016 748 tok 17.55s
+[formalize D2_random] pair_00017 541 tok 12.13s
+[formalize D2_random] pair_00018 765 tok 18.12s
+[formalize D2_random] pair_00019 905 tok 21.04s
+[formalize D2_random] pair_00020 1342 tok 30.26s
+[formalize D2_random] pair_00021 574 tok 14.34s
+[formalize D2_random] pair_00022 716 tok 16.33s
+[formalize D2_random] pair_00023 566 tok 12.65s
+[formalize D2_random] pair_00024 846 tok 19.57s
+[formalize D2_random] pair_00025 1444 tok 34.64s
+[formalize D2_random] pair_00026 878 tok 20.05s
+[formalize D2_random] pair_00027 674 tok 16.55s
+[formalize D2_random] pair_00028 960 tok 21.92s
+[formalize D2_random] pair_00029 899 tok 20.73s
+[formalize D2_random] pair_00030 1186 tok 26.7s
+[formalize D2_random] pair_00031 746 tok 17.0s
+[formalize D2_random] pair_00032 1097 tok 25.92s
+[formalize D2_random] pair_00033 864 tok 20.89s
+[formalize D2_random] pair_00034 744 tok 17.06s
+[formalize D2_random] pair_00035 1272 tok 28.94s
+[formalize D2_random] pair_00036 1160 tok 26.67s
+[formalize D2_random] pair_00037 1107 tok 26.16s
+[formalize D2_random] pair_00038 1097 tok 24.75s
+[formalize D2_random] pair_00039 1148 tok 26.54s
+== check
+== filter
+== prove
+== verify
+== summary
+{
+ "C_random": {
+  "n_pairs": 40,
+  "fuse_parse_rate": 0.975,
+  "formalize_rate": 0.975,
+  "validity_rate": 0.825,
+  "n_verified": 0,
+  "yield": 0.0,
+  "yield_p_all": 0.0,
+  "p_hist": {
+   "p=0": 0,
+   "0<p<=0.5": 0,
+   "p>0.5": 0
+  },
+  "modification_rate": 0.0,
+  "incomplete_proof_rate": 0.0,
+  "brute_force_rate": 0.0,
+  "fuser_tokens_mean": 616.8,
+  "fuser_truncation_rate": 0.0,
+  "prover_tokens_mean": 0.0,
+  "prover_truncation_rate": 0.0,
+  "tokens_total": 59276,
+  "tokens_per_useful": null,
+  "n_useful": 0,
+  "n_filtered": 33,
+  "glued_rate": 0.3939393939393939,
+  "analysis_leak_rate": 0.21212121212121213,
+  "n_useful_clean": 0,
+  "yield_clean": 0.0,
+  "tokens_total_clean": 59276,
+  "tokens_per_useful_clean": null
+ },
+ "D1_random": {
+  "n_pairs": 40,
+  "fuse_parse_rate": 0.925,
+  "formalize_rate": 0.925,
+  "validity_rate": 0.7,
+  "n_verified": 0,
+  "yield": 0.0,
+  "yield_p_all": 0.0,
+  "p_hist": {
+   "p=0": 0,
+   "0<p<=0.5": 0,
+   "p>0.5": 0
+  },
+  "modification_rate": 0.0,
+  "incomplete_proof_rate": 0.0,
+  "brute_force_rate": 0.0,
+  "fuser_tokens_mean": 1177.575,
+  "fuser_truncation_rate": 0.025,
+  "prover_tokens_mean": 0.0,
+  "prover_truncation_rate": 0.0,
+  "tokens_total": 78726,
+  "tokens_per_useful": null,
+  "n_useful": 0,
+  "n_filtered": 28,
+  "glued_rate": 0.2857142857142857,
+  "analysis_leak_rate": 0.5,
+  "n_useful_clean": 0,
+  "yield_clean": 0.0,
+  "tokens_total_clean": 78726,
+  "tokens_per_useful_clean": null
+ },
+ "D2_random": {
+  "n_pairs": 40,
+  "fuse_parse_rate": 0.975,
+  "formalize_rate": 0.975,
+  "validity_rate": 0.875,
+  "n_verified": 0,
+  "yield": 0.0,
+  "yield_p_all": 0.0,
+  "p_hist": {
+   "p=0": 0,
+   "0<p<=0.5": 0,
+   "p>0.5": 0
+  },
+  "modification_rate": 0.0,
+  "incomplete_proof_rate": 0.0,
+  "brute_force_rate": 0.0,
+  "fuser_tokens_mean": 998.625,
+  "fuser_truncation_rate": 0.0,
+  "prover_tokens_mean": 0.0,
+  "prover_truncation_rate": 0.0,
+  "tokens_total": 74703,
+  "tokens_per_useful": null,
+  "n_useful": 0,
+  "n_filtered": 35,
+  "glued_rate": 0.2571428571428571,
+  "analysis_leak_rate": 0.37142857142857144,
+  "n_useful_clean": 0,
+  "yield_clean": 0.0,
+  "tokens_total_clean": 74703,
+  "tokens_per_useful_clean": null
+ }
+}
+[?25l[?2026h[?25l[1G[K[?25h[?2026l[2K[1G[?25hWarning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+== fuse
+== formalize
+== check
+== filter
+== prove
+[prove C_random] pair_00000#0 16385 tok 443.04s trunc=True
+[prove C_random] pair_00000#1 16385 tok 442.82s trunc=True
+[prove C_random] pair_00000#2 9104 tok 233.21s trunc=False
+[prove C_random] pair_00000#3 16385 tok 440.7s trunc=True
+[prove C_random] pair_00002#0 16385 tok 444.4s trunc=True
+[prove C_random] pair_00002#1 15558 tok 419.17s trunc=False
+[prove C_random] pair_00002#2 16385 tok 444.35s trunc=True
+[prove C_random] pair_00002#3 15444 tok 415.88s trunc=False
+[prove C_random] pair_00003#0 3860 tok 96.04s trunc=False
+[prove C_random] pair_00003#1 6272 tok 156.83s trunc=False
+[prove C_random] pair_00003#2 2733 tok 66.75s trunc=False
+[prove C_random] pair_00003#3 5573 tok 138.42s trunc=False
+[prove C_random] pair_00005#0 13725 tok 370.33s trunc=False
+[prove C_random] pair_00005#1 16262 tok 443.63s trunc=True
+[prove C_random] pair_00005#2 11872 tok 314.41s trunc=False
+[prove C_random] pair_00005#3 15913 tok 433.08s trunc=False
+[prove C_random] pair_00006#0 7584 tok 194.07s trunc=False
+[prove C_random] pair_00006#1 14065 tok 380.27s trunc=False
+[prove C_random] pair_00006#2 14947 tok 402.96s trunc=False
+[prove C_random] pair_00006#3 11113 tok 291.63s trunc=False
+[prove C_random] pair_00007#0 11329 tok 297.69s trunc=False
+[prove C_random] pair_00007#1 16385 tok 444.4s trunc=True
+[prove C_random] pair_00007#2 15564 tok 417.95s trunc=False
+[prove C_random] pair_00007#3 16385 tok 439.35s trunc=True
+[prove C_random] pair_00008#0 10078 tok 259.98s trunc=False
+[prove C_random] pair_00008#1 7311 tok 183.98s trunc=False
+[prove C_random] pair_00008#2 8041 tok 203.81s trunc=False
+[prove C_random] pair_00008#3 16385 tok 439.51s trunc=True
+[prove C_random] pair_00013#0 16385 tok 441.48s trunc=True
+[prove C_random] pair_00013#1 16385 tok 440.75s trunc=True
+[prove C_random] pair_00013#2 7000 tok 176.32s trunc=False
+[prove C_random] pair_00013#3 16385 tok 440.39s trunc=True
+[prove D1_random] pair_00000#0 12340 tok 323.65s trunc=False
+[prove D1_random] pair_00000#1 16385 tok 440.81s trunc=True
+[prove D1_random] pair_00000#2 16385 tok 464.62s trunc=True
+[prove D1_random] pair_00000#3 13469 tok 362.77s trunc=False
+[prove D1_random] pair_00004#0 6428 tok 164.36s trunc=False
+[prove D1_random] pair_00004#1 6110 tok 154.96s trunc=False
+[prove D1_random] pair_00004#2 12268 tok 325.82s trunc=False
+[prove D1_random] pair_00004#3 7829 tok 201.11s trunc=False
+[prove D1_random] pair_00005#0 16385 tok 444.33s trunc=True
+[prove D1_random] pair_00005#1 13971 tok 383.13s trunc=False
+[prove D1_random] pair_00005#2 16385 tok 442.89s trunc=True
+[prove D1_random] pair_00005#3 13926 tok 369.49s trunc=False
+[prove D1_random] pair_00006#0 13063 tok 343.79s trunc=False
+[prove D1_random] pair_00006#1 10502 tok 276.8s trunc=False
+[prove D1_random] pair_00006#2 16385 tok 445.52s trunc=True
+[prove D1_random] pair_00006#3 11043 tok 288.34s trunc=False
+[prove D1_random] pair_00008#0 10888 tok 284.53s trunc=False
+[prove D1_random] pair_00008#1 16385 tok 440.97s trunc=True
+[prove D1_random] pair_00008#2 13548 tok 359.28s trunc=False
+[prove D1_random] pair_00008#3 12076 tok 314.77s trunc=False
+[prove D1_random] pair_00009#0 16385 tok 445.21s trunc=True
+[prove D1_random] pair_00009#1 16385 tok 448.53s trunc=True
+[prove D1_random] pair_00009#2 6764 tok 174.49s trunc=False
+[prove D1_random] pair_00009#3 13108 tok 348.77s trunc=False
+[prove D1_random] pair_00013#0 16385 tok 444.45s trunc=True
+[prove D1_random] pair_00013#1 16385 tok 448.94s trunc=True
+[prove D1_random] pair_00013#2 12904 tok 343.91s trunc=False
+[prove D1_random] pair_00013#3 14151 tok 381.51s trunc=False
+[prove D2_random] pair_00000#0 7135 tok 182.51s trunc=False
+[prove D2_random] pair_00000#1 5700 tok 143.05s trunc=False
+[prove D2_random] pair_00000#2 4810 tok 120.4s trunc=False
+[prove D2_random] pair_00000#3 6905 tok 175.2s trunc=False
+[prove D2_random] pair_00002#0 16385 tok 451.07s trunc=True
+[prove D2_random] pair_00002#1 11351 tok 302.01s trunc=False
+[prove D2_random] pair_00002#2 16385 tok 447.77s trunc=True
+[prove D2_random] pair_00002#3 8814 tok 228.99s trunc=False
+[prove D2_random] pair_00005#0 7545 tok 194.9s trunc=False
+[prove D2_random] pair_00005#1 8645 tok 223.66s trunc=False
+[prove D2_random] pair_00005#2 8060 tok 207.61s trunc=False
+[prove D2_random] pair_00005#3 16385 tok 448.1s trunc=True
+[prove D2_random] pair_00006#0 8789 tok 226.93s trunc=False
+[prove D2_random] pair_00006#1 9572 tok 248.07s trunc=False
+[prove D2_random] pair_00006#2 7922 tok 202.96s trunc=False
+[prove D2_random] pair_00006#3 8676 tok 222.99s trunc=False
+[prove D2_random] pair_00007#0 16385 tok 446.55s trunc=True
+[prove D2_random] pair_00007#1 11092 tok 290.54s trunc=False
+[prove D2_random] pair_00007#2 7842 tok 201.67s trunc=False
+[prove D2_random] pair_00007#3 9183 tok 236.67s trunc=False
+[prove D2_random] pair_00008#0 5304 tok 134.66s trunc=False
+[prove D2_random] pair_00008#1 12913 tok 343.03s trunc=False
+[prove D2_random] pair_00008#2 6802 tok 173.28s trunc=False
+[prove D2_random] pair_00008#3 9384 tok 242.8s trunc=False
+[prove D2_random] pair_00009#0 9217 tok 238.33s trunc=False
+[prove D2_random] pair_00009#1 6522 tok 165.48s trunc=False
+[prove D2_random] pair_00009#2 4987 tok 125.04s trunc=False
+[prove D2_random] pair_00009#3 16385 tok 443.49s trunc=True
+== verify
+== summary
+{
+ "C_random": {
+  "n_pairs": 14,
+  "fuse_parse_rate": 1.0,
+  "formalize_rate": 0.9285714285714286,
+  "validity_rate": 0.7857142857142857,
+  "n_verified": 8,
+  "yield": 0.07142857142857142,
+  "yield_p_all": 0.07142857142857142,
+  "p_hist": {
+   "p=0": 7,
+   "0<p<=0.5": 1,
+   "p>0.5": 0
+  },
+  "modification_rate": 0.5,
+  "incomplete_proof_rate": 0.0,
+  "brute_force_rate": 0.0625,
+  "fuser_tokens_mean": 685.7142857142857,
+  "fuser_truncation_rate": 0.0,
+  "prover_tokens_mean": 12611.96875,
+  "prover_truncation_rate": 0.375,
+  "tokens_total": 435646,
+  "tokens_per_useful": 435646.0,
+  "n_useful": 1,
+  "n_filtered": 11,
+  "glued_rate": 0.18181818181818182,
+  "analysis_leak_rate": 0.09090909090909091,
+  "n_useful_clean": 1,
+  "yield_clean": 0.07142857142857142,
+  "tokens_total_clean": 435646,
+  "tokens_per_useful_clean": 435646.0
+ },
+ "D1_random": {
+  "n_pairs": 14,
+  "fuse_parse_rate": 1.0,
+  "formalize_rate": 1.0,
+  "validity_rate": 0.7857142857142857,
+  "n_verified": 7,
+  "yield": 0.0,
+  "yield_p_all": 0.0,
+  "p_hist": {
+   "p=0": 7,
+   "0<p<=0.5": 0,
+   "p>0.5": 0
+  },
+  "modification_rate": 0.14285714285714285,
+  "incomplete_proof_rate": 0.03571428571428571,
+  "brute_force_rate": 0.07142857142857142,
+  "fuser_tokens_mean": 667.0714285714286,
+  "fuser_truncation_rate": 0.0,
+  "prover_tokens_mean": 13151.357142857143,
+  "prover_truncation_rate": 0.35714285714285715,
+  "tokens_total": 394108,
+  "tokens_per_useful": null,
+  "n_useful": 0,
+  "n_filtered": 11,
+  "glued_rate": 0.09090909090909091,
+  "analysis_leak_rate": 0.36363636363636365,
+  "n_useful_clean": 0,
+  "yield_clean": 0.0,
+  "tokens_total_clean": 394108,
+  "tokens_per_useful_clean": null
+ },
+ "D2_random": {
+  "n_pairs": 14,
+  "fuse_parse_rate": 1.0,
+  "formalize_rate": 1.0,
+  "validity_rate": 0.7857142857142857,
+  "n_verified": 7,
+  "yield": 0.0,
+  "yield_p_all": 0.0,
+  "p_hist": {
+   "p=0": 6,
+   "0<p<=0.5": 0,
+   "p>0.5": 1
+  },
+  "modification_rate": 0.2738095238095238,
+  "incomplete_proof_rate": 0.0,
+  "brute_force_rate": 0.0,
+  "fuser_tokens_mean": 737.7142857142857,
+  "fuser_truncation_rate": 0.0,
+  "prover_tokens_mean": 9610.535714285714,
+  "prover_truncation_rate": 0.17857142857142858,
+  "tokens_total": 292404,
+  "tokens_per_useful": null,
+  "n_useful": 0,
+  "n_filtered": 11,
+  "glued_rate": 0.18181818181818182,
+  "analysis_leak_rate": 0.18181818181818182,
+  "n_useful_clean": 0,
+  "yield_clean": 0.0,
+  "tokens_total_clean": 292404,
+  "tokens_per_useful_clean": null
+ }
+}
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+== fuse
+== formalize
+== check
+== filter
+== prove
+[prove C_random] pair_00000#0 16385 tok 447.27s trunc=True
+[prove C_random] pair_00000#1 10715 tok 282.46s trunc=False
+[prove C_random] pair_00000#2 9327 tok 242.21s trunc=False
+[prove C_random] pair_00000#3 16385 tok 446.67s trunc=True
+[prove C_random] pair_00001#0 7291 tok 190.42s trunc=False
+[prove C_random] pair_00001#1 12872 tok 342.34s trunc=False
+[prove C_random] pair_00001#2 16385 tok 447.48s trunc=True
+[prove C_random] pair_00001#3 16385 tok 447.46s trunc=True
+[prove C_random] pair_00002#0 16385 tok 449.16s trunc=True
+[prove C_random] pair_00002#1 16385 tok 451.44s trunc=True
+[prove C_random] pair_00002#2 7374 tok 196.36s trunc=False
+[prove C_random] pair_00002#3 16385 tok 466.56s trunc=True
+[prove C_random] pair_00003#0 16385 tok 448.08s trunc=True
+[prove C_random] pair_00003#1 3263 tok 81.54s trunc=False
+[prove C_random] pair_00003#2 12193 tok 327.23s trunc=False
+[prove C_random] pair_00003#3 16125 tok 444.88s trunc=False
+[prove C_random] pair_00005#0 4714 tok 122.38s trunc=False
+[prove C_random] pair_00005#1 5145 tok 130.29s trunc=False
+[prove C_random] pair_00005#2 9584 tok 253.78s trunc=False
+[prove C_random] pair_00005#3 4390 tok 110.37s trunc=False
+[prove C_random] pair_00007#0 16385 tok 446.41s trunc=True
+[prove C_random] pair_00007#1 7174 tok 182.2s trunc=False
+[prove C_random] pair_00007#2 5624 tok 141.18s trunc=False
+[prove C_random] pair_00007#3 16385 tok 446.21s trunc=True
+[prove C_random] pair_00008#0 11902 tok 319.85s trunc=False
+[prove C_random] pair_00008#1 16385 tok 447.5s trunc=True
+[prove C_random] pair_00008#2 16385 tok 445.28s trunc=True
+[prove C_random] pair_00008#3 16385 tok 446.05s trunc=True
+[prove C_random] pair_00009#0 8107 tok 211.11s trunc=False
+[prove C_random] pair_00009#1 4184 tok 104.75s trunc=False
+[prove C_random] pair_00009#2 16385 tok 446.42s trunc=True
+[prove C_random] pair_00009#3 16385 tok 446.68s trunc=True
+[prove C_random] pair_00010#0 7075 tok 181.23s trunc=False
+[prove C_random] pair_00010#1 3260 tok 80.48s trunc=False
+[prove C_random] pair_00010#2 5662 tok 144.52s trunc=False
+[prove C_random] pair_00010#3 5127 tok 128.16s trunc=False
+[prove C_random] pair_00011#0 16246 tok 467.07s trunc=True
+[prove C_random] pair_00011#1 12625 tok 340.05s trunc=False
+[prove C_random] pair_00011#2 7422 tok 192.99s trunc=False
+[prove C_random] pair_00011#3 5608 tok 143.27s trunc=False
+[prove C_random] pair_00013#0 7947 tok 210.71s trunc=False
+[prove C_random] pair_00013#1 7560 tok 196.54s trunc=False
+[prove C_random] pair_00013#2 8821 tok 230.52s trunc=False
+[prove C_random] pair_00013#3 9876 tok 265.01s trunc=False
+[prove C_random] pair_00014#0 16385 tok 449.09s trunc=True
+[prove C_random] pair_00014#1 11624 tok 306.74s trunc=False
+[prove C_random] pair_00014#2 12448 tok 330.27s trunc=False
+[prove C_random] pair_00014#3 4961 tok 124.43s trunc=False
+[prove C_random] pair_00015#0 10835 tok 289.61s trunc=False
+[prove C_random] pair_00015#1 8154 tok 212.09s trunc=False
+[prove C_random] pair_00015#2 12467 tok 333.12s trunc=False
+[prove C_random] pair_00015#3 9673 tok 253.44s trunc=False
+[prove C_random] pair_00016#0 12180 tok 324.65s trunc=False
+[prove C_random] pair_00016#1 16385 tok 454.03s trunc=True
+[prove C_random] pair_00016#2 14684 tok 393.67s trunc=False
+[prove C_random] pair_00016#3 16385 tok 443.65s trunc=True
+[prove C_random] pair_00017#0 16385 tok 449.64s trunc=True
+[prove C_random] pair_00017#1 16385 tok 444.67s trunc=True
+[prove C_random] pair_00017#2 16385 tok 446.01s trunc=True
+[prove C_random] pair_00017#3 16385 tok 450.26s trunc=True
+[prove C_random] pair_00018#0 6564 tok 171.01s trunc=False
+[prove C_random] pair_00018#1 7228 tok 186.79s trunc=False
+[prove C_random] pair_00018#2 10747 tok 284.71s trunc=False
+[prove C_random] pair_00018#3 7278 tok 188.29s trunc=False
+[prove C_random] pair_00022#0 16385 tok 452.13s trunc=True
+[prove C_random] pair_00022#1 16385 tok 450.54s trunc=True
+[prove C_random] pair_00022#2 14218 tok 386.02s trunc=False
+[prove C_random] pair_00022#3 16385 tok 451.39s trunc=True
+[prove D1_random] pair_00001#0 6717 tok 174.89s trunc=False
+[prove D1_random] pair_00001#1 8383 tok 218.2s trunc=False
+[prove D1_random] pair_00001#2 16385 tok 451.1s trunc=True
+[prove D1_random] pair_00001#3 5358 tok 136.91s trunc=False
+[prove D1_random] pair_00004#0 14673 tok 403.61s trunc=False
+[prove D1_random] pair_00004#1 8541 tok 224.02s trunc=False
+[prove D1_random] pair_00004#2 5282 tok 135.24s trunc=False
+[prove D1_random] pair_00004#3 16289 tok 450.14s trunc=True
+[prove D1_random] pair_00009#0 6921 tok 178.58s trunc=False
+[prove D1_random] pair_00009#1 16385 tok 449.43s trunc=True
+[prove D1_random] pair_00009#2 16385 tok 449.1s trunc=True
+[prove D1_random] pair_00009#3 4209 tok 106.07s trunc=False
+[prove D1_random] pair_00011#0 9668 tok 260.49s trunc=False
+[prove D1_random] pair_00011#1 12652 tok 342.26s trunc=False
+[prove D1_random] pair_00011#2 11608 tok 312.4s trunc=False
+[prove D1_random] pair_00011#3 8797 tok 232.05s trunc=False
+[prove D1_random] pair_00013#0 8655 tok 228.84s trunc=False
+[prove D1_random] pair_00013#1 16385 tok 451.63s trunc=True
+[prove D1_random] pair_00013#2 7181 tok 185.92s trunc=False
+[prove D1_random] pair_00013#3 9328 tok 244.72s trunc=False
+[prove D1_random] pair_00016#0 12450 tok 334.1s trunc=False
+[prove D1_random] pair_00016#1 7326 tok 189.23s trunc=False
+[prove D1_random] pair_00016#2 13515 tok 363.64s trunc=False
+[prove D1_random] pair_00016#3 7214 tok 185.92s trunc=False
+[prove D1_random] pair_00019#0 2589 tok 65.66s trunc=False
+[prove D1_random] pair_00019#1 16385 tok 450.13s trunc=True
+[prove D1_random] pair_00019#2 4036 tok 101.88s trunc=False
+[prove D1_random] pair_00019#3 3211 tok 80.4s trunc=False
+[prove D1_random] pair_00021#0 8275 tok 223.45s trunc=False
+[prove D1_random] pair_00021#1 15679 tok 435.14s trunc=True
+[prove D1_random] pair_00021#2 15679 tok 434.21s trunc=True
+[prove D1_random] pair_00021#3 15679 tok 435.5s trunc=True
+[prove D1_random] pair_00022#0 7965 tok 210.45s trunc=False
+[prove D1_random] pair_00022#1 7715 tok 198.59s trunc=False
+[prove D1_random] pair_00022#2 6396 tok 164.84s trunc=False
+[prove D1_random] pair_00022#3 6164 tok 158.66s trunc=False
+[prove D1_random] pair_00023#0 677 tok 16.91s trunc=False
+[prove D1_random] pair_00023#1 728 tok 17.78s trunc=False
+[prove D1_random] pair_00023#2 622 tok 15.19s trunc=False
+[prove D1_random] pair_00023#3 844 tok 20.56s trunc=False
+[prove D2_random] pair_00000#0 16385 tok 452.28s trunc=True
+[prove D2_random] pair_00000#1 4616 tok 115.21s trunc=False
+[prove D2_random] pair_00000#2 16385 tok 445.05s trunc=True
+[prove D2_random] pair_00000#3 11647 tok 310.11s trunc=False
+[prove D2_random] pair_00004#0 9708 tok 256.12s trunc=False
+[prove D2_random] pair_00004#1 8892 tok 232.48s trunc=False
+[prove D2_random] pair_00004#2 9321 tok 243.57s trunc=False
+[prove D2_random] pair_00004#3 5106 tok 129.91s trunc=False
+[prove D2_random] pair_00007#0 11378 tok 303.72s trunc=False
+[prove D2_random] pair_00007#1 13110 tok 352.6s trunc=False
+[prove D2_random] pair_00007#2 11937 tok 318.87s trunc=False
+[prove D2_random] pair_00007#3 10539 tok 278.16s trunc=False
+[prove D2_random] pair_00008#0 9229 tok 245.4s trunc=False
+[prove D2_random] pair_00008#1 10467 tok 277.46s trunc=False
+[prove D2_random] pair_00008#2 7289 tok 189.46s trunc=False
+[prove D2_random] pair_00008#3 10927 tok 290.96s trunc=False
+[prove D2_random] pair_00012#0 8640 tok 224.21s trunc=False
+[prove D2_random] pair_00012#1 4735 tok 119.39s trunc=False
+[prove D2_random] pair_00012#2 4068 tok 101.99s trunc=False
+[prove D2_random] pair_00012#3 4107 tok 103.01s trunc=False
+[prove D2_random] pair_00013#0 8214 tok 215.57s trunc=False
+[prove D2_random] pair_00013#1 7559 tok 196.2s trunc=False
+[prove D2_random] pair_00013#2 5155 tok 131.29s trunc=False
+[prove D2_random] pair_00013#3 16385 tok 451.86s trunc=True
+[prove D2_random] pair_00015#0 7937 tok 210.01s trunc=False
+[prove D2_random] pair_00015#1 9317 tok 245.02s trunc=False
+[prove D2_random] pair_00015#2 8475 tok 221.62s trunc=False
+[prove D2_random] pair_00015#3 4806 tok 122.67s trunc=False
+[prove D2_random] pair_00016#0 7937 tok 210.06s trunc=False
+[prove D2_random] pair_00016#1 6596 tok 170.16s trunc=False
+[prove D2_random] pair_00016#2 9999 tok 264.68s trunc=False
+[prove D2_random] pair_00016#3 6003 tok 154.72s trunc=False
+[prove D2_random] pair_00017#0 11243 tok 301.29s trunc=False
+[prove D2_random] pair_00017#1 16385 tok 452.53s trunc=True
+[prove D2_random] pair_00017#2 14992 tok 409.64s trunc=False
+[prove D2_random] pair_00017#3 5297 tok 135.39s trunc=False
+[prove D2_random] pair_00018#0 10084 tok 267.68s trunc=False
+[prove D2_random] pair_00018#1 6940 tok 179.46s trunc=False
+[prove D2_random] pair_00018#2 9362 tok 245.56s trunc=False
+[prove D2_random] pair_00018#3 10312 tok 272.17s trunc=False
+[prove D2_random] pair_00021#0 9037 tok 239.89s trunc=False
+[prove D2_random] pair_00021#1 9233 tok 242.85s trunc=False
+[prove D2_random] pair_00021#2 7086 tok 184.03s trunc=False
+[prove D2_random] pair_00021#3 6377 tok 164.24s trunc=False
+== verify
+== summary
+{
+ "C_random": {
+  "n_pairs": 25,
+  "fuse_parse_rate": 1.0,
+  "formalize_rate": 0.96,
+  "validity_rate": 0.76,
+  "n_verified": 17,
+  "yield": 0.0,
+  "yield_p_all": 0.0,
+  "p_hist": {
+   "p=0": 17,
+   "0<p<=0.5": 0,
+   "p>0.5": 0
+  },
+  "modification_rate": 0.7107843137254902,
+  "incomplete_proof_rate": 0.10784313725490195,
+  "brute_force_rate": 0.4901960784313726,
+  "fuser_tokens_mean": 706.12,
+  "fuser_truncation_rate": 0.0,
+  "prover_tokens_mean": 11616.161764705883,
+  "prover_truncation_rate": 0.38235294117647056,
+  "tokens_total": 847430,
+  "tokens_per_useful": null,
+  "n_useful": 0,
+  "n_filtered": 19,
+  "glued_rate": 0.05263157894736842,
+  "analysis_leak_rate": 0.05263157894736842,
+  "n_useful_clean": 0,
+  "yield_clean": 0.0,
+  "tokens_total_clean": 847430,
+  "tokens_per_useful_clean": null
+ },
+ "D1_random": {
+  "n_pairs": 25,
+  "fuse_parse_rate": 1.0,
+  "formalize_rate": 1.0,
+  "validity_rate": 0.4,
+  "n_verified": 10,
+  "yield": 0.0,
+  "yield_p_all": 0.0,
+  "p_hist": {
+   "p=0": 9,
+   "0<p<=0.5": 0,
+   "p>0.5": 1
+  },
+  "modification_rate": 0.5416666666666667,
+  "incomplete_proof_rate": 0.03333333333333333,
+  "brute_force_rate": 0.5416666666666667,
+  "fuser_tokens_mean": 882.6,
+  "fuser_truncation_rate": 0.0,
+  "prover_tokens_mean": 9073.775,
+  "prover_truncation_rate": 0.225,
+  "tokens_total": 423381,
+  "tokens_per_useful": null,
+  "n_useful": 0,
+  "n_filtered": 10,
+  "glued_rate": 0.0,
+  "analysis_leak_rate": 0.0,
+  "n_useful_clean": 0,
+  "yield_clean": 0.0,
+  "tokens_total_clean": 423381,
+  "tokens_per_useful_clean": null
+ },
+ "D2_random": {
+  "n_pairs": 25,
+  "fuse_parse_rate": 1.0,
+  "formalize_rate": 1.0,
+  "validity_rate": 0.52,
+  "n_verified": 11,
+  "yield": 0.04,
+  "yield_p_all": 0.04,
+  "p_hist": {
+   "p=0": 10,
+   "0<p<=0.5": 1,
+   "p>0.5": 0
+  },
+  "modification_rate": 0.5833333333333334,
+  "incomplete_proof_rate": 0.053030303030303025,
+  "brute_force_rate": 0.5757575757575757,
+  "fuser_tokens_mean": 904.24,
+  "fuser_truncation_rate": 0.0,
+  "prover_tokens_mean": 9164.022727272728,
+  "prover_truncation_rate": 0.09090909090909091,
+  "tokens_total": 461738,
+  "tokens_per_useful": 461738.0,
+  "n_useful": 1,
+  "n_filtered": 13,
+  "glued_rate": 0.07692307692307693,
+  "analysis_leak_rate": 0.07692307692307693,
+  "n_useful_clean": 1,
+  "yield_clean": 0.04,
+  "tokens_total_clean": 461738,
+  "tokens_per_useful_clean": 461738.0
+ }
+}
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+== fuse
+== formalize
+== check
+== filter
+== prove
+[prove C_random] pair_00002#0 16385 tok 449.26s trunc=True
+[prove C_random] pair_00002#1 7634 tok 197.03s trunc=False
+[prove C_random] pair_00002#2 4468 tok 112.4s trunc=False
+[prove C_random] pair_00002#3 9654 tok 251.69s trunc=False
+[prove C_random] pair_00005#0 11982 tok 320.5s trunc=False
+[prove C_random] pair_00005#1 12762 tok 342.12s trunc=False
+[prove C_random] pair_00005#2 8611 tok 224.52s trunc=False
+[prove C_random] pair_00005#3 16385 tok 450.48s trunc=True
+[prove C_random] pair_00006#0 14872 tok 406.49s trunc=False
+[prove C_random] pair_00006#1 10736 tok 283.99s trunc=False
+[prove C_random] pair_00006#2 16385 tok 451.03s trunc=True
+[prove C_random] pair_00006#3 16385 tok 451.2s trunc=True
+[prove C_random] pair_00007#0 4975 tok 129.17s trunc=False
+[prove C_random] pair_00007#1 9117 tok 238.12s trunc=False
+[prove C_random] pair_00007#2 8347 tok 217.58s trunc=False
+[prove C_random] pair_00007#3 4783 tok 121.61s trunc=False
+[prove C_random] pair_00008#0 1759 tok 44.11s trunc=False
+[prove C_random] pair_00008#1 1773 tok 43.79s trunc=False
+[prove C_random] pair_00008#2 2089 tok 51.59s trunc=False
+[prove C_random] pair_00008#3 1355 tok 33.43s trunc=False
+[prove C_random] pair_00009#0 3787 tok 95.34s trunc=False
+[prove C_random] pair_00009#1 3219 tok 80.28s trunc=False
+[prove C_random] pair_00009#2 5273 tok 132.88s trunc=False
+[prove C_random] pair_00009#3 2926 tok 72.53s trunc=False
+[prove C_random] pair_00017#0 11283 tok 301.02s trunc=False
+[prove C_random] pair_00017#1 11163 tok 296.09s trunc=False
+[prove C_random] pair_00017#2 16385 tok 450.58s trunc=True
+[prove C_random] pair_00017#3 16385 tok 450.7s trunc=True
+[prove C_random] pair_00018#0 3352 tok 85.37s trunc=False
+[prove C_random] pair_00018#1 3549 tok 88.96s trunc=False
+[prove C_random] pair_00018#2 2646 tok 65.79s trunc=False
+[prove C_random] pair_00018#3 3257 tok 81.31s trunc=False
+[prove C_random] pair_00019#0 2048 tok 51.61s trunc=False
+[prove C_random] pair_00019#1 1594 tok 39.32s trunc=False
+[prove C_random] pair_00019#2 1716 tok 42.3s trunc=False
+[prove C_random] pair_00019#3 2515 tok 62.47s trunc=False
+[prove D1_random] pair_00001#0 6646 tok 171.92s trunc=False
+[prove D1_random] pair_00001#1 11787 tok 314.37s trunc=False
+[prove D1_random] pair_00001#2 13910 tok 375.58s trunc=False
+[prove D1_random] pair_00001#3 11828 tok 314.97s trunc=False
+[prove D1_random] pair_00011#0 6222 tok 159.7s trunc=False
+[prove D1_random] pair_00011#1 9375 tok 245.08s trunc=False
+[prove D1_random] pair_00011#2 15266 tok 414.97s trunc=False
+[prove D1_random] pair_00011#3 8314 tok 215.93s trunc=False
+[prove D1_random] pair_00013#0 7497 tok 194.85s trunc=False
+[prove D1_random] pair_00013#1 7855 tok 203.9s trunc=False
+[prove D1_random] pair_00013#2 14479 tok 391.33s trunc=False
+[prove D1_random] pair_00013#3 16385 tok 451.62s trunc=True
+[prove D1_random] pair_00014#0 7453 tok 192.46s trunc=False
+[prove D1_random] pair_00014#1 12440 tok 332.39s trunc=False
+[prove D1_random] pair_00014#2 4320 tok 109.0s trunc=False
+[prove D1_random] pair_00014#3 16385 tok 449.6s trunc=True
+[prove D1_random] pair_00017#0 9071 tok 239.85s trunc=False
+[prove D1_random] pair_00017#1 8356 tok 218.73s trunc=False
+[prove D1_random] pair_00017#2 4901 tok 125.2s trunc=False
+[prove D1_random] pair_00017#3 16385 tok 456.36s trunc=True
+[prove D2_random] pair_00001#0 1719 tok 44.57s trunc=False
+[prove D2_random] pair_00001#1 1344 tok 32.85s trunc=False
+[prove D2_random] pair_00001#2 2334 tok 57.42s trunc=False
+[prove D2_random] pair_00001#3 1258 tok 30.77s trunc=False
+[prove D2_random] pair_00006#0 3052 tok 76.76s trunc=False
+[prove D2_random] pair_00006#1 9937 tok 258.31s trunc=False
+[prove D2_random] pair_00006#2 6030 tok 154.03s trunc=False
+[prove D2_random] pair_00006#3 5760 tok 148.75s trunc=False
+[prove D2_random] pair_00007#0 1850 tok 45.98s trunc=False
+[prove D2_random] pair_00007#1 3223 tok 79.55s trunc=False
+[prove D2_random] pair_00007#2 2383 tok 58.48s trunc=False
+[prove D2_random] pair_00007#3 2590 tok 63.29s trunc=False
+[prove D2_random] pair_00010#0 1574 tok 40.09s trunc=False
+[prove D2_random] pair_00010#1 3291 tok 81.39s trunc=False
+[prove D2_random] pair_00010#2 2343 tok 57.67s trunc=False
+[prove D2_random] pair_00010#3 1471 tok 35.87s trunc=False
+[prove D2_random] pair_00011#0 8204 tok 212.55s trunc=False
+[prove D2_random] pair_00011#1 8617 tok 221.99s trunc=False
+[prove D2_random] pair_00011#2 5042 tok 127.53s trunc=False
+[prove D2_random] pair_00011#3 16385 tok 445.9s trunc=True
+[prove D2_random] pair_00013#0 5075 tok 129.63s trunc=False
+[prove D2_random] pair_00013#1 13496 tok 359.15s trunc=False
+[prove D2_random] pair_00013#2 4818 tok 121.21s trunc=False
+[prove D2_random] pair_00013#3 16385 tok 447.18s trunc=True
+[prove D2_random] pair_00017#0 739 tok 18.67s trunc=False
+[prove D2_random] pair_00017#1 1490 tok 36.21s trunc=False
+[prove D2_random] pair_00017#2 1067 tok 25.76s trunc=False
+[prove D2_random] pair_00017#3 1621 tok 39.36s trunc=False
+[prove D2_random] pair_00019#0 11412 tok 302.66s trunc=False
+[prove D2_random] pair_00019#1 13314 tok 355.49s trunc=False
+[prove D2_random] pair_00019#2 9210 tok 238.81s trunc=False
+[prove D2_random] pair_00019#3 13697 tok 366.42s trunc=False
+== verify
+== summary
+{
+ "C_random": {
+  "n_pairs": 20,
+  "fuse_parse_rate": 0.95,
+  "formalize_rate": 0.95,
+  "validity_rate": 0.9,
+  "n_verified": 9,
+  "yield": 0.15,
+  "yield_p_all": 0.15,
+  "p_hist": {
+   "p=0": 5,
+   "0<p<=0.5": 3,
+   "p>0.5": 1
+  },
+  "modification_rate": 0.5,
+  "incomplete_proof_rate": 0.0,
+  "brute_force_rate": 0.0,
+  "fuser_tokens_mean": 595.05,
+  "fuser_truncation_rate": 0.0,
+  "prover_tokens_mean": 7543.194444444444,
+  "prover_truncation_rate": 0.16666666666666666,
+  "tokens_total": 300681,
+  "tokens_per_useful": 100227.0,
+  "n_useful": 3,
+  "n_filtered": 18,
+  "glued_rate": 0.3333333333333333,
+  "analysis_leak_rate": 0.2777777777777778,
+  "n_useful_clean": 3,
+  "yield_clean": 0.15,
+  "tokens_total_clean": 300681,
+  "tokens_per_useful_clean": 100227.0
+ },
+ "D1_random": {
+  "n_pairs": 20,
+  "fuse_parse_rate": 0.9,
+  "formalize_rate": 0.9,
+  "validity_rate": 0.7,
+  "n_verified": 5,
+  "yield": 0.0,
+  "yield_p_all": 0.0,
+  "p_hist": {
+   "p=0": 5,
+   "0<p<=0.5": 0,
+   "p>0.5": 0
+  },
+  "modification_rate": 0.31666666666666665,
+  "incomplete_proof_rate": 0.0,
+  "brute_force_rate": 0.0,
+  "fuser_tokens_mean": 783.2,
+  "fuser_truncation_rate": 0.0,
+  "prover_tokens_mean": 10443.75,
+  "prover_truncation_rate": 0.15,
+  "tokens_total": 240394,
+  "tokens_per_useful": null,
+  "n_useful": 0,
+  "n_filtered": 14,
+  "glued_rate": 0.35714285714285715,
+  "analysis_leak_rate": 0.5714285714285714,
+  "n_useful_clean": 0,
+  "yield_clean": 0.0,
+  "tokens_total_clean": 240394,
+  "tokens_per_useful_clean": null
+ },
+ "D2_random": {
+  "n_pairs": 20,
+  "fuse_parse_rate": 0.95,
+  "formalize_rate": 0.95,
+  "validity_rate": 0.9,
+  "n_verified": 8,
+  "yield": 0.05,
+  "yield_p_all": 0.05,
+  "p_hist": {
+   "p=0": 5,
+   "0<p<=0.5": 1,
+   "p>0.5": 2
+  },
+  "modification_rate": 0.5,
+  "incomplete_proof_rate": 0.03125,
+  "brute_force_rate": 0.0,
+  "fuser_tokens_mean": 794.9,
+  "fuser_truncation_rate": 0.0,
+  "prover_tokens_mean": 5647.84375,
+  "prover_truncation_rate": 0.0625,
+  "tokens_total": 212067,
+  "tokens_per_useful": 212067.0,
+  "n_useful": 1,
+  "n_filtered": 18,
+  "glued_rate": 0.3333333333333333,
+  "analysis_leak_rate": 0.3888888888888889,
+  "n_useful_clean": 1,
+  "yield_clean": 0.05,
+  "tokens_total_clean": 212067,
+  "tokens_per_useful_clean": 212067.0
+ }
+}
+switched at Wed, Oct 21, 2026 12:39:17 PM
